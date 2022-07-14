@@ -1,0 +1,9 @@
+values:
+  biblepk.v20210827-dedup:
+    s3_paths:
+      source: N/A
+      target: N/A
+    local_paths:
+      source: /large_experiments/nllb/mmt/data/bitexts/mtdata/corpora/dzo-fra/biblepk1-1.dzo.gz
+      target: /large_experiments/nllb/mmt/data/bitexts/mtdata/corpora/dzo-fra/biblepk1-1.fra.gz
+      is_gzip: true

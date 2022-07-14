@@ -1,0 +1,83 @@
+name: cpu_tests
+
+on:
+  # Trigger the workflow on push to master or any pull request
+  push:
+    branches:
+      - main
+      - gshard
+  pull_request:
+
+jobs:
+  build:
+
+    strategy:
+      fail-fast: false
+      max-parallel: 12
+      matrix:
+        platform: [ubuntu-latest]
+        python-version: [3.8, 3.9]
+        test-list: [1, 2, 3, 4]
+
+    runs-on: ${{ matrix.platform }}
+
+    steps:
+    - name: Checkout branch 🛎️
+      uses: actions/checkout@v2
+
+    - name: Setup Conda Environment
+      uses: conda-incubator/setup-miniconda@v2
+      with:
+        activate-environment: fairseq
+        python-version: ${{ matrix.python-version }}
+        auto-update-conda: true
+        use-only-tar-bz2: true
+
+    - name: Cache Conda Environment
+      uses: actions/cache@v2
+      env:
+        # Increase this value to reset cache if nothing has changed but you still
+        # want to invalidate the cache
+        CACHE_NUMBER: 0
+      with:
+        path: |
+          /usr/share/miniconda/envs/
+          /usr/local/miniconda/envs/
+        key: fairseq-cpu-${{ matrix.platform }}-python${{ matrix.python-version }}-${{ env.CACHE_NUMBER }}-${{ hashFiles('**/.github/workflows/cpu_tests.yml') }}-${{ hashFiles('**/setup.py') }}
+
+
+    - name: Install Dependencies
+      shell: bash -l {0}
+      run: |
+        conda activate fairseq
+        pip install --upgrade pip
+        pip install --upgrade setuptools
+        git submodule update --init --recursive
+
+    - name: Install Fairscale From Source
+      shell: bash -l {0}
+      run: |
+        conda activate fairseq
+        cd ~/
+        git clone https://github.com/facebookresearch/fairscale.git
+        cd fairscale
+        git checkout 9f347f373e32ee5cad11a40b70b8e28a74b5e2d4
+        pip install -e .
+        cd ~/
+
+    - name: Install Repository
+      shell: bash -l {0}
+      run: |
+        conda activate fairseq
+        python setup.py clean --all
+        pip install --editable .[dev,few_shot]
+        python setup.py build_ext --inplace
+
+
+    - name: Run CPU tests
+      shell: bash -l {0}
+      run: |
+        conda activate fairseq
+        export TOKENIZERS_PARALLELISM=false
+        cd tests
+        pytest --continue-on-collection-errors -v `cat "ci_test_list_${{ matrix.test-list }}.txt"`

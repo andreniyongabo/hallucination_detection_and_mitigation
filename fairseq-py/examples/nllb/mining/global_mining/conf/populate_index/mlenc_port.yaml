@@ -1,0 +1,9 @@
+_target_: examples.nllb.mining.global_mining.modules.mlenc_port.populate_faiss_index_module.PopulateFAISSIndexModule
+config:
+  lang: ???
+  index: ???
+  index_type: ???
+  embedding_files: ???
+  output_dir: index.${module.config.data.data_version}
+  num_cpu: 40
+  embedding_dimensions: 1024

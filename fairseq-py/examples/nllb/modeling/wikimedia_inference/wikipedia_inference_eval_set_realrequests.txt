@@ -1,0 +1,3350 @@
+Apache Giraph is an Apache project to perform graph processing on big data..॥॥.Apache Giraph.॥॥.Apache.॥॥.graph processing.॥॥.big data
+Giraph utilizes Apache Hadoop's MapReduce implementation to process graphs..॥॥.Apache Hadoop
+Facebook used Giraph with some performance improvements to analyze one trillion edges using 200 machines in 4 minutes..॥॥.Facebook
+Giraph is based on a paper published by Google about its own graph processing system called Pregel.
+It can be compared to other Big Graph processing libraries such as Cassovary.
+Apache Software Foundation
+Graph (computer science)
+PC World
+Apache Hadoop
+Facebook
+Gigaom
+Big data
+
+The harbour as a whole has considerable natural values and fauna of the inner and outer harbour differs.
+There are pressures on the ecology from human activity such as settlements on the edge of the harbour and there is land and water-based industrial activity.
+
+Almost without exception, the introduced species have been detrimental to the native flora and fauna but some, such as farmed sheep and cows and the clover upon which they feed, now form a large part of the economy of New Zealand..॥॥.sheep.॥॥.cows.॥॥.clover.॥॥.economy of New Zealand
+Registers, lists and indexes of species that are invasive, potentially invasive, or a threat to agriculture or biodiversity are maintained by  Biosecurity New Zealand..॥॥.Biosecurity New Zealand
+Economy of New Zealand
+Clover
+Sheep
+Cow
+Biosecurity in New Zealand
+
+The United States federal budget comprises the spending and revenues of the U.S. federal government..॥॥.United States federal budget.॥॥.revenues.॥॥.U.S. federal government
+The budget is the financial representation of the priorities of the government, reflecting historical debates and competing economic philosophies.
+The government primarily spends on healthcare, retirement, and defense programs.
+The non-partisan Congressional Budget Office provides extensive analysis of the budget and its economic effects..॥॥.Congressional Budget Office
+It has reported that large budget deficits over the next 30 years are projected to drive federal debt held by the public to unprecedented levels—from 98 percent of gross domestic product (GDP) in 2020 to 195 percent by 2050.
+Revenue
+Congressional Budget Office
+
+During FY2018, the federal government spent $4.11 trillion, up $127 billion or 3.2% vs.
+FY2017 spending of $3.99 trillion.
+Spending increased for all major categories and was mainly driven by higher spending for Social Security, net interest on the debt, and defense.
+Spending as % GDP fell from 20.7% GDP to 20.3% GDP, equal to the 50-year average..॥॥.
+Also during FY2018, the federal government collected approximately $3.33 trillion in tax revenue, up $14 billion or less than 1% versus FY2017.
+Primary receipt categories included individual income taxes ($1,684B or 51% of total receipts), Social Security/Social Insurance taxes ($1,171B or 35%), and corporate taxes ($205B or 6%).
+Corporate tax revenues declined by $92 billion or 32% due to the Tax Cuts and Jobs Act..॥॥.Tax Cuts and Jobs Act
+FY 2018 revenues were 16.4% of gross domestic product (GDP), versus 17.2% in FY 2017..॥॥.gross domestic product
+Tax revenues averaged approximately 17.4% GDP over the 1980-2017 period.
+Tax revenues in 2018 were about $275 billion below the CBO January 2017 forecast for 2018, indicating tax revenues would have been considerably higher (and deficits lower) in the absence of the tax cuts.
+Gross domestic product
+Tax Cuts and Jobs Act
+
+The following table summarizes several budgetary statistics for the fiscal year 2015-2019 periods as a percent of GDP, including federal tax revenue, outlays or spending, deficits (revenue – outlays), and debt held by the public..॥॥.debt held by the public
+The historical average for 1969-2018 is also shown.
+With U.S. GDP of about $21 trillion in 2019, 1% of GDP is about $210 billion.
+National debt of the United States
+
+Variable As % GDP.॥॥.
+2015
+2016
+2017
+2018
+2019
+Hist Avg
+Revenue
+18.0%
+17.6%
+17.2%
+16.4%
+16.3%
+17.4%
+Outlays
+20.4%
+20.8%
+20.6%
+20.2%
+21.0%
+20.3%
+Budget Deficit
+-2.4%
+-3.2%
+-3.5%
+-3.8%
+-4.6%
+-2.9%
+Debt Held by Public
+72.5%
+76.4%
+76.0%
+77.4%
+79.2%
+41.7%
+
+Budget principles
+
+The U.S. Constitution (Article I, section 9, clause 7) states that "No money shall be drawn from the Treasury, but in Consequence of Appropriations made by Law; and a regular Statement and Account of Receipts and Expenditures of all public Money shall be published from time to time.".॥॥.U.S. Constitution.॥॥.Article I
+Article One of the United States Constitution
+
+Each year, the President of the United States submits a budget request to Congress for the following fiscal year as required by the Budget and Accounting Act of 1921..॥॥.Budget and Accounting Act of 1921
+Current law (31 U.S.C. § 1105(a)) requires the president to submit a budget no earlier than the first Monday in January, and no later than the first Monday in February..॥॥.31.॥॥..॥॥.U.S.C..॥॥..॥॥.§.॥॥..॥॥.1105
+Typically, presidents submit budgets on the first Monday in February.
+The budget submission has been delayed, however, in some new presidents' first year when the previous president belonged to a different party.
+Budget and Accounting Act of 1921
+
+The federal budget is calculated largely on a cash basis.
+That is, revenues and outlays are recognized when transactions are made.
+Therefore, the full long-term costs of programs such as Medicare, Social Security, and the federal portion of Medicaid are not reflected in the federal budget.
+By contrast, many businesses and some other national governments have adopted forms of accrual accounting, which recognizes obligations and revenues when they are incurred.
+The costs of some federal credit and loan programs, according to provisions of the Federal Credit Reform Act of 1990, are calculated on a net present value basis..॥॥.net present value
+Net present value
+
+Fiona Hill (born October 1965) is a British-American foreign affairs specialist and academic..॥॥.Fiona Hill.॥॥.British-American
+She is a former official at the U.S. National Security Council specializing in Russian and European affairs..॥॥.U.S. National Security Council
+She was a witness in the November 2019 House hearings regarding the impeachment inquiry during the first impeachment of Donald Trump..॥॥.impeachment inquiry
+She was awarded her Ph.D. in history from Harvard University, and currently serves as a Senior Fellow at the Brookings Institution in Washington..॥॥.Brookings Institution
+She is a member of the Council on Foreign Relations and the Trilateral Commission..॥॥.Council on Foreign Relations.॥॥.Trilateral Commission
+Trilateral Commission
+Council on Foreign Relations
+Brookings Institution
+British-American
+First impeachment of Donald Trump
+
+Hill was born in Bishop Auckland, County Durham, in northern England, the daughter of a coal miner, Alfred Hill, and a midwife, June Murray..॥॥.Bishop Auckland.॥॥.County Durham.॥॥.northern England.॥॥.coal miner.॥॥.midwife
+Her father died in 2012; her mother still lives in Bishop Auckland.
+In the 1960s, as many of the local coal mines were closing, her father wanted to emigrate to find work in the mines of Pennsylvania or West Virginia, but his mother's poor health required him to stay in England..॥॥.local coal mines were closing.॥॥.Pennsylvania.॥॥.West Virginia
+He subsequently worked as a porter in a hospital.
+Her family struggled financially; June sewed clothes for her daughters and at age 13, Fiona began working at odd jobs, including washing cars and working as a waitress at a local hotel.
+Pennsylvania
+West Virginia
+The Times
+Coal miner
+ISSN (identifier)
+Bishop Auckland
+County Durham
+Northern England
+WGBH (FM)
+Coal mining in the United Kingdom
+Midwife
+
+She and her sister attended Bishop Barrington School, a local comprehensive school..॥॥.Bishop Barrington School.॥॥.comprehensive school
+In 2017, she recalled applying for the University of Oxford: "I applied to Oxford in the '80s and was invited to an interview..॥॥.University of Oxford
+It was like a scene from Billy Elliot: people were making fun of me for my accent and the way I was dressed..॥॥.Billy Elliot
+It was the most embarrassing, awful experience I had ever had in my life."
+She then studied history and Russian at the University of St. Andrews in Scotland..॥॥.Russian.॥॥.University of St. Andrews.॥॥.Scotland
+In 1987, she was an exchange student in the Soviet Union, where, while interning for NBC News, she witnessed the signing of the Intermediate-Range Nuclear Forces Treaty by Ronald Reagan and Mikhail Gorbachev..॥॥.Soviet Union.॥॥.NBC News.॥॥.Intermediate-Range Nuclear Forces Treaty.॥॥.Ronald Reagan.॥॥.Mikhail Gorbachev
+An American professor encouraged Hill to apply for a graduate program in the United States.
+On the experience, in 2003, Hill wrote in The Siberian Curse, "I noticed that many aspects of British (and, by relation, American) culture were surprisingly, even unexpectedly similar, and that the Russians and the West had a good deal in common..॥॥.The Siberian Curse
+Before long, other aspects of the Soviet and Russian [...] mentalities and cultures reared their heads, and these gaps seemed larger and more consuming than any novel or textbook could transmit".
+Continuing in another passage, she writes, "Whether or not these gaps can be effectively bridged or, at least, mitigated will remain the guiding question for this field of study for decades to come".
+Hill seemed to answer this question for herself in 2020, when she cowrote an op-ed in Politico Magazine, along with Jon Huntsman Jr., Robert Legvold, Rose Gottemoeller, and Thomas R. Pickering, wherein they state that, although Russia is and will likely remain greatly disharmonious with Western Europe and North America, it is in the security interests of the United States to seek cooperation where possible..॥॥.Politico Magazine.॥॥.Jon Huntsman Jr..॥॥.Robert Legvold.॥॥.Rose Gottemoeller.॥॥.Thomas R. Pickering
+The Times
+ISSN (identifier)
+WGBH (FM)
+ISBN (identifier)
+Mikhail Gorbachev
+Russian language
+Ronald Reagan
+Soviet Union
+Scotland
+University of Oxford
+NBC News
+Billy Elliot
+Intermediate-Range Nuclear Forces Treaty
+Comprehensive school
+Jon Huntsman Jr.
+Politico
+Bishop Barrington School
+Rose Gottemoeller
+Robert Legvold
+Special:BookSources/978-0-8157-9618-3
+
+At Harvard University, she earned a master's degree in Russian and modern history in 1991, and a Ph.D. in history in 1998 under Richard Pipes, Akira Iriye, and Roman Szporluk..॥॥.Harvard University.॥॥.Richard Pipes.॥॥.Akira Iriye.॥॥.Roman Szporluk
+While at Harvard, she was a Frank Knox Fellow..॥॥.Frank Knox Fellow
+Richard Pipes
+Akira Iriye
+Frank Knox Memorial Fellowship
+Harvard University
+Roman Szporluk
+
+Career
+
+Hill worked in the research department at the John F. Kennedy School of Government from 1991 to 1999, and at the National Intelligence Council as a national intelligence analyst of Russia and Eurasia from 2006 to 2009..॥॥.John F. Kennedy School of Government.॥॥.National Intelligence Council.॥॥.Eurasia
+In 2017, she took a leave of absence from the Brookings Institution, where she was director for the Center on the United States and Europe, while also on the National Security Council..॥॥.Brookings Institution
+Hill is a member of the Council on Foreign Relations and the board of trustees of the Eurasia Foundation..॥॥.Council on Foreign Relations
+Brookings Institution
+Council on Foreign Relations
+Brookings Institution
+National Intelligence Council
+Eurasia
+
+In 1999, Hill was director of Harvard University's Strengthening Democratic Institutions project.
+
+Ralph Warren Norman Jr. (born June 20, 1953) is an American real estate developer and politician serving as the U.S. Representative for South Carolina's 5th congressional district since 2017..॥॥.Ralph Warren Norman Jr..॥॥.real estate developer.॥॥.politician.॥॥.U.S. Representative.॥॥.South Carolina's 5th congressional district
+His district includes most of the South Carolina side of the Charlotte metropolitan area, along with outer portions of the Upstate and Midlands..॥॥.South Carolina.॥॥.Charlotte metropolitan area.॥॥.the Upstate.॥॥.Midlands
+A member of the Republican Party, Norman served as the South Carolina State Representative for the 48th district from 2005 to 2007 and from 2009 to 2017..॥॥.Republican Party.॥॥.South Carolina State Representative
+South Carolina
+Republican Party (United States)
+Politician
+South Carolina House of Representatives
+Upstate South Carolina
+Midlands of South Carolina
+South Carolina's 5th congressional district
+Real estate development
+Charlotte metropolitan area
+
+Norman won a special election after Mick Mulvaney vacated his seat in Congress upon being appointed Director of the Office of Management and Budget by President Donald Trump..॥॥.special election.॥॥.Mick Mulvaney.॥॥.Office of Management and Budget.॥॥.Donald Trump
+As of 2018, with a net worth of $18.3 million, Norman is the 17th wealthiest member of Congress..॥॥.wealthiest member of Congress
+Office of Management and Budget
+Donald Trump
+Mick Mulvaney
+List of current members of the United States Congress by wealth
+2017 South Carolina's 5th congressional district special election
+
+Early life and career
+
+Norman was born in York County, South Carolina, and resides in Rock Hill, where he is a real estate developer at the Warren Norman Company, a business founded by and named after Norman's father..॥॥.York County, South Carolina.॥॥.Rock Hill
+He and his wife, Elaine, have 4 children and 17 grandchildren.
+He received a bachelor's degree in business from Presbyterian College in 1975.
+Rock Hill, South Carolina
+
+South Carolina House of Representatives
+
+In 2004, Norman was elected to serve District 48 in the South Carolina House of Representatives, winning a three-way Republican primary outright with 52% of the vote.
+After one term, Norman chose not to run for reelection so he could become the 2006 Republican candidate for U.S. Congress in South Carolina's 5th congressional district against John Spratt..॥॥.South Carolina's 5th congressional district.॥॥.John Spratt
+He lost to Spratt.
+South Carolina's 5th congressional district
+John Spratt
+
+On November 3, 2009, Norman defeated Democrat Kathy Cantrell in a special election to reclaim his old seat.
+
+David Duke Carr (born July 21, 1979) is a former American football quarterback who played in the National Football League (NFL)..॥॥.David Duke Carr.॥॥.American football.॥॥.quarterback.॥॥.National Football League
+He was drafted by the Houston Texans first overall in the 2002 NFL Draft..॥॥.Houston Texans.॥॥.first overall.॥॥.2002 NFL Draft
+He played college football at Fresno State..॥॥.college football.॥॥.Fresno State
+Carr also played professionally for the Carolina Panthers, New York Giants, and San Francisco 49ers..॥॥.Carolina Panthers.॥॥.New York Giants.॥॥.San Francisco 49ers
+He received a Super Bowl ring as a backup for the Giants after their victory over the New England Patriots in Super Bowl XLVI..॥॥.New England Patriots.॥॥.Super Bowl XLVI
+He joined the NFL Network in 2016 as analyst..॥॥.NFL Network
+Carolina Panthers
+College football
+Houston Texans
+National Football League
+New England Patriots
+New York Giants
+Quarterback
+San Francisco 49ers
+List of first overall National Football League draft picks
+NFL Network
+2002 NFL Draft
+Super Bowl XLVI
+Fresno State Bulldogs football
+American football
+
+Early years
+
+David Carr attended Valley Oak Elementary School in Fresno, California..॥॥.Fresno, California
+He continued on to Clovis Unified's Kastner Intermediate School in Fresno, where he proceeded to break a number of California D-I middle school records as quarterback of the Thunderbirds.
+After moving to Bakersfield, California, Carr attended Stockdale High School..॥॥.Bakersfield, California.॥॥.Stockdale High School
+Stockdale High School (Bakersfield, California)
+
+College career
+
+Carr began as the starting quarterback at Fresno State during the 2000 and 2001 seasons after redshirting in 1999..॥॥.Fresno State.॥॥.redshirting
+While he was quarterback, the Bulldogs went 7-5 and 11-3.
+In his senior season the team beat Colorado, Oregon State, and Wisconsin, all members of BCS conferences..॥॥.Colorado.॥॥.Oregon State.॥॥.Wisconsin.॥॥.BCS
+There was speculation about whether the Bulldogs would qualify for a BCS bid, something then unheard of for a BCS non-automatic qualifying conference team.
+They climbed to as high as number 8 in the polls, and Carr was on the cover of Sports Illustrated..॥॥.Sports Illustrated
+During his collegiate career, Carr completed 565 of 901 passes for 7,849 yards and threw 65 touchdowns versus 22 interceptions.
+During his senior year, he won the Johnny Unitas Golden Arm Award and was a finalist for the 2001 Heisman Trophy, finishing fifth..॥॥.Johnny Unitas Golden Arm Award.॥॥.2001 Heisman Trophy
+Fresno State Bulldogs football
+Sports Illustrated
+Sports Illustrated
+Bowl Championship Series
+Johnny Unitas Golden Arm Award
+Redshirt (college sports)
+2001 Heisman Trophy
+Colorado Buffaloes football
+Wisconsin Badgers football
+Oregon State Beavers football
+
+On September 1, 2007, the Fresno State Bulldogs retired Carr's #8 jersey in his honor.
+Former Fresno State football player Robbie Rouse (a junior in 2011) was the last player allowed to wear the number..॥॥.Robbie Rouse
+Robbie Rouse
+
+Season
+Team
+GP
+Passing
+Comp
+Att
+Pct
+Yards
+TD
+Int
+1997
+Fresno State
+4
+5
+11
+45.5
+53
+0
+1
+1998
+Fresno State
+7
+22
+41
+53.7
+228
+1
+1
+2000
+Fresno State
+11
+194
+316
+61.4
+2,338
+18
+11
+2001
+Fresno State
+14
+344
+533
+64.5
+4,839
+46
+9
+Totals
+36
+565
+901
+62.7
+7,458
+65
+22
+1997 NCAA Division I-A football season
+1997 Fresno State Bulldogs football team
+1998 NCAA Division I-A football season
+1998 Fresno State Bulldogs football team
+2000 NCAA Division I-A football season
+2000 Fresno State Bulldogs football team
+2001 NCAA Division I-A football season
+2001 Fresno State Bulldogs football team
+
+Professional career
+
+With the first overall pick of the 2002 NFL Draft, the Houston Texans, a new expansion team, selected Carr..॥॥.2002 NFL Draft.॥॥.Houston Texans
+His professional career began on a productive note.
+The Texans played their first regular season game on September 8, 2002, defeating the Dallas Cowboys, 19–10, at Houston's Reliant Stadium..॥॥.Dallas Cowboys.॥॥.Reliant Stadium
+Houston became just the second expansion team to win its first game.
+However, Carr was sacked 76 times during that season, which set a league record.
+He also set the NFL record for fumble recoveries in a single season, recovering 12 of his own, both records still stand as of 2021.
+He finished his rookie year of 2002 with 2,592 passing yards, 9 touchdowns, and 15 interceptions.
+He also rushed for 282 yards along with 3 rushing touchdowns.
+The Texans finished 4-12 in their first franchise year.
+In the 2003 season, Carr played 12 games (11 starts) with 2,103 passing yards, 9 touchdowns, and 13 interceptions.
+He also rushed for 151 yards with 2 rushing touchdowns and was sacked only 15 times.
+The Texans finished with a record of 5-11 in 2003.
+2002 NFL Draft
+Houston Texans
+Dallas Cowboys
+Reliant Stadium
+
+Carr started all 16 games in 2004 being sacked a league-leading 49 times.
+He passed for 3,531 yards with 16 touchdowns and 14 interceptions.
+The Texans finished 7-9 in 2004.
+
+The Texans finished the 2006 season at 6–10.
+For the season, Carr posted a completion percentage of 68.9% (a career-high) and tied the single-game NFL record of 22 consecutive pass completions (against the Buffalo Bills).
+However, new Texans general manager Rick Smith decided to go in a different direction at quarterback.
+Thus, the Texans acquired Matt Schaub from the Atlanta Falcons and decided to release Carr, making him a free agent for the first time of his career..॥॥.Matt Schaub.॥॥.Atlanta Falcons
+He had been sacked a total of 249 times during his tenure in Houston.
+Atlanta Falcons
+Matt Schaub
+
+Carolina Panthers
+
+The following is a timeline of the presidency of Donald Trump during the third quarter of 2017..॥॥.timeline.॥॥.presidency of Donald Trump
+To navigate between quarters, see timeline of the Donald Trump presidency..॥॥.timeline of the Donald Trump presidency
+Timeline
+Presidency of Donald Trump
+Timeline of the Donald Trump presidency
+
+Real GDP growth increased at an annual rate of 3.2%, despite a particularly bad 2017 Atlantic hurricane season..॥॥.2017 Atlantic hurricane season
+This was due to an increase in consumer spending, private inventory investment, non-residential fixed investment, increased exports, decreased imports, and increased federal government spending..॥॥.inventory investment.॥॥.fixed investment.॥॥.exports.॥॥.imports
+This gain was offset by residential fixed investment and local government spending.
+Fixed investment
+Inventory investment
+2017 Atlantic hurricane season
+List of exports of the United States
+List of imports of the United States
+
+Public opinion
+
+According to FiveThirtyEight, President Trump concluded this quarter with an approval rating of 38.6%, representing a quarterly decline of 1%, and a decline of 6.9% since his inauguration..॥॥.FiveThirtyEight
+FiveThirtyEight
+
+Timeline
+
+August 2017
+
+September 2017
+
+Presidential transition of Donald Trump
+First 100 days of Donald Trump's presidency
+List of executive actions by Donald Trump
+List of presidential trips made by Donald Trump (international trips).॥॥.List of presidential trips made by Donald Trump.॥॥.international trips
+Presidential transition of Donald Trump
+First 100 days of Donald Trump's presidency
+List of executive actions by Donald Trump
+List of presidential trips made by Donald Trump
+List of international presidential trips made by Donald Trump
+
+Notes
+
+References
+
+Rakesh Jhunjhunwala (born 5 July 1960) is an Indian business magnate and stocks trader..॥॥.Rakesh Jhunjhunwala.॥॥.business magnate.॥॥.trader
+He manages his own portfolio as a partner in his asset management firm, Rare Enterprises..॥॥.asset management
+Jhunjhunwala was born in an Rajasthan family, in Bombay, where his father worked as s Commissioner of Income Tax..॥॥.Rajasthan.॥॥.Bombay
+His surname indicates that his ancestors belonged to Jhunjhunu in Rajasthan..॥॥.Jhunjhunu.॥॥.Rajasthan
+He graduated from Sydenham College and thereafter enrolled at the Institute of Chartered Accountants of India..॥॥.Sydenham College.॥॥.Institute of Chartered Accountants of India
+Bombay
+Rajasthan
+India Today
+Business magnate
+The Economic Times
+Jhunjhunu
+Sydenham College
+Institute of Chartered Accountants of India
+Trader (finance)
+The Financial Express (India)
+Asset management
+Rajasthani people
+CNBC TV18
+
+He has an estimated net worth of $5.8 billion (as of October 2021).[7].॥॥.[7]
+
+Jhunjhunwala is the chairman of Aptech Limited and Hungama Digital Media Entertainment Pvt..॥॥.Aptech Limited.॥॥.Hungama Digital Media Entertainment Pvt.
+Ltd. and sits on the board of directors of Prime Focus Limited, Geojit Financial Services, Bilcare Limited, Praj Industries Limited, Provogue India Limited, Concord Biotech Limited, Innovasynth Technologies (I) Limited, Mid Day Multimedia Limited, Nagarjuna Construction Company Limited, Viceroy Hotels Limited and Tops Security Limited..॥॥.Ltd..॥॥.Geojit Financial Services.॥॥.Provogue India Limited.॥॥.Concord Biotech Limited
+He is popularly referred to as the "Warren Buffett of India" and the "King of Bull Market". [citation needed].॥॥..॥॥.[.॥॥.citation needed.॥॥.]
+Provogue
+Hungama Digital Media Entertainment Pvt. Ltd.
+Hungama Digital Media Entertainment Pvt. Ltd.
+Geojit Financial Services
+Aptech
+Concord Biotech
+
+Jhunjhunwala invested ₹26 Crores (US$3.4 Million) in A2Z Maintenance increasing his stake in the company by 3.57% to 23.2%..॥॥.₹.॥॥.US$.॥॥.A2Z Maintenance
+He also invested INR 30.90 Crores in little known ramming mass manufacturing company Raghav Productivity Enhancers Ltd.
+A2Z Group
+
+The first big profit of Rakesh Jhunjhunwala was ₹5 lakh in 1986.
+Between 1986 and 1989, he earned almost ₹20-25 lakh profit. [better source needed].॥॥..॥॥.[.॥॥.better.॥॥..॥॥.source.॥॥..॥॥.needed.॥॥.]
+Wikipedia:NOTRS
+Wikipedia:NOTRS
+
+External links
+
+Pets also featured in presidential elections.
+Herbert Hoover got a "Belgian Police Dog" (Belgian Malinois), King Tut, during his campaign and pictures of him with his new dog were sent all across the United States..॥॥.Herbert Hoover.॥॥.Belgian Malinois
+Herbert Hoover
+Belgian Malinois
+
+In 1944 Franklin D. Roosevelt was running for his fourth term when rumors surfaced that his Scottish Terrier, Fala, had accidentally been left behind when visiting the Aleutian Islands..॥॥.Franklin D. Roosevelt.॥॥.Scottish Terrier.॥॥.Fala.॥॥.Aleutian Islands
+After allegedly sending back ships to rescue his dog, Roosevelt was ridiculed and accused of spending thousands of taxpayers' dollars to retrieve his dog.
+At a speech following this Roosevelt said, "you can criticize me, my wife and my family, but you can't criticize my little dog.
+He's Scotch and all these allegations about spending all this money have just made his little soul furious.".॥॥.Scotch
+What was later called the "Fala speech" reportedly helped secure reelection for Roosevelt.
+Scotch (adjective)
+Internet Archive
+Scottish Terrier
+National Constitution Center
+Fala (dog)
+Aleutian Islands
+
+Miss Beazley, a Scottish Terrier given to Laura Bush by her husband.॥॥.Miss Beazley.॥॥.Scottish Terrier.॥॥.Laura Bush
+Scottish Terrier
+Laura Bush
+Miss Beazley (dog)
+
+Richard Nixon was accused of hiding a secret slush fund during his candidacy for vice president under Dwight D. Eisenhower in 1952..॥॥.Richard Nixon.॥॥.slush fund.॥॥.Dwight D. Eisenhower
+He gave the televised "Checkers speech" named after his cocker spaniel, denying he had a slush fund but admitting, "there is one thing that I did get as a gift that I'm not going to give back.".॥॥.Checkers speech
+The gift was a black-and-white cocker spaniel, Checkers, given to his daughters..॥॥.cocker spaniel
+Although there had been talk of Nixon being dropped from the ticket, following his speech he received an increase in support and Mamie Eisenhower reportedly recommended he stay because he was "such a warm person.".॥॥.Mamie Eisenhower
+Richard Nixon
+Wikipedia:Citing sources
+Slush fund
+American Cocker Spaniel
+Mamie Eisenhower
+Checkers speech
+Mental Floss
+
+Animal lovers were upset when President Lyndon B. Johnson was photographed lifting his beagles, named Him and Her, by their ears..॥॥.Lyndon B. Johnson.॥॥.beagles
+Others did not understand the uproar; former president Harry S. Truman said, "What the hell are the critics complaining about; that's how you handle hounds.".॥॥.Harry S. Truman
+Beagle
+
+Bill Clinton moved into the White House with Socks, a tuxedo cat, who in 1991 was reported to have jumped into the arms of Chelsea Clinton after piano lessons while the Clintons were living in Little Rock, Arkansas..॥॥.Bill Clinton.॥॥.Socks.॥॥.tuxedo cat.॥॥.Chelsea Clinton.॥॥.Little Rock, Arkansas
+He was later joined in 1997 by Buddy, a Labrador Retriever, during Clinton's second term..॥॥.Buddy.॥॥.Labrador Retriever
+The two reportedly did not get along, with Clinton later saying "I did better with the Palestinians and the Israelis than I've done with Socks and Buddy" while Hillary Clinton said Socks "despised" Buddy at first sight..॥॥.Hillary Clinton
+The two were, however, the subject of a book, Dear Socks, Dear Buddy: Kids' Letters to the First Pets written by then First Lady Hillary Clinton and appeared as cartoons in the kids' section of the first White House website..॥॥.Dear Socks, Dear Buddy: Kids' Letters to the First Pets.॥॥.First Lady
+Bill Clinton
+First Lady of the United States
+The New York Times
+Tuxedo cat
+Labrador Retriever
+Chelsea Clinton
+Christian Science Monitor
+Vanity Fair (magazine)
+Buddy (dog)
+Socks (cat)
+Hillary Clinton
+
+While George W. Bush was president, he had three dogs and a cat at the White House..॥॥.George W. Bush
+Among the canines was Spot Fetcher, an English Springer Spaniel and the offspring of George H. W. Bush's dog, Millie..॥॥.Spot Fetcher.॥॥.English Springer Spaniel.॥॥.George H. W. Bush's.॥॥.Millie
+This made Spotty the first animal to live in the White House under two different administrations, having been born there in 1989 and passed away there in 2004.
+The New York Times
+New York Post
+CBS News
+English Springer Spaniel
+Spot Fetcher
+Millie (dog)
+
+Barack and Michelle Obama were without pets prior to the 2008 election, but promised their daughters they could get a dog when the family moved into the White House..॥॥.Barack.॥॥.Michelle Obama.॥॥.2008 election.॥॥.their daughters
+They selected Bo, a Portuguese Water Dog, partly due to Malia Obama's allergies and the need for a hypoallergenic pet..॥॥.Bo.॥॥.Portuguese Water Dog.॥॥.Malia Obama
+The puppy was a gift from Senator Ted Kennedy and was later joined by Sunny, a female of the same breed..॥॥.Ted Kennedy.॥॥.Sunny
+Bo was featured in the 2010 children's book Of Thee I Sing: A Letter to My Daughters, written by President Obama with illustrations by Loren Long..॥॥.Of Thee I Sing: A Letter to My Daughters.॥॥.Loren Long
+Christian Science Monitor
+The Washington Post
+Ted Kennedy
+2008 United States presidential election
+Barack Obama
+Portuguese Water Dog
+Michelle Obama
+Loren Long
+Family of Barack Obama
+Malia Obama
+Bo (dog)
+The Daily Telegraph
+Sunny (dog)
+
+Joe and Jill Biden moved into the White House with two German Shepherds, Champ and Major..॥॥.Joe.॥॥.Jill Biden.॥॥.German Shepherds.॥॥.Champ and Major
+Major is the first shelter dog in the White House, while Champ is returning to Washington, having joined the Biden family during Joe Biden's tenure as vice-president..॥॥.shelter dog
+The Bidens announced the death of Champ on 19 June 2021.
+German Shepherd
+Joe Biden
+Shelter dog
+Harper's Bazaar
+Vogue (magazine)
+Champ and Major
+Jill Biden
+
+The 2020 United States presidential election in South Carolina was held on Tuesday, November 3, 2020, as part of the 2020 United States presidential election in which all 50 states plus the District of Columbia participated..॥॥.2020 United States presidential election in South Carolina.॥॥.2020 United States presidential election.॥॥.District of Columbia
+South Carolina voters chose electors to represent them in the Electoral College via a popular vote, pitting the Republican Party's nominee, incumbent President Donald Trump, and running mate Vice President Mike Pence against Democratic Party nominee, former Vice President Joe Biden, and his running mate California Senator Kamala Harris..॥॥.South Carolina.॥॥.Electoral College.॥॥.Republican Party.॥॥.Donald Trump.॥॥.Vice President.॥॥.Mike Pence.॥॥.Democratic Party.॥॥.Joe Biden.॥॥.Kamala Harris
+South Carolina has nine electoral votes in the Electoral College.
+South Carolina
+Republican Party (United States)
+Donald Trump
+Joe Biden
+Vice President of the United States
+United States Electoral College
+Washington, D.C.
+Mike Pence
+Kamala Harris
+Democratic Party (United States)
+2020 United States presidential election
+
+Trump carried South Carolina by a margin of 11.68%, down from his 14.27% margin four years earlier.
+Prior to this election, all 12 news organizations considered this a state Trump would win, or a red state..॥॥.red state
+Red states and blue states
+
+Analysis
+
+South Carolina—a Deep Southern Bible Belt state that was once part of the conservative, Democratic Solid South—has had a Republican tendency since 1964 due to white South Carolinians' distaste for civil rights legislation..॥॥.South Carolina.॥॥.Deep Southern.॥॥.Bible Belt.॥॥.Solid South.॥॥.1964.॥॥.civil rights
+This has been further cemented by Richard Nixon's Southern strategy, the only exception has been made for Jimmy Carter of neighboring Georgia in 1976..॥॥.Richard Nixon.॥॥.Southern strategy.॥॥.Jimmy Carter.॥॥.Georgia.॥॥.1976
+It is the most conservative state on the East Coast of the United States, but not as conservative as other Deep Southern states (with the exception of the recently more competitive Georgia) due to its sizeable African-American population and populous urban areas of Richland County and Charleston County, both of which have steadily trended more Democratic in the 21st century..॥॥.East Coast of the United States.॥॥.Deep Southern.॥॥.African-American.॥॥.Richland County.॥॥.Charleston County
+South Carolina
+Richard Nixon
+African-American
+Jimmy Carter
+Georgia (U.S. state)
+Civil rights in the United States
+East Coast of the United States
+Richland County, South Carolina
+Charleston County, South Carolina
+Bible Belt
+Deep South
+Deep South
+Southern strategy
+Solid South
+1976 United States presidential election in South Carolina
+1964 United States presidential election in South Carolina
+
+Trump performed somewhat better than polls anticipated, as aggregate polls averaged him only 7 points ahead of Biden.
+In addition, he flipped Clarendon County for the first time since 1972 and Dillon County for the first time since 1988. [citation needed] Biden became the first Democrat since Lyndon B. Johnson in 1964 to win the presidency without Clarendon County and the first Democrat since Harry S. Truman to win without Dillon County..॥॥.Clarendon County.॥॥.1972.॥॥.Dillon County.॥॥.1988.॥॥..॥॥.[.॥॥.citation needed.॥॥.].॥॥.Lyndon B. Johnson.॥॥.Harry S. Truman
+Dillon County, South Carolina
+Clarendon County, South Carolina
+1988 United States presidential election in South Carolina
+1972 United States presidential election in South Carolina
+
+Per exit polls by the Associated Press, Trump's strength in the Palmetto State came from White, born-again/Evangelical Christians, who supported Trump by 87%–9%..॥॥.exit polls.॥॥.Associated Press.॥॥.White.॥॥.born-again.॥॥.Evangelical.॥॥.Christians
+South Carolina is entirely in the Bible Belt..॥॥.South Carolina.॥॥.Bible Belt
+As is the case in many Southern states, there was a stark racial divide in voting for this election: White South Carolinians supported Trump by 69%–29%, while Black South Carolinians supported Biden by 92%–7%..॥॥.Southern.॥॥.racial.॥॥.White.॥॥.Black.॥॥.South Carolinians
+South Carolina
+Bible Belt
+African Americans
+South Carolina
+Southern United States
+Exit poll
+White Americans
+White Americans
+Racial polarization
+Christianity in the United States
+Associated Press
+
+In other elections, longtime Republican U.S. Senator Lindsey Graham won another term in the United States Senate by 10.27 percentage points over Democrat Jaime Harrison..॥॥.Lindsey Graham.॥॥.won another term.॥॥.United States Senate.॥॥.Jaime Harrison
+While Harrison also lost by a double-digit margin, he still slightly outperformed Biden.
+Lindsey Graham
+United States Senate
+2020 United States Senate election in South Carolina
+Jaime Harrison
+
+On September 7, 2019, the South Carolina Republican Party became one of several state GOP affiliates to cancel their respective primaries and caucuses officially..॥॥.South Carolina Republican Party
+Donald Trump's re-election campaign and GOP officials have cited the fact that Republicans canceled several state primaries when George H. W. Bush and George W. Bush sought second terms in 1992 and 2004, respectively, and Democrats scrapped some of their primaries when Bill Clinton and Barack Obama were seeking re-election in 1996 and 2012, respectively..॥॥.George H. W. Bush.॥॥.George W. Bush.॥॥.1992.॥॥.2004.॥॥.Bill Clinton.॥॥.Barack Obama.॥॥.1996.॥॥.2012
+Bill Clinton
+Barack Obama
+2004 Republican Party presidential primaries
+George W. Bush
+South Carolina Republican Party
+1992 Republican Party presidential primaries
+2012 Democratic Party presidential primaries
+
+In response to the cancellation, former U.S. Representative Bob Inglis and another South Carolina Republican voter filed a lawsuit against the South Carolina Republican Party on grounds that it denied their right to vote..॥॥.U.S. Representative.॥॥.Bob Inglis
+On December 11, 2019, a state court judge dismissed the lawsuit, writing in his opinion that the law "does not give plaintiffs a legal right to presidential preference primary".
+Thus at the South Carolina State Republican Convention in May 2020, the state party will formally bind all 50 of its national pledged delegates to Trump.
+Bob Inglis
+
+Source
+Ranking
+As of
+The Cook Political Report.॥॥.The Cook Political Report
+September 10, 2020
+Inside Elections.॥॥.Inside Elections
+September 4, 2020
+Sabato's Crystal Ball.॥॥.Sabato's Crystal Ball
+July 14, 2020
+Politico.॥॥.Politico
+September 8, 2020
+RCP.॥॥.RCP
+August 3, 2020
+Niskanen.॥॥.Niskanen
+July 26, 2020
+CNN.॥॥.CNN
+August 3, 2020
+The Economist.॥॥.The Economist
+September 2, 2020
+CBS News.॥॥.CBS News
+August 16, 2020
+270towin.॥॥.270towin
+August 2, 2020
+ABC News.॥॥.ABC News
+July 31, 2020
+NPR.॥॥.NPR
+August 3, 2020
+NBC News.॥॥.NBC News
+August 6, 2020
+538.॥॥.538
+September 9, 2020
+The Cook Political Report
+Stuart Rothenberg
+Sabato's Crystal Ball
+Politico
+RealClearPolitics
+Niskanen Center
+Niskanen Center
+CNN
+The Economist
+CBS News
+270towin
+ABC News
+NPR
+NBC News
+FiveThirtyEight
+
+Polling
+
+Poll source
+Date(s)administered
+Samplesize[lower-alpha 3].॥॥.[lower-alpha 3]
+Marginof error.॥॥.of error
+DonaldTrump Republican.॥॥.Donald.॥॥.Trump.॥॥..॥॥.Republican
+JoeBiden Democratic.॥॥.Joe.॥॥.Biden.॥॥..॥॥.Democratic
+JoJorgensen Libertarian.॥॥.Jo.॥॥.Jorgensen.॥॥..॥॥.Libertarian
+HowieHawkins Green.॥॥.Howie.॥॥.Hawkins.॥॥..॥॥.Green
+Other
+Undecided
+Optimus
+Oct 31 – Nov 2, 2020
+817 (LV)
+± 3.9%.॥॥.
+39%
+–
+–
+2%[lower-alpha 4].॥॥.[lower-alpha 4]
+8%
+SurveyMonkey/Axios
+Oct 20 – Nov 2, 2020
+2,485 (LV)
+± 3%.॥॥.
+42%
+–
+–
+–
+–
+Data For Progress
+Oct 27 – Nov 1, 2020
+1,121 (LV)
+± 2.9%.॥॥.
+44%
+2%
+0%
+0%[lower-alpha 6].॥॥.[lower-alpha 6]
+–
+Swayable Archived November 27, 2020, at the Wayback Machine.॥॥.Swayable.॥॥.Archived.॥॥.November 27, 2020, at the.॥॥.Wayback Machine
+Oct 23 – Nov 1, 2020
+426 (LV)
+± 7.4%.॥॥.
+49%
+1%
+0%
+–
+–
+Morning Consult
+Oct 22–31, 2020
+904 (LV)
+± 3%.॥॥.
+45%
+–
+–
+–
+–
+SurveyMonkey/Axios
+Oct 1–28, 2020
+4,725 (LV)
+–
+44%
+–
+–
+–
+–
+Data for Progress
+Oct 22–27, 2020
+1,196 (LV)
+± 2.8%.॥॥.
+44%
+1%
+0%
+–
+4%
+Starboard Communications
+Oct 26, 2020
+800 (LV)
+–
+44%
+–
+–
+–
+5%
+East Carolina University
+Oct 24–25, 2020
+763 (LV)
+± 4.1%.॥॥.
+44%
+–
+–
+3%[lower-alpha 7].॥॥.[lower-alpha 7]
+1%
+Morning Consult
+Oct 11–20, 2020
+926 (LV)
+± 3.2%.॥॥.
+45%
+–
+–
+–
+–
+New York Times/Siena College
+Oct 9–14, 2020
+605 (LV)
+± 4.5%
+41%
+2%
+1%
+1%[lower-alpha 8].॥॥.[lower-alpha 8]
+6%[lower-alpha 9].॥॥.[lower-alpha 9]
+Data for Progress
+Oct 8–11, 2020
+801 (LV)
+± 3.5%
+43%
+1%
+1%
+–
+4%
+Morning Consult
+Oct 2–11, 2020
+903 (LV)
+± 3%.॥॥.
+42%
+–
+–
+–
+–
+SurveyMonkey/Axios
+Sep 1–30, 2020
+1,833 (LV)
+–
+45%
+–
+–
+–
+2%
+GBAO Strategies/DSCC[upper-alpha 1].॥॥.GBAO Strategies/DSCC.॥॥.[upper-alpha 1]
+Sep 24–28, 2020
+800 (LV)
+± 3.5%.॥॥.
+44%
+–
+–
+–
+–
+Data for Progress (D)
+Sep 23–28, 2020
+824 (LV)
+± 3.4%.॥॥.
+43%
+1%
+1%
+–
+8%
+45%
+–
+–
+–
+5%
+Quinnipiac University
+Sep 23–27, 2020
+1,123 (LV)
+± 2.9%.॥॥.
+47%
+–
+–
+1%[lower-alpha 12].॥॥.[lower-alpha 12]
+4%
+YouGov/CBS
+Sep 22–25, 2020
+1,080 (LV)
+± 3.8%
+42%
+–
+–
+2%[lower-alpha 13].॥॥.[lower-alpha 13]
+4%
+Morning Consult
+Sep 11–20, 2020
+764 (LV)
+± (3% – 4%)
+44%
+–
+–
+–
+–
+Quinnipiac University
+Sep 10–14, 2020
+969 (LV)
+± 3.2%.॥॥.
+45%
+–
+–
+0%[lower-alpha 15].॥॥.[lower-alpha 15]
+4%
+Morning Consult
+Sep 2–11, 2020
+~764 (LV)
+± (3%–4%)
+44%
+–
+–
+–
+–
+Morning Consult
+Aug 23 – Sep 1, 2020
+~764 (LV)
+± (3%–4%)
+42%
+–
+–
+–
+–
+SurveyMonkey/Axios
+Aug 1–31, 2020
+1,326 (LV)
+–
+45%
+–
+–
+–
+2%
+Morning Consult
+Aug 13–22, 2020
+~764 (LV)
+± (3%–4%)
+43%
+–
+–
+–
+–
+Morning Consult
+Aug 3–12, 2020
+~764 (LV)
+± (3%–4%)
+43%
+–
+–
+–
+–
+Quinnipiac University Archived August 7, 2020, at the Wayback Machine.॥॥.Quinnipiac University.॥॥.Archived.॥॥.August 7, 2020, at the.॥॥.Wayback Machine
+Jul 30 – Aug 3, 2020
+914 (RV)
+± 3.2%.॥॥.
+42%
+–
+–
+4%[lower-alpha 16].॥॥.[lower-alpha 16]
+7%
+Morning Consult
+Jul 24 – Aug 2, 2020
+741 (LV)
+± 4.0%.॥॥.
+44%
+–
+–
+3%[lower-alpha 18].॥॥.[lower-alpha 18]
+4%
+Morning Consult
+Jul 23 – Aug 1, 2020
+~764 (LV)
+± (3%–4%)
+45%
+–
+–
+–
+–
+SurveyMonkey/Axios
+Jul 1–31, 2020
+1,700 (LV)
+–
+44%
+–
+–
+–
+2%
+Morning Consult
+Jul 13–22, 2020
+~764 (LV)
+± (3%–4%)
+43%
+–
+–
+–
+–
+ALG Research/Lindsey Must Go[upper-alpha 2].॥॥.ALG Research/Lindsey Must Go.॥॥.[upper-alpha 2]
+Jul 15–20, 2020
+591 (LV)
+–
+45%
+–
+–
+1%
+4%
+Gravis Marketing
+Jul 17, 2020
+604 (LV)
+± 4.0%.॥॥.
+46%
+–
+–
+–
+–
+brilliant corners Research & Strategies/Jaime Harrison[upper-alpha 3].॥॥.brilliant corners Research & Strategies/Jaime Harrison.॥॥.[upper-alpha 3]
+Jul 13–19, 2020
+800 (LV)
+± 3.5%.॥॥.
+43%
+–
+–
+–
+–
+SurveyMonkey/Axios
+Jun 8–30, 2020
+863 (LV)
+–
+47%
+–
+–
+–
+2%
+Civiqs/Daily Kos
+May 23–26, 2020
+591 (RV)
+± 4.5%.॥॥.
+42%
+–
+–
+5%[lower-alpha 19].॥॥.[lower-alpha 19]
+1%
+AtlasIntel
+Feb 25–28, 2020
+1,100 (RV)
+± 3.0%.॥॥.
+42%
+–
+–
+11%
+–
+East Carolina University
+Jan 31 – Feb 2, 2020
+1,756 (RV)
+± 2.7%.॥॥.
+40%
+–
+–
+–
+8%
+Change Research
+Jun 11–14, 2019
+2,312 (RV)
+± 2.0%.॥॥.
+38%
+3%[lower-alpha 20].॥॥.[lower-alpha 20]
+1%[lower-alpha 20].॥॥.[lower-alpha 20]
+–
+–
+Emerson College
+Feb 28 – Mar 2, 2019
+755 (RV)
+± 3.5%.॥॥.
+48%
+–
+–
+–
+–
+Republican Party (United States)
+Donald Trump
+Democratic Party (United States)
+Joe Biden
+Libertarian Party (United States)
+Jo Jorgensen
+Green Party of the United States
+Howie Hawkins
+Third-party and independent candidates for the 2020 United States presidential election
+
+42%
+9%
+–
+East Carolina University
+Jan 31 – Feb 2, 2020
+1,756 (RV)
+± 2.7%.॥॥.
+40%
+–
+8%
+Change Research
+Jun 11–14, 2019
+2,312 (RV)
+± 2.0%.॥॥.
+34%
+6%
+–
+Emerson College
+Feb 28 – Mar 2, 2019
+755 (RV)
+± 3.5%.॥॥.
+46%
+–
+–
+Donald Trump vs. Elizabeth Warren
+Poll source
+Date(s)administered
+Samplesize
+Marginof error.॥॥.of error
+DonaldTrump (R)
+ElizabethWarren (D)
+Undecided
+AtlasIntel
+Feb 25–28, 2020
+1,100 (RV)
+± 3.0%.॥॥.
+41%
+10%
+East Carolina University
+Jan 31 – Feb 2, 2020
+1,756 (RV)
+± 2.7%.॥॥.
+36%
+10%
+Emerson College
+Feb 28 – Mar 2, 2019
+755 (RV)
+± 3.5%.॥॥.
+46%
+–
+Donald Trump vs. Michael Bloomberg
+Poll source
+Date(s)administered
+Samplesize
+Marginof error.॥॥.of error
+DonaldTrump (R)
+MichaelBloomberg (D)
+Undecided
+East Carolina University
+Jan 31 – Feb 2, 2020
+1,756 (RV)
+± 2.7%.॥॥.
+33%
+13%
+Donald Trump vs. Amy Klobuchar
+Poll source
+Date(s)administered
+Samplesize
+Marginof error.॥॥.of error
+DonaldTrump (R)
+AmyKlobuchar (D)
+Undecided
+East Carolina University
+Jan 31 – Feb 2, 2020
+1,756 (RV)
+± 2.7%.॥॥.
+32%
+15%
+Emerson College
+Feb 28 – Mar 2, 2019
+755 (RV)
+± 3.5%.॥॥.
+44%
+–
+Donald Trump vs. Pete Buttigieg
+Poll source
+Date(s)administered
+Samplesize
+Marginof error.॥॥.of error
+DonaldTrump (R)
+PeteButtigieg (D)
+Undecided
+AtlasIntel
+Feb 25–28, 2020
+1,100 (RV)
+± 3.0%.॥॥.
+37%
+15%
+East Carolina University
+Jan 31 – Feb 2, 2020
+1,756 (RV)
+± 2.7%.॥॥.
+34%
+13%
+Donald Trump vs. Tom Steyer
+Poll source
+Date(s)administered
+Samplesize
+Marginof error.॥॥.of error
+DonaldTrump (R)
+TomSteyer (D)
+Undecided
+East Carolina University
+Jan 31 – Feb 2, 2020
+1,756 (RV)
+± 2.7%.॥॥.
+39%
+9%
+Donald Trump vs. Andrew Yang
+Poll source
+Date(s)administered
+Samplesize
+Marginof error.॥॥.of error
+DonaldTrump (R)
+AndrewYang (D)
+Undecided
+East Carolina University
+Jan 31 – Feb 2, 2020
+1,756 (RV)
+± 2.7%.॥॥.
+34%
+14%
+Donald Trump vs. Cory Booker
+Poll source
+Date(s)administered
+Samplesize
+Marginof error.॥॥.of error
+DonaldTrump (R)
+CoryBooker (D)
+Other
+Undecided
+Change Research
+Jun 11–14, 2019
+2,312 (RV)
+± 2.0%.॥॥.
+32%
+6%
+–
+Emerson College
+Feb 28 – Mar 2, 2019
+755 (RV)
+± 3.5%.॥॥.
+46%
+–
+–
+Donald Trump vs Kamala Harris
+Poll source
+Date(s)administered
+Samplesize
+Marginof error.॥॥.of error
+DonaldTrump (R)
+KamalaHarris (D)
+Other
+Undecided
+Change Research
+Jun 11–14, 2019
+2,312 (RV)
+± 2.0%.॥॥.
+33%
+6%
+–
+Emerson College
+Feb 28 – Mar 2, 2019
+755 (RV)
+± 3.5%.॥॥.
+44%
+–
+–
+Donald Trump vs. Beto O'Rourke
+Poll source
+Date(s)administered
+Samplesize
+Marginof error.॥॥.of error
+DonaldTrump (R)
+BetoO'Rourke (D)
+Undecided
+Emerson College
+Feb 28 – Mar 2, 2019
+755 (RV)
+± 3.5%.॥॥.
+44%
+–
+
+42%
+7%
+–
+with Donald Trump, Elizabeth Warren, and Howard Schultz
+Poll source
+Date(s)administered
+Samplesize
+Marginof error.॥॥.of error
+DonaldTrump (R)
+ElizabethWarren (D)
+HowardSchultz (I)
+Undecided
+Emerson College
+Feb 28 – Mar 2, 2019
+755 (RV)
+± 3.5%.॥॥.
+41%
+7%
+–
+with Donald Trump, generic Democrat, and Howard Schultz
+Poll source
+Date(s)administered
+Samplesize
+Marginof error.॥॥.of error
+DonaldTrump (R)
+GenericDemocrat
+HowardSchultz (I)
+Undecided
+WPA Intelligence (R).॥॥.WPA Intelligence (R)
+Mar 11–13, 2019
+500 (LV)
+± 4.4%.॥॥.
+34%
+3%
+17%
+
+County
+Donald TrumpRepublican.॥॥.Republican
+Joe BidenDemocratic.॥॥.Democratic
+Jo JorgensenLibertarian.॥॥.Libertarian
+Other votes
+Totalvotes
+%.॥॥.
+#
+%.॥॥.
+#
+%.॥॥.
+#
+%.॥॥.
+#
+66.07%
+8,215
+32.98%
+4,101
+0.71%
+88
+0.23%
+29
+12,433
+60.56%
+51,589
+37.89%
+32,275
+1.15%
+982
+0.40%
+339
+85,185
+23.24%
+835
+75.65%
+2,718
+0.53%
+19
+0.59%
+21
+3,593
+70.31%
+67,565
+28.27%
+27,169
+1.17%
+1,123
+0.25%
+236
+96,093
+37.29%
+2,417
+61.86%
+4,010
+0.48%
+31
+0.37%
+24
+6,482
+53.21%
+5,492
+45.73%
+4,720
+0.76%
+78
+0.30%
+31
+10,321
+54.37%
+53,194
+44.38%
+43,419
+0.96%
+941
+0.29%
+281
+97,835
+54.95%
+57,397
+43.29%
+45,223
+1.42%
+1,485
+0.33%
+353
+104,458
+51.92%
+4,305
+47.10%
+3,905
+0.70%
+58
+0.28%
+23
+8,291
+42.63%
+93,297
+55.51%
+121,485
+1.45%
+3,177
+0.41%
+898
+218,857
+71.40%
+18,043
+27.63%
+6,983
+0.74%
+186
+0.23%
+58
+25,270
+54.96%
+8,660
+44.05%
+6,941
+0.69%
+108
+0.30%
+48
+15,757
+59.85%
+11,297
+39.37%
+7,431
+0.58%
+109
+0.21%
+39
+18,876
+49.97%
+8,361
+49.30%
+8,250
+0.40%
+67
+0.33%
+55
+16,733
+54.14%
+10,440
+44.61%
+8,602
+0.92%
+178
+0.33%
+63
+19,283
+51.92%
+16,832
+46.95%
+15,220
+0.80%
+260
+0.32%
+105
+32,417
+50.24%
+6,582
+49.13%
+6,436
+0.29%
+38
+0.34%
+45
+13,101
+54.24%
+41,913
+43.77%
+33,824
+1.58%
+1,219
+0.42%
+322
+77,278
+61.52%
+8,184
+37.23%
+4,953
+0.90%
+120
+0.35%
+47
+13,304
+38.11%
+4,625
+60.83%
+7,382
+0.64%
+78
+0.42%
+51
+12,136
+50.56%
+32,615
+48.29%
+31,153
+0.78%
+503
+0.37%
+239
+64,510
+55.87%
+20,487
+43.15%
+15,822
+0.65%
+237
+0.33%
+122
+36,668
+58.11%
+150,021
+39.91%
+103,030
+1.62%
+4,179
+0.36%
+925
+258,155
+60.71%
+19,431
+37.95%
+12,145
+0.99%
+318
+0.35%
+112
+32,006
+41.98%
+3,906
+57.21%
+5,323
+0.47%
+44
+0.34%
+32
+9,305
+66.11%
+118,821
+32.92%
+59,180
+0.70%
+1,255
+0.27%
+488
+179,744
+49.17%
+7,078
+49.92%
+7,185
+0.64%
+92
+0.27%
+39
+14,394
+60.87%
+20,471
+37.76%
+12,699
+1.02%
+344
+0.34%
+115
+33,629
+60.78%
+30,312
+37.97%
+18,937
+0.99%
+492
+0.25%
+127
+49,868
+65.61%
+20,004
+33.32%
+10,159
+0.78%
+238
+0.29%
+87
+30,488
+35.68%
+3,008
+63.21%
+5,329
+0.84%
+71
+0.27%
+23
+8,431
+64.20%
+92,817
+34.10%
+49,301
+1.34%
+1,935
+0.35%
+515
+144,568
+38.84%
+5,711
+60.34%
+8,872
+0.43%
+63
+0.39%
+58
+14,704
+44.07%
+5,044
+54.95%
+6,290
+0.60%
+69
+0.38%
+43
+11,446
+51.92%
+2,958
+47.17%
+2,687
+0.49%
+28
+0.42%
+24
+5,697
+61.42%
+11,443
+37.35%
+6,958
+0.82%
+152
+0.42%
+78
+18,631
+73.03%
+29,698
+25.61%
+10,414
+1.09%
+443
+0.28%
+113
+40,668
+33.01%
+13,603
+66.24%
+27,295
+0.42%
+172
+0.33%
+135
+41,205
+74.56%
+42,907
+23.71%
+13,645
+1.38%
+793
+0.35%
+201
+57,546
+30.09%
+58,313
+68.40%
+132,570
+1.05%
+2,027
+0.47%
+912
+193,822
+66.96%
+6,210
+31.95%
+2,963
+0.81%
+75
+0.28%
+26
+9,274
+62.94%
+93,560
+35.60%
+52,926
+1.14%
+1,702
+0.31%
+467
+148,655
+42.93%
+21,000
+55.97%
+27,379
+0.73%
+355
+0.38%
+186
+48,920
+61.73%
+8,183
+37.23%
+4,935
+0.72%
+96
+0.32%
+43
+13,257
+34.61%
+5,532
+64.37%
+10,289
+0.51%
+81
+0.52%
+83
+15,985
+57.43%
+82,727
+40.96%
+59,008
+1.25%
+1,807
+0.36%
+508
+144,050
+
+Results by congressional district
+
+Additional candidates
+
+United States presidential elections in South Carolina
+2020 South Carolina elections
+2020 United States presidential election
+2020 Democratic Party presidential primaries
+2020 Republican Party presidential primaries
+2020 United States elections
+United States presidential elections in South Carolina
+2020 South Carolina elections
+2020 United States presidential election
+2020 Democratic Party presidential primaries
+2020 Republican Party presidential primaries
+2020 United States elections
+
+Navi is an Indian financial services company founded by Sachin Bansal and Ankit Agarwal in 2018..॥॥.Navi.॥॥.Sachin Bansal
+The company has its headquarters in Bengaluru..॥॥.Bengaluru
+Sachin Bansal
+Bengaluru
+
+Navi is an Indian Financial Services company that offers digital personal loans, home loans, mutual funds, health insurance and micro-loans..॥॥.Navi.॥॥.Financial Services.॥॥.personal loans.॥॥.home loans.॥॥.mutual funds.॥॥.health insurance.॥॥.micro-loans
+Micro loans
+Mutual fund
+Financial services
+Health insurance
+Personal loans
+Home loans
+
+In December 2018, Sachin Bansal, after his exit from Flipkart, along with IIT-Delhi batch mate, founded BACQ Acquisitions Private Limited which was later renamed as Navi Technologies Private Limited..॥॥.Sachin Bansal.॥॥.Flipkart.॥॥.IIT-Delhi
+Since its incorporation, Navi has acquired multiple companies to extend its product and services portfolio.
+Sachin Bansal
+IIT Delhi
+Flipkart
+
+Navi Technologies
+
+Navi Technologies, the technology development and services company, acquired a consulting film MavenHive in 2019, in order to boost product development.
+
+45-50 engineers were hired with plans to hire 400 more in 2021, in line with its growth plan.
+A new 100k sq ft office space was also acquired in Bengaluru’s Koramangala area, to house its businesses..॥॥.Bengaluru
+Bangalore
+
+Navi Technologies is the holding company and the subsidiaries are structured as;
+
+CIFCPL is a microfinance institution (MFI), which started operations from October 2009.
+It is fully held by the parent company Navi Finserv.
+CIFCPL lends to women, primarily in rural areas under the Grameen Bank Group Lending model..॥॥.Grameen Bank
+It offers microfinance loans under the joint liability group model as well as individual loans..॥॥.microfinance
+Microfinance
+Grameen Bank
+
+Navi approached Reserve Bank of India for a universal banking license..॥॥.Reserve Bank of India
+As on December 31, 2020, CIFCPL was operating out of 6 states across 72 districts with 4.59 lakh active borrowers.
+Reserve Bank of India
+
+ICRA assigned a credit rating of A- (A minus) to company’s borrowings..॥॥.ICRA
+ICRA Limited
+
+External links
+
+Democratic
+2008
+2012
+2016
+2020
+Republican.॥॥.Republican
+2008
+2012
+2016
+2020
+U.S. Senate elections
+1924
+1930
+1932
+1936
+1937
+1938
+1942
+1944
+1948
+1950
+1954
+1956
+1960
+1962
+1966
+1968
+1972
+1974
+1978
+1980
+1984
+1986
+1990
+1992
+1996
+1998
+2002
+2004
+2008
+2010
+2014
+2016
+2020
+U.S. House elections
+1920
+1921
+6th sp
+1922
+1923
+6th sp
+1924
+1926
+1928
+1930.॥॥.1930
+4th sp
+1932
+1933
+5th sp
+1934
+1936
+1938
+1939
+4th sp
+1940
+1942
+1944
+1946
+1948
+1950
+1952
+1954
+1956
+1958
+1960
+1961
+6th sp
+1962
+1964
+1966.॥॥.1966
+4th sp
+1968
+1970
+1972
+1974
+1976
+1978
+1980
+1982
+1984
+1986
+1988
+1990
+1992
+1994
+1996
+1998
+2000
+2001
+3rd sp
+2002
+2004
+2006
+2008
+2010
+2012
+2014
+2016
+2018
+2020
+State government.॥॥.State government
+Gubernatorial elections
+1836
+1840
+1844
+1848
+1849
+1852
+1856
+1860
+1862
+1864
+1868
+1872
+1874
+1876
+1878
+1880
+1882
+1884
+1886
+1888
+1890
+1892
+1894
+1896
+1898
+1900
+1902
+1904
+1906
+1908
+1910
+1912
+1913
+1914
+1916
+1918
+1920
+1922
+1924
+1926
+1928
+1930
+1932
+1934
+1936
+1938
+1940
+1942
+1944
+1946
+1948
+1950
+1952
+1954
+1956
+1958
+1960
+1962
+1964
+1966
+1968
+1970
+1972
+1974
+1976
+1978
+1980
+1982
+1984
+1986
+1990
+1994
+1998
+2002
+2006
+2010
+2014
+2018
+2022
+State elections
+2006
+2008
+2010
+2012
+2014
+2018
+2020
+State Senate elections
+2020
+Ballot measures.॥॥.Ballot measures
+2004
+Constitutional Amendment 3
+2008
+Proposed Initiative Act No. 1
+2012
+Issue 1
+2018
+Issue 5
+Little Rock.॥॥.Little Rock
+Mayoral elections.॥॥.Mayoral elections
+1994
+1998
+2002
+2006
+2010
+2014
+2018
+Democratic Party presidential primaries
+2008 Arkansas Democratic presidential primary
+2012 United States presidential election in Arkansas
+2016 Arkansas Democratic presidential primary
+2020 Arkansas Democratic presidential primary
+Republican Party presidential primaries
+2008 Arkansas Republican presidential primary
+2012 United States presidential election in Arkansas
+2016 Arkansas Republican presidential primary
+2020 Arkansas Republican presidential primary
+1924 United States Senate election in Arkansas
+1930 United States Senate election in Arkansas
+1932 United States Senate election in Arkansas
+1936 United States Senate election in Arkansas
+
+1937 United States Senate special election in Arkansas
+
+See also
+1938 United States Senate election in Arkansas
+1942 United States Senate election in Arkansas
+1944 United States Senate election in Arkansas
+1948 United States Senate election in Arkansas
+1950 United States Senate election in Arkansas
+1954 United States Senate election in Arkansas
+1956 United States Senate election in Arkansas
+
+United States presidential elections in Arkansas
+1960 United States Senate election in Arkansas
+United States presidential elections in Arkansas
+1962 United States Senate election in Arkansas
+
+Notes
+1966 United States Senate election in Arkansas
+
+References
+1968 United States Senate election in Arkansas
+1972 United States Senate election in Arkansas
+1974 United States Senate election in Arkansas
+1978 United States Senate election in Arkansas
+1980 United States Senate election in Arkansas
+1984 United States Senate election in Arkansas
+
+1986 United States Senate election in Arkansas
+1990 United States Senate election in Arkansas
+1992 United States Senate election in Arkansas
+1996 United States Senate election in Arkansas
+1998 United States Senate election in Arkansas
+2002 United States Senate election in Arkansas
+2004 United States Senate election in Arkansas
+2008 United States Senate election in Arkansas
+
+The 1964 presidential election in Arkansas was held on November 3, 1964 as part of the 1964 United States presidential election..॥॥.1964 presidential election in Arkansas.॥॥.1964 United States presidential election
+State voters chose six electors, or representatives to the Electoral College, who voted for president and vice president..॥॥.Electoral College
+Incumbent President Lyndon B. Johnson won the state of Arkansas with 56.06% of the popular vote, which was a substantial increase upon John F. Kennedy's 50.19% from the preceding election, although the Republican vote remained virtually unchanged at 43.41%..॥॥.Lyndon B. Johnson.॥॥.Arkansas.॥॥.John F. Kennedy
+Johnson won all but ten of Arkansas' seventy-five counties, and all four congressional districts.
+As of the 2020 presidential election[update], this is the last election in which Arkansas voted for a different candidate than neighboring Louisiana..॥॥.As of the.॥॥.2020 presidential election.॥॥.[.॥॥.update.॥॥.].॥॥.Louisiana
+United States Electoral College
+2010 United States Senate election in Arkansas
+2014 United States Senate election in Arkansas
+2016 United States Senate election in Arkansas
+Arkansas
+1964 United States presidential election
+1964 United States presidential election in Louisiana
+
+2020 United States Senate election in Arkansas
+
+Given the segregationism of its long-serving governor Orval Faubus, who had gained almost seven percent of the vote in the preceding presidential election, Arkansas would have seemed [according to whom?] potentially likely to succumb to Goldwater due to his opposition to the recent Civil Rights Act..॥॥.Orval Faubus.॥॥..॥॥.[.॥॥.according to whom?.॥॥.].॥॥.Civil Rights Act
+However, the GOP's nomination of the moderate Winthrop Rockefeller in the party's first serious run for governor in the state since Reconstruction took the steam out of a Goldwater challenge..॥॥.Winthrop Rockefeller
+Faubus refused to endorse Goldwater, despite hesitating over this during the summer.
+In addition, many white southerners commented to the effect that
+
+Background
+Civil Rights Act of 1964
+Orval Faubus
+Winthrop Rockefeller
+1920 United States House of Representatives elections in Arkansas
+1921 Arkansas's 6th congressional district special election
+
+1922 United States House of Representatives elections in Arkansas
+1923 Arkansas's 6th congressional district special election
+1924 United States House of Representatives elections in Arkansas
+1926 United States House of Representatives elections in Arkansas
+
+In mid-July, Texas Governor John Connally had made private polls suggesting that Johnson would lose Arkansas, as well as the hopeless Deep South states of Mississippi and Alabama..॥॥.Texas Governor.॥॥.John Connally
+Nonetheless, that the increase in black registration in the Natural State had exceeded Kennedy's margin in 1960 suggested that Johnson's civil rights legislation did have some potential to help him, and in early August polls suddenly became confident Johnson would carry the state due to Goldwater's policies of privatizing Social Security and expanding the war in Southeast Asia – a policy that did not play well in this isolationist state.
+By October, a New York Times poll saw Arkansas as "safe" for Johnson and his leads in polls increased as election day came closer..॥॥.New York Times
+The New York Times
+1928 United States House of Representatives elections in Arkansas
+List of governors of Texas
+John Connally
+1930 United States House of Representatives elections in Arkansas
+
+Ultimately, Johnson comfortably carried Arkansas, becoming the twenty-third and last consecutive Democratic presidential nominee to win the state; however, anti-civil rights feeling did cause Arkansas to vote 9.92 percentage points more Republican than the nation at-large – this being the first time in 96 years when it had voted less Democratic than the nation..॥॥.less
+1930 Arkansas's 4th congressional district special election
+
+Johnson doubled Kennedy's margin, and reclaimed the counties of Clay, Craighead, Fulton, Marion, Randolph and Sharp, which in 1960 had defected to the GOP for the first time ever or since Reconstruction as a result of powerful anti-Catholicism..॥॥.Clay.॥॥.Craighead.॥॥.Fulton.॥॥.Marion.॥॥.Randolph.॥॥.Sharp.॥॥.1960
+Johnson also claimed thirteen other Ozark counties which had supported Nixon in 1960.
+1932 United States House of Representatives elections in Arkansas
+Clay County, Arkansas
+Sharp County, Arkansas
+Randolph County, Arkansas
+Marion County, Arkansas
+Fulton County, Arkansas
+Craighead County, Arkansas
+1960 United States presidential election in Arkansas
+1933 Arkansas's 5th congressional district special election
+1934 United States House of Representatives elections in Arkansas
+1936 United States House of Representatives elections in Arkansas
+1938 United States House of Representatives elections in Arkansas
+1939 Arkansas's 4th congressional district special election
+1940 United States House of Representatives elections in Arkansas
+1942 United States House of Representatives elections in Arkansas
+1944 United States House of Representatives elections in Arkansas
+1946 United States House of Representatives elections in Arkansas
+1948 United States House of Representatives elections in Arkansas
+1950 United States House of Representatives elections in Arkansas
+1952 United States House of Representatives elections in Arkansas
+1954 United States House of Representatives elections in Arkansas
+1956 United States House of Representatives elections in Arkansas
+1958 United States House of Representatives elections in Arkansas
+1960 United States House of Representatives elections in Arkansas
+1961 Arkansas's 6th congressional district special election
+1962 United States House of Representatives elections in Arkansas
+1964 United States House of Representatives elections in Arkansas
+1966 United States House of Representatives elections in Arkansas
+1966 Arkansas's 4th congressional district special election
+1968 United States House of Representatives elections in Arkansas
+1970 United States House of Representatives elections in Arkansas
+1972 United States House of Representatives elections in Arkansas
+1974 United States House of Representatives elections in Arkansas
+1976 United States House of Representatives elections in Arkansas
+1978 United States House of Representatives elections in Arkansas
+1980 United States House of Representatives elections in Arkansas
+1982 United States House of Representatives elections in Arkansas
+1984 United States House of Representatives elections in Arkansas
+1986 United States House of Representatives elections in Arkansas
+1988 United States House of Representatives elections in Arkansas
+1990 United States House of Representatives elections in Arkansas
+1992 United States House of Representatives elections in Arkansas
+1994 United States House of Representatives elections in Arkansas
+1996 United States House of Representatives elections in Arkansas
+1998 United States House of Representatives elections in Arkansas
+2000 United States House of Representatives elections in Arkansas
+2001 Arkansas's 3rd congressional district special election
+2002 United States House of Representatives elections in Arkansas
+2004 United States House of Representatives elections in Arkansas
+2006 United States House of Representatives elections in Arkansas
+2008 United States House of Representatives elections in Arkansas
+2010 United States House of Representatives elections in Arkansas
+2012 United States House of Representatives elections in Arkansas
+2014 United States House of Representatives elections in Arkansas
+2016 United States House of Representatives elections in Arkansas
+2018 United States House of Representatives elections in Arkansas
+2020 United States House of Representatives elections in Arkansas
+Politics and government of Arkansas
+1836 Arkansas gubernatorial election
+1840 Arkansas gubernatorial election
+1844 Arkansas gubernatorial election
+1848 Arkansas gubernatorial election
+1849 Arkansas gubernatorial special election
+1852 Arkansas gubernatorial election
+1856 Arkansas gubernatorial election
+1860 Arkansas gubernatorial election
+1862 Arkansas gubernatorial election
+1864 Arkansas gubernatorial Union election
+1868 Arkansas gubernatorial election
+1872 Arkansas gubernatorial election
+1874 Arkansas gubernatorial election
+1876 Arkansas gubernatorial election
+1878 Arkansas gubernatorial election
+1880 Arkansas gubernatorial election
+1882 Arkansas gubernatorial election
+1884 Arkansas gubernatorial election
+1886 Arkansas gubernatorial election
+1888 Arkansas gubernatorial election
+1890 Arkansas gubernatorial election
+1892 Arkansas gubernatorial election
+1894 Arkansas gubernatorial election
+1896 Arkansas gubernatorial election
+1898 Arkansas gubernatorial election
+1900 Arkansas gubernatorial election
+1902 Arkansas gubernatorial election
+1904 Arkansas gubernatorial election
+1906 Arkansas gubernatorial election
+1908 Arkansas gubernatorial election
+1910 Arkansas gubernatorial election
+1912 Arkansas gubernatorial election
+1913 Arkansas gubernatorial special election
+1914 Arkansas gubernatorial election
+1916 Arkansas gubernatorial election
+1918 Arkansas gubernatorial election
+1920 Arkansas gubernatorial election
+1922 Arkansas gubernatorial election
+1924 Arkansas gubernatorial election
+1926 Arkansas gubernatorial election
+1928 Arkansas gubernatorial election
+1930 Arkansas gubernatorial election
+1932 Arkansas gubernatorial election
+1934 Arkansas gubernatorial election
+1936 Arkansas gubernatorial election
+1938 Arkansas gubernatorial election
+1940 Arkansas gubernatorial election
+1942 Arkansas gubernatorial election
+1944 Arkansas gubernatorial election
+1946 Arkansas gubernatorial election
+1948 Arkansas gubernatorial election
+1950 Arkansas gubernatorial election
+1952 Arkansas gubernatorial election
+1954 Arkansas gubernatorial election
+1956 Arkansas gubernatorial election
+1958 Arkansas gubernatorial election
+1960 Arkansas gubernatorial election
+1962 Arkansas gubernatorial election
+1964 Arkansas gubernatorial election
+1966 Arkansas gubernatorial election
+1968 Arkansas gubernatorial election
+1970 Arkansas gubernatorial election
+1972 Arkansas gubernatorial election
+1974 Arkansas gubernatorial election
+1976 Arkansas gubernatorial election
+1978 Arkansas gubernatorial election
+1980 Arkansas gubernatorial election
+1982 Arkansas gubernatorial election
+1984 Arkansas gubernatorial election
+1986 Arkansas gubernatorial election
+1990 Arkansas gubernatorial election
+1994 Arkansas gubernatorial election
+1998 Arkansas gubernatorial election
+2002 Arkansas gubernatorial election
+2006 Arkansas gubernatorial election
+2010 Arkansas gubernatorial election
+2014 Arkansas gubernatorial election
+2018 Arkansas gubernatorial election
+2022 Arkansas gubernatorial election
+2006 Arkansas state elections
+2008 Arkansas elections
+2010 Arkansas elections
+2012 Arkansas elections
+2014 Arkansas elections
+2018 Arkansas elections
+2020 Arkansas elections
+2020 Arkansas Senate election
+Ballot measure
+Arkansas Constitutional Amendment 3 (2004)
+Arkansas Proposed Initiative Act No. 1
+Arkansas Amendment 91
+Arkansas Issue 5
+Little Rock, Arkansas
+List of mayors of Little Rock, Arkansas
+1994 Little Rock mayoral election
+1998 Little Rock mayoral election
+2002 Little Rock mayoral election
+2006 Little Rock mayoral election
+2010 Little Rock mayoral election
+2014 Little Rock mayoral election
+2018 Little Rock mayoral election
+
+However, in the Delta and south of the state sufficient backlash against black civil rights occurred for Goldwater to claim six counties in those regions from the Democrats.
+Of these, only state namesake Arkansas County had ever been carried by a Republican since the McKinley era.[lower-alpha 1] Ashley County and Drew County voted Republican for the first time since James G. Blaine in 1884, Union County for the first time since Reconstruction, while Goldwater was the first Republican to ever carry Columbia and Howard Counties..॥॥.Arkansas County.॥॥.McKinley.॥॥.[lower-alpha 1].॥॥.Ashley County.॥॥.Drew County.॥॥.James G. Blaine.॥॥.1884.॥॥.Union County.॥॥.Columbia.॥॥.Howard Counties
+William McKinley
+Union County, Arkansas
+Howard County, Arkansas
+Drew County, Arkansas
+Columbia County, Arkansas
+Ashley County, Arkansas
+Arkansas County, Arkansas
+1884 United States presidential election in Arkansas
+
+Results
+
+1964 United States presidential election in Arkansas
+Party
+Candidate
+Votes
+Percentage
+Electoral votes
+Democratic
+Lyndon Johnson
+314,197
+56.06%
+6
+Republican
+Barry Goldwater
+243,264
+43.41%
+0
+National States' Rights
+John Kasper
+2,965
+0.53%
+0
+Totals
+560,426
+100.00%
+6
+Voter turnout (Voting age/Registered Voters)
+50.6%/78.3%
+Democratic Party (United States)
+Lyndon Johnson
+Republican Party (United States)
+Barry Goldwater
+National States' Rights Party
+John Kasper
+
+Results by county
+
+"Fuckin' Perfect" (stylized "Perfect" on the clean version, and as F**kin' Perfect on the main cover) is a song by American singer Pink from her first greatest hits album Greatest Hits..॥॥.Fuckin' Perfect.॥॥.Perfect.॥॥.F**kin' Perfect.॥॥.Pink.॥॥.greatest hits album.॥॥.Greatest Hits.
+.
+.
+So Far!!!
+(2010).
+It was released on December 14, 2010, by Jive Records as the album's second single..॥॥.Jive Records.॥॥.single
+Written by Pink with Max Martin and Shellback, the track is a power ballad that encourages people to accept each other for their true identities..॥॥.Max Martin.॥॥.Shellback.॥॥.power ballad
+Single (music)
+Pink (singer)
+Jive Records
+Greatest hits album
+Max Martin
+Shellback (record producer)
+Greatest Hits... So Far!!! (Pink album)
+Greatest Hits... So Far!!! (Pink album)
+Greatest Hits... So Far!!! (Pink album)
+Greatest Hits... So Far!!! (Pink album)
+Power Ballad
+
+Pink has stated that the main inspiration behind the track is her husband, Carey Hart..॥॥.Carey Hart
+Its music video, directed by longtime collaborator Dave Meyers, delivers a message against depression, self-harm, and suicide..॥॥.Dave Meyers.॥॥.depression.॥॥.self-harm.॥॥.suicide
+In November 2011, the song garnered a Grammy Award nomination for Best Pop Solo Performance..॥॥.Grammy Award.॥॥.Best Pop Solo Performance
+"Fuckin' Perfect" peaked at number two on the Billboard Hot 100, becoming Pink's eleventh top-ten single in the United States..॥॥.Billboard.॥॥.Hot 100
+The song also peaked at number two in Canada, Hungary, New Zealand, and Poland.
+Grammy Award
+Self-harm
+Billboard Hot 100
+Billboard Hot 100
+Depression (mood)
+Carey Hart
+Suicide
+Best Pop Solo Performance
+Dave Meyers (director)
+
+In 2011, "Fuckin' Perfect" was ranked at number fourteen on the "Top 40 Year-End Chart," behind her previous single "Raise Your Glass," based on Mediabase..॥॥.Raise Your Glass.॥॥.Mediabase
+Mediabase
+Raise Your Glass
+
+"Fuckin' Perfect" was written by Pink, Max Martin and Shellback and produced by Martin and Shellback..॥॥.Max Martin.॥॥.Shellback
+The Swedish pair has collaborated with Pink on several of her previous hits including "So What", "Please Don't Leave Me", and "Raise Your Glass"..॥॥.Swedish.॥॥.So What.॥॥.Please Don't Leave Me.॥॥.Raise Your Glass
+It is a pop ballad, featuring guitar, crashing cymbals, simple synth drum beats and a reverberating string section..॥॥.pop.॥॥.ballad
+Max Martin
+Shellback (record producer)
+Raise Your Glass
+Ballad
+Pop music
+Swedish American
+Please Don't Leave Me
+So What (Pink song)
+
+The clean version recorded for radio is titled "Perfect".
+
+The song is written in the key of G major in common time with a tempo of 92 beats per minute..॥॥.G major.॥॥.beats per minute
+The song follows the I–V–vi–IV progression (G–D–Em–C), and Pink's vocal range spanning from G3 to D5..॥॥.I–V–vi–IV progression.॥॥.3.॥॥.5
+Beats per minute
+G major
+I–V–vi–IV progression
+
+Critical reception
+
+The song received critical acclaim from music critics..॥॥.music critics
+Bill Lamb of About.com gave the song 4.5 out of 5 stars, praising the "Serious but uplifting lyrics", commenting: "It has just enough edginess to move Pink away from bland middle of the road territory..॥॥.About.com
+Finally, the melody and arrangement make the song instantly memorable and familiar."
+Music critics
+
+Music video
+
+The novel chronicles the French invasion of Russia and the impact of the Napoleonic era on Tsarist society through the stories of five Russian aristocratic families..॥॥.French invasion of Russia.॥॥.Napoleonic era.॥॥.Tsarist.॥॥.aristocratic
+Portions of an earlier version, titled The Year 1805, were serialized in The Russian Messenger from 1865 to 1867 before the novel was published in its entirety in 1869..॥॥.The Year 1805.॥॥.The Russian Messenger
+ISBN (identifier)
+Napoleonic era
+Richard Pevear and Larissa Volokhonsky
+Richard Pevear and Larissa Volokhonsky
+The Russian Messenger
+Aristocracy (class)
+Tsarist
+French invasion of Russia
+Special:BookSources/978-1-4000-7998-8
+
+Tolstoy said War and Peace is "not a novel, even less is it a poem, and still less a historical chronicle.".॥॥.War and Peace
+Large sections, especially the later chapters, are philosophical discussions rather than narrative.
+According to historical information, the writer rewrote the novel several times.
+Tolstoy also said that the best Russian literature does not conform to standards and hence hesitated to call War and Peace a novel..॥॥.Russian literature.॥॥.War and Peace
+Instead, he regarded Anna Karenina as his first true novel..॥॥.Anna Karenina
+ISBN (identifier)
+Russian literature
+Anna Karenina
+Special:BookSources/978-1-85326-062-9
+
+The first draft of the novel was completed in 1863.
+In 1865, the periodical Russkiy Vestnik (The Russian Messenger) published the first part of this draft under the title 1805 and published more the following year..॥॥.Russkiy Vestnik.॥॥.The Russian Messenger.॥॥.1805
+Tolstoy was dissatisfied with this version, although he allowed several parts of it to be published with a different ending in 1867.
+He heavily rewrote the entire novel between 1866 and 1869.
+Tolstoy's wife, Sophia Tolstaya, copied as many as seven separate complete manuscripts before Tolstoy considered it ready for publication..॥॥.Sophia Tolstaya
+The version that was published in Russkiy Vestnik had a very different ending from the version eventually published under the title War and Peace in 1869..॥॥.Russkiy Vestnik.॥॥.War and Peace
+Russians who had read the serialized version were eager to buy the complete novel, and it sold out almost immediately.
+The novel was immediately translated after publication into many other languages. [citation needed].॥॥..॥॥.[.॥॥.citation needed.॥॥.]
+ISBN (identifier)
+Sophia Tolstaya
+Special:BookSources/978-0-8014-7447-7
+
+It is unknown why Tolstoy changed the name to War and Peace..॥॥.War and Peace
+He may have borrowed the title from the 1861 work of Pierre-Joseph Proudhon: La Guerre et la Paix ("War and Peace" in French)..॥॥.Pierre-Joseph Proudhon.॥॥.La Guerre et la Paix.॥॥.French
+The title may also be another reference to Titus, described as being a master of "war and peace" in The Twelve Caesars, written by Suetonius in 119..॥॥.Titus.॥॥.The Twelve Caesars.॥॥.Suetonius
+The completed novel was then called Voyna i mir (Война и мир in new-style orthography; in English War and Peace). [citation needed].॥॥.Voyna i mir.॥॥.Война и мир.॥॥.War and Peace.॥॥..॥॥.[.॥॥.citation needed.॥॥.]
+Richard Pevear and Larissa Volokhonsky
+Richard Pevear and Larissa Volokhonsky
+ISBN (identifier)
+Special:BookSources/978-1-4000-7998-8
+French language
+Suetonius
+Titus
+The Twelve Caesars
+Pierre-Joseph Proudhon
+
+The 1805 manuscript was re-edited and annotated in Russia in 1893 and has been since translated into English, German, French, Spanish, Dutch, Swedish, Finnish, Albanian, Korean, and Czech..॥॥.1805.॥॥.English.॥॥.German.॥॥.French.॥॥.Spanish.॥॥.Dutch.॥॥.Swedish.॥॥.Finnish.॥॥.Albanian.॥॥.Korean.॥॥.Czech
+French language
+Czech language
+German language
+Korean language
+Swedish language
+Spanish language
+English language
+Albanian language
+Finnish language
+Dutch language
+
+The standard Russian text of War and Peace is divided into four books (comprising fifteen parts) and an epilogue in two parts..॥॥.War and Peace.॥॥.epilogue
+Roughly the first half is concerned strictly with the fictional characters, whereas the latter parts, as well as the second part of the epilogue, increasingly consist of essays about the nature of war, power, history, and historiography..॥॥.essays.॥॥.history.॥॥.historiography
+Tolstoy interspersed these essays into the story in a way that defies previous fictional convention.
+Certain abridged versions remove these essays entirely, while others, published even during Tolstoy's life, simply moved these essays into an appendix..॥॥.appendix
+Essay
+Historiography
+Epilogue
+Addendum
+History
+
+Realism
+
+The novel is set 60 years before Tolstoy's day, but he had spoken with people who lived through the 1812 French invasion of Russia..॥॥.French invasion of Russia
+He read all the standard histories available in Russian and French about the Napoleonic Wars and had read letters, journals, autobiographies and biographies of Napoleon and other key players of that era..॥॥.Napoleonic Wars
+There are approximately 160 real persons named or referred to in War and Peace..॥॥.War and Peace
+French invasion of Russia
+Napoleonic Wars
+
+He worked from primary source materials (interviews and other documents), as well as from history books, philosophy texts and other historical novels.
+Tolstoy also used a great deal of his own experience in the Crimean War to bring vivid detail and first-hand accounts of how the Imperial Russian Army was structured..॥॥.Crimean War.॥॥.Imperial Russian Army
+ISBN (identifier)
+Special:BookSources/978-0-8014-7447-7
+Crimean War
+Imperial Russian Army
+
+The Bezukhovs
+Count Kirill Vladimirovich Bezukhov: the father of Pierre
+Count Pyotr Kirillovich ("Pierre") Bezukhov: The central character and often a voice for Tolstoy's own beliefs or struggles..॥॥.Count Pyotr Kirillovich ("Pierre") Bezukhov
+Pierre is the socially awkward illegitimate son of Count Kirill Vladimirovich Bezukhov, who has fathered dozens of illegitimate sons.
+Educated abroad, Pierre returns to Russia as a misfit.
+His unexpected inheritance of a large fortune makes him socially desirable.
+The Bolkonskys
+Prince Nikolai Andreich Bolkonsky: The father of Andrei and Maria, the eccentric prince possesses a gruff exterior and displays great insensitivity to the emotional needs of his children.
+Nevertheless, his harshness often belies hidden depth of feeling.
+Prince Andrei Nikolayevich Bolkonsky: A strong but skeptical, thoughtful and philosophical aide-de-camp in the Napoleonic Wars..॥॥.Prince Andrei Nikolayevich Bolkonsky.॥॥.aide-de-camp.॥॥.Napoleonic Wars
+Princess Maria Nikolayevna Bolkonskaya: Sister of Prince Andrei, Princess Maria is a pious woman whose father attempted to give her a good education..॥॥.Maria Nikolayevna Bolkonskaya
+The caring, nurturing nature of her large eyes in her otherwise plain face is frequently mentioned.
+Tolstoy often notes that Princess Maria cannot claim a radiant beauty (like many other female characters of the novel) but she is a person of very high moral values and of high intelligence.
+The Rostovs
+Count Ilya Andreyevich Rostov: The pater-familias of the Rostov family; hopeless with finances, generous to a fault..॥॥.pater-familias
+As a result, the Rostovs never have enough cash, despite having many estates.
+Countess Natalya Rostova: The wife of Count Ilya Rostov, she is frustrated by her husband's mishandling of their finances, but is determined that her children succeed anyway
+Countess Natalya Ilyinichna "Natasha" Rostova: A central character, introduced as "not pretty but full of life", romantic, impulsive and highly strung..॥॥.Countess Natalya Ilyinichna "Natasha" Rostova
+She is an accomplished singer and dancer.
+Count Nikolai Ilyich "Nikolenka" Rostov: A hussar, the beloved eldest son of the Rostov family..॥॥.Count Nikolai Ilyich "Nikolenka" Rostov.॥॥.hussar
+Sofia Alexandrovna "Sonya" Rostova: Orphaned cousin of Vera, Nikolai, Natasha, and Petya Rostov and is in love with Nikolai..॥॥.Sofia Alexandrovna "Sonya" Rostova
+Countess Vera Ilyinichna Rostova: Eldest of the Rostov children, she marries the German career soldier, Berg.
+Pyotr Ilyich "Petya" Rostov: Youngest of the Rostov children..॥॥.Pyotr Ilyich "Petya" Rostov
+The Kuragins
+Prince Vasily Sergeyevich Kuragin: A ruthless man who is determined to marry his children into wealth at any cost.
+Princess Elena Vasilyevna "Hélène" Kuragina: A beautiful and sexually alluring woman who has many affairs, including (it is rumoured) with her brother Anatole..॥॥.Princess Elena Vasilyevna "Hélène" Kuragina
+Prince Anatole Vasilyevich Kuragin:  Hélène's brother, a handsome and amoral pleasure seeker who is secretly married yet tries to elope with Natasha Rostova..॥॥.Prince Anatole Vasilyevich Kuragin
+Prince Ippolit Vasilyevich (Hippolyte) Kuragin: The younger brother of Anatole and perhaps most dim-witted of the three Kuragin children.
+The Drubetskoys
+Prince Boris Drubetskoy: A poor but aristocratic young man driven by ambition, even at the expense of his friends and benefactors, who marries Julie Karagina for money and is rumored to have had an affair with Hélène Bezukhova.
+Princess Anna Mihalovna Drubetskaya: The impoverished mother of Boris, whom she wishes to push up the career ladder.
+Other prominent characters
+Fyodor Ivanovich Dolokhov: A cold, almost psychopathic officer, he ruins Nikolai Rostov by luring him into an outrageous gambling debt after unsuccessfully proposing to Sonya Rostova.
+He is also rumored to have had an affair with Hélène Bezukhova and he provides for his poor mother and hunchbacked sister.
+Adolf Karlovich Berg: A young Russian officer, who desires to be just like everyone else and marries the young Vera Rostova.
+Anna Pavlovna Scherer: Also known as Annette, she is the hostess of the salon that is the site of much of the novel's action in Petersburg and schemes with Prince Vasily Kuragin..॥॥.salon
+Maria Dmitryevna Akhrosimova: An older Moscow society lady, good-humored but brutally honest.
+Amalia Evgenyevna Bourienne: A Frenchwoman who lives with the Bolkonskys, primarily as Princess Maria's companion and later at Maria's expense.
+Vasily Dmitrich Denisov: Nikolai Rostov's friend and brother officer, who unsuccessfully proposes to Natasha.
+Platon Karataev: The archetypal good Russian peasant, whom Pierre meets in the prisoner-of-war camp.
+Osip Bazdeyev: a Freemason who convinces Pierre to join his mysterious group..॥॥.Freemason
+Bilibin: A diplomat with a reputation for cleverness, an acquaintance of Prince Andrei Bolkonsky..॥॥.diplomat
+Napoleonic Wars
+Aide-de-camp
+Andrei Nikolayevich Bolkonsky
+Maria Bolkonskaya
+Pater-familias
+Hussar
+Anatole Kuragin
+Salon (gathering)
+Freemasonry in Russia
+Diplomat
+
+In addition, several real-life historical characters (such as Napoleon and Prince Mikhail Kutuzov) play a prominent part in the book..॥॥.Napoleon.॥॥.Mikhail Kutuzov
+Many of Tolstoy's characters were based on real people.
+His grandparents and their friends were the models for many of the main characters; his great-grandparents would have been of the generation of Prince Vassily or Count Ilya Rostov.
+Napoleon
+Mikhail Kutuzov
+
+Plot summary
+
+Graphs of y = bx for various bases b:.॥॥.y.॥॥.=.॥॥.b.॥॥.x.॥॥.b
+
+Addition (+).॥॥.Addition
+Subtraction (−).॥॥.Subtraction
+Multiplication (×).॥॥.Multiplication
+Division (÷).॥॥.Division
+Exponentiation
+nth root (√).॥॥.n.॥॥.th root
+Logarithm (log).॥॥.Logarithm
+Addition
+Subtraction
+Multiplication
+Product (mathematics)
+Division (mathematics)
+Quotient
+Exponentiation
+Logarithm
+
+Exponentiation is a mathematical operation, written as bn, involving two numbers, the base b and the exponent or power n, and pronounced as "b raised to the power of n"..॥॥.Exponentiation.॥॥.mathematical.॥॥.operation.॥॥.b.॥॥.n.॥॥.base.॥॥.b.॥॥.exponent.॥॥.power.॥॥.n.॥॥.b.॥॥.n
+When n is a positive integer, exponentiation corresponds to repeated multiplication of the base: that is, bn is the product of multiplying n bases:.॥॥.n.॥॥.integer.॥॥.multiplication.॥॥.b.॥॥.n.॥॥.product.॥॥.n
+Multiplication
+Product (mathematics)
+Integer
+Mathematics
+Operation (mathematics)
+Base (exponentiation)
+
+The exponent is usually shown as a superscript to the right of the base..॥॥.is usually shown.॥॥.superscript
+In that case, bn is called "b raised to the nth power", "b raised to the power of n", "the nth power of b", "b to the nth power", or most briefly as "b to the nth"..॥॥.b.॥॥.n.॥॥.b.॥॥.n.॥॥.b.॥॥.n.॥॥.n.॥॥.b.॥॥.b.॥॥.n.॥॥.b.॥॥.n
+
+Superscript
+
+One has b1 = b, and, for any positive integers m and n, one has bn ⋅ bm = bn+m..॥॥.b.॥॥.1.॥॥.=.॥॥.b.॥॥.m.॥॥.n.॥॥.b.॥॥.n.॥॥.⋅.॥॥.b.॥॥.m.॥॥.=.॥॥.b.॥॥.n.॥॥.+.॥॥.m
+To extend this property to non-positive integer exponents, b0 is defined to be 1, and b−n (with n a positive integer and b not zero) is defined as 1/bn..॥॥.b.॥॥.0.॥॥.1.॥॥.b.॥॥.−.॥॥.n.॥॥.n.॥॥.b.॥॥.1.॥॥./.॥॥.b.॥॥.n
+In particular, b−1 is equal to 1/b, the reciprocal of b..॥॥.b.॥॥.−1.॥॥.1.॥॥./.॥॥.b.॥॥.reciprocal.॥॥.b
+Multiplicative inverse
+
+The definition of exponentiation can be extended to allow any real or complex exponent..॥॥.complex
+Exponentiation by integer exponents can also be defined for a wide variety of algebraic structures, including matrices..॥॥.matrices
+Complex numbers
+Matrix (mathematics)
+
+Exponentiation is used extensively in many fields, including economics, biology, chemistry, physics, and computer science, with applications such as compound interest, population growth, chemical reaction kinetics, wave behavior, and public-key cryptography..॥॥.economics.॥॥.biology.॥॥.chemistry.॥॥.physics.॥॥.computer science.॥॥.compound interest.॥॥.population growth.॥॥.chemical reaction kinetics.॥॥.wave.॥॥.public-key cryptography
+Chemistry
+Computer science
+Economics
+Physics
+Public-key cryptography
+Wave
+Chemical reaction kinetics
+Compound interest
+Population growth
+Biology
+
+The term power (Latin: potentia, potestas, dignitas) is a mistranslation of the ancient Greek δύναμις (dúnamis, here: "amplification") used by the Greek mathematician Euclid for the square of a line, following Hippocrates of Chios..॥॥.power.॥॥.Latin.॥॥.:.॥॥.potentia, potestas, dignitas.॥॥.ancient Greek.॥॥.dúnamis.॥॥.Greek.॥॥.Euclid.॥॥.Hippocrates of Chios
+In The Sand Reckoner, Archimedes discovered and proved the law of exponents, 10a ⋅ 10b = 10a+b, necessary to manipulate powers of 10. [citation needed] In the 9th century, the Persian mathematician Muhammad ibn Mūsā al-Khwārizmī used the terms مَال (māl, "possessions", "property") for a square—the Muslims, "like most mathematicians of those and earlier times, thought of a squared number as a depiction of an area, especially of land, hence property"—and كَعْبَة (kaʿbah, "cube") for a cube, which later Islamic mathematicians represented in mathematical notation as the letters mīm (m) and kāf (k), respectively, by the 15th century, as seen in the work of Abū al-Hasan ibn Alī al-Qalasādī..॥॥.The Sand Reckoner.॥॥.Archimedes.॥॥.10.॥॥.a.॥॥.⋅ 10.॥॥.b.॥॥.= 10.॥॥.a.॥॥.+.॥॥.b.॥॥.10.॥॥..॥॥.[.॥॥.citation needed.॥॥.].॥॥.Muhammad ibn Mūsā al-Khwārizmī.॥॥.māl.॥॥.square.॥॥.kaʿbah.॥॥.cube.॥॥.Islamic.॥॥.mathematical notation.॥॥.mīm.॥॥.kāf.॥॥.Abū al-Hasan ibn Alī al-Qalasādī
+ISBN (identifier)
+ISBN (identifier)
+Archimedes
+Euclid
+Ancient Greek
+University of St Andrews
+University of St Andrews
+American Mathematical Society
+The Sand Reckoner
+Mathematical notation
+W. W. Rouse Ball
+Cube (algebra)
+Muhammad ibn Mūsā al-Khwārizmī
+Square (algebra)
+Macmillan Publishers
+MacTutor History of Mathematics archive
+MacTutor History of Mathematics archive
+John J. O'Connor (mathematician)
+John J. O'Connor (mathematician)
+Greek mathematics
+Kāf
+Mīm
+Michael Quinion
+Mathematics in medieval Islam
+Hippocrates of Chios
+Abū al-Hasan ibn Alī al-Qalasādī
+Graduate Studies in Mathematics
+Edmund F. Robertson
+Edmund F. Robertson
+Kaaba
+D. Reidel
+Joseph J. Rotman
+Special:BookSources/978-1-4704-1554-9
+Special:BookSources/90-277-0819-3
+
+In the late 16th century, Jost Bürgi used Roman numerals for exponents..॥॥.Jost Bürgi
+Florian Cajori
+Open Court Publishing Company
+Jost Bürgi
+
+Nicolas Chuquet used a form of exponential notation in the 15th century, which was later used by Henricus Grammateus and Michael Stifel in the 16th century..॥॥.Nicolas Chuquet.॥॥.Henricus Grammateus.॥॥.Michael Stifel
+The word exponent was coined in 1544 by Michael Stifel..॥॥.exponent
+Samuel Jeake introduced the term indices in 1696..॥॥.Samuel Jeake.॥॥.indices
+In the 16th century, Robert Recorde used the terms square, cube, zenzizenzic (fourth power), sursolid (fifth), zenzicube (sixth), second sursolid (seventh), and zenzizenzizenzic (eighth)..॥॥.Robert Recorde.॥॥.fourth power.॥॥.zenzizenzizenzic
+Biquadrate has been used to refer to the fourth power as well..॥॥.Biquadrate
+John J. O'Connor (mathematician)
+Edmund F. Robertson
+MacTutor History of Mathematics archive
+University of St Andrews
+Michael Quinion
+Nicolas Chuquet
+Robert Recorde
+Zenzizenzizenzic
+Fourth power
+Johannes Petreius
+Henricus Grammateus
+Samuel Jeake
+Michael Stifel
+Michael Stifel
+
+Early in the 17th century, the first form of our modern exponential notation was introduced by René Descartes in his text titled La Géométrie; there, the notation is introduced in Book I..॥॥.René Descartes.॥॥.La Géométrie
+René Descartes
+René Descartes
+La Géométrie
+La Géométrie
+
+Some mathematicians (such as Isaac Newton) used exponents only for powers greater than two, preferring to represent squares as repeated multiplication..॥॥.Isaac Newton
+Thus they would write polynomials, for example, as ax + bxx + cx3 + d..॥॥.polynomials.॥॥.ax.॥॥.+.॥॥.bxx.॥॥.+.॥॥.cx.॥॥.3.॥॥.+.॥॥.d
+Isaac Newton
+Polynomial
+
+Another historical synonym, [clarification needed] involution, is now rare and should not be confused with its more common meaning..॥॥..॥॥.[.॥॥.clarification needed.॥॥.].॥॥.involution.॥॥.its more common meaning
+Oxford English Dictionary
+Involution (mathematics)
+
+When it is a positive integer, the exponent indicates how many copies of the base are multiplied together..॥॥.positive integer
+For example, 35 = 3 ⋅ 3 ⋅ 3 ⋅ 3 ⋅ 3 = 243..॥॥.3.॥॥.5.॥॥.= 3 ⋅ 3 ⋅ 3 ⋅ 3 ⋅ 3 = 243
+The base 3 appears 5 times in the multiplication, because the exponent is 5..॥॥.3.॥॥.5.॥॥.5
+Here, 243 is the 5th power of 3, or 3 raised to the 5th power..॥॥.243.॥॥.5th power of 3.॥॥.3 raised to the 5th power
+Positive integer
+
+The word "raised" is usually omitted, and sometimes "power" as well, so 35 can be simply read "3 to the 5th", or "3 to the 5"..॥॥.3.॥॥.5
+Therefore, the exponentiation bn can be expressed as "b to the power of n", "b to the nth power", "b to the nth", or most briefly as "b to the n"..॥॥.b.॥॥.n.॥॥.b.॥॥.n.॥॥.b.॥॥.n.॥॥.b.॥॥.n.॥॥.b.॥॥.n
+
+A formula with nested exponentiation, such as 357 (which means 3(57) and not (35)7), is called a tower of powers, or simply a tower..॥॥.3.॥॥.5.॥॥.7.॥॥.3.॥॥.(5.॥॥.7.॥॥.).॥॥.(3.॥॥.5.॥॥.).॥॥.7.॥॥.tower of powers.॥॥.tower
+
+Feudal divisions and conflicts, and other obstacles to the exchange of goods and ideas that ancient Russian principalities before and especially during Mongol rule, strengthened dialectical differences and for a while prevented the emergence of the standardized national language.
+The formation of the unified and centralized Russian state in 15th and 16th centuries and the gradual (re)emergence of a common political, economic, and cultural space have created the need for a common standard language.
+The initial impulse for the standardization came from the government bureaucracy for the lack of a reliable tool of communication in administrative, legal, and judicial affairs became an obvious practical problem.
+The earliest attempts at standardizing Russian were made based on the so-called Moscow official or chancery language, during the 15th to 17th centuries.
+Since then the trend of language policy in Russia has been standardization in both the restricted sense of reducing dialectical barriers between ethnic Russians, and the broader sense of expanding the use of Russian alongside or in favour of other languages.
+ISBN (identifier)
+Doi (identifier)
+Special:BookSources/978-1-349-67307-0
+
+The current standard form of Russian is generally regarded as the modern Russian literary language (современный русский литературный язык – "sovremenny russky literaturny yazyk")..॥॥.modern Russian literary language.॥॥.современный русский литературный язык
+It arose in the beginning of the 18th century with the modernization reforms of the Russian state under the rule of Peter the Great, and developed from the Moscow (Middle or Central Russian) dialect substratum under the influence of some of the previous century's Russian chancery language..॥॥.Peter the Great.॥॥.Middle or Central Russian
+Peter the Great
+Central Russian dialects
+
+Mikhail Lomonosov first compiled a normalizing grammar book in 1755; in 1783 the Russian Academy's first explanatory Russian dictionary appeared..॥॥.Mikhail Lomonosov.॥॥.Russian Academy
+During the end of the 18th and 19th centuries, a period known as the "Golden Age", the grammar, vocabulary, and pronunciation of the Russian language was stabilized and standardized, and it became the nationwide literary language; meanwhile, Russia's world-famous literature flourished.
+Mikhail Lomonosov
+Russian Academy
+
+Until the 20th century, the language's spoken form was the language of only the upper noble classes and urban population, as Russian peasants from the countryside continued to speak in their own dialects.
+By the mid-20th century, such dialects were forced out with the introduction of the compulsory education system that was established by the Soviet government..॥॥.Soviet government
+Despite the formalization of Standard Russian, some nonstandard dialectal features (such as fricative [ɣ] in Southern Russian dialects) are still observed in colloquial speech..॥॥.[ɣ].॥॥.Southern Russian dialects
+Southern Russian dialects
+Soviet government
+
+Mandarin is by far the largest of the seven or ten Chinese dialect groups, spoken by 70 percent of all Chinese speakers over a large geographical area, stretching from Yunnan in the southwest to Xinjiang in the northwest and Heilongjiang in the northeast..॥॥.Yunnan.॥॥.Xinjiang.॥॥.Heilongjiang
+This is generally attributed to the greater ease of travel and communication in the North China Plain compared to the more mountainous south, combined with the relatively recent spread of Mandarin to frontier areas..॥॥.North China Plain
+North China Plain
+Yunnan
+Heilongjiang
+Xinjiang
+
+Most Mandarin varieties have four tones..॥॥.tones
+The final stops of Middle Chinese have disappeared in most of these varieties, but some have merged them as a final glottal stop..॥॥.Middle Chinese.॥॥.glottal stop
+Many Mandarin varieties, including the Beijing dialect, retain retroflex initial consonants, which have been lost in southern varieties of Chinese..॥॥.retroflex
+Tone (linguistics)
+Glottal stop
+Middle Chinese
+Retroflex
+
+The Chinese capital has been within the Mandarin-speaking area for most of the last millennium, making these dialects very influential..॥॥.Chinese capital
+Some form of Mandarin has served as a lingua franca for government officials and the courts since the 14th century.[3] By the early 20th century, a standard form based on the Beijing dialect, with elements from other Mandarin dialects, was adopted as the national language..॥॥.lingua franca.॥॥.[3].॥॥.national language
+Standard Mandarin Chinese is the official language of the People's Republic of China and Taiwan, as well as one of the four official languages of Singapore..॥॥.official language.॥॥.People's Republic of China.॥॥.Taiwan.॥॥.languages of Singapore
+It is also used as one of the working languages of the United Nations..॥॥.United Nations
+Recent increased migration from Mandarin-speaking regions of China and Taiwan has now resulted in the language being one of the more frequently used varieties of Chinese among Chinese diaspora communities..॥॥.Chinese diaspora
+It is also the most commonly taught Chinese variety..॥॥.taught Chinese variety
+
+The English word "mandarin" (from Portuguese mandarim, from Malay menteri, from Sanskrit mantrī, mantrin, meaning 'minister or counsellor') originally meant an official of the Ming and Qing empires.[lower-alpha 1]
+Since their native varieties were often mutually unintelligible, these officials communicated using a Koiné language based on various northern varieties..॥॥.Portuguese.॥॥.mandarim.॥॥.Malay.॥॥.menteri.॥॥.Sanskrit.॥॥.mantrī.॥॥.mantrin.॥॥.official.॥॥.Ming.॥॥.Qing.॥॥.[lower-alpha 1].॥॥.Koiné language
+When Jesuit missionaries learned this standard language in the 16th century, they called it "Mandarin", from its Chinese name Guānhuà (官话/官話) or 'language of the officials'.[10].॥॥.Jesuit.॥॥.Guānhuà.॥॥.官话/官話.॥॥.[10]
+ISBN (identifier)
+Jesuit
+Portuguese language
+Qing dynasty
+Sanskrit
+Ming dynasty
+Malay language
+Mandarin (bureaucrat)
+Koiné language
+Special:BookSources/978-0-19-920687-2
+
+In everyday English, "Mandarin" refers to Standard Chinese, which is often (but erroneously) called simply "Chinese"..॥॥.Standard Chinese
+Standard Mandarin Chinese is based on the particular dialect spoken in Beijing, with some lexical and syntactic influence from other Mandarin dialects..॥॥.particular dialect.॥॥.Beijing
+It is the official spoken language of the People's Republic of China (PRC) and Taiwan (Republic of China, ROC), as well as one of the four official languages of Singapore..॥॥.People's Republic of China.॥॥.Taiwan.॥॥.Singapore
+It also functions as the language of instruction in Mainland China and Taiwan.
+It is one of the six official languages of the United Nations, under the name "Chinese"..॥॥.six official.॥॥.United Nations
+Chinese speakers refer to the modern standard language as
+China
+Standard Chinese
+Taiwan
+Singapore
+United Nations
+Beijing dialect
+Beijing
+Official languages of the United Nations
+
+Pǔtōnghuà (普通话/普通話, literally 'common speech') in Mainland China,.॥॥.Pǔtōnghuà.॥॥.普通话/普通話
+Guóyǔ (国语/國語, literally 'national language') in Taiwan or.॥॥.Guóyǔ.॥॥.国语/國語
+Huáyǔ (华语/華語, literally 'Hua (Chinese) language') in Malaysia and Singapore,.॥॥.Huáyǔ.॥॥.华语/華語.॥॥.Hua
+
+but not as Guānhuà.[3].॥॥.Guānhuà.॥॥.[3]
+
+The variant of Mandarin as spoken by educated classes in Beijing was made the official language of China by the Qing dynasty in the early 1900s and the successive Republican government..॥॥.Beijing.॥॥.Qing dynasty
+In the early years of the Republic of China, intellectuals of the New Culture Movement, such as Hu Shih and Chen Duxiu, successfully campaigned for the replacement of Literary Chinese as the written standard by written vernacular Chinese, which was based on northern dialects..॥॥.Republic of China.॥॥.New Culture Movement.॥॥.Hu Shih.॥॥.Chen Duxiu.॥॥.Literary Chinese.॥॥.written vernacular Chinese
+A parallel priority was the definition of a standard national language (traditional Chinese: 國語; simplified Chinese: 国语; pinyin: Guóyǔ; Wade–Giles: Kuo²-yü³)..॥॥.traditional Chinese.॥॥.:.॥॥..॥॥.國語.॥॥.;.॥॥.simplified Chinese.॥॥.:.॥॥..॥॥.国语.॥॥.;.॥॥.pinyin.॥॥.:.॥॥..॥॥.Guóyǔ.॥॥.;.॥॥.Wade–Giles.॥॥.:.॥॥..॥॥.Kuo²-yü³
+After much dispute between proponents of northern and southern dialects and an abortive attempt at an artificial pronunciation, the National Language Unification Commission finally settled on the Beijing dialect in 1932..॥॥.an artificial pronunciation.॥॥.National Language Unification Commission
+The People's Republic, founded in 1949, retained this standard, calling it pǔtōnghuà (simplified Chinese: 普通话; traditional Chinese: 普通話; lit. 'common speech').[26] Some 54% of speakers of Mandarin varieties could understand the standard language in the early 1950s, rising to 91% in 1984..॥॥.pǔtōnghuà.॥॥.simplified Chinese.॥॥.:.॥॥..॥॥.普通话.॥॥.;.॥॥.traditional Chinese.॥॥.:.॥॥..॥॥.普通話.॥॥.;.॥॥.lit..॥॥.'common speech'.॥॥.[26]
+Nationally, the proportion understanding the standard rose from 41% to 90% over the same period.[27].॥॥.[27]
+Qing dynasty
+Hu Shih
+Chen Duxiu
+Literary Chinese
+Written vernacular Chinese
+National Languages Committee
+New Culture Movement
+Literal translation
+Beijing
+Republic of China (1912–1949)
+Old National Pronunciation
+
+This standard language is now used in education, the media, and formal occasions in both Mainland China and Taiwan, as well as among the Chinese community of Singapore..॥॥.Mainland China.॥॥.Taiwan.॥॥.Chinese community of Singapore
+However in other parts of the Chinese-speaking world, namely Hong Kong and Macau, the standard form of Chinese used in education, the media, formal speech, and everyday life remains the local Cantonese because of their colonial and linguistic history..॥॥.Chinese-speaking world.॥॥.Hong Kong.॥॥.Macau.॥॥.Cantonese
+While Standard Mandarin is now the medium of instruction in schools throughout China, it still has yet to gain traction as a common language among the local population in areas where Mandarin dialects are not native.[28] In these regions,  people may be either diglossic or speak the standard language with a notable accent..॥॥.[28].॥॥.diglossic
+However since the 21st century, there has been an effort of mass education in Standard Mandarin Chinese and discouragement of local language usage by the Chinese government in order to erase these regional differences.
+Hong Kong
+Macau
+Taiwan
+Mainland China
+Diglossia
+Sinophone
+Cantonese
+Chinese Singaporeans
+
+From an official point of view, the mainland Chinese and the Taiwanese governments maintain their own forms of the standard under different names.
+Technically, both Pǔtōnghuà and Guóyǔ base their phonology on the Beijing accent, though Pǔtōnghuà also takes some elements from other sources..॥॥.Pǔtōnghuà.॥॥.Guóyǔ.॥॥.phonology.॥॥.Pǔtōnghuà
+Comparison of dictionaries produced in the two areas will show that there are few substantial differences.
+However, both versions of "school-standard" Chinese are often quite different from the Mandarin varieties that are spoken in accordance with regional habits, and neither is wholly identical to the Beijing dialect..॥॥.Beijing dialect
+Pǔtōnghuà and Guóyǔ also have some differences from the Beijing dialect in vocabulary, grammar, and pragmatics..॥॥.Pǔtōnghuà.॥॥.Guóyǔ.॥॥.pragmatics
+Phonology
+Pragmatics
+Beijing dialect
+
+The written forms of Standard Chinese are also essentially equivalent, although simplified characters are used in mainland China and Singapore, while traditional characters remain in use in Taiwan, Hong Kong, and Macau..॥॥.simplified characters.॥॥.traditional characters
+Overseas communities also tend to use traditional Chinese characters, although younger generations in Malaysia increasingly use simplified characters due to influence from Singapore and mainland China.[30].॥॥.[30]
+Simplified Chinese characters
+Traditional Chinese characters
+
+However, the varieties of Mandarin cover a huge area containing nearly a billion people.
+As a result, there are pronounced regional variations in pronunciation, vocabulary, and grammar,[33] and many Mandarin varieties are not mutually intelligible.[lower-alpha 2].॥॥.pronunciation.॥॥.vocabulary.॥॥.grammar.॥॥.[33].॥॥.[lower-alpha 2]
+Vocabulary
+Pronunciation
+
+Most of northeastern China, except for Liaoning, did not receive significant settlements by Han Chinese until the 18th century,[39] and as a result the Northeastern Mandarin dialects spoken there differ little from the Beijing dialect.[40] The Manchu people of the area now speak these dialects exclusively; their native language is only maintained in northwestern Xinjiang, where Xibe, a modern dialect, is spoken.[41].॥॥.Liaoning.॥॥.[39].॥॥.Northeastern Mandarin.॥॥.Beijing dialect.॥॥.[40].॥॥.Manchu people.॥॥.Xinjiang.॥॥.Xibe.॥॥.[41]
+Beijing dialect
+Manchu people
+Liaoning
+Northeastern Mandarin
+Xibe language
+Xinjiang
+
+The frontier areas of Northwest China were colonized by speakers of Mandarin dialects at the same time, and the dialects in those areas similarly closely resemble their relatives in the core Mandarin area.[40] The Southwest was settled early, but the population fell dramatically for obscure reasons in the 13th century, and did not recover until the 17th century.[40] The dialects in this area are now relatively uniform.[42] However, long-established cities even very close to Beijing, such as Tianjin, Baoding, Shenyang, and Dalian, have markedly different dialects..॥॥.[40].॥॥.[40].॥॥.[42].॥॥.Beijing.॥॥.Tianjin.॥॥.Baoding.॥॥.Shenyang.॥॥.Dalian
+Beijing
+Tianjin
+Shenyang
+Dalian
+Baoding
+
+During the Middle Ages, Arabic was a major vehicle of culture in Europe, especially in science, mathematics and philosophy.
+As a result, many European languages have also borrowed many words from it..॥॥.borrowed
+Arabic influence, mainly in vocabulary, is seen in European languages—mainly Spanish and to a lesser extent Portuguese, Catalan, and Sicilian—owing to both the proximity of Christian European and Muslim Arab civilizations and the long-lasting Arabic culture and language presence, mainly in Southern Iberia, during the Al-Andalus era..॥॥.European languages.॥॥.Spanish.॥॥.Portuguese.॥॥.Catalan.॥॥.Sicilian.॥॥.Al-Andalus
+The Maltese language is a Semitic language developed from a dialect of Arabic and written in the Latin alphabet..॥॥.Maltese language.॥॥.Semitic language.॥॥.Latin alphabet
+The Balkan languages, including Greek and Bulgarian, have also acquired a significant number of words of Arabic origin through contact with Ottoman Turkish..॥॥.Balkan.॥॥.Greek.॥॥.Bulgarian.॥॥.Ottoman Turkish
+Bulgarian language
+Balkans
+Languages of Europe
+Greek language
+Latin alphabet
+Maltese language
+Semitic languages
+Loanword
+Al-Andalus
+Ottoman Turkish language
+Arabic language influence on the Spanish language
+Influence of Arabic on other languages
+Influence of Arabic on other languages
+
+Arabic has influenced many other languages around the globe throughout its history.
+Some of the most influenced languages are Persian, Turkish, Hindustani (Hindi and Urdu), Kashmiri, Kurdish, Bosnian, Kazakh, Bengali, Malay (Indonesian and Malaysian), Maldivian, Pashto, Punjabi, Albanian, Armenian, Azerbaijani, Sicilian, Spanish, Greek, Bulgarian, Tagalog, Sindhi, Odia and Hausa and some languages in parts of Africa..॥॥.Persian.॥॥.Turkish.॥॥.Hindustani.॥॥.Hindi.॥॥.Urdu.॥॥.Kashmiri.॥॥.Kurdish.॥॥.Bosnian.॥॥.Kazakh.॥॥.Bengali.॥॥.Malay.॥॥.Indonesian.॥॥.Malaysian.॥॥.Maldivian.॥॥.Pashto.॥॥.Punjabi.॥॥.Albanian.॥॥.Armenian.॥॥.Azerbaijani.॥॥.Tagalog.॥॥.Sindhi.॥॥.Odia.॥॥.Hausa
+Conversely, Arabic has borrowed words from other languages, including Hebrew, Greek, Aramaic, and Persian in medieval times and languages such as English and French in modern times.
+Armenian language
+Persian language
+Hindi
+Hausa language
+Punjabi language
+Turkish language
+Tagalog language
+Urdu
+Indonesian language
+Kurdish languages
+Hindustani language
+Kazakh language
+Pashto
+Malay language
+Bosnian language
+Azerbaijani language
+Sindhi language
+Oriya Language
+Kashmiri language
+Malaysian language
+Albanian language
+Bengali language
+Maldivian language
+
+Arabic is the religious language of 1.8 billion Muslims, and Arabic is one of six official languages of the United Nations..॥॥.religious language.॥॥.Muslims.॥॥.official languages of the United Nations
+All varieties of Arabic combined are spoken by perhaps as many as 422 million speakers (native and non-native) in the Arab world, making it the fifth most spoken language in the world.
+Arabic is written with the Arabic alphabet, which is an abjad script and is written from right to left, although the spoken varieties are sometimes written in ASCII Latin from left to right with no standardized orthography..॥॥.Arabic alphabet.॥॥.abjad.॥॥.right to left.॥॥.written in ASCII Latin.॥॥.left to right
+Abjad
+Arabic alphabet
+Muslims
+Sacred language
+Arabic chat alphabet
+Right-to-left
+Left to right
+Official languages of the United Nations
+
+Classification
+
+Arabic is usually, but not universally, classified as a Central Semitic language..॥॥.Central Semitic
+It is related to languages in other subgroups of the Semitic language group (Northwest Semitic, South Semitic, East Semitic, West Semitic), such as Aramaic, Syriac, Hebrew, Ugaritic, Phoenician, Canaanite, Amorite, Ammonite, Eblaite, epigraphic Ancient North Arabian, epigraphic Ancient South Arabian, Ethiopic, Modern South Arabian, and numerous other dead and modern languages..॥॥.Semitic.॥॥.Northwest Semitic.॥॥.South Semitic.॥॥.East Semitic.॥॥.West Semitic.॥॥.Aramaic.॥॥.Syriac.॥॥.Hebrew.॥॥.Ugaritic.॥॥.Phoenician.॥॥.Canaanite.॥॥.Amorite.॥॥.Ammonite.॥॥.Eblaite.॥॥.epigraphic Ancient North Arabian.॥॥.epigraphic Ancient South Arabian.॥॥.Ethiopic.॥॥.Modern South Arabian
+Linguists still differ as to the best classification of Semitic language sub-groups.
+The Semitic languages changed a great deal between Proto-Semitic and the emergence of the Central Semitic languages, particularly in grammar..॥॥.Semitic languages.॥॥.Proto-Semitic
+Innovations of the Central Semitic languages—all maintained in Arabic—include:
+Semitic languages
+Semitic languages
+Aramaic language
+Hebrew language
+Syriac language
+Ethiopic
+Ugaritic language
+Phoenician language
+Canaanite languages
+Ancient South Arabian
+Proto-Semitic
+Eblaite
+Modern South Arabian
+South Semitic
+Central Semitic languages
+Northwest Semitic languages
+East Semitic
+Ancient North Arabian
+Amorite
+
+The conversion of the suffix-conjugated stative formation (jalas-) into a past tense..॥॥.jalas-
+The conversion of the prefix-conjugated preterite-tense formation (yajlis-) into a present tense..॥॥.yajlis-
+The elimination of other prefix-conjugated mood/aspect forms (e.g., a present tense formed by doubling the middle root, a perfect formed by infixing a /t/ after the first root consonant, probably a jussive formed by a stress shift) in favor of new moods formed by endings attached to the prefix-conjugation forms (e.g., -u for indicative, -a for subjunctive, no ending for jussive, -an or -anna for energetic)..॥॥./t/.॥॥.-u.॥॥.-a.॥॥.-an.॥॥.-anna
+The development of an internal passive.
+
+There are several features which Classical Arabic, the modern Arabic varieties, as well as the Safaitic and Hismaic inscriptions share which are unattested in any other Central Semitic language variety, including the Dadanitic and Taymanitic languages of the northern Hejaz..॥॥.Safaitic.॥॥.Hismaic.॥॥.Dadanitic.॥॥.Taymanitic.॥॥.northern Hejaz
+These features are evidence of common descent from a hypothetical ancestor, Proto-Arabic..॥॥.hypothetical ancestor.॥॥.Proto-Arabic
+The following features can be reconstructed with confidence for Proto-Arabic:
+Hijaz
+Safaitic
+Proto-language
+Hismaic (Old Arabic)
+Dadanitic
+Proto-Arabic
+Taymanitic
+
+negative particles m * /mā/; lʾn */lā-ʾan/ to Classical Arabic lan.॥॥.m.॥॥./mā/.॥॥.lʾn.॥॥./lā-ʾan/.॥॥.lan
+prepositions and adverbs f, ʿn, ʿnd, ḥt, ʿkdy.॥॥.f.॥॥.ʿn.॥॥.ʿnd.॥॥.ḥt.॥॥.ʿkdy
+a subjunctive in -a.॥॥.a
+t-demonstratives.॥॥.t
+leveling of the -at allomorph of the feminine ending.॥॥.at
+ʾn complementizer and subordinator.॥॥.ʾn
+the use of f- to introduce modal clauses.॥॥.f
+independent object pronoun in (ʾ)y.॥॥.(ʾ)y
+vestiges of nunation.॥॥.nunation
+Nunation
+
+History
+
+Arabia boasted a wide variety of Semitic languages in antiquity.
+In the southwest, various Central Semitic languages both belonging to and outside of the Ancient South Arabian family (e.g..॥॥.Central Semitic languages.॥॥.Ancient South Arabian
+Southern Thamudic) were spoken.
+It is also believed that the ancestors of the Modern South Arabian languages (non-Central Semitic languages) were also spoken in southern Arabia at this time..॥॥.Modern South Arabian languages
+To the north, in the oases of northern Hejaz, Dadanitic and Taymanitic held some prestige as inscriptional languages..॥॥.Hejaz.॥॥.Dadanitic.॥॥.Taymanitic
+In Najd and parts of western Arabia, a language known to scholars as Thamudic C is attested..॥॥.Najd
+In eastern Arabia, inscriptions in a script derived from ASA attest to a language known as Hasaitic..॥॥.Hasaitic
+Finally, on the northwestern frontier of Arabia, various languages known to scholars as Thamudic B, Thamudic D, Safaitic, and Hismaic are attested..॥॥.Safaitic.॥॥.Hismaic
+The last two share important isoglosses with later forms of Arabic, leading scholars to theorize that Safaitic and Hismaic are in fact early forms of Arabic and that they should be considered Old Arabic..॥॥.Old Arabic
+Central Semitic languages
+Old South Arabian
+Modern South Arabian languages
+Hejaz
+Dadanitic
+Taymanitic
+Safaitic
+Hismaic
+Najd
+Hasaitic dialect
+Old Arabic
+
+Linguists generally believe that "Old Arabic" (a collection of related dialects that constitute the precursor of Arabic) first emerged around the 1st century CE.
+Previously, the earliest attestation of Old Arabic was thought to be a single 1st century CE inscription in Sabaic script at Qaryat Al-Faw, in southern present-day Saudi Arabia..॥॥.Sabaic script.॥॥.Qaryat Al-Faw
+However, this inscription does not participate in several of the key innovations of the Arabic language group, such as the conversion of Semitic mimation to nunation in the singular.
+It is best reassessed as a separate language on the Central Semitic dialect continuum.
+Sabaic
+Qaryat al-Faw
+
+Abu al-Aswad al-Du'ali (c. 603–689) is credited with standardizing Arabic grammar, or an-naḥw (النَّحو "the way"), and pioneering a system of diacritics to differentiate consonants (نقط الإعجام nuqat l-i'jām "pointing for non-Arabs") and indicate vocalization (التشكيل at-tashkil)..॥॥.Abu al-Aswad al-Du'ali.॥॥.Arabic grammar.॥॥.an-naḥw.॥॥.النَّحو.॥॥.diacritics.॥॥.نقط الإعجام.॥॥.nuqat l-i'jām.॥॥.vocalization.॥॥.التشكيل.॥॥.at-tashkil
+Al-Khalil ibn Ahmad al-Farahidi (718 – 786) compiled the first Arabic dictionary, Kitāb al-'Ayn (كتاب العين "The Book of the Letter ع"), and is credited with establishing the rules of Arabic prosody..॥॥.Al-Khalil ibn Ahmad al-Farahidi.॥॥.Kitāb al-'Ayn.॥॥.كتاب العين.॥॥.ع.॥॥.prosody
+Al-Jahiz (776-868) proposed to Al-Akhfash al-Akbar an overhaul of the grammar of Arabic, but it would not come to pass two centuries..॥॥.Al-Jahiz.॥॥.Al-Akhfash al-Akbar
+The standardization of Arabic reached completion around the end of the 8th century.
+The first comprehensive description of the ʿarabiyya "Arabic", Sībawayhi's al-Kitāb, is based first of all upon a corpus of poetic texts, in addition to Qur'an usage and Bedouin informants whom he considered to be reliable speakers of the ʿarabiyya..॥॥.ʿarabiyya.॥॥.Sībawayhi's.॥॥.al.॥॥.Kitāb.॥॥.ʿarabiyya
+ISBN (identifier)
+Arabic diacritics
+Arabic diacritics
+Arabic grammar
+Doi (identifier)
+Al-Jahiz
+Sibawayh
+Prosody (linguistics)
+Al-Khalil ibn Ahmad al-Farahidi
+Abu al-Aswad al-Du'ali
+Al-Akhfash al-Akbar
+Kitab al-'Ayn
+Special:BookSources/978-0-203-27565-8
+
+Spread
+
+By the 8th century, knowledge of Classical Arabic had become an essential prerequisite for rising into the higher classes throughout the Islamic world, both for Muslims and non-Muslims.
+For example, Maimonides, the Andalusi Jewish philosopher, authored works in Judeo-Arabic—Arabic written in Hebrew script—including his famous The Guide for the Perplexed (دلالة الحائرين Dalālat al-ḥāʾirīn)..॥॥.Maimonides.॥॥.Andalusi.॥॥.Judeo-Arabic.॥॥.Hebrew script.॥॥.The Guide for the Perplexed.॥॥.دلالة الحائرين.॥॥.Dalālat al-ḥāʾirīn
+Al-Andalus
+Hebrew alphabet
+Maimonides
+The Guide for the Perplexed
+
+Development
+
+Charles Ferguson's koine theory (Ferguson 1959) claims that the modern Arabic dialects collectively descend from a single military koine that sprang up during the Islamic conquests; this view has been challenged in recent times..॥॥.koine
+Ahmad al-Jallad proposes that there were at least two considerably distinct types of Arabic on the eve of the conquests: Northern and Central (Al-Jallad 2009).
+The modern dialects emerged from a new contact situation produced following the conquests.
+Instead of the emergence of a single or multiple koines, the dialects contain several sedimentary layers of borrowed and areal features, which they absorbed at different points in their linguistic histories.
+According to Veersteegh and Bickerton, colloquial Arabic dialects arose from pidginized Arabic formed from contact between Arabs and conquered peoples..॥॥.pidginized
+Pidginization and subsequent creolization among Arabs and arabized peoples could explain relative morphological and phonological simplicity of vernacular Arabic compared to Classical and MSA..॥॥.creolization.॥॥.arabized
+Pidgin
+Arabization
+Creolization
+Koiné language
+
+In around the 11th and 12th centuries in al-Andalus, the zajal and muwashah poetry forms developed in the dialectical Arabic of Cordoba and the Maghreb..॥॥.al-Andalus.॥॥.zajal.॥॥.muwashah.॥॥.dialectical Arabic of Cordoba
+Al-Andalus
+Andalusian Arabic
+Muwashshah
+Zajal
+
+The Nahda cultural renaissance saw the creation of a number of Arabic academies modeled after the Académie française that aimed to develop the Arabic lexicon to suit these transformations, first in Damascus (1919), then in Cairo (1932), Baghdad (1948), Rabat (1960), Amman (1977), Khartum [ar] (1993), and Tunis (1993)..॥॥.Nahda.॥॥.Académie française.॥॥.Damascus.॥॥.Cairo.॥॥.Baghdad.॥॥.Rabat.॥॥.Amman.॥॥.Khartum.॥॥..॥॥.[.॥॥.ar.॥॥.].॥॥.Tunis
+In 1997, a bureau of Arabization standardization was added to the Educational, Cultural, and Scientific Organization of the Arab League..॥॥.Educational, Cultural, and Scientific Organization.॥॥.Arab League
+These academies and organizations have worked toward the Arabization of the sciences, creating terms in Arabic to describe new concepts, toward the standardization of these new terms throughout the Arabic-speaking world, and toward the development of Arabic as a world language..॥॥.Arabization.॥॥.creating terms.॥॥.world language
+This gave rise to what Western scholars call Modern Standard Arabic..॥॥.Modern Standard Arabic
+Arabization
+Arab League
+Académie française
+Neologism
+Modern Standard Arabic
+Nahda
+Arab Academy of Damascus
+Jordan Academy of Arabic
+World language
+Iraqi Academy of Sciences
+Tunisian Academy of Sciences, Letters, and Arts
+Institute for Studies and Research on Arabization
+Academy of the Arabic Language in Cairo
+
+From the 1950s, Arabization became a postcolonial nationalist policy in countries such as Tunisia, Algeria, Morocco, and Sudan..॥॥.Arabization
+Arabization
+Doi (identifier)
+ISBN (identifier)
+Special:BookSources/978-3-11-040836-2
+
+Classical Arabic is the language found in the Quran, used from the period of Pre-Islamic Arabia to that of the Abbasid Caliphate..॥॥.Quran.॥॥.Pre-Islamic Arabia.॥॥.Abbasid Caliphate
+Classical Arabic is prescriptive, according to the syntactic and grammatical norms laid down by classical grammarians (such as Sibawayh) and the vocabulary defined in classical dictionaries (such as the Lisān al-ʻArab)..॥॥.syntactic.॥॥.Sibawayh.॥॥.Lisān al-ʻArab
+Sibawayh
+Syntactic
+Quran
+Abbasid Caliphate
+Pre-Islamic Arabia
+Ibn Manzur
+
+Modern Standard Arabic (MSA) largely follows the grammatical standards of Classical Arabic and uses much of the same vocabulary.
+However, it has discarded some grammatical constructions and vocabulary that no longer have any counterpart in the spoken varieties and has adopted certain new constructions and vocabulary from the spoken varieties.
+Much of the new vocabulary is used to denote concepts that have arisen in the industrial and post-industrial era, especially in modern times..॥॥.industrial.॥॥.post-industrial era
+Due to its grounding in Classical Arabic, Modern Standard Arabic is removed over a millennium from everyday speech, which is construed as a multitude of dialects of this language.
+These dialects and Modern Standard Arabic are described by some scholars as not mutually comprehensible.
+The former are usually acquired in families, while the latter is taught in formal education settings.
+However, there have been studies reporting some degree of comprehension of stories told in the standard variety among preschool-aged children.
+The relation between Modern Standard Arabic and these dialects is sometimes compared to that of Classical Latin and Vulgar Latin vernaculars (which became Romance languages) in medieval and early modern Europe..॥॥.Classical Latin.॥॥.Vulgar Latin.॥॥.Romance languages
+This view though does not take into account the widespread use of Modern Standard Arabic as a medium of audiovisual communication in today's mass media—a function Latin has never performed.
+Industrial Revolution
+Romance languages
+Vulgar Latin
+Classical Latin
+Post-industrial society
+
+MSA is the variety used in most current, printed Arabic publications, spoken by some of the Arabic media across North Africa and the Middle East, and understood by most educated Arabic speakers.
+"Literary Arabic" and "Standard Arabic" (فُصْحَى‎ fuṣḥá) are less strictly defined terms that may refer to Modern Standard Arabic or Classical Arabic..॥॥.فُصْحَى.॥॥.‎.॥॥.fuṣḥá
+
+Facebook is an American online social media and social networking service owned by Facebook, Inc..॥॥.Facebook.॥॥.social media.॥॥.social networking service.॥॥.Facebook, Inc.
+Social networking service
+Social media
+Facebook, Inc.
+
+Founded in 2004 by Mark Zuckerberg with fellow Harvard College students and roommates Eduardo Saverin, Andrew McCollum, Dustin Moskovitz, and Chris Hughes, its name comes from the face book directories often given to American university students..॥॥.Mark Zuckerberg.॥॥.Harvard College.॥॥.Eduardo Saverin.॥॥.Andrew McCollum.॥॥.Dustin Moskovitz.॥॥.Chris Hughes.॥॥.face book
+Membership was initially limited to Harvard students, gradually expanding to other North American universities and, since 2006, anyone over 13 years old.
+As of 2020, Facebook claimed 2.8 billion monthly active users, and ranked seventh in global internet usage..॥॥.
+It was the most downloaded mobile app of the 2010s..॥॥.mobile app
+Harvard College
+Mark Zuckerberg
+Face book
+Chris Hughes
+Andrew McCollum
+Dustin Moskovitz
+Eduardo Saverin
+Mobile app
+
+Facebook can be accessed from devices with Internet connectivity, such as personal computers, tablets and smartphones..॥॥.Internet.॥॥.personal computers.॥॥.tablets.॥॥.smartphones
+After registering, users can create a profile revealing information about themselves.
+They can post text, photos and multimedia which are shared with any other users who have agreed to be their "friend" or, with different privacy settings, publicly..॥॥."friend".॥॥.privacy settings
+Users can also communicate directly with each other with Facebook Messenger, join common-interest groups, and receive notifications on the activities of their Facebook friends and pages they follow..॥॥.communicate directly.॥॥.Facebook Messenger
+Internet
+Instant messaging
+Smartphone
+Tablet computer
+Friending and following
+Personal computer
+Facebook Messenger
+Privacy settings
+
+The subject of numerous controversies, Facebook has often been criticized over issues such as user privacy (as with the Cambridge Analytica data scandal), political manipulation (as with the 2016 U.S. elections), mass surveillance, psychological effects such as addiction and low self-esteem, and content such as fake news, conspiracy theories, copyright infringement, and hate speech..॥॥.numerous controversies.॥॥.user privacy.॥॥.Cambridge Analytica data scandal.॥॥.2016 U.S. elections.॥॥.addiction.॥॥.self-esteem.॥॥.fake news.॥॥.conspiracy theories.॥॥.copyright infringement.॥॥.hate speech
+Commentators have accused Facebook of willingly facilitating the spread of such content, as well as exaggerating its number of users to appeal to advertisers.
+Conspiracy theories
+Hate speech
+Self-esteem
+Internet privacy
+Criticism of Facebook
+Copyright infringement
+Social media addiction
+Fake news
+Facebook–Cambridge Analytica data scandal
+
+Zuckerberg built a website called "Facemash" in 2003 while attending Harvard University..॥॥.Harvard University
+The site was comparable to Hot or Not and used "photos compiled from the online face books of nine Houses, placing two next to each other at a time and asking users to choose the "hotter" person"..॥॥.Hot or Not.॥॥.face books
+Facemash attracted 450 visitors and 22,000 photo-views in its first four hours.
+The site was sent to several campus group listservs, but was shut down a few days later by Harvard administration..॥॥.listservs
+Zuckerberg faced expulsion and was charged with breaching security, violating copyrights and violating individual privacy..॥॥.copyrights
+Ultimately, the charges were dropped.
+Zuckerberg expanded on this project that semester by creating a social study tool ahead of an art history final exam..॥॥.art history
+He uploaded all art images to a website, each of which was accompanied by a comments section, then shared the site with his classmates.
+Face book
+Copyright
+Hot or Not
+Listserv
+Harvard University
+Art history
+
+A "face book" is a student directory featuring photos and personal information..॥॥.face book
+In 2003, Harvard had only a paper version along with private online directories.
+Zuckerberg told The Harvard Crimson, "Everyone's been talking a lot about a universal face book within Harvard..॥॥.The Harvard Crimson
+.
+.
+.
+I think it's kind of silly that it would take the University a couple of years to get around to it.
+I can do it better than they can, and I can do it in a week."
+In January 2004, Zuckerberg coded a new website, known as "TheFacebook", inspired by a Crimson editorial about Facemash, stating, "It is clear that the technology needed to create a centralized Website is readily available ... the benefits are many.".॥॥.Crimson
+Zuckerberg met with Harvard student Eduardo Saverin, and each of them agreed to invest $1,000 in the site..॥॥.Eduardo Saverin
+On February 4, 2004, Zuckerberg launched "TheFacebook", originally located at thefacebook.com.
+Face book
+Eduardo Saverin
+The Harvard Crimson
+
+Mark Zuckerberg, co-creator of Facebook, in his Harvard dorm room, 2005.॥॥.Mark Zuckerberg.॥॥.Harvard
+Mark Zuckerberg
+Harvard University
+
+Six days after the site launched, Harvard seniors Cameron Winklevoss, Tyler Winklevoss, and Divya Narendra accused Zuckerberg of intentionally misleading them into believing that he would help them build a social network called HarvardConnection.com..॥॥.Cameron Winklevoss.॥॥.Tyler Winklevoss.॥॥.Divya Narendra.॥॥.HarvardConnection.com
+They claimed that he was instead using their ideas to build a competing product.
+The three complained to the Crimson and the newspaper began an investigation..॥॥.Crimson
+They later sued Zuckerberg, settling in 2008 for 1.2 million shares (worth $300 million at Facebook's IPO)..॥॥..॥॥.shares.॥॥..॥॥.IPO
+Initial public offering
+Shares
+Tyler Winklevoss
+Cameron Winklevoss
+Divya Narendra
+
+Membership was initially restricted to students of Harvard College..॥॥.Harvard College
+Within a month, more than half the undergraduates had registered.
+Dustin Moskovitz, Andrew McCollum, and Chris Hughes joined Zuckerberg to help manage the growth of the website..॥॥.Dustin Moskovitz.॥॥.Andrew McCollum.॥॥.Chris Hughes
+In March 2004, Facebook expanded to Columbia, Stanford and Yale..॥॥.Columbia.॥॥.Stanford.॥॥.Yale
+It then became available to all Ivy League colleges, Boston University, NYU, MIT, and successively most universities in the United States and Canada..॥॥.Ivy League.॥॥.Boston University.॥॥.NYU.॥॥.MIT.॥॥.Canada
+Harvard College
+Dustin Moskovitz
+Andrew McCollum
+Chris Hughes
+Columbia University
+Ivy League
+Massachusetts Institute of Technology
+Stanford University
+Yale University
+Boston University
+Canada
+New York University
+
+In mid-2004, Napster co-founder and entrepreneur Sean Parker—an informal advisor to Zuckerberg—became company president..॥॥.Napster.॥॥.Sean Parker
+In June 2004, the company moved to Palo Alto, California..॥॥.Palo Alto, California
+It received its first investment later that month from PayPal co-founder Peter Thiel..॥॥.PayPal.॥॥.Peter Thiel
+In 2005, the company dropped "the" from its name after purchasing the domain name Facebook.com for US$200,000..॥॥.domain name.॥॥.US$
+The domain had belonged to AboutFace Corporation.
+Napster
+Domain name
+PayPal
+Peter Thiel
+Sean Parker
+
+On January 15, 2013, Facebook announced Facebook Graph Search, which provides users with a "precise answer", rather than a link to an answer by leveraging data present on its site..॥॥.Facebook Graph Search
+Facebook emphasized that the feature would be "privacy-aware", returning results only from content already shared with the user.
+On April 3, 2013, Facebook unveiled Facebook Home, a user-interface layer for Android devices offering greater integration with the site..॥॥.Facebook Home
+HTC announced HTC First, a phone with Home pre-loaded..॥॥.HTC.॥॥.HTC First
+HTC
+Facebook Graph Search
+Facebook Home
+
+On April 15, 2013, Facebook announced an alliance across 19 states with the National Association of Attorneys General, to provide teenagers and parents with information on tools to manage social networking profiles.
+On April 19 Facebook modified its logo to remove the faint blue line at the bottom of the "F" icon.
+The letter F moved closer to the edge of the box.
+
+Following a campaign by 100 advocacy groups, Facebook agreed to update its policy on hate speech.
+The campaign highlighted content promoting domestic violence and sexual violence against women and led 15 advertisers to withdraw, including Nissan UK, House of Burlesque, and Nationwide UK..॥॥.domestic violence.॥॥.sexual violence
+The company initially stated, "while it may be vulgar and offensive, distasteful content on its own does not violate our policies".
+It took action on May 29.
+Sexual violence
+Domestic violence
+
+On June 12, Facebook announced that it was introducing clickable hashtags to help users follow trending discussions, or search what others are talking about on a topic..॥॥.hashtags
+San Mateo County, California, became the top wage-earning county in the country after the fourth quarter of 2012 because of Facebook..॥॥.San Mateo County
+The Bureau of Labor Statistics reported that the average salary was 107% higher than the previous year, at $168,000 a year, more than 50% higher than the next-highest county, New York County (better known as Manhattan), at roughly $110,000 a year..॥॥.Manhattan
+Manhattan
+San Mateo County
+Hashtag
+
+On January 17, 2017, Facebook COO Sheryl Sandberg planned to open Station F, a startup incubator campus in Paris, France..॥॥.Sheryl Sandberg.॥॥.Paris.॥॥.France
+On a six-month cycle, Facebook committed to work with ten to 15 data-driven startups there.
+On April 18, Facebook announced the beta launch of  Facebook Spaces at its annual F8 developer conference..॥॥..॥॥.Facebook Spaces
+Facebook Spaces is a virtual reality version of Facebook for Oculus VR goggles.
+In a virtual and shared space, users can access a curated selection of 360-degree photos and videos using their avatar, with the support of the controller.
+Users can access their own photos and videos, along with media shared on their newsfeed.
+In September, Facebook announced it would spend up to US$1 billion on original shows for its Facebook Watch platform..॥॥.
+On October 16, it acquired the anonymous compliment app tbh, announcing its intention to leave the app independent..॥॥.tbh
+Paris
+Sheryl Sandberg
+France
+Tbh (app)
+
+In May 2018 at F8, the company announced it would offer its own dating service..॥॥.F8
+Shares in competitor Match Group fell by 22%..॥॥.Match Group
+Facebook Dating includes privacy features and friends are unable to view their friends' dating profile..॥॥.Facebook Dating
+In July, Facebook was charged £500,000 by UK watchdogs for failing to respond to data erasure requests.
+On July 18, Facebook established a subsidiary named Lianshu Science & Technology in Hangzhou City, China, with $30 million of capital..॥॥.Hangzhou City.॥॥.
+All its shares are held by Facebook Hong.
+Approval of the registration of the subsidiary was then withdrawn, due to a disagreement between officials in Zhejiang province and the Cyberspace Administration of China..॥॥.Cyberspace Administration of China
+On July 26, Facebook became the first company to lose over $100 billion worth of market capitalization in one day, dropping from nearly $630 billion to $510 billion after disappointing sales reports..॥॥..॥॥..॥॥.
+On July 31, Facebook said that the company had deleted 17 accounts related to the 2018 U.S. midterm elections..॥॥.2018 U.S. midterm elections
+On September 19, Facebook announced that, for news distribution outside the United States, it would work with U.S. funded democracy promotion organizations, International Republican Institute and the National Democratic Institute, which are loosely affiliated with the Republican and Democratic parties..॥॥.democracy promotion.॥॥.International Republican Institute.॥॥.National Democratic Institute.॥॥.Republican.॥॥.Democratic
+Through the Digital Forensic Research Lab Facebook partners with the Atlantic Council, a NATO-affiliated think tank..॥॥.Atlantic Council.॥॥.NATO
+In November, Facebook launched smart displays branded Portal and Portal Plus (Portal+)..॥॥.Portal
+They support Amazon's Alexa (intelligent personal assistant service)..॥॥.Amazon.॥॥.Alexa
+The devices include video chat function with Facebook Messenger.
+Republican Party (United States)
+Amazon (company)
+Hangzhou City
+Atlantic Council
+International Republican Institute
+National Democratic Institute
+Democratic Party (United States)
+Democracy promotion
+Facebook F8
+Cyberspace Administration of China
+Match Group
+Amazon Alexa
+Facebook Dating
+Facebook Portal
+
+In August 2018, a lawsuit was filed in Oakland, California claiming that Facebook created fake accounts in order to inflate its user data and appeal to advertisers in the process.
+
+In March 2019, the perpetrator of the Christchurch mosque shootings in New Zealand used Facebook to stream live footage of the attack as it unfolded..॥॥.Christchurch mosque shootings
+Facebook took 29 minutes to detect the livestreamed video, which was eight minutes longer than it took police to arrest the gunman.
+About 1.3m copies of the video were blocked from Facebook but 300,000 copies were published and shared.
+Facebook has promised changes to its platform; spokesman Simon Dilner told Radio New Zealand that it could have done a better job.
+Several companies, including the ANZ and ASB banks, have stopped advertising on Facebook after the company was widely condemned by the public.
+Following the attack, Facebook began blocking white nationalist, white supremacist, and white separatist content, saying that they could not be meaningfully separated..॥॥.white nationalist.॥॥.white supremacist.॥॥.white separatist
+Previously, Facebook had only blocked overtly supremacist content.
+The older policy had been condemned by civil rights groups, who described these movements as functionally indistinct.
+Further bans were made in mid-April 2019, banning several British far-right organizations and associated individuals from Facebook, and also banning praise or support for them..॥॥.British far-right organizations
+Racial segregation
+White supremacy
+White nationalism
+British far-right organizations
+Christchurch mosque shootings
+
+NTJ's member Moulavi Zahran Hashim, a radical Islamist imam believed to be the mastermind behind the 2019 Sri Lanka Easter bombings, preached on a pro-ISIL Facebook account, known as "Al-Ghuraba" media..॥॥.NTJ.॥॥.Islamist.॥॥.imam.॥॥.2019 Sri Lanka Easter bombings.॥॥.ISIL
+Islamism
+Imam
+2019 Sri Lanka Easter bombings
+
+Facebook CEO Mark Zuckerberg and Facebook executives with President Donald Trump in September 2019.॥॥.Mark Zuckerberg.॥॥.Donald Trump
+Mark Zuckerberg
+Donald Trump
+
+On May 2, 2019, at F8, the company announced its new vision with the tagline "the future is private".
+A redesign of the website and mobile app was introduced, dubbed as "FB5".
+The event also featured plans for improving groups, a dating platform, end-to-end encryption on its platforms, and allowing users on Messenger to communicate directly with WhatsApp and Instagram users..॥॥.WhatsApp
+WhatsApp
+
+On July 31, 2019, Facebook announced a partnership with University of California, San Francisco to build a non-invasive, wearable device that lets people type by simply imagining themselves talking..॥॥.University of California, San Francisco
+
+On September 5, 2019, Facebook launched Facebook Dating in the United States..॥॥.Facebook Dating.॥॥.United States
+This new application allows users to integrate their Instagram posts in their dating profile..॥॥.Instagram
+Facebook Dating
+United States
+Instagram
+
+After the US election, Facebook tweaked the news feed to quantify the trustworthiness and quality of a news source.
+With this Facebook reduce Election-related misinformation and hate speech without hurting the company's bottom line.
+
+2020–present: FTC lawsuit
+
+Facebook was sued by the Federal Trade Commission as well as a coalition of several states for illegal monopolization and antitrust..॥॥.Federal Trade Commission
+The FTC and states sought the courts to force Facebook to sell its subsidiaries WhatsApp and Instagram..॥॥.WhatsApp.॥॥.Instagram
+The suits were dismissed by a federal judge on June 28, 2021, who stated that there was not enough evidence brought in the suit to determine Facebook to be a monopoly at this point, though allowed the FTC to amend its case to include additional evidence.
+In its amended filings in August 2021, the FTC asserted that Facebook had been a monopoly in the area of personal social networks since 2011, distinguishing Facebook's activities from social media services like Tik Tok that broadcast content without necessarily limiting that message to intended recipients..॥॥.Tik Tok
+WhatsApp
+Instagram
+Federal Trade Commission
+TikTok
+
+In response to the proposed bill in the Australian Parliament for a News Media Bargaining Code, on February 17, 2021, Facebook blocked Australian users from sharing or viewing news content on its platform, as well as pages of some government, community, union, charity, political, and emergency services..॥॥.News Media Bargaining Code
+The Australian government strongly criticised the move, saying it demonstrated the "immense market power of these digital social giants".
+News Media Bargaining Code
+
+Data is read from these log files using Ptail, an internally built tool to aggregate data from multiple Scribe stores.
+It tails the log files and pulls data out.
+Ptail data are separated into three streams and sent to clusters in different data centers (Plugin impression, News feed impressions, Actions (plugin + news feed))..॥॥.data centers
+Puma is used to manage periods of high data flow (Input/Output or IO).
+Data is processed in batches to lessen the number of times needed to read and write under high demand periods (A hot article generates many impressions and news feed impressions that cause huge data skews).
+Batches are taken every 1.5 seconds, limited by memory used when creating a hash table..॥॥.hash table
+Hash table
+Data center
+
+Data is then output in PHP format.
+The backend is written in Java..॥॥.Java
+Thrift is used as the messaging format so PHP programs can query Java services.
+Caching solutions display pages more quickly.
+The data is then sent to MapReduce servers where it is queried via Hive..॥॥.MapReduce
+This serves as a backup as the data can be recovered from Hive.
+Java (programming language)
+MapReduce
+
+Content delivery network (CDN)
+
+News Feed appears on every user's homepage and highlights information including profile changes, upcoming events and friends' birthdays..॥॥.News Feed
+This enabled spammers and other users to manipulate these features by creating illegitimate events or posting fake birthdays to attract attention to their profile or cause.
+Initially, the News Feed caused dissatisfaction among Facebook users; some complained it was too cluttered and full of undesired information, others were concerned that it made it too easy for others to track individual activities (such as relationship status changes, events, and conversations with other users).
+Zuckerberg apologized for the site's failure to include appropriate privacy features.
+Users then gained control over what types of information are shared automatically with friends.
+Users are now able to prevent user-set categories of friends from seeing updates about certain types of activities, including profile changes, Wall posts and newly added friends.
+Sarah Lacy
+News Feed
+
+On February 23, 2010, Facebook was granted a patent on certain aspects of its News Feed.
+The patent covers News Feeds in which links are provided so that one user can participate in the activity of another user.
+The sorting and display of stories in a user's News Feed is governed by the EdgeRank algorithm..॥॥.EdgeRank
+EdgeRank
+
+The Photos application allows users to upload albums and photos..॥॥.Photos
+Each album can contain 200 photos..॥॥.
+Privacy settings apply to individual albums.
+Users can "tag", or label, friends in a photo..॥॥.tag
+The friend receives a notification about the tag with a link to the photo.
+This photo tagging feature was developed by Aaron Sittig, now a Design Strategy Lead at Facebook, and former Facebook engineer Scott Marlette back in 2006 and was only granted a patent in 2011..॥॥.patent
+Patent
+Tag (metadata)
+Michael Arrington
+Facebook features
+
+On June 7, 2012, Facebook launched its App Center to help users find games and other applications.
+
+In March and April 2021, in response to Apple announcing changes to its iOS device's Identifier for Advertisers policy, which included requiring app developers to directly request to users the ability to track on an opt-in basis, Facebook purchased full-page newspaper advertisements attempting to convince users to allow tracking, highlighting the effects targeted ads have on small businesses..॥॥.Identifier for Advertisers
+Facebook's efforts were ultimately unsuccessful, as Apple released iOS 14.5 in late April 2021, containing the feature for users in what has been deemed "App Tracking Transparency".
+Moreover, statistics from Verizon Communications subsidiary Flurry Analytics show 96% of all iOS users in the United States are not permitting tracking at all, and only 12% of worldwide iOS users are allowing tracking, which some news outlets deem "Facebook's nightmare", among similar terms..॥॥.Verizon Communications
+Despite the news, Facebook has stated that the new policy and software update would be "manageable".
+Verizon Communications
+Identifier for Advertisers
+
+Like button
+
+The "like" button, stylized as a "thumbs up" icon, was first enabled on February 9, 2009, and enables users to easily interact with status updates, comments, photos and videos, links shared by friends, and advertisements.
+Once clicked by a user, the designated content is more likely to appear in friends' News Feeds..॥॥.News Feeds
+The button displays the number of other users who have liked the content.
+The like button was extended to comments in June 2010.
+In February 2016, Facebook expanded Like into "Reactions", choosing among five pre-defined emotions, including "Love", "Haha", "Wow", "Sad", or "Angry".
+In late April 2020, during the COVID-19 pandemic, a new "Care" reaction was added..॥॥.COVID-19 pandemic
+News Feed
+COVID-19 pandemic
+
+Instant messaging

@@ -1,0 +1,10 @@
+values:
+  202111_wave_2:
+    s3_paths:
+      source: N/A
+      target: N/A
+    local_paths:
+      source: /large_experiments/nllb/mmt/multilingual_bin/202111_wave2_x.256k/bt_filtered/eng-lao/bt.eng.xz
+      target: /large_experiments/nllb/mmt/multilingual_bin/202111_wave2_x.256k/bt_filtered/eng-lao/bt.lao.xz
+      is_lzma: true
+

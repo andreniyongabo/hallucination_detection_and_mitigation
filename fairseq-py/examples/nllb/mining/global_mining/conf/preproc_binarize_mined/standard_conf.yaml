@@ -1,0 +1,8 @@
+version: "V0"
+eval: "flores101"
+test_data_dir:
+  dataset_name: "flores101"
+  path: "/large_experiments/nllb/mmt/mining/data/flores101/flores101.{split}.{lang}" # split/lang will be replaced
+max_number_of_tsv_lines_in_millions: 100          # max number of lines of the TSV being read for tsv split; corresponds to variable 'SZ' in bash scripts
+bitext_alignment_minimum_score_threshold: 1.06    # default bitext alignment threshold when splitting tsv (only accepts lines with score above this value); corresponds to variable "threshold" in bash scripts
+num_workers: 20

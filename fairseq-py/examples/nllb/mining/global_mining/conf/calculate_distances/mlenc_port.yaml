@@ -1,0 +1,16 @@
+_target_: examples.nllb.mining.global_mining.modules.mlenc_port.calculate_distances_module.CalculateDistancesModule
+config:
+  lang: ???
+  other_lang: ???
+  distance_type: ???
+  lang_embeddings: ???
+  index_other_lang: ???
+  output_dir: /private/home/kevinheffernan/test_mining
+
+  num_probe: 128
+  knn: 16
+  gpu_type: "fp16-shard"
+  save_dists_as_fp16: True
+
+  embedding_dimensions: 1024
+  normalize_query_embeddings: True

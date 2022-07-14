@@ -1,0 +1,1 @@
+Moninkertaistamisen käänteinen reaktio on jako. Esimerkiksi, koska 4 kerrottuna 3 on yhtä suuri kuin 12, 12 jaettuna 3 on yhtä suuri kuin 4. Moninkertaistaminen kolmella ja jakaminen kolmella tuottaa alkuperäisen luvun. Muun kuin nollan jakaminen on itsessään yhtä suuri kuin yksi.

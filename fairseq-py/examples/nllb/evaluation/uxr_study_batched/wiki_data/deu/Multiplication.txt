@@ -1,0 +1,1 @@
+Die umgekehrte Operation der Multiplikation ist die Division. Da zum Beispiel 4 multipliziert mit 3 gleich 12 ist, ist 12 geteilt durch 3 gleich 4. Die Multiplikation mit 3, gefolgt von der Division mit 3, ergibt die ursprüngliche Zahl. Die Division einer anderen Zahl als 0 selbst ist gleich 1.

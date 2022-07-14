@@ -1,0 +1,10 @@
+_target_: examples.nllb.mining.global_mining.modules.preprocess.moses_cli_module.MosesPreprocessModule
+config:
+  lang: ???
+  shards: ???
+  output_dir: ???
+  lowercase: False
+  normalize_punctuation: True
+  remove_non_printing_chars: True
+  deescape_special_chars: True
+  token_lang_file: /private/home/kevinheffernan/mining/scripts/map_token_lang.V32m.sed

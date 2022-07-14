@@ -1,0 +1,8 @@
+# @package _global_
+
+launcher:
+  partition: nllb
+
+output_dir: .
+model_dir:  /large_experiments/nllb/mmt/mining/data/mini-mine5/models
+laser_dir: /private/home/schwenk/projects/mlenc

@@ -1,0 +1,9 @@
+values:
+  eubook:
+    s3_paths:
+      source: N/A
+      target: N/A
+    local_paths:
+      source: /large_experiments/nllb/mmt/data/bitexts/mtdata/corpora/ita-slk/eubook.ita.gz
+      target: /large_experiments/nllb/mmt/data/bitexts/mtdata/corpora/ita-slk/eubook.slk.gz
+      is_gzip: true

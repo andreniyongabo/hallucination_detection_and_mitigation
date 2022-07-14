@@ -1,0 +1,15 @@
+defaults:
+  - launcher: submitit
+  - _self_
+
+nb_shards: 4
+output_dir: ???
+input_files_glob: ???
+outfile_prefix: sharded_shuffled
+text_starts_at_col: 6 # 0-indexed
+log_every: 1_000_000
+tmp_dir: /scratch/slurm_tmpdir/
+
+num_cpu: 40
+mem_gb: null
+timeout_min: 1440

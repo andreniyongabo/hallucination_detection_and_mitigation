@@ -1,0 +1,15 @@
+defaults:
+  - /embed_text/mlenc_port@_here_
+  - config/encoder: hf_encoder
+
+# shortcuts
+
+encoder_model: ???
+pooling_method: cls
+
+# proper config structure
+
+config:
+  encoder:
+    encoder_model: ${..encoder_model}
+    pooling_method: ${..pooling_method}

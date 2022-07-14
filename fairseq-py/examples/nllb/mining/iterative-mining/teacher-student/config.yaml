@@ -1,0 +1,111 @@
+mode: null
+
+src_langs:
+  - wol
+  - yor
+tgt_langs:
+  - eng
+
+scripts:
+  extract_encoder: "/private/home/kevinheffernan/fairseq-kd-eval/2021-01-18/extract_encoder.py"
+  train: "/private/home/kevinheffernan/fairseq-kd/2021-01-18/train.py"
+  prepare_data: "/private/home/kevinheffernan/gshard/fairseq-py/examples/nllb/modeling/prepare_data.py"
+  xsim_eval: "/private/home/schwenk/projects/mlenc/source/eval_xsim2.py"
+
+sampling_config:
+  sample_size: 1_000
+  max_tokens: null
+
+generated_data_config: data_config.yaml
+json_training_config: training_config.json
+
+baseline_config:
+  in_dir: "/large_experiments/mmt/data/bitexts/mtdata/corpora"
+  corpora: 
+    - biblepk
+    - gv
+    - infopankki
+    - jw300
+    - memat
+    - qed
+    - tanzil
+    - ted20
+    - xhosanavy
+  out_dir: "/private/home/kevinheffernan/teacher-student-python/baseline_data"
+
+seed_data:
+  mono_data: /private/home/kevinheffernan/teacher-student-python/mono_data/eng-eng/train
+  bi_data_src: /private/home/kevinheffernan/teacher-student-python/bi_data/eng-esp/train.eng
+  bi_data_tgt: /private/home/kevinheffernan/teacher-student-python/bi_data/eng-esp/train.esp
+  student_teacher_pairs: "self:eng-eng,distil:eng-esp"
+
+moses_config:
+  directory: "/private/home/kevinheffernan/mlenc/tools-external/moses-tokenizer/tokenizer"
+  scripts:
+    - "lowercase.perl"
+    - "deescape-special-chars.perl"
+    - "remove-non-printing-char.perl"
+
+yaml_directory: "/private/home/kevinheffernan/teacher-student-python/component_confs"
+checkpoint: null
+
+dirs:
+  yaml_directory: "/private/home/kevinheffernan/teacher-student-python/component_confs"
+  modeling: /private/home/kevinheffernan/gshard/fairseq-py/examples/nllb/modeling
+  fairseq_gshard: /private/home/kevinheffernan/gshard/fairseq-py
+  fairseq_teacher_student: /private/home/kevinheffernan/fairseq-kd/2021-01-18
+
+source_vocab_config:
+  pretrained:
+    model_file: /checkpoint/kevinheffernan/data/laser2/spm.cc100xx50/spm_model/spm.xx.50k.model
+    vocab_file: /checkpoint/kevinheffernan/data/laser2/spm.cc100xx50/spm_model/spm.xx.50k.vocab
+    
+target_vocab_config:
+  pretrained:
+    model_file: /checkpoint/kevinheffernan/data/laser2/spm.cc100xx50/spm_model/spm.xx.50k.model
+    vocab_file: /checkpoint/kevinheffernan/data/laser2/spm.cc100xx50/spm_model/spm.xx.50k.vocab
+
+spm_vocab: /checkpoint/kevinheffernan/data/laser2/spm.cc100xx50/spm_model/spm.xx.50k.cvocab
+
+executor_config:
+  cluster: local
+  slurm_partition: devaccel
+
+binarization_config:
+  max_examples_per_shard: 80_000_000
+
+train_config:
+  log-interval: 100 
+  log-format: simple 
+  task: distillation 
+  arch: laser_lstm 
+  criterion: encoder_similarity 
+  save-dir: /private/home/kevinheffernan/teacher-student-python/model_dir
+  optimizer: adam 
+  lr: 0.0005
+  clip-norm: 5 
+  update-freq: 1
+  dropout: 0.0 
+  encoder-dropout-in: 0.1 
+  encoder-dropout-out: 0.0 
+  max-tokens: 10_000
+  max-epoch: 50 
+  encoder-layers: 5 
+  encoder-hidden-size: 512 
+  decoder-layers: 1 
+  decoder-hidden-size: 2048 
+  encoder-embed-dim: 320 
+  decoder-embed-dim: 320 
+  decoder-lang-embed-dim: 32 
+  save-interval-updates: 30_000 
+  teacher-checkpoint-path: /private/home/celebio/nlp/laser2networks/laser2.cc50-32-v0.zoe-filt-2m-up0.3-32gpus-maxtokens/checkpoint13.pt
+  lambda-self: 1.0 
+  lambda-distil: 1.0 
+  lambda-mask: 1.0 
+  left-pad-target: True 
+  weighting-alpha:  0.4
+  params_to_store_true:
+    - encoder-bidirectional 
+    - disable-validation 
+    - ddp-backend=no_c10d 
+    - evaluate-after-checkpoint-save

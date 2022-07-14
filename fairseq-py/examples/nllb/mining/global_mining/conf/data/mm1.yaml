@@ -1,0 +1,7 @@
+# @package data
+
+data_version: V32m
+iteration: 2
+data_shard_dir: /large_experiments/nllb/mmt/mining/mini-mine1/sent-segm.${data.data_version}-${data.iteration}
+shard_type: text
+bname: mm1

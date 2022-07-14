@@ -1,0 +1,41 @@
+COPY DATA FROM JHU
+------------------
+
+copy index files into index/
+cat index/* | ./copy-from-jhu.perl
+  (needs to be run multiple times since scp often fails)
+
+MONOLINGUAL DATA
+----------------
+
+# extrect monolingual data from v2.lett.xz, sharded
+ls data | perl -ne 'chop; print "sbatch --job-name mono-$_ --gpus=0 --time 20:00:00 --partition=learnaccel --wrap \"tools/get-all-mono.perl -subdir $_\"\n";' | sh
+
+# run language ID and split monolingual data by language, sharded
+ls data/ | perl -ne 'chop; print "sbatch --job-name lid-$_ --gpus=0 --partition=learnfair --time 10:00:00 --wrap \"tools/language-id-mono-with-fasttext.perl -subdir $_\"\n";' | sh
+
+PARALLEL DATA - PARACRAWL
+-------------------------
+
+# combine v2.*.sent.xz files
+../tools/get-parallel-corpus.perl --language ha | cut -f 4-5 | ~/project/preprocess/build/bin/dedupe | xz -T0 - > paracrawl-2021-07-19.en-ha.raw.xz
+
+# language ID filtering
+../tools/language-filter-parallel.perl --language hau --in paracrawl-2021-07-19.en-ha.raw.xz | xz -T0 > paracrawl-2021-07-19.en-ha.lang-filtered.xz
+
+# LASER scoring
+xzcat paracrawl-2021-07-19.en-ha.lang-filtered.xz | cut -f 1 > paracrawl-2021-07-19.en-ha.lang-filtered.e &
+xzcat paracrawl-2021-07-19.en-ha.lang-filtered.xz | cut -f 2 > paracrawl-2021-07-19.en-ha.lang-filtered.f
+../tools/run-laser.perl paracrawl-2021-07-19.en-ha.lang-filtered.e paracrawl-2021-07-19.en-ha.lang-filtered.f en ha paracrawl-2021-07-19.en-ha.lang-filtered.laser 20000
+  (instead if 20000 could be as high as 1000000)
+cat paracrawl-2021-07-19.en-ha.lang-filtered.laser.tmp/laser.?? | xz -T0 > paracrawl-2021-07-19.en-ha.lang-filtered.laser.xz
+rm -rf paracrawl-2021-07-19.en-ha.lang-filtered.? paracrawl-2021-07-19.en-ha.lang-filtered.laser.tmp
+
+EVALUATION
+----------
+
+./tools/subselect.perl corpus/paracrawl-2021-07-19.en-ha.lang-filtered.laser.xz 1 2 0 subset/paracrawl-2021-07-19.en-ha.lang-filtered.laser 1e6 1.5e6 2e6 3e6 5e6 7e6 10e6 > subset/paracrawl-2021-07-19.en-ha.lang-filtered.laser.threshold
+
+conda activate fairseq-20210318
+
+tools/holger-preprocess.sh hau eng `pwd`/subset/paracrawl-2021-07-19.en-ha.lang-filtered.laser.1e6.f `pwd`/subset/paracrawl-2021-07-19.en-ha.lang-filtered.laser.1e6.e paracrawl-2021-07-19.en-ha.lang-filtered.laser.1e6 100 20

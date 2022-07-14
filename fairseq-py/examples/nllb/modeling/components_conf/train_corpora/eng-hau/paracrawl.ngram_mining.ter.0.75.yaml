@@ -1,0 +1,8 @@
+values:
+  paracrawl.ngram_mining.ter.0.75:
+    s3_paths:
+      source: N/A
+      target: N/A
+    local_paths:
+      source: /checkpoint/vedanuj/mining/hau_eng_ngram_mine_ter/filtered_mining_outputs_freq_100_thresh_0.75/mined.0.75.hau-eng.eng
+      target: /checkpoint/vedanuj/mining/hau_eng_ngram_mine_ter/filtered_mining_outputs_freq_100_thresh_0.75/mined.0.75.hau-eng.hau

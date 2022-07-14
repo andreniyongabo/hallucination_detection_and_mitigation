@@ -1,0 +1,17 @@
+_target_: examples.nllb.mining.global_mining.modules.mlenc_proxy.mine_bitext_sentences_module.MineBitextSentencesModule
+config:
+    src_lang: ???
+    tgt_lang: ???
+    meta_file: ???  # the mined indexes, without npz extension
+    data: ???
+    output_dir: mine.${module.config.data.data_version}
+    margin_norm: mean
+    retrieval: fastmax
+    mine_threshold: 1.04
+    score_max: 1.25
+    # TODO this should be a python import instead
+    laser_dir: /private/home/schwenk/projects/mlenc
+    # find text boundaries
+    targets_first: 0
+    targets_last: 999
+    source_last: 999

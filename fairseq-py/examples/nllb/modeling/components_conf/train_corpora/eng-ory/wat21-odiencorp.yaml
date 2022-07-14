@@ -1,0 +1,9 @@
+values:
+  wat21-odiencorp:
+    s3_paths:
+      source: N/A
+      target: N/A
+    local_paths:
+      source: /large_experiments/nllb/mmt/data/bitexts/mtdata/corpora/eng-ory/wat21-odiencorp.eng.gz
+      target: /large_experiments/nllb/mmt/data/bitexts/mtdata/corpora/eng-ory/wat21-odiencorp.ory.gz
+      is_gzip: true

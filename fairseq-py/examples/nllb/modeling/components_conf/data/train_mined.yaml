@@ -1,0 +1,695 @@
+ace_Latn-eng:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.ace_Latn-eng.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+aka-eng:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.aka-eng.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+amh-eng:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.amh-eng.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+asm-eng:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.asm-eng.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+awa-eng:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.awa-eng.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+aym-eng:
+  mini-mine.3:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine3/bitexts.final/aym-eng.bitextf.tsv.gz
+ayr-eng:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.ayr-eng.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+azj-eng:
+  mini-mine.3:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine3/bitexts.final/azj-eng.bitextf.tsv.gz
+azl-eng:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.azl-eng.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+bak-eng:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.bak-eng.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+bam-eng:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.bam-eng.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+ban-eng:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.ban-eng.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+bem-eng:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.bem-eng.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+ben-eng:
+  mini-mine.3:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine3/bitexts.final/ben-eng.bitextf.tsv.gz
+bho-eng:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.bho-eng.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+bjn_Latn-eng:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.bjn_Latn-eng.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+bod-eng:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.bod-eng.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+ceb-eng:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.ceb-eng.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+cjk-eng:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.cjk-eng.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+ckb-eng:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.ckb-eng.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+crh_Latn-eng:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.crh_Latn-eng.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+cym-eng:
+  mini-mine.3:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine3/bitexts.final/cym-eng.bitextf.tsv.gz
+dik-eng:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.dik-eng.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+diq-eng:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.diq-eng.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+dyu-eng:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.dyu-eng.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+dzo-eng:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.dzo-eng.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-ewe:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-ewe.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-fao:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-fao.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-fij:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-fij.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-fon:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-fon.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-fur:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-fur.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-fuv:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-fuv.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-gla:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-gla.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-gle:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-gle.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-grn:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-grn.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-guj:
+  mini-mine.3:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine3/bitexts.final/eng-guj.bitextf.tsv.gz
+eng-hat:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-hat.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-hau:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-hau.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-hin:
+  mini-mine.3:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine3/bitexts.final/eng-hin.bitextf.tsv.gz
+eng-hne:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-hne.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-hye:
+  mini-mine.3:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine3/bitexts.final/eng-hye.bitextf.tsv.gz
+eng-ibo:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-ibo.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-ilo:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-ilo.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-jav:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-jav.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-kab:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-kab.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-kac:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-kac.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-kam:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-kam.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-kan:
+  mini-mine.3:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine3/bitexts.final/eng-kan.bitextf.tsv.gz
+eng-kas_Arab:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-kas_Arab.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-kas_Deva:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-kas_Deva.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-kat:
+  mini-mine.3:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine3/bitexts.final/eng-kat.bitextf.tsv.gz
+eng-kau_Arab:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-kau_Arab.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-kau_Latn:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-kau_Latn.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-kaz:
+  mini-mine.3:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine3/bitexts.final/eng-kaz.bitextf.tsv.gz
+eng-kbp:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-kbp.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-kea:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-kea.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-khm:
+  mini-mine.3:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine3/bitexts.final/eng-khm.bitextf.tsv.gz
+eng-kik:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-kik.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-kin:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-kin.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-kir:
+  mini-mine.3:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine3/bitexts.final/eng-kir.bitextf.tsv.gz
+eng-kmb:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-kmb.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-kon:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-kon.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-kur:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-kur.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-lao:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-lao.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-lin:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-lin.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-ltg:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-ltg.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-ltz:
+  mini-mine.3:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine3/bitexts.final/eng-ltz.bitextf.tsv.gz
+eng-lua:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-lua.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-lug:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-lug.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-luo:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-luo.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-lus:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-lus.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-mag:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-mag.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-mai:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-mai.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-mal:
+  mini-mine.3:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine3/bitexts.final/eng-mal.bitextf.tsv.gz
+eng-mar:
+  mini-mine.3:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine3/bitexts.final/eng-mar.bitextf.tsv.gz
+eng-min_Latn:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-min_Latn.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-mlg:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-mlg.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-mlt:
+  mini-mine.3:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine3/bitexts.final/eng-mlt.bitextf.tsv.gz
+eng-mni_Mtei:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-mni_Mtei.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-mon:
+  mini-mine.3:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine3/bitexts.final/eng-mon.bitextf.tsv.gz
+eng-mri:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-mri.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-msa:
+  mini-mine.3:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine3/bitexts.final/eng-msa.bitextf.tsv.gz
+eng-mya:
+  mini-mine.3:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine3/bitexts.final/eng-mya.bitextf.tsv.gz
+eng-npi:
+  mini-mine.3:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine3/bitexts.final/eng-npi.bitextf.tsv.gz
+eng-nso:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-nso.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-nus:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-nus.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-nya:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-nya.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-orm:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-orm.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-ory:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-ory.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-pag:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-pag.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-pan:
+  mini-mine.3:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine3/bitexts.final/eng-pan.bitextf.tsv.gz
+eng-prs:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-prs.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-pus:
+  mini-mine.3:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine3/bitexts.final/eng-pus.bitextf.tsv.gz
+eng-que:
+  mini-mine.3:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine3/bitexts.final/eng-que.bitextf.tsv.gz
+eng-run:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-run.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-sag:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-sag.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-san:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-san.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-sat:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-sat.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-scn:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-scn.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-shn:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-shn.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-sin:
+  mini-mine.3:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine3/bitexts.final/eng-sin.bitextf.tsv.gz
+eng-smo:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-smo.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-sna:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-sna.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-snd:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-snd.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-som:
+  mini-mine.3:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine3/bitexts.final/eng-som.bitextf.tsv.gz
+eng-sot:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-sot.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-sqi:
+  mini-mine.3:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine3/bitexts.final/eng-sqi.bitextf.tsv.gz
+eng-srd:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-srd.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-ssw:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-ssw.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-sun:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-sun.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-swh:
+  mini-mine.3:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine3/bitexts.final/eng-swh.bitextf.tsv.gz
+eng-szl:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-szl.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-tam:
+  mini-mine.3:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine3/bitexts.final/eng-tam.bitextf.tsv.gz
+eng-tat_Cyrl:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-tat_Cyrl.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-tel:
+  mini-mine.3:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine3/bitexts.final/eng-tel.bitextf.tsv.gz
+eng-tgk:
+  mini-mine.3:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine3/bitexts.final/eng-tgk.bitextf.tsv.gz
+eng-tgl:
+  mini-mine.3:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine3/bitexts.final/eng-tgl.bitextf.tsv.gz
+eng-tir:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-tir.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-tmh_Latn:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-tmh_Latn.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-tpi:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-tpi.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-tsn:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-tsn.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-tso:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-tso.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-tuk:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-tuk.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-tum:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-tum.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-twi:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-twi.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-tzm:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-tzm.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-uig:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-uig.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-uigk:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-uigk.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-umb:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-umb.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-urd:
+  mini-mine.3:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine3/bitexts.final/eng-urd.bitextf.tsv.gz
+eng-uzb:
+  mini-mine.3:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine3/bitexts.final/eng-uzb.bitextf.tsv.gz
+eng-vec:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-vec.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-war:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-war.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-wol:
+  mini-mine.3:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine3/bitexts.final/eng-wol.bitextf.tsv.gz
+eng-xho:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-xho.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-yid:
+  mini-mine.3:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine3/bitexts.final/eng-yid.bitextf.tsv.gz
+eng-yor:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.eng-yor.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz
+eng-zul:
+  mini-mine.3:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine3/bitexts.final/eng-zul.bitextf.tsv.gz
+xho-zul:
+  mini-mine.5:
+    src: null
+    tgt: null
+    tsv: /large_experiments/nllb/mmt/mining/data/mini-mine5/bitexts.mined/mm5_p5.xho-zul.OPQ64,IVFauto,PQ64.k16-16.mean.np128.fastmax.fp16-shard.bitext.tsv.gz

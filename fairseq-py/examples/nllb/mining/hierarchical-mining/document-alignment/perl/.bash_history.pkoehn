@@ -1,0 +1,8 @@
+2021-09-03:10:52:00 devfair0151 /private/home/pkoehn/project/paracrawl/document-alignment/perl   513  cd perl/
+2021-09-03:10:53:29 devfair0151 /private/home/pkoehn/project/paracrawl/document-alignment/perl   514  scp login.clsp.jhu.edu:statmt/data/site-crawl/paracrawl/lib/perl/translate-foreign.perl .
+2021-09-03:10:53:32 devfair0151 /private/home/pkoehn/project/paracrawl/document-alignment/perl   515  ls -l
+2021-09-03:10:53:40 devfair0151 /private/home/pkoehn/project/paracrawl/document-alignment/perl   516  more translate-foreign.perl 
+2021-09-03:10:59:22 devfair0151 /private/home/pkoehn/project/paracrawl/document-alignment/perl   517  ls -l
+2021-09-03:11:07:09 devfair0151 /private/home/pkoehn/project/paracrawl/document-alignment/perl   518  more translate-foreign.perl 
+2021-09-03:11:12:06 devfair0151 /private/home/pkoehn/project/paracrawl/document-alignment/perl   519  vi translate-foreign.perl 
+2021-09-03:12:50:52 devfair0151 /private/home/pkoehn/project/paracrawl/document-alignment/perl   520  vi translate-foreign.perl 

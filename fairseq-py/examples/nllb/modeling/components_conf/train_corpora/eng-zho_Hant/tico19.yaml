@@ -1,0 +1,9 @@
+values:
+  tico19:
+    s3_paths:
+      source: N/A
+      target: N/A
+    local_paths:
+      source: /large_experiments/nllb/mmt/data/bitexts/mtdata/corpora/eng-zho_Hant/tico19.eng.gz
+      target: /large_experiments/nllb/mmt/data/bitexts/mtdata/corpora/eng-zho_Hant/tico19.zho_Hant.gz
+      is_gzip: true

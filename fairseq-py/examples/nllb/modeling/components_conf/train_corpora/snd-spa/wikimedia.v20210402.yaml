@@ -1,0 +1,9 @@
+values:
+  wikimedia.v20210402:
+    s3_paths:
+      source: N/A
+      target: N/A
+    local_paths:
+      source: /large_experiments/nllb/mmt/data/bitexts/mtdata/corpora/snd-spa/wikimedia.snd.gz
+      target: /large_experiments/nllb/mmt/data/bitexts/mtdata/corpora/snd-spa/wikimedia.spa.gz
+      is_gzip: true

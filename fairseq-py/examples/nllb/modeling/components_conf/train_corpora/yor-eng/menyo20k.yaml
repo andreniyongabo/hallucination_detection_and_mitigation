@@ -1,0 +1,9 @@
+values:
+  menyo20k:
+    s3_paths:
+      source: N/A
+      target: N/A
+    local_paths:
+      source: /large_experiments/nllb/mmt/data/bitexts/mtdata/corpora/eng-yor/menyo20k.yor.gz
+      target: /large_experiments/nllb/mmt/data/bitexts/mtdata/corpora/eng-yor/menyo20k.eng.gz
+      is_gzip: true

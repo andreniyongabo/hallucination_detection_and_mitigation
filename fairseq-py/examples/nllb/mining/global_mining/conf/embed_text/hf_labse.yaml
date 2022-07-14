@@ -1,0 +1,8 @@
+defaults:
+  - /embed_text/mlenc_port@_here_
+  - config/encoder: hf_encoder
+
+config:
+  encoder:
+    encoder_model: sentence-transformers/LaBSE
+    pooling_method: cls

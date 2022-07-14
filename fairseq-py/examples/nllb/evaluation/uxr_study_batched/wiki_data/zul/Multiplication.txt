@@ -1,0 +1,1 @@
+Ukusebenza okuhlukahlukene kwe-multiplication yi-division. Ngokwesibonelo, njengoba i-4 kabili nge-3 isilinganiso se-12, i-12 kabili nge-3 isilinganiso se-4. Ngokwenene, ukuguqula nge-3, elandelwa ukwahlukanisa nge-3, kunikeza inombolo yokuqala. Ukuhlukaniswa kwe-number ngaphandle kwe-0 ngokwakho kufanana ne-1.

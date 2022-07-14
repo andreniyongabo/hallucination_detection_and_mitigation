@@ -1,0 +1,9 @@
+2021-09-03:10:46:27 devfair0151 /private/home/pkoehn/project/paracrawl/document-alignment/utils   509  cd utils/
+2021-09-03:10:46:27 devfair0151 /private/home/pkoehn/project/paracrawl/document-alignment/utils   510  ls -l
+2021-09-03:10:46:45 devfair0151 /private/home/pkoehn/project/paracrawl/document-alignment/utils   511  more __init__.py 
+2021-09-03:10:46:52 devfair0151 /private/home/pkoehn/project/paracrawl/document-alignment/utils   512  ls -l __pycache__/
+2021-09-03:10:46:57 devfair0151 /private/home/pkoehn/project/paracrawl/document-alignment/utils   513  rm -rf __pycache__/
+2021-09-03:10:46:59 devfair0151 /private/home/pkoehn/project/paracrawl/document-alignment/utils   514  ls -l
+2021-09-03:10:47:04 devfair0151 /private/home/pkoehn/project/paracrawl/document-alignment/utils   515  ls -l nonbreaking_prefixes/
+2021-09-03:10:47:16 devfair0151 /private/home/pkoehn/project/paracrawl/document-alignment/utils   516  rm split-sentences.perl 
+2021-09-03:10:47:18 devfair0151 /private/home/pkoehn/project/paracrawl/document-alignment/utils   517  ls -l

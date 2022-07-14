@@ -1,0 +1,29 @@
+defaults:
+  - launcher: submitit
+  - _self_
+
+lm_model: /checkpoint/guw/cc_clean/lm_sp/en.arpa.bin
+spm_model: /checkpoint/guw/cc_clean/lm_sp/en.sp.model
+
+glob: ???
+output_prefix: ???
+max_score: ???
+
+spm_normalize: true
+lm_normalize: false
+
+# update this if you are running local
+local_tmp_dir: /scratch/slurm_tmpdir/
+
+buffer_size: 10_000
+requirements:
+  nodes: 1
+  mem_gb: 300
+  tasks_per_node: 1
+  gpus_per_node: 0
+  cpus_per_task: 40
+  timeout_min: 1200
+
+wandb:
+  project: monolingual
+  entity: nllb

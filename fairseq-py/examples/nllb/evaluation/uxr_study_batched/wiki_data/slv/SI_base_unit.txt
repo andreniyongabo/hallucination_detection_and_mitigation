@@ -1,0 +1,1 @@
+Imena in simboli osnovnih enot SI so zapisani v malem tisku, razen simbolov tistih, ki so poimenovani po osebi, ki so zapisani z začetnim velikim črkom. Na primer, meter ima simbol m, kelvin pa simbol K, ker je poimenovan po lordu Kelvinu, amper s simbolom A pa je poimenovan po André-Marie Ampère.

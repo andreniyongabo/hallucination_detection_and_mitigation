@@ -1,0 +1,1 @@
+Obrnuta operacija množenja je divizija. Na primjer, budući da je 4 pomnoženo sa 3 jednako 12, 12 podijeljeno sa 3 jednako je 4. Zapravo, umnožavanje sa 3, a zatim divizija sa 3, daje izvorni broj. Dijeljenje broja koji nije 0 samo po sebi je jednako 1.

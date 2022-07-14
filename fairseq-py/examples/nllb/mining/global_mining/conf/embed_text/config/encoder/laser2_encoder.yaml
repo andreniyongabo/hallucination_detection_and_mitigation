@@ -1,0 +1,13 @@
+_target_: examples.nllb.mining.global_mining.modules.preprocess.mlenc_sentence_encoder.MLEncTextEncoder
+
+_name: laser2_encoder
+encoder_model: ${laser_dir}/models/laser2.2020-05-24.pt
+spm_model: ${laser_dir}/models/spm100v1.xx.50k.model
+spm_vocab: ${laser_dir}/models/spm100v1.xx.50k.cvocab
+fallback_spm: ${laser_dir}/models/spm100v1.xx.50k.model
+max_sentences:
+max_tokens: 12_000
+stable_sort: False
+normalize: False
+fp16_storage: False
+cpu: False

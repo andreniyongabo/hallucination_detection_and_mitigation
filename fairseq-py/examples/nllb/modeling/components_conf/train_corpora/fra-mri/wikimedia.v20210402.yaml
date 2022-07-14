@@ -1,0 +1,9 @@
+values:
+  wikimedia.v20210402:
+    s3_paths:
+      source: N/A
+      target: N/A
+    local_paths:
+      source: /large_experiments/nllb/mmt/data/bitexts/mtdata/corpora/fra-mri/wikimedia.fra.gz
+      target: /large_experiments/nllb/mmt/data/bitexts/mtdata/corpora/fra-mri/wikimedia.mri.gz
+      is_gzip: true

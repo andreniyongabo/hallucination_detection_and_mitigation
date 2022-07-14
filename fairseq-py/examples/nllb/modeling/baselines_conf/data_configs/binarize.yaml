@@ -1,0 +1,44 @@
+# train_corpora:
+#   - <LANGUAGE_DIRECTION>/<CORPORA_NAME>
+#   ...
+# train_mining_corpora:
+#   - <LANGUAGE_DIRECTION>/<CORPORA_NAME>
+#   ...
+# train_smt_bt_corpora:
+#   - <LANGUAGE_DIRECTION>/<CORPORA_NAME>
+#   ...
+# train_mmt_bt_corpora:
+#   - <LANGUAGE_DIRECTION>/<CORPORA_NAME>
+#   ...
+# valid_corpora:
+#   - <LANGUAGE_DIRECTION>/<CORPORA_NAME>
+#   ...
+test_catastrophic:
+  - wol-eng/catastrophic_devtest
+  - ibo-eng/catastrophic_devtest
+  - kam-eng/catastrophic_devtest
+  - luo-eng/catastrophic_devtest
+  - orm-eng/catastrophic_devtest
+  - som-eng/catastrophic_devtest
+  - yor-eng/catastrophic_devtest
+
+hydra:
+  searchpath:
+    - file://examples/nllb/modeling/components_conf
+
+source_vocab_config:
+    pretrained:
+        model_file: /checkpoint/vedanuj/nmt/flores200/dense_dae_ssl.mfp16.mu100000.uf2.lss.tmp1.0.lr0.001.drop0.1.maxtok5120.seed2.max_pos512.shem.NBF.adam16bit.fully_sharded.enttgt.det.transformer.ELS24.DLS24.encffnx8192.decffnx8192.E2048.H16.ATTDRP0.1.RELDRP0.0.m0.3.mr0.1.i0.0.p0.0.r0.0.pl3.5.rl1.ngpu128/checkpoint_4_100000-shard0.pt
+        vocab_file: /large_experiments/nllb/mmt/multilingual_bin/flores200.en_xx_en.v4.4.256k/sentencepiece.source.256000.source.dict.txt
+
+target_vocab_config:
+    pretrained:
+        model_file: /checkpoint/vedanuj/nmt/flores200/dense_dae_ssl.mfp16.mu100000.uf2.lss.tmp1.0.lr0.001.drop0.1.maxtok5120.seed2.max_pos512.shem.NBF.adam16bit.fully_sharded.enttgt.det.transformer.ELS24.DLS24.encffnx8192.decffnx8192.E2048.H16.ATTDRP0.1.RELDRP0.0.m0.3.mr0.1.i0.0.p0.0.r0.0.pl3.5.rl1.ngpu128/checkpoint_4_100000-shard0.pt
+        vocab_file: /large_experiments/nllb/mmt/multilingual_bin/flores200.en_xx_en.v4.4.256k/sentencepiece.source.256000.source.dict.txt
+
+binarization_config:
+  max_examples_per_shard: 80_000_000
+  smallest_shard: 250_000
+
+executor_config:
+  cluster: local

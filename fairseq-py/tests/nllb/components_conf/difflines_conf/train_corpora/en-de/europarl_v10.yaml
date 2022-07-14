@@ -1,0 +1,9 @@
+values:
+  europarl_v10:
+    s3_paths:
+      source: s3://test/europarl.source
+      target: s3://test/europarl.target
+    local_paths:
+      source: tests/nllb/test_data/corpora_test_data/finished_bitexts/en-de/europarl.de-en.en.gz
+      target: tests/nllb/test_data/corpora_test_data/finished_bitexts/en-de/europarl.de-en.de.gz
+      is_gzip: true

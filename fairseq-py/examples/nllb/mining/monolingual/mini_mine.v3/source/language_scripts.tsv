@@ -1,0 +1,190 @@
+BCP47	SCRIPT 1	SCRIPT 2
+aeb	Arab	Latn
+afr	Latn	--
+alt	Cyrl	Mong
+amh_Ethi	Ethi	Latn
+ara	Arab	Latn
+asm_Beng	Beng	Latn
+ast	Latn	--
+aym	Latn	--
+azb	Arab	Latn
+aze	Latn	Arab
+azj	Latn	Arab
+bak	Cyrl	--
+bel_Cyrl	Cyrl	Latn
+ben_Beng	Beng	Latn
+bod	Tibt	Marc	Phag
+bos_Latn	Latn	Cyrl
+bul_Cyrl	Cyrl	Latn
+cat	Latn	--
+ceb	Latn	--
+ces	Latn	--
+chv	Cyrl	--
+ckb	Arab	Latn
+cjs	Cyrl	--
+cmn	Hant	Hans
+crh_Latn	Latn	Cyrl
+cym	Latn	--
+dan	Latn	--
+deu	Latn	--
+#dyu	Arab	Latn	Nkoo
+dyu	Latn	Arab	Nkoo
+ell_Grek	Grek	Latn
+eng	Latn	--
+est	Latn	--
+fas	Arab	Latn
+fin	Latn	--
+fon	Latn	--
+fra	Latn	--
+ful	Latn	--
+fuv	Latn	--
+gle	Latn	--
+glg	Latn	--
+gag	Latn	Cyrl
+gla	Latn	--
+guj_Gujr	Gujr	Latn
+hat	Latn	--
+hau	Latn	--
+heb	Hebr	--
+hin_Deva	Deva	Latn
+hrv_Latn	Latn	Cyrl
+hun	Latn	--
+hye	Armn	Latn
+ibo	Latn	--
+ilo	Latn	--
+ind	Latn	Arab
+isl	Latn	--
+ita	Latn	--
+jpn	Jpan	Latn
+jav_Latn	Latn	Java
+kaa	Cyrl	Latn
+kac	Latn	--
+kam	Latn	--
+kan_Knda	Knda	Latn
+kat	Geor	--
+kaz_Cyrl	Cyrl	Latn
+kea	Latn	--
+khm	Khmr	--
+kin	Latn	--
+kir_Cyrl	Cyrl	Latn
+kjh	Cyrl	--
+kmr	Arab	Cyrl	Latn
+kmb	Latn	--
+kon	Latn	--
+kor	Hang	Latn
+krc	Cyrl	--
+kum	Cyrl	Latn
+#kur	Arab	Cyrl	Latn
+kur	Latn	# Holger
+lao_Laoo	Laoo	Latn
+lav	Latn	--
+lin	Latn	--
+lit	Latn	--
+ltz	Latn	--
+lug	Latn	--
+luo_Latn	Latn	--
+mal_Mlym	Mlym	--
+mar	Deva	Latn
+mkd	Cyrl	Latn
+mlg	Latn	--
+mlt	Latn	Arab
+mon_Cyrl	Cyrl	Mong
+mos	Latn	--
+mri	Latn	--
+msa	Latn	--
+mya	Mymr	Latn
+nde	Latn	--
+nld	Latn	--
+nob	Latn	--
+nor	Latn	--
+nno	Latn	--
+npi	Deva	--
+nso	Latn	--
+nya	Latn	--
+oci	Latn	--
+orm	Latn	--
+ory	Orya	--
+pan_Guru	Guru	Arab
+pcm	Latn	--
+pol	Latn	--
+por	Latn	--
+prs	Arab	--
+pus	Arab	--
+que	Latn	--
+ron	Latn	--
+run	Latn	--
+rus	Cyrl	--
+sin	Sinh	Latn
+slk	Latn	--
+slv	Latn	--
+sna	Latn	--
+snd_Arab	Arab	Deva
+som	Latn	--
+sot	Latn	--
+spa	Latn	--
+sqi	Latn	Arab
+srp	Cyrl	Latn
+srp_Cyrl	Cyrl	Latn
+srp_Latn	Latn	Cyrl
+ssw	Latn	--
+#sun	Arab	Latn
+sun	Latn
+swa	Latn	Arab
+swe	Latn	--
+swh	Latn	Arab
+#tam	Taml	Latn
+tam_Taml	Taml	Latn
+tat Cyrl    # Holger
+tat_Cyrl	Cyrl	Latn
+#tel	Telu	Latn
+tel_Telu	Telu	Latn
+tgk	Cyrl	--
+tgl	Latn	--
+tha	Thai	--
+tir	Ethi	Latn
+tsn	Latn	--
+tso	Latn	--
+tuk	Arab	Cyrl	Latn
+tur	Latn	--
+twi	Latn	--
+tyv	Cyrl	--
+uig	Arab	Cyrl	Latn
+ukr	Cyrl	Latn
+umb	Latn	--
+urd	Arab	Latn
+uum	Cyrl	Grek
+#uzb_Cyrl	Cyrl	Latn
+uzb_Latn	Latn	Cyrl
+ven	Latn	--
+vie	Latn	--
+wol	Latn	Arab
+xho	Latn	--
+yid	Hebr	--
+yor_Latn	Latn	Arab
+yue	Hant	--
+zho	Hans	Hant
+zlm_Latn	Latn	Arab
+zul	Latn	--
+smo Latn    # Holger
+bam Latn    # Holger
+bem Latn    # Holger
+cyk Latn    # Holger
+ewe Latn    # Holger
+fon Latn    # Holger
+kau Latn    # Holger
+kik Latn    # Holger
+kin Latn    # Holger
+sot Latn    # Holger
+tso Latn    # Holger
+twi Latn    # Holger
+bbo	Deva    # Holger
+kas	Deva    # Holger
+mag	Deva    # Holger
+mai	Deva    # Holger
+san	Deva    # Holger
+sat	Deva    # Holger
+oss	Cyrl    # Holger
+zza Latn    # Holger
+bis Latn    # Holger
+pap Latn    # Holger
+tah Latn    # Holger

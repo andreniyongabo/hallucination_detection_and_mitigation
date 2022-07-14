@@ -1,0 +1,9 @@
+values:
+  unpc:
+    s3_paths:
+      source: N/A
+      target: N/A
+    local_paths:
+      source: /large_experiments/nllb/mmt/data/bitexts/mtdata/corpora/eng-zho_Hans/unpc.eng.gz
+      target: /large_experiments/nllb/mmt/data/bitexts/mtdata/corpora/eng-zho_Hans/unpc.zho_Hans.gz
+      is_gzip: true

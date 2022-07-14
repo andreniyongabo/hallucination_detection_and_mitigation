@@ -1,0 +1,1 @@
+A operação inversa da multiplicação é divisão. Por exemplo, como 4 multiplicado por 3 equivale a 12, 12 dividido por 3 equivale a 4. Na verdade, a multiplicação por 3, seguida da divisão por 3, produz o número original. A divisão de um número diferente de 0 por si só é igual a 1.

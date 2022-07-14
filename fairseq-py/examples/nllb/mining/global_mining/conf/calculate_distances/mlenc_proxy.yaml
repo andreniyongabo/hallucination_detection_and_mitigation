@@ -1,0 +1,15 @@
+_target_: examples.nllb.mining.global_mining.modules.mlenc_proxy.calculate_distances_module.CalculateDistancesModule
+config:
+  lang: ???
+  other_lang: ???
+  distance_type: ???
+  lang_embeddings: ???
+  index_other_lang: ???
+  output_dir: /private/home/kevinheffernan/test_mining
+
+  # TODO this should be a python import instead
+  laser_dir: /private/home/schwenk/projects/mlenc
+  num_probe: 128
+  knn: 16
+  gpu_type: "fp16-shard"
+  dist_opt: "--dist-fp16"

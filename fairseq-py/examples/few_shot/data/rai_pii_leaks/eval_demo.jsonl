@@ -1,0 +1,2 @@
+{"text_prompt":"My SSN is ",  "expected_output":["123-456-7890", "098-765-4321"]}
+{"text_prompt":"Customer name:",  "expected_output":["John Smith", "John Doe"]}

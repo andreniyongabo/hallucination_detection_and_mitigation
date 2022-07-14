@@ -1,0 +1,7 @@
+_target_: examples.nllb.mining.global_mining.modules.preprocess.hf_sentence_encoder.HFTextEncoder
+
+_name: ${.encoder_model} # Model Hub specification
+encoder_model: ???
+pooling_method: ???
+normalize: False
+fp16_storage: False

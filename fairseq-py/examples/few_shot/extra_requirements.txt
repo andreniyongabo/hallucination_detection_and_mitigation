@@ -1,0 +1,7 @@
+scipy
+scikit-learn==0.24.1
+pandas==1.2.4
+scipy==1.6.1
+funcy
+fire
+Jinja2==2.11.3

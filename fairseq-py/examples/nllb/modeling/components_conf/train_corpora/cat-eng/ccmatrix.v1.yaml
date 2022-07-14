@@ -1,0 +1,8 @@
+values:
+  ccmatrix.v1:
+    s3_paths:
+      source: N/A
+      target: N/A
+    local_paths:
+      source: /large_experiments/nllb/mmt/data/bitexts/ccmatrix.v1/cld3_char_freq_filtered/ccmatrix_v1.ca-en.ca
+      target: /large_experiments/nllb/mmt/data/bitexts/ccmatrix.v1/cld3_char_freq_filtered/ccmatrix_v1.ca-en.en

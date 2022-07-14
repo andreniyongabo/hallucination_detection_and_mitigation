@@ -1,0 +1,12 @@
+_target_: examples.nllb.mining.global_mining.modules.mlenc_proxy.populate_faiss_index_module.PopulateFAISSIndexModule
+config:
+  lang: ???
+  index: ???
+  index_type: ???
+  embedding_files: ???
+  output_dir: index.${module.config.data.data_version}
+  laser_dir: /private/home/schwenk/projects/mlenc
+
+  sample_size: 40000000
+  num_cpu: 40
+  embedding_dimensions: 1024

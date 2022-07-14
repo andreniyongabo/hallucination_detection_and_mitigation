@@ -1,0 +1,8 @@
+values:
+  wikimatrix:
+    s3_paths:
+      source: s3://test/wikimatrix.source
+      target: s3://test/wikimatrix.target
+    local_paths:
+      source: tests/nllb/test_data/corpora_test_data/finished_bitexts/en-de/wikimatrix.de-en.en
+      target: tests/nllb/test_data/corpora_test_data/finished_bitexts/en-de/wikimatrix.de-en.de

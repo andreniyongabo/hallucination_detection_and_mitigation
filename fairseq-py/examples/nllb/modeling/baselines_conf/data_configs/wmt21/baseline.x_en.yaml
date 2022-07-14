@@ -1,0 +1,91 @@
+defaults:
+  - train_corpora:
+    - ces-eng/commoncrawl
+    - ces-eng/czeng
+    - ces-eng/europarl_v10
+    - ces-eng/news_commentary_v16
+    - ces-eng/paracrawl_v7_1
+    - ces-eng/ted
+    - ces-eng/tilde
+    - ces-eng/wikimatrix
+    - ces-eng/wikititles_v3
+    - deu-eng/commoncrawl
+    - deu-eng/europarl_v10
+    - deu-eng/news_commentary_v16
+    - deu-eng/paracrawl_v7_1
+    - deu-eng/ted
+    - deu-eng/tilde
+    - deu-eng/wikimatrix
+    - deu-eng/wikititles_v3
+    - hau-eng/khamenei
+    - hau-eng/opus
+    - hau-eng/paracrawl_v8
+    - hau-eng/wikititles
+    - isl-eng/paracrawl_v7_1
+    - isl-eng/parice
+    - isl-eng/tilde
+    - isl-eng/wikititles
+    - jpn-eng/jesc
+    - jpn-eng/kftt
+    - jpn-eng/ccmatrix.v1
+    - jpn-eng/news_commentary_v16
+    - jpn-eng/paracrawl_v7_1
+    - jpn-eng/ted
+    - jpn-eng/wikimatrix
+    - jpn-eng/wikititles_v3
+    - rus-eng/news_commentary_v16
+    - rus-eng/paracrawl_v8
+    - rus-eng/ted
+    - rus-eng/uncorpus
+    - rus-eng/wikimatrix
+    - rus-eng/wikititles_v3
+    - rus-eng/yandex
+    - zho_Hans-eng/cwmt
+    - zho_Hans-eng/news_commentary_v16
+    - zho_Hans-eng/paracrawl_v7_1
+    - zho_Hans-eng/ted
+    - zho_Hans-eng/uncorpus
+    - zho_Hans-eng/wikimatrix
+    - zho_Hans-eng/wikititles_v3
+  - valid_corpora:
+    - ces-eng/flores_dev
+    - deu-eng/flores_dev
+    - hau-eng/flores_dev
+    - isl-eng/flores_dev
+    - jpn-eng/flores_dev
+    - rus-eng/flores_dev
+    - zho_Hans-eng/flores_dev
+  - test_corpora:
+    - ces-eng/flores_devtest
+    - deu-eng/flores_devtest
+    - hau-eng/flores_devtest
+    - isl-eng/flores_devtest
+    - jpn-eng/flores_devtest
+    - rus-eng/flores_devtest
+    - zho_Hans-eng/flores_devtest
+
+source_vocab_config:
+  vocab_build_params:
+    vocab_size: 128_000
+    use_joined_data: true
+    sampled_data_size: 10_000_000
+    sampling_temperature: 2.0
+
+
+target_vocab_config:
+  vocab_build_params:
+    vocab_size: 128_000
+    use_joined_data: true
+    sampled_data_size: 10_000_000
+    sampling_temperature: 2.0
+
+binarization_config:
+  max_examples_per_shard: 80_000_000
+
+executor_config:
+  cluster: slurm
+  slurm_partition: devaccel
+
+hydra:
+  searchpath:
+    - file://examples/nllb/modeling/components_conf

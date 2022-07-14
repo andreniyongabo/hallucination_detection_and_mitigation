@@ -1,0 +1,8 @@
+values:
+  flores101_opus:
+    s3_paths:
+      source: N/A
+      target: N/A
+    local_paths:
+      source: /large_experiments/nllb/mmt/data/bitexts/flores101_opus/char_freq_filtered/opus_dedup.en-ky.en
+      target: /large_experiments/nllb/mmt/data/bitexts/flores101_opus/char_freq_filtered/opus_dedup.en-ky.ky

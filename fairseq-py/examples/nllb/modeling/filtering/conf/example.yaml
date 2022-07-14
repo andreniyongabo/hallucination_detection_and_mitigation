@@ -1,0 +1,45 @@
+defaults:
+  - base_config
+  - train_primary/basic_filter: default
+  - train_primary/lid_filter: default
+  - train_primary/toxicity_filter: default
+  - train_mined/laser_filter: default
+  - train_mined/basic_filter: default
+  - train_mined/lid_filter: default
+  - train_mined/toxicity_filter: default
+
+directions:
+  - eng-lij
+  - eng-scn
+train_primary:
+  included_corpora:
+    - fbseed
+    - tatoeba
+  basic_filter:
+    spm: /large_experiments/nllb/mmt/multilingual_bin/flores200.en_xx_en.v4.0/vocab_bin/sentencepiece.source.256000.model
+    dedup_pairs: true
+  lid_filter:
+    default_threshold: 0.99
+    excluded_corpora:
+      - fbseed
+    thresholds:
+      lij: 0.01
+      scn: 0.5
+train_mined:
+  included_corpora:
+    - mini-mine.3
+    - mini-mine.5
+  laser_filter:
+    max_target_dups: 2
+  basic_filter:
+    spm: /large_experiments/nllb/mmt/multilingual_bin/flores200.en_xx_en.v4.0/vocab_bin/sentencepiece.source.256000.model
+    dedup_pairs: true
+  lid_filter:
+    default_threshold: 0.1
+executor:
+  log_folder: executor_logs
+  cluster: local
+hydra:
+  output_subdir: null
+  run:
+    dir: ${output_dir}

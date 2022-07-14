@@ -1,0 +1,11 @@
+# @package _global_
+
+launcher:
+  partition: nllb
+  cache:
+    caching_dir: /data/home/mortimer/cache
+
+timeout_min: 1440
+mem_gb: null
+
+wandb: null

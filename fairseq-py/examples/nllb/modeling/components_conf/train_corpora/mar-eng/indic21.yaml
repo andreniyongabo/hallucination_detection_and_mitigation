@@ -1,0 +1,9 @@
+values:
+  indic21:
+    s3_paths:
+      source: N/A
+      target: N/A
+    local_paths:
+      source: /large_experiments/nllb/mmt/data/bitexts/mtdata/corpora/eng-mar/indic21.mar.gz
+      target: /large_experiments/nllb/mmt/data/bitexts/mtdata/corpora/eng-mar/indic21.eng.gz
+      is_gzip: true

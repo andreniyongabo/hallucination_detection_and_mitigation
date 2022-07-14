@@ -1,0 +1,71 @@
+defaults:
+  # base configs for the sub modules
+  - embed_text: laser3
+  - train_index: mlenc_port
+  - populate_index: mlenc_port
+  - merge_indexes: mlenc_proxy
+  - mine_indexes: mlenc_proxy
+  - mine_sentences: mlenc_proxy
+  - calculate_distances: mlenc_proxy
+  - launcher: submitit
+  - _self_
+
+src_lang: ???
+tgt_lang: ???
+data: ???
+laser_dir: /data/home/schwenk/projects/mlenc
+model_dir: /fsx-nllb/schwenk/mini-mine5/models.22h1
+output_dir: ???
+embedding_dimensions: 1024
+mine_threshold: 1.04
+local_tmp_dir: /scratch/slurm_tmpdir/
+
+embedding_sample:
+  max_num_workers: 40
+
+#override the sub module configs with the parents
+embed_text:
+  config:
+    data: ${data}
+    laser_dir: ${laser_dir}
+    model_dir: ${model_dir}
+    output_dir: ${output_dir}/embed.${data.data_version}
+    embedding_dimensions: ${embedding_dimensions}
+train_index:
+  config:
+    data: ${data}
+    laser_dir: ${laser_dir}
+    output_dir: ${output_dir}/index.${data.data_version}
+    embedding_dimensions: ${embedding_dimensions}
+populate_index:
+  config:
+    data: ${data}
+    laser_dir: ${laser_dir}
+    output_dir: ${output_dir}/index.${data.data_version}
+    embedding_dimensions: ${embedding_dimensions}
+merge_indexes:
+  config:
+    data: ${data}
+    laser_dir: ${laser_dir}
+    output_dir: ${output_dir}/index.${data.data_version}
+calculate_distances:
+  config:
+    laser_dir: ${laser_dir}
+    output_dir: ${output_dir}/mine.${data.data_version}
+mine_indexes:
+  config:
+    src_lang: ${src_lang}
+    tgt_lang: ${tgt_lang}
+    data_version: ${data.data_version}
+    laser_dir: ${laser_dir}
+    output_dir: ${output_dir}/mine.${data.data_version}
+    mine_threshold: ${mine_threshold}
+mine_sentences:
+  config:
+    data: ${data}
+    src_lang: ${src_lang}
+    tgt_lang: ${tgt_lang}
+    laser_dir: ${laser_dir}
+    output_dir: ${output_dir}/mine.${data.data_version}
+    mine_threshold: ${mine_threshold}
+lang_configs:

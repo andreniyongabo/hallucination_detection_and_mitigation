@@ -1,0 +1,5 @@
+test_translation_multi_simple_epoch.py
+speech_recognition/test_collaters.py
+speech_recognition/test_cross_entropy.py
+speech_recognition/test_data_utils.py
+speech_recognition/test_vggtransformer.py

@@ -1,0 +1,20 @@
+_target_: examples.nllb.mining.global_mining.modules.mlenc_port.mine_bitext_indexes_module.MineBitextIndexesModule
+config:
+    src_lang: ???
+    tgt_lang: ???
+    index_type: ???
+    dists_idxs_basename: ???  # the precomputed distances
+    data: ???
+    output_dir: mine.${module.config.data.data_version}
+    knn_dist: 16
+    src_k: 16
+    tgt_k: 16
+    k_extract: 1
+    margin: ratio
+    margin_norm: mean
+    L2: 0
+    num_probe: 128
+    gpu_type: fp16-shard
+    mine_threshold: 1.06
+    # TODO this should be a python import instead
+    laser_dir: /private/home/schwenk/projects/mlenc

@@ -1,0 +1,40 @@
+# INSTALL
+##########
+
+# HUNALIGN
+git clone https://github.com/danielvarga/hunalign.git
+cd hunalign/src/hunalign
+make
+cd ../../..
+# fix hard-coded path to moses, tokenizers, sentence splitter in sentence-align-hunalign.bash
+
+# VECALIGN
+git clone https://github.com/thompsonb/vecalign
+conda create --name vecalign python=3.7
+source `conda info --base`/etc/profile.d/conda.sh
+conda install -y -c anaconda cython
+conda install -y -c anaconda numpy
+pip install torch
+pip install fastBPE
+pip install transliterate
+# laser is also needed
+# fix hard-coded paths to laser, laser model spec in sentence-align-vecalign.bash
+# fix hard-coded path for sentence splitter in util/prepare-data-for-vecalign.perl
+
+# BLEUALIGN
+git clone https://github.com/bitextor/bleualign-cpp.git
+cd bleualign-cpp
+rm -rf preprocess
+git clone https://github.com/kpu/preprocess.git
+cd preprocess
+mkdir build
+cd build
+cmake ..
+make -j4
+cd ../..
+mkdir build
+cd build
+cmake .. -DBUILD_TEST=on -DCMAKE_BUILD_TYPE=Release
+make -j4
+cd ../..
+

@@ -1,0 +1,1281 @@
+# @package _global_
+
+launcher:
+  partition: nllb
+  cache:
+    caching_dir: /data/home/kevinheffernan/cache
+
+# shards are found with:
+# bname.shard_type.lang_iso2.shard_number.xz
+
+data_home: /fsx-nllb/schwenk/mini-mine5
+
+data:
+  data_version: 22h1
+  iteration: 0
+  data_shard_dir: ${data_home}/sent-segm.22h1
+  shard_type: text
+  bname: mm5_p5
+  shard_glob: ${.data_shard_dir}/mm5_p[0-9].text.{lang}.[0-9][0-9][0-9].[xg]z
+
+model_dir:  ${data_home}/models.22h1
+output_dir: /fsx-nllb/kevinheffernan/mine-22h1
+vocab_dir: /fsx-nllb/kevinheffernan/cvocabs.22h1
+laser_dir: /data/home/mortimer/mlenc/
+
+embed_text:
+  config:
+    preprocess:
+      config:
+        token_lang_file: /data/home/schwenk/projects/mlenc/tasks/laser3/map_token_lang.22h1.sed
+        lowercase: True
+        deescape_special_chars: False
+    encoder:
+      fp16_storage: True
+      fallback_spm: /data/home/schwenk/projects/mlenc/models/spm100v1.xx.50k.model
+
+train_index:
+  config:
+    use_gpu: True
+    sample_shards: True
+    sample_sz: 40_000_000
+    fp16_storage: ${...embed_text.config.encoder.fp16_storage}
+
+populate_index:
+  config:
+    use_gpu: True
+    fp16_embeddings: ${...embed_text.config.encoder.fp16_storage}
+
+calculate_distances:
+  config:
+    gpu_memory_gb: 32
+
+index_path: ${data_home}/index.22h1
+embed_path: ${data_home}/embed.22h1
+
+lang_configs:
+  oci:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: null
+    encoder_model: ${model_dir}/laser2.pt
+    spm_model: /data/home/schwenk/projects/mlenc/models/spm100v1.xx.50k.model
+    spm_vocab: /data/home/schwenk/projects/mlenc/models/spm100v1.xx.50k.cvocab
+  glg:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: null
+    encoder_model: ${model_dir}/laser2.pt
+    spm_model: /data/home/schwenk/projects/mlenc/models/spm100v1.xx.50k.model
+    spm_vocab: /data/home/schwenk/projects/mlenc/models/spm100v1.xx.50k.cvocab
+  por:
+    index_type: OPQ64,IVF131072,PQ64
+    existing_index_path: /fsx-nllb/mortimer/mine-nonenglish-raw/mini-mine5/index.22h1/mm5_p5.OPQ64,IVF131072,PQ64.0-7.por.data.idx
+    existing_embedding_glob: /fsx-nllb/mortimer/mine-nonenglish-raw/mini-mine5/embed.22h1/laser3_encoder/por.enc.*
+    encoder_model: ${model_dir}/laser2.pt
+    spm_model: /data/home/schwenk/projects/mlenc/models/spm100v1.xx.50k.model
+    spm_vocab: /data/home/schwenk/projects/mlenc/models/spm100v1.xx.50k.cvocab
+  fra:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: null
+    encoder_model: ${model_dir}/laser2.pt
+    spm_model: /data/home/schwenk/projects/mlenc/models/spm100v1.xx.50k.model
+    spm_vocab: /data/home/schwenk/projects/mlenc/models/spm100v1.xx.50k.cvocab
+  eng0:
+    index_type: OPQ64,IVF262144,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.eng0.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].eng0
+    encoder_model: ${model_dir}/laser2.pt
+    spm_model: /data/home/schwenk/projects/mlenc/models/spm100v1.xx.50k.model
+    spm_vocab: /data/home/schwenk/projects/mlenc/models/spm100v1.xx.50k.cvocab
+  eng1:
+    index_type: OPQ64,IVF262144,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.eng1.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].eng1
+    encoder_model: ${model_dir}/laser2.pt
+    spm_model: /data/home/schwenk/projects/mlenc/models/spm100v1.xx.50k.model
+    spm_vocab: /data/home/schwenk/projects/mlenc/models/spm100v1.xx.50k.cvocab
+  eng2:
+    index_type: OPQ64,IVF262144,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.eng2.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].eng2
+    encoder_model: ${model_dir}/laser2.pt
+    spm_model: /data/home/schwenk/projects/mlenc/models/spm100v1.xx.50k.model
+    spm_vocab: /data/home/schwenk/projects/mlenc/models/spm100v1.xx.50k.cvocab
+  eng3:
+    index_type: OPQ64,IVF262144,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.eng3.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].eng3
+    encoder_model: ${model_dir}/laser2.pt
+    spm_model: /data/home/schwenk/projects/mlenc/models/spm100v1.xx.50k.model
+    spm_vocab: /data/home/schwenk/projects/mlenc/models/spm100v1.xx.50k.cvocab
+  eng4:
+    index_type: OPQ64,IVF262144,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.eng4.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].eng4
+    encoder_model: ${model_dir}/laser2.pt
+    spm_model: /data/home/schwenk/projects/mlenc/models/spm100v1.xx.50k.model
+    spm_vocab: /data/home/schwenk/projects/mlenc/models/spm100v1.xx.50k.cvocab
+  eng5:
+    index_type: OPQ64,IVF262144,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.eng5.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].eng5
+    encoder_model: ${model_dir}/laser2.pt
+    spm_model: /data/home/schwenk/projects/mlenc/models/spm100v1.xx.50k.model
+    spm_vocab: /data/home/schwenk/projects/mlenc/models/spm100v1.xx.50k.cvocab
+  ace_Latn:
+    index_type: OPQ64,IVF16384,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.ace_Latn.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].ace_Latn
+    encoder_model: ${model_dir}/laser3-ace_Latn.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-ace_Latn.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-ace_Latn.mm5.cvocab
+  acm:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].acm
+    encoder_model: ${model_dir}/laser3-acm.cc2.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-acm.cc2.spm
+    spm_vocab: ${vocab_dir}/laser3-acm.mm5.cvocab
+  acq:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].acq
+    encoder_model: ${model_dir}/laser3-acq.cc2.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-acq.cc2.spm
+    spm_vocab: ${vocab_dir}/laser3-acq.mm5.cvocab
+  aeb:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].aeb
+    encoder_model: ${model_dir}/laser3-aeb.cc2.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-aeb.cc2.spm
+    spm_vocab: ${vocab_dir}/laser3-aeb.mm5.cvocab
+  ajp:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].ajp
+    encoder_model: ${model_dir}/laser3-ajp.cc2.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-ajp.cc2.spm
+    spm_vocab: ${vocab_dir}/laser3-ajp.mm5.cvocab
+  aka:
+    index_type: OPQ64,IVF4096,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.aka.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].aka
+    encoder_model: ${model_dir}/laser3-aka.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-aka.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-aka.mm5.cvocab
+  amh:
+    index_type: OPQ64,IVF65536,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.amh.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].amh
+    encoder_model: ${model_dir}/laser3-amh.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-amh.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-amh.mm5.cvocab
+  apc:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].apc
+    encoder_model: ${model_dir}/laser3-apc.cc2.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-apc.cc2.spm
+    spm_vocab: ${vocab_dir}/laser3-apc.mm5.cvocab
+  ara:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].ara
+    encoder_model: ${model_dir}/laser3-ara.cc2.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-ara.cc2.spm
+    spm_vocab: ${vocab_dir}/laser3-ara.mm5.cvocab
+  ara_Arab:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].ara_Arab
+    encoder_model: ${model_dir}/laser3-ara_Arab.cc2.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-ara_Arab.cc2.spm
+    spm_vocab: ${vocab_dir}/laser3-ara_Arab.mm5.cvocab
+  ars:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].ars
+    encoder_model: ${model_dir}/laser3-ars.cc2.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-ars.cc2.spm
+    spm_vocab: ${vocab_dir}/laser3-ars.mm5.cvocab
+  ary:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].ary
+    encoder_model: ${model_dir}/laser3-ary.cc2.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-ary.cc2.spm
+    spm_vocab: ${vocab_dir}/laser3-ary.mm5.cvocab
+  arz:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].arz
+    encoder_model: ${model_dir}/laser3-arz.cc2.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-arz.cc2.spm
+    spm_vocab: ${vocab_dir}/laser3-arz.mm5.cvocab
+  asm:
+    index_type: OPQ64,IVF32768,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.asm.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].asm
+    encoder_model: ${model_dir}/laser3-asm.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-asm.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-asm.mm5.cvocab
+  awa:
+    index_type: OPQ64,IVF2048,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.awa.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].awa
+    encoder_model: ${model_dir}/laser3-awa.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-awa.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-awa.mm5.cvocab
+  aym:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].aym
+    encoder_model: ${model_dir}/laser3-aym.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-aym.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-aym.mm5.cvocab
+  ayr:
+    index_type: OPQ64,IVF16384,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.ayr.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].ayr
+    encoder_model: ${model_dir}/laser3-ayr.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-ayr.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-ayr.mm5.cvocab
+  azb:
+    index_type: OPQ64,IVF65536,PQ64
+    existing_index_path: /fsx-nllb/kevinheffernan/index.22h1/mm5_p5.${.index_type}.000.azb.data.idx
+    existing_embedding_glob: /fsx-nllb/kevinheffernan/embed.22h1/mm5_p5.encf.[0-9][0-9][0-9].azb
+    encoder_model: ${model_dir}/laser3-azb.mm5.pt
+    spm_model: ${model_dir}/laser3-azb.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-azb.mm5.cvocab
+  lij:
+    index_type: OPQ64,IVF16384,PQ64
+    existing_index_path: /fsx-nllb/kevinheffernan/index.22h1/mm5_p5.${.index_type}.000.lij.data.idx
+    existing_embedding_glob: /fsx-nllb/kevinheffernan/embed.22h1/mm5_p5.encf.[0-9][0-9][0-9].lij
+    encoder_model: ${model_dir}/laser3-lij.mm5.pt
+    spm_model: ${model_dir}/laser3-lij.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-lij.mm5.cvocab
+  mos:
+    index_type: OPQ64,IVF8192,PQ64
+    existing_index_path: /fsx-nllb/kevinheffernan/index.22h1/mm5_p5.${.index_type}.000.mos.data.idx
+    existing_embedding_glob: /fsx-nllb/kevinheffernan/embed.22h1/mm5_p5.encf.[0-9][0-9][0-9].mos
+    encoder_model: ${model_dir}/laser3-mos.mm5.pt
+    spm_model: ${model_dir}/laser3-mos.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-mos.mm5.cvocab
+  azj:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].azj
+    encoder_model: ${model_dir}/laser3-azj.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-azj.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-azj.mm5.cvocab
+  bak:
+    index_type: OPQ64,IVF65536,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.bak.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].bak
+    encoder_model: ${model_dir}/laser3-bak.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-bak.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-bak.mm5.cvocab
+  bam:
+    index_type: OPQ64,IVF8192,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.bam.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].bam
+    encoder_model: ${model_dir}/laser3-bam.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-bam.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-bam.mm5.cvocab
+  ban:
+    index_type: OPQ64,IVF16384,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.ban.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].ban
+    encoder_model: ${model_dir}/laser3-ban.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-ban.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-ban.mm5.cvocab
+  bel:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].bel
+    encoder_model: ${model_dir}/laser3-bel.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-bel.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-bel.mm5.cvocab
+  bem:
+    index_type: OPQ64,IVF16384,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.bem.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].bem
+    encoder_model: ${model_dir}/laser3-bem.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-bem.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-bem.mm5.cvocab
+  ben:
+    index_type: OPQ64,IVF131072,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.ben.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].ben
+    encoder_model: ${model_dir}/laser3-ben.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-ben.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-ben.mm5.cvocab
+  bho:
+    index_type: OPQ64,IVF8192,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.bho.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].bho
+    encoder_model: ${model_dir}/laser3-bho.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-bho.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-bho.mm5.cvocab
+  bjn_Latn:
+    index_type: OPQ64,IVF16384,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.bjn_Latn.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].bjn_Latn
+    encoder_model: ${model_dir}/laser3-bjn_Latn.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-bjn_Latn.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-bjn_Latn.mm5.cvocab
+  bod:
+    index_type: OPQ64,IVF8192,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.bod.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].bod
+    encoder_model: ${model_dir}/laser3-bod.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-bod.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-bod.mm5.cvocab
+  bos:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: /fsx-nllb/kevinheffernan/embed.22h1/mm5_p5.encf.[0-9][0-9][0-9].bos
+    encoder_model: null
+    spm_model: null
+    spm_vocab: null
+  bug:
+    index_type: OPQ64,IVF16384,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.bug.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].bug
+    encoder_model: ${model_dir}/laser3-bug.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-bug.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-bug.mm5.cvocab
+  ceb:
+    index_type: OPQ64,IVF65536,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.ceb.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].ceb
+    encoder_model: ${model_dir}/laser3-ceb.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-ceb.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-ceb.mm5.cvocab
+  cjk:
+    index_type: OPQ64,IVF8192,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.cjk.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].cjk
+    encoder_model: ${model_dir}/laser3-cjk.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-cjk.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-cjk.mm5.cvocab
+  ckb:
+    index_type: OPQ64,IVF65536,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.ckb.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].ckb
+    encoder_model: ${model_dir}/laser3-ckb.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-ckb.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-ckb.mm5.cvocab
+  crh_Latn:
+    index_type: OPQ64,IVF16384,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.crh_Latn.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].crh_Latn
+    encoder_model: ${model_dir}/laser3-crh_Latn.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-crh_Latn.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-crh_Latn.mm5.cvocab
+  cym:
+    index_type: OPQ64,IVF65536,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.cym.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].cym
+    encoder_model: ${model_dir}/laser3-cym.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-cym.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-cym.mm5.cvocab
+  dik:
+    index_type: OPQ64,IVF8192,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.dik.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].dik
+    encoder_model: ${model_dir}/laser3-dik.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-dik.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-dik.mm5.cvocab
+  diq:
+    index_type: OPQ64,IVF16384,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.diq.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].diq
+    encoder_model: ${model_dir}/laser3-diq.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-diq.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-diq.mm5.cvocab
+  dyu:
+    index_type: OPQ64,IVF4096,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.dyu.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].dyu
+    encoder_model: ${model_dir}/laser3-dyu.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-dyu.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-dyu.mm5.cvocab
+  dzo:
+    index_type: OPQ64,IVF1024,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.dzo.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].dzo
+    encoder_model: ${model_dir}/laser3-dzo.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-dzo.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-dzo.mm5.cvocab
+  epo:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: null
+    encoder_model: /fsx-nllb/kevinheffernan/models.22h1/laser2.pt
+    spm_model: /fsx-nllb/kevinheffernan/models.22h1/laser2.spm
+    spm_vocab: /fsx-nllb/kevinheffernan/models.22h1/laser2.cvocab
+  ewe:
+    index_type: OPQ64,IVF16384,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.ewe.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].ewe
+    encoder_model: ${model_dir}/laser3-ewe.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-ewe.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-ewe.mm5.cvocab
+  fao:
+    index_type: OPQ64,IVF16384,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.fao.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].fao
+    encoder_model: ${model_dir}/laser3-fao.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-fao.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-fao.mm5.cvocab
+  fas:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].fas
+    encoder_model: ${model_dir}/laser3-fas.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-fas.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-fas.mm5.cvocab
+  fij:
+    index_type: OPQ64,IVF16384,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.fij.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].fij
+    encoder_model: ${model_dir}/laser3-fij.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-fij.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-fij.mm5.cvocab
+  fon:
+    index_type: OPQ64,IVF16384,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.fon.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].fon
+    encoder_model: ${model_dir}/laser3-fon.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-fon.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-fon.mm5.cvocab
+  ful:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].ful
+    encoder_model: ${model_dir}/laser3-ful.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-ful.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-ful.mm5.cvocab
+  fur:
+    index_type: OPQ64,IVF16384,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.fur.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].fur
+    encoder_model: ${model_dir}/laser3-fur.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-fur.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-fur.mm5.cvocab
+  fuv:
+    index_type: OPQ64,IVF16384,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.fuv.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].fuv
+    encoder_model: ${model_dir}/laser3-fuv.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-fuv.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-fuv.mm5.cvocab
+  gla:
+    index_type: OPQ64,IVF32768,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.gla.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].gla
+    encoder_model: ${model_dir}/laser3-gla.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-gla.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-gla.mm5.cvocab
+  gle:
+    index_type: OPQ64,IVF65536,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.gle.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].gle
+    encoder_model: ${model_dir}/laser3-gle.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-gle.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-gle.mm5.cvocab
+  grn:
+    index_type: OPQ64,IVF16384,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.grn.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].grn
+    encoder_model: ${model_dir}/laser3-grn.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-grn.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-grn.mm5.cvocab
+  guj:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].guj
+    encoder_model: ${model_dir}/laser3-guj.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-guj.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-guj.mm5.cvocab
+  hat:
+    index_type: OPQ64,IVF65536,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.hat.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].hat
+    encoder_model: ${model_dir}/laser3-hat.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-hat.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-hat.mm5.cvocab
+  hau:
+    index_type: OPQ64,IVF65536,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.hau.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].hau
+    encoder_model: ${model_dir}/laser3-hau.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-hau.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-hau.mm5.cvocab
+  hin:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].hin
+    encoder_model: ${model_dir}/laser3-hin.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-hin.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-hin.mm5.cvocab
+  hne:
+    index_type: OPQ64,IVF4096,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.hne.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].hne
+    encoder_model: ${model_dir}/laser3-hne.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-hne.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-hne.mm5.cvocab
+  hye:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].hye
+    encoder_model: ${model_dir}/laser3-hye.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-hye.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-hye.mm5.cvocab
+  ibo:
+    index_type: OPQ64,IVF32768,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.ibo.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].ibo
+    encoder_model: ${model_dir}/laser3-ibo.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-ibo.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-ibo.mm5.cvocab
+  ilo:
+    index_type: OPQ64,IVF32768,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.ilo.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].ilo
+    encoder_model: ${model_dir}/laser3-ilo.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-ilo.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-ilo.mm5.cvocab
+  ind:
+    index_type: OPQ64,IVF131072,PQ64
+    existing_index_path: /fsx-nllb/mortimer/mine-nonenglish-raw/mini-mine5/index.22h1/mm5_p5.OPQ64,IVF131072,PQ64.0-7.ind.data.idx
+    existing_embedding_glob: /fsx-nllb/mortimer/mine-nonenglish-raw/mini-mine5/embed.22h1/laser3_encoder/ind.enc.*
+    encoder_model: ${model_dir}/laser3-ind.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-ind.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-ind.mm5.cvocab
+  jav:
+    index_type: OPQ64,IVF65536,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.jav.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].jav
+    encoder_model: ${model_dir}/laser3-jav.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-jav.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-jav.mm5.cvocab
+  kab:
+    index_type: OPQ64,IVF16384,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.kab.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].kab
+    encoder_model: ${model_dir}/laser3-kab.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-kab.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-kab.mm5.cvocab
+  kab_Latn:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].kab_Latn
+    encoder_model: ${model_dir}/laser3-kab_Latn.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-kab_Latn.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-kab_Latn.mm5.cvocab
+  kac:
+    index_type: OPQ64,IVF8192,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.kac.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].kac
+    encoder_model: ${model_dir}/laser3-kac.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-kac.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-kac.mm5.cvocab
+  kam:
+    index_type: OPQ64,IVF2048,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.kam.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].kam
+    encoder_model: ${model_dir}/laser3-kam.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-kam.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-kam.mm5.cvocab
+  kan:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: null
+    encoder_model: ${model_dir}/laser3-kan.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-kan.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-kan.mm5.cvocab
+  kas_Arab:
+    index_type: OPQ64,IVF2048,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.kas_Arab.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].kas_Arab
+    encoder_model: ${model_dir}/laser3-kas_Arab.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-kas_Arab.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-kas_Arab.mm5.cvocab
+  kas_Deva:
+    index_type: OPQ64,IVF8192,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.kas_Deva.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].kas_Deva
+    encoder_model: ${model_dir}/laser3-kas_Deva.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-kas_Deva.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-kas_Deva.mm5.cvocab
+  kat:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].kat
+    encoder_model: ${model_dir}/laser3-kat.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-kat.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-kat.mm5.cvocab
+  kau_Arab:
+    index_type: OPQ64,IVF65536,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.kau_Arab.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].kau_Arab
+    encoder_model: ${model_dir}/laser3-kau_Arab.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-kau_Arab.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-kau_Arab.mm5.cvocab
+  kau_Latn:
+    index_type: OPQ64,IVF8192,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.kau_Latn.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].kau_Latn
+    encoder_model: ${model_dir}/laser3-kau_Latn.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-kau_Latn.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-kau_Latn.mm5.cvocab
+  kaz:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].kaz
+    encoder_model: ${model_dir}/laser3-kaz.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-kaz.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-kaz.mm5.cvocab
+  kbp:
+    index_type: OPQ64,IVF8192,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.kbp.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].kbp
+    encoder_model: ${model_dir}/laser3-kbp.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-kbp.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-kbp.mm5.cvocab
+  kea:
+    index_type: OPQ64,IVF4096,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.kea.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].kea
+    encoder_model: ${model_dir}/laser3-kea.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-kea.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-kea.mm5.cvocab
+  khm:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: null
+    encoder_model: ${model_dir}/laser3-khm.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-khm.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-khm.mm5.cvocab
+  kik:
+    index_type: OPQ64,IVF2048,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.kik.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].kik
+    encoder_model: ${model_dir}/laser3-kik.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-kik.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-kik.mm5.cvocab
+  kin:
+    index_type: OPQ64,IVF65536,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.kin.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].kin
+    encoder_model: ${model_dir}/laser3-kin.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-kin.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-kin.mm5.cvocab
+  kir:
+    index_type: OPQ64,IVF65536,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.kir.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].kir
+    encoder_model: ${model_dir}/laser3-kir.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-kir.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-kir.mm5.cvocab
+  kmb:
+    index_type: OPQ64,IVF8192,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.kmb.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].kmb
+    encoder_model: ${model_dir}/laser3-kmb.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-kmb.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-kmb.mm5.cvocab
+  kon:
+    index_type: OPQ64,IVF8192,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.kon.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].kon
+    encoder_model: ${model_dir}/laser3-kon.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-kon.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-kon.mm5.cvocab
+  kur:
+    index_type: OPQ64,IVF16384,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.kur.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].kur
+    encoder_model: ${model_dir}/laser3-kur.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-kur.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-kur.mm5.cvocab
+  lao:
+    index_type: OPQ64,IVF32768,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.lao.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].lao
+    encoder_model: ${model_dir}/laser3-lao.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-lao.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-lao.mm5.cvocab
+  lim:
+    index_type: OPQ64,IVF65536,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.lim.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].lim
+    encoder_model: ${model_dir}/laser3-lim.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-lim.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-lim.mm5.cvocab
+  lin:
+    index_type: OPQ64,IVF16384,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.lin.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].lin
+    encoder_model: ${model_dir}/laser3-lin.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-lin.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-lin.mm5.cvocab
+  lmo:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].lmo
+    encoder_model: ${model_dir}/laser3-lmo.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-lmo.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-lmo.mm5.cvocab
+  ltg:
+    index_type: OPQ64,IVF8192,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.ltg.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].ltg
+    encoder_model: ${model_dir}/laser3-ltg.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-ltg.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-ltg.mm5.cvocab
+  ltz:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].ltz
+    encoder_model: ${model_dir}/laser3-ltz.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-ltz.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-ltz.mm5.cvocab
+  lua:
+    index_type: OPQ64,IVF16384,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.lua.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].lua
+    encoder_model: ${model_dir}/laser3-lua.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-lua.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-lua.mm5.cvocab
+  lug:
+    index_type: OPQ64,IVF16384,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.lug.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].lug
+    encoder_model: ${model_dir}/laser3-lug.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-lug.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-lug.mm5.cvocab
+  luo:
+    index_type: OPQ64,IVF16384,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.luo.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].luo
+    encoder_model: ${model_dir}/laser3-luo.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-luo.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-luo.mm5.cvocab
+  lus:
+    index_type: OPQ64,IVF32768,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.lus.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].lus
+    encoder_model: ${model_dir}/laser3-lus.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-lus.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-lus.mm5.cvocab
+  mag:
+    index_type: OPQ64,IVF8192,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.mag.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].mag
+    encoder_model: ${model_dir}/laser3-mag.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-mag.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-mag.mm5.cvocab
+  mai:
+    index_type: OPQ64,IVF16384,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.mai.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].mai
+    encoder_model: ${model_dir}/laser3-mai.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-mai.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-mai.mm5.cvocab
+  mal:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].mal
+    encoder_model: ${model_dir}/laser3-mal.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-mal.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-mal.mm5.cvocab
+  mar:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].mar
+    encoder_model: ${model_dir}/laser3-mar.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-mar.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-mar.mm5.cvocab
+  min_Latn:
+    index_type: OPQ64,IVF16384,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.min_Latn.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].min_Latn
+    encoder_model: ${model_dir}/laser3-min_Latn.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-min_Latn.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-min_Latn.mm5.cvocab
+  mlg:
+    index_type: OPQ64,IVF65536,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.mlg.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].mlg
+    encoder_model: ${model_dir}/laser3-mlg.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-mlg.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-mlg.mm5.cvocab
+  mlt:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].mlt
+    encoder_model: ${model_dir}/laser3-mlt.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-mlt.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-mlt.mm5.cvocab
+  mni_Mtei:
+    index_type: OPQ64,IVF4096,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.mni_Mtei.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].mni_Mtei
+    encoder_model: ${model_dir}/laser3-mni_Mtei.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-mni_Mtei.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-mni_Mtei.mm5.cvocab
+  mon:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].mon
+    encoder_model: ${model_dir}/laser3-mon.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-mon.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-mon.mm5.cvocab
+  mri:
+    index_type: OPQ64,IVF16384,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.mri.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].mri
+    encoder_model: ${model_dir}/laser3-mri.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-mri.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-mri.mm5.cvocab
+  msa:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].msa
+    encoder_model: ${model_dir}/laser3-msa.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-msa.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-msa.mm5.cvocab
+  mya:
+    index_type: OPQ64,IVF65536,PQ64
+    existing_index_path: /fsx-nllb/kevinheffernan/index.22h1/mm5_p5.OPQ64,IVF65536,PQ64.000.mya.data.idx
+    existing_embedding_glob: /fsx-nllb/kevinheffernan/embed.22h1/mm5_p5.encf.000.mya
+    encoder_model: ${model_dir}/laser3-mya.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-mya.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-mya.mm5.cvocab
+  nno:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: null
+    encoder_model: /fsx-nllb/kevinheffernan/models.22h1/laser2.pt
+    spm_model: /fsx-nllb/kevinheffernan/models.22h1/laser2.spm
+    spm_vocab: /fsx-nllb/kevinheffernan/models.22h1/laser2.cvocab
+  npi:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].npi
+    encoder_model: ${model_dir}/laser3-npi.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-npi.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-npi.mm5.cvocab
+  nso:
+    index_type: OPQ64,IVF16384,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.nso.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].nso
+    encoder_model: ${model_dir}/laser3-nso.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-nso.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-nso.mm5.cvocab
+  nus:
+    index_type: OPQ64,IVF2048,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.nus.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].nus
+    encoder_model: ${model_dir}/laser3-nus.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-nus.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-nus.mm5.cvocab
+  nya:
+    index_type: OPQ64,IVF32768,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.nya.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].nya
+    encoder_model: ${model_dir}/laser3-nya.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-nya.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-nya.mm5.cvocab
+  orm:
+    index_type: OPQ64,IVF32768,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.orm.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].orm
+    encoder_model: ${model_dir}/laser3-orm.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-orm.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-orm.mm5.cvocab
+  ory:
+    index_type: OPQ64,IVF65536,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.ory.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].ory
+    encoder_model: ${model_dir}/laser3-ory.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-ory.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-ory.mm5.cvocab
+  pag:
+    index_type: OPQ64,IVF16384,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.pag.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].pag
+    encoder_model: ${model_dir}/laser3-pag.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-pag.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-pag.mm5.cvocab
+  pan:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].pan
+    encoder_model: ${model_dir}/laser3-pan.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-pan.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-pan.mm5.cvocab
+  pap:
+    index_type: OPQ64,IVF65536,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.pap.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].pap
+    encoder_model: ${model_dir}/laser3-pap.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-pap.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-pap.mm5.cvocab
+  prs:
+    index_type: OPQ64,IVF65536,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.nul.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].nul
+    encoder_model: ${model_dir}/laser3-prs.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-prs.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-prs.mm5.cvocab
+  pus:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].pus
+    encoder_model: ${model_dir}/laser3-pus.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-pus.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-pus.mm5.cvocab
+  que:
+    index_type: OPQ64,IVF32768,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.que.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].que
+    encoder_model: ${model_dir}/laser3-que.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-que.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-que.mm5.cvocab
+  run:
+    index_type: OPQ64,IVF16384,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.run.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].run
+    encoder_model: ${model_dir}/laser3-run.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-run.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-run.mm5.cvocab
+  sag:
+    index_type: OPQ64,IVF8192,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.sag.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].sag
+    encoder_model: ${model_dir}/laser3-sag.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-sag.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-sag.mm5.cvocab
+  san:
+    index_type: OPQ64,IVF32768,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.san.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].san
+    encoder_model: ${model_dir}/laser3-san.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-san.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-san.mm5.cvocab
+  sat:
+    index_type: OPQ64,IVF2048,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.sat.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].sat
+    encoder_model: ${model_dir}/laser3-sat.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-sat.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-sat.mm5.cvocab
+  scn:
+    index_type: OPQ64,IVF32768,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.scn.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].scn
+    encoder_model: ${model_dir}/laser3-scn.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-scn.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-scn.mm5.cvocab
+  shn:
+    index_type: OPQ64,IVF2048,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.shn.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].shn
+    encoder_model: ${model_dir}/laser3-shn.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-shn.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-shn.mm5.cvocab
+  sin:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].sin
+    encoder_model: ${model_dir}/laser3-sin.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-sin.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-sin.mm5.cvocab
+  smo:
+    index_type: OPQ64,IVF16384,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.smo.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].smo
+    encoder_model: ${model_dir}/laser3-smo.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-smo.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-smo.mm5.cvocab
+  sna:
+    index_type: OPQ64,IVF65536,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.sna.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].sna
+    encoder_model: ${model_dir}/laser3-sna.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-sna.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-sna.mm5.cvocab
+  snd:
+    index_type: OPQ64,IVF65536,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.snd.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].snd
+    encoder_model: ${model_dir}/laser3-snd.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-snd.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-snd.mm5.cvocab
+  som:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].som
+    encoder_model: ${model_dir}/laser3-som.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-som.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-som.mm5.cvocab
+  sot:
+    index_type: OPQ64,IVF32768,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.sot.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].sot
+    encoder_model: ${model_dir}/laser3-sot.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-sot.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-sot.mm5.cvocab
+  sqi:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].sqi
+    encoder_model: ${model_dir}/laser3-sqi.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-sqi.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-sqi.mm5.cvocab
+  srd:
+    index_type: OPQ64,IVF8192,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.srd.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].srd
+    encoder_model: ${model_dir}/laser3-srd.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-srd.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-srd.mm5.cvocab
+  srp_Cyrl:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].srp_Cyrl
+    encoder_model: ${model_dir}/laser3-srp_Cyrl.cc2.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-srp_Cyrl.cc2.spm
+    spm_vocab: ${vocab_dir}/laser3-srp_Cyrl.mm5.cvocab
+  ssw:
+    index_type: OPQ64,IVF16384,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.ssw.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].ssw
+    encoder_model: ${model_dir}/laser3-ssw.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-ssw.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-ssw.mm5.cvocab
+  sun:
+    index_type: OPQ64,IVF32768,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.sun.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].sun
+    encoder_model: ${model_dir}/laser3-sun.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-sun.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-sun.mm5.cvocab
+  swh:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].swh
+    encoder_model: ${model_dir}/laser3-swh.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-swh.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-swh.mm5.cvocab
+  szl:
+    index_type: OPQ64,IVF16384,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.szl.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].szl
+    encoder_model: ${model_dir}/laser3-szl.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-szl.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-szl.mm5.cvocab
+  tam:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].tam
+    encoder_model: ${model_dir}/laser3-tam.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-tam.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-tam.mm5.cvocab
+  tat_Cyrl:
+    index_type: OPQ64,IVF65536,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.tat_Cyrl.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].tat_Cyrl
+    encoder_model: ${model_dir}/laser3-tat_Cyrl.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-tat_Cyrl.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-tat_Cyrl.mm5.cvocab
+  tel:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].tel
+    encoder_model: ${model_dir}/laser3-tel.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-tel.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-tel.mm5.cvocab
+  tgk:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].tgk
+    encoder_model: ${model_dir}/laser3-tgk.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-tgk.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-tgk.mm5.cvocab
+  tgl:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].tgl
+    encoder_model: ${model_dir}/laser3-tgl.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-tgl.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-tgl.mm5.cvocab
+  tha:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].tha
+    encoder_model: ${model_dir}/laser3-tha.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-tha.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-tha.mm5.cvocab
+  tir:
+    index_type: OPQ64,IVF32768,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.tir.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].tir
+    encoder_model: ${model_dir}/laser3-tir.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-tir.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-tir.mm5.cvocab
+  tmh_Latn:
+    index_type: OPQ64,IVF1024,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.tmh_Latn.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].tmh_Latn
+    encoder_model: ${model_dir}/laser3-tmh_Latn.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-tmh_Latn.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-tmh_Latn.mm5.cvocab
+  tpi:
+    index_type: OPQ64,IVF16384,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.tpi.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].tpi
+    encoder_model: ${model_dir}/laser3-tpi.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-tpi.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-tpi.mm5.cvocab
+  tsn:
+    index_type: OPQ64,IVF32768,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.tsn.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].tsn
+    encoder_model: ${model_dir}/laser3-tsn.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-tsn.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-tsn.mm5.cvocab
+  tso:
+    index_type: OPQ64,IVF32768,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.tso.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].tso
+    encoder_model: ${model_dir}/laser3-tso.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-tso.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-tso.mm5.cvocab
+  tuk:
+    index_type: OPQ64,IVF1024,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.tuk.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].tuk
+    encoder_model: ${model_dir}/laser3-tuk.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-tuk.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-tuk.mm5.cvocab
+  tum:
+    index_type: OPQ64,IVF16384,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.tum.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].tum
+    encoder_model: ${model_dir}/laser3-tum.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-tum.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-tum.mm5.cvocab
+  tur:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].tur
+    encoder_model: ${model_dir}/laser3-tur.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-tur.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-tur.mm5.cvocab
+  twi:
+    index_type: OPQ64,IVF32768,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.twi.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].twi
+    encoder_model: ${model_dir}/laser3-twi.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-twi.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-twi.mm5.cvocab
+  tzm:
+    index_type: OPQ64,IVF1024,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.tzm.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].tzm
+    encoder_model: ${model_dir}/laser3-tzm.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-tzm.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-tzm.mm5.cvocab
+  uig:
+    index_type: OPQ64,IVF65536,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.uig.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].uig
+    encoder_model: ${model_dir}/laser3-uig.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-uig.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-uig.mm5.cvocab
+  umb:
+    index_type: OPQ64,IVF16384,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.umb.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].umb
+    encoder_model: ${model_dir}/laser3-umb.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-umb.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-umb.mm5.cvocab
+  urd:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].urd
+    encoder_model: ${model_dir}/laser3-urd.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-urd.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-urd.mm5.cvocab
+  uzb:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].uzb
+    encoder_model: ${model_dir}/laser3-uzb.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-uzb.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-uzb.mm5.cvocab
+  vec:
+    index_type: OPQ64,IVF65536,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.vec.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].vec
+    encoder_model: ${model_dir}/laser3-vec.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-vec.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-vec.mm5.cvocab
+  war:
+    index_type: OPQ64,IVF65536,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.war.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].war
+    encoder_model: ${model_dir}/laser3-war.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-war.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-war.mm5.cvocab
+  wol:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: /fsx-nllb/kevinheffernan/eng-wol-test/embed.22h1/laser3_encoder/wol.enc.000
+    encoder_model: /fsx-nllb/kevinheffernan/models.22h1/laser3-wol.mm5.pt
+    spm_model: /fsx-nllb/kevinheffernan/models.22h1/laser2.spm
+    spm_vocab: /fsx-nllb/kevinheffernan/models.22h1/laser2.cvocab
+  xho:
+    index_type: OPQ64,IVF65536,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.xho.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].xho
+    encoder_model: ${model_dir}/laser3-xho.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-xho.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-xho.mm5.cvocab
+  yid:
+    index_type: null
+    existing_index_path: null
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].yid
+    encoder_model: ${model_dir}/laser3-yid.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-yid.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-yid.mm5.cvocab
+  yor:
+    index_type: OPQ64,IVF65536,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.yor.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].yor
+    encoder_model: ${model_dir}/laser3-yor.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-yor.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-yor.mm5.cvocab
+  zho_Hant:
+    index_type: OPQ64,IVF65536,PQ64
+    existing_index_path: /fsx-nllb/kevinheffernan/index.22h1/mm5_p5.OPQ64,IVF65536,PQ64.000.zho_Hant.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].zho_Hant
+    encoder_model: ${model_dir}/laser2.pt
+    spm_model: ${model_dir}/laser2.spm
+    spm_vocab: ${model_dir}/laser2.cvocab
+  zul:
+    index_type: OPQ64,IVF65536,PQ64
+    existing_index_path: ${index_path}/mm5_p5.${.index_type}.zul.data.idx
+    existing_embedding_glob: ${embed_path}/mm5_p5.encf.[0-9][0-9][0-9].zul
+    encoder_model: ${model_dir}/laser3-zul.mm5.pt
+    spm_model: /fsx-nllb/schwenk/mini-mine5/models.22h1/laser3-zul.mm5.spm
+    spm_vocab: ${vocab_dir}/laser3-zul.mm5.cvocab

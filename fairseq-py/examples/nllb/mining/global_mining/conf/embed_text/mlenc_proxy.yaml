@@ -1,0 +1,13 @@
+_target_: examples.nllb.mining.global_mining.modules.mlenc_proxy.embed_text_module.EmbedTextModule
+config:
+  lang: ???
+  shards: ???
+  data: ???
+  output_dir: ts.embed.iteration_${module.config.data.iteration}
+  encodings_name: encodings
+  laser_dir: /private/home/schwenk/projects/mlenc
+  model_dir: ${module.config.laser_dir}/models
+  encoder_model: /private/home/schwenk/projects/mlenc/models/laser2.2020-05-24.pt
+  embedding_dimensions: 1024
+  spm_model: ${module.config.model_dir}/spm100v1.xx.50k.model
+  token_lang_file: /private/home/kevinheffernan/mining/scripts/map_token_lang.${module.config.data.data_version}.sed

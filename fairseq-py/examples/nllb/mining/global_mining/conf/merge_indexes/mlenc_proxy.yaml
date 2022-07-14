@@ -1,0 +1,7 @@
+_target_: examples.nllb.mining.global_mining.modules.mlenc_proxy.merge_faiss_indexes_module.MergeFAISSIndexesModule
+config:
+  lang: ???
+  index_type: ???
+  indexes: ???
+  data: ???
+  output_dir: index.${module.config.data.data_version}

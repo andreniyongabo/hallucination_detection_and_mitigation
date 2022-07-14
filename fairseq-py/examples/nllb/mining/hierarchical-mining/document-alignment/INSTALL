@@ -1,0 +1,54 @@
+# get document aligner from bitextor repo
+git clone https://github.com/bitextor/bitextor.git
+cd bitextor
+rm -rf [A-Za-ce-z]* d[a-np-z]* docs
+
+# get preprocessing dependency repo & build it
+git clone https://github.com/kpu/preprocess.git
+cd preprocess
+mkdir build
+cd build
+cmake ..
+make -j4
+cd ../..
+
+# build document aligner
+cd document-aligner
+mkdir build
+cd build
+cmake ..
+make -j4
+cd ../..
+
+cd ..
+
+# Python environment
+conda create -n malign_python3 python=3.6
+conda activate malign_python3
+conda install -c conda-forge sentencepiece
+pip install langid
+pip install bs4
+pip install pycld2
+pip install nltk
+pip install scipy
+pip install sklearn
+
+wget https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/chared/chared-1.2.tar.gz
+tar xzvf chared-1.2.tar.gz
+cd chared-1.2/
+python setup.py install
+
+# example data
+mkdir youtouchafrica.org.2019-10-07
+cp /private/home/pkoehn/project/paracrawl/document-alignment/youtouchafrica.org.2019-10-07/v2.lett.xz youtouchafrica.org.2019-10-07/
+
+# hard-coded paths in document-align-buck-malign.bash
+# . /public/apps/anaconda3/5.0.1/etc/profile.d/conda.sh
+# MOSES=/private/home/pkoehn/mosesdecoder
+
+# hard-coded paths in perl/translate-foreign.perl
+# my $MOSES = "/private/home/pkoehn/mosesdecoder";
+# my $MOSES_BIN = "$MOSES/bin/moses";
+# my $SENTENCE_PIECE = "/home/pkoehn/statmt/project/sentencepiece/src";
+# my $MOSES_MODEL = "/private/home/pkoehn/project/paracrawl/document-alignment/models/fast-$language-en";
+

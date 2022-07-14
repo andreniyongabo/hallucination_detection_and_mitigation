@@ -1,0 +1,9 @@
+_target_: examples.nllb.mining.global_mining.modules.mlenc_port.train_faiss_index_module.TrainFAISSIndexModule
+config:
+  lang: ???
+  embedding_file: ???
+  data: ???
+  output_dir: ts.index.iteration_${.data.iteration}
+  num_cpu: 40
+  use_gpu: True
+  embedding_dimensions: 1024

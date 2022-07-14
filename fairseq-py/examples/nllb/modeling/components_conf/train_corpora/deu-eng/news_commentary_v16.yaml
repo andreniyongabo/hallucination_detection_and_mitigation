@@ -1,0 +1,8 @@
+values:
+  news_commentary_v16:
+    s3_paths:
+      source: N/A
+      target: N/A
+    local_paths:
+      source: /large_experiments/nllb/mmt/data/bitexts/wmt/de-en/news_commentary_v16.de-en.de
+      target: /large_experiments/nllb/mmt/data/bitexts/wmt/de-en/news_commentary_v16.de-en.en

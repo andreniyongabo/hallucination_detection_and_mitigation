@@ -1,0 +1,8 @@
+values:
+  newstest2019:
+    s3_paths:
+      source: s3://test/newstest2019.source
+      target: s3://test/newstest2019.target
+    local_paths:
+      source: tests/nllb/test_data/corpora_test_data/dev_data/en-cs/valid.en-cs.en
+      target: tests/nllb/test_data/corpora_test_data/dev_data/en-cs/valid.en-cs.cs

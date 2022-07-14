@@ -1,0 +1,46 @@
+README
+======
+
+Document aligner from Paracrawl
+Method: https://aclanthology.org/W16-2365.pdf
+Synopsis: translates the foreign document into English
+          builds word distribution vectors for each document
+          macthes foreign and English document via TF/IDF weighted cosined distance
+
+Installation instruction in INSTALL
+
+Additional dependencies: Moses SMT model for each foreign language
+(see INSTALL for installation location specification)
+
+Usage:
+bash document-align-buck-malign.bash DIRECTORY ISO2_LANGUAGE VERSION_IN VERSION_OUT
+
+Expects the filed $DIRECTORY/$VERSION_IN.lett.xz file as input
+Format: one web page per line, tab separated fields:
+1. detected language (2-letter ISO code detected by CLD2)
+2. original format (almost always text/html)
+3. encoding (always charset=utf-8)
+4. URL
+5. HTML content (base64 encoded)
+6. Extracted text (base64 encoded)
+
+Produces for each language a file $DIRECTORY/$VERSION_OUT.en-$ISO2_LANGUAGE.docs.xz as output
+Format: one web page pair per line, tab separated fields:
+1. English URL
+2. foreign URL
+3. English HTML content
+4. foreign HTML content
+
+Example:
+bash document-align-buck-malign.bash `pwd`/youtouchafrica.org.2019-10-07 sw v2 v3
+
+Additionally, some intermediate files are retained:
+*.matches.xz 
+     for one pair per line, the match score and the URL pair 
+     (in the same order as in the *.docs.xz file)
+*.en.txt.xz
+     all lines of text from the English documents, each with its URL
+*.sw.txt.xz
+     all lines of text from the foreign documents (here:sw), each with its URL
+*.sw.tranlated.xz
+     machine translation of each line in the *.sw.txt.xz file

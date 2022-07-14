@@ -1,0 +1,3 @@
+_target_: examples.nllb.mining.global_mining.modules.hello_world_module.HelloWorldModule
+config:
+  test: test

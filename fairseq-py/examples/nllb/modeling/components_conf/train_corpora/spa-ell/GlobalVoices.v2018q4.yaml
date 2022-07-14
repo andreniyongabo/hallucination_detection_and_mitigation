@@ -1,0 +1,9 @@
+values:
+  GlobalVoices.v2018q4:
+    s3_paths:
+      source: N/A
+      target: N/A
+    local_paths:
+      source: /large_experiments/nllb/mmt/data/bitexts/mtdata/corpora/ell-spa/gv.spa.gz
+      target: /large_experiments/nllb/mmt/data/bitexts/mtdata/corpora/ell-spa/gv.ell.gz
+      is_gzip: true

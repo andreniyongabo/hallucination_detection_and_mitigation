@@ -1,0 +1,7 @@
+# @package data
+
+data_version: V32m
+iteration: 2
+data_shard_dir: /large_experiments/nllb/mmt/phrase_mining/phrases/
+shard_type: 4grams
+bname: phrases

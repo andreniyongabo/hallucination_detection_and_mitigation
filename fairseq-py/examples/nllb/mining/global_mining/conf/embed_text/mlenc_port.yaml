@@ -1,0 +1,36 @@
+_target_: examples.nllb.mining.global_mining.modules.preprocess.preprocess_encode_module.PreprocessEncodeModule
+config:
+  # these are shortcuts for easy overrides of the below configs
+  data: ???
+  lang: ???
+  shards: ???
+  encoder: ???
+  output_dir: embed.${.data.data_version}/
+  launcher: ${launcher} # reuse the global launcher config (but we'll get a new instance)
+
+  # actual sub-mod configs
+  preprocess:
+    _target_: examples.nllb.mining.global_mining.modules.preprocess.moses_cli_module.MosesPreprocessModule
+    config:
+      shards: ${...shards}
+      output_dir: ${...output_dir}/moses_preprocess
+      lowercase: False
+      normalize_punctuation: True
+      remove_non_printing_chars: True
+      deescape_special_chars: True
+      token_lang_file: ${laser_dir}/tasks/laser3/map_token_lang.V32m.sed
+  embed_text:
+    _target_: examples.nllb.mining.global_mining.modules.preprocess.line_processor.LineProcessorModule
+    config:
+      outfile_prefix: ${...lang}.enc
+      output_dir: ${...output_dir}/${...encoder._name}
+      shards: ${...shards}
+      fallback_spm: ${laser_dir}/models/spm100v1.xx.50k.model
+      buffer_size: 10_000
+      line_processor: ${...encoder}
+      requirements:
+        nodes: 1
+        tasks_per_node: 1
+        gpus_per_node: 1
+        cpus_per_task: 4
+        timeout_min: 2880

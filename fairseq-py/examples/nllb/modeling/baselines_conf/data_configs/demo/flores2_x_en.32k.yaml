@@ -1,0 +1,41 @@
+defaults:
+  - train_corpora:
+    - hau-eng/paracrawl_v8
+    - hau-eng/khamenei
+    - hau-eng/mini_mine.v1
+    - ibo-eng/mini_mine.v1
+  - secondary_train_corpora:
+    - hau-eng/bt.x_en.african20_091621.yaml
+    - ibo-eng/bt.x_en.african20_091621.yaml
+  - valid_corpora:
+    - hau-eng/flores_dev
+    - ibo-eng/flores_dev
+  - test_corpora:
+    - hau-eng/flores_devtest
+    - ibo-eng/flores_devtest
+
+source_vocab_config:
+  vocab_build_params:
+    vocab_size: 32_000
+    use_joined_data: true
+    sampled_data_size: 1_000_000
+    sampling_temperature: 2.0
+
+
+target_vocab_config:
+  vocab_build_params:
+    vocab_size: 32_000
+    use_joined_data: true
+    sampled_data_size: 1_000_000
+    sampling_temperature: 2.0
+
+binarization_config:
+  max_examples_per_shard: 10_000_000
+  smallest_shard: 1_000_000
+
+executor_config:
+  cluster: local
+
+hydra:
+  searchpath:
+    - file://examples/nllb/modeling/components_conf

@@ -1,0 +1,4 @@
+tests/gpu/test_few_shot.py
+tests/gpu/test_multilingual_lm.py
+tests/gpu/test_translation.py
+tests/gpu/test_quantization.py

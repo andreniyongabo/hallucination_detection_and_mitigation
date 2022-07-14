@@ -1,0 +1,10 @@
+_target_: examples.nllb.mining.global_mining.modules.mlenc_proxy.train_faiss_index_module.TrainFAISSIndexModule
+config:
+  lang: ???
+  embedding_file: ???
+  data: ???
+  output_dir: ts.index.iteration_${.data.iteration}
+  laser_dir: /private/home/schwenk/projects/mlenc
+  sample_size: 40000000
+  num_cpu: 40
+  embedding_dimensions: 1024

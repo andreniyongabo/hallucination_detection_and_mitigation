@@ -1,0 +1,9 @@
+values:
+  mini_mine.v3:
+    s3_paths:
+      source: N/A
+      target: N/A
+    local_paths:
+      source: /large_experiments/nllb/mmt/data/bitexts/mini_mine.v3/threshold_1_06/train.eng-urd.eng
+      target: /large_experiments/nllb/mmt/data/bitexts/mini_mine.v3/threshold_1_06/train.eng-urd.urd
+

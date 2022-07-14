@@ -1,0 +1,9 @@
+values:
+  OpenSubtitles.v2018:
+    s3_paths:
+      source: N/A
+      target: N/A
+    local_paths:
+      source: /large_experiments/nllb/mmt/data/bitexts/mtdata/corpora/eng-tel/os.eng.gz
+      target: /large_experiments/nllb/mmt/data/bitexts/mtdata/corpora/eng-tel/os.tel.gz
+      is_gzip: true

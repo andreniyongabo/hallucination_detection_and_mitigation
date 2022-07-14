@@ -1,0 +1,9 @@
+values:
+  infopankki.v1:
+    s3_paths:
+      source: N/A
+      target: N/A
+    local_paths:
+      source: /large_experiments/nllb/mmt/data/bitexts/mtdata/corpora/ara-eng/infopankki.ara.gz
+      target: /large_experiments/nllb/mmt/data/bitexts/mtdata/corpora/ara-eng/infopankki.eng.gz
+      is_gzip: true

@@ -1,0 +1,11 @@
+_target_: examples.nllb.mining.global_mining.modules.mlenc_port.mine_bitext_sentences_module.MineBitextSentencesModule
+config:
+    src_lang: ???
+    tgt_lang: ???
+    alignment_file: ???  # the mined indexes, without npz extension
+    data: ???
+    output_dir: mine.${module.config.data.data_version}
+    mine_threshold: 1.04
+    score_max: 1.25
+    dedup_bitexts: True
+    compress_output: True

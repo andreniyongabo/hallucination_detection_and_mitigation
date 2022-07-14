@@ -1,0 +1,34 @@
+defaults:
+  - train_corpora:
+    - en-de/europarl_v10
+    - en-de/wikimatrix
+    - en-cd/wikimatrix
+  - valid_corpora:
+    - en-de/newstest2019
+    - en-de/newstest2020
+    - en-cs/newstest2019
+
+
+source_vocab_config:
+  pretrained:
+    model_file: tests/nllb/test_data/vocab_test_data/sentencepiece.128000.model
+    vocab_file: tests/nllb/test_data/vocab_test_data/sentencepiece.128000.vocab
+  vocab_build_params:
+    vocab_size: 128000
+
+
+target_vocab_config:
+  pretrained:
+    model_file: tests/nllb/test_data/vocab_test_data/sentencepiece.128000.model
+    vocab_file: tests/nllb/test_data/vocab_test_data/sentencepiece.128000.vocab
+  vocab_build_params:
+    vocab_size: 128000
+
+
+binarization_config:
+  max_examples_per_shard: 300000
+
+
+hydra:
+  searchpath:
+    - file://tests/nllb/components_conf/inconsis_conf

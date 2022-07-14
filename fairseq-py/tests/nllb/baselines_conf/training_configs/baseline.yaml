@@ -1,0 +1,22 @@
+model:
+  _name: transformer_base
+distributed_training:
+  distributed_port: 33333
+  distributed_world_size: 1
+dataset:
+  batch_size: 2
+task:
+  _name: translation
+  data: /large_experiments/mmt/wmt21/bilingual_bin/is_en.wmt_mined_fb.32k/sharded_bin/shard000
+  max_target_positions: 1024
+optimization:
+  max_update: 1
+  lr: [0.25]
+criterion: 
+  _name: label_smoothed_cross_entropy
+  label_smoothing: 0.1
+optimizer: 
+  _name: adam
+lr_scheduler:
+  _name: inverse_sqrt
+  warmup_updates: 10_000

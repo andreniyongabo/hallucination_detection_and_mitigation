@@ -1,0 +1,31 @@
+2021-07-24:07:25:27 devfair0151 /private/home/pkoehn/data/paracrawl/tools   504  cd ../tools/
+2021-07-24:07:25:28 devfair0151 /private/home/pkoehn/data/paracrawl/tools   505  ls -l
+2021-07-24:07:26:03 devfair0151 /private/home/pkoehn/data/paracrawl/tools   506  scp login.clsp.jhu.edu:statmt/data/site-crawl/paracrawl/support/annotate-with-zipporah.perl .
+2021-07-24:07:26:12 devfair0151 /private/home/pkoehn/data/paracrawl/tools   507  vi annotate-with-zipporah.perl 
+2021-07-24:07:26:14 devfair0151 /private/home/pkoehn/data/paracrawl/tools   508  pwd
+2021-07-24:07:27:14 devfair0151 /private/home/pkoehn/data/paracrawl/tools   509  vi annotate-with-zipporah.perl 
+2021-07-24:07:28:25 devfair0151 /private/home/pkoehn/data/paracrawl/tools   515  cd ../tools/
+2021-07-24:07:28:32 devfair0151 /private/home/pkoehn/data/paracrawl/tools   516  mv annotate-with-zipporah.perl get-parallel-corpus.perl
+2021-07-24:07:30:03 devfair0151 /private/home/pkoehn/data/paracrawl/tools   517  vi get-parallel-corpus.perl 
+2021-07-24:07:30:07 devfair0151 /private/home/pkoehn/data/paracrawl/tools   518  ../tools/annotate-with-zipporah.perl --language ha | more
+2021-07-24:07:51:45 devfair0151 /private/home/pkoehn/data/paracrawl/tools   510  cd tools/
+2021-07-24:07:51:45 devfair0151 /private/home/pkoehn/data/paracrawl/tools   511  ls -l
+2021-07-24:08:26:14 devfair0151 /private/home/pkoehn/data/paracrawl/tools   513  cd ~/data/paracrawl/tools/
+2021-07-24:08:27:36 devfair0151 /private/home/pkoehn/data/paracrawl/tools   514  vi run-laser.sh 
+2021-07-24:08:29:06 devfair0151 /private/home/pkoehn/data/paracrawl/tools   515  vi run-laser.perl
+2021-07-24:08:31:13 devfair0151 /private/home/pkoehn/data/paracrawl/tools   516  vi run-laser.sh 
+2021-07-24:08:31:19 devfair0151 /private/home/pkoehn/data/paracrawl/tools   517  vi run-laser.perl
+2021-07-24:08:31:49 devfair0151 /private/home/pkoehn/data/paracrawl/tools   519  cd -
+2021-07-24:08:32:23 devfair0151 /private/home/pkoehn/data/paracrawl/tools   520  vi run-laser.perl
+2021-07-24:08:33:28 devfair0151 /private/home/pkoehn/data/paracrawl/tools   521  vi run-laser.perl
+2021-07-24:08:33:38 devfair0151 /private/home/pkoehn/data/paracrawl/tools   523  cd -
+2021-07-24:08:33:52 devfair0151 /private/home/pkoehn/data/paracrawl/tools   524  grep run-laser ~/experiment/wmt21-de-en/filtering/.bash_history.pkoehn 
+2021-07-24:08:36:21 devfair0151 /private/home/pkoehn/data/paracrawl/tools   525  vi run-laser.perl
+2021-07-24:08:44:05 devfair0151 /private/home/pkoehn/data/paracrawl/tools   525  vi run-laser.perl
+2021-07-24:08:44:15 devfair0151 /private/home/pkoehn/data/paracrawl/tools   526  squeue -u pkoehn
+2021-07-24:08:47:41 devfair0151 /private/home/pkoehn/data/paracrawl/tools   527  squeue -u pkoehn
+2021-07-24:08:48:54 devfair0151 /private/home/pkoehn/data/paracrawl/tools   528  squeue -u pkoehn
+2021-07-24:08:49:12 devfair0151 /private/home/pkoehn/data/paracrawl/tools   529  squeue -u pkoehn
+2021-07-29:10:12:26 devfair0151 /private/home/pkoehn/data/paracrawl/tools   530  cd ~/data/paracrawl/tools
+2021-07-31:22:19:01 devfair0151 /private/home/pkoehn/data/paracrawl/tools   638  cd tools/
+2021-07-31:22:19:02 devfair0151 /private/home/pkoehn/data/paracrawl/tools   639  grep run-laser.perl .bash_history.pkoehn 

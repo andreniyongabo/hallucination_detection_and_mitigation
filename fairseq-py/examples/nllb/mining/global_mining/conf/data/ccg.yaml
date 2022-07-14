@@ -1,0 +1,8 @@
+# @package data
+
+data_version: V32m
+iteration: 2
+data_shard_dir: /large_experiments/nllb/mmt/mining/ccg2/sent-segm.V32m-2/
+shard_type: textw2
+bname: ccg
+shard_glob: ${.data_shard_dir}/${.bname}.${.shard_type}.$lang.[0-9][0-9][0-9].gz

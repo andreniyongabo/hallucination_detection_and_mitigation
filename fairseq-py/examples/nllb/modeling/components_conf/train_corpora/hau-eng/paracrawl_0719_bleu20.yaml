@@ -1,0 +1,8 @@
+values:
+  paracrawl_0719_bleu20:
+    s3_paths:
+      source: N/A
+      target: N/A
+    local_paths:
+      source: /large_experiments/nllb/mmt/wmt21/iterative_mining/ngram_mining/ha-en/paracrawl_0719/4gram.maxfreq100/mined_20/mined.20.ha-en.ha
+      target: /large_experiments/nllb/mmt/wmt21/iterative_mining/ngram_mining/ha-en/paracrawl_0719/4gram.maxfreq100/mined_20/mined.20.ha-en.en
