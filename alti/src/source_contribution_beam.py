@@ -159,10 +159,9 @@ if data_sample=='generate':
         with open(save_path + "_" + input_source + ".alti_score", "w") as outfile:
             sent_level_score = 0
             for j, score in enumerate(src_contr):
-                print(j)
                 sent_level_score += score
                 if (j+1)%4==0:
-                    outfile.write(str(sent_level_score)+"\n")
+                    outfile.write(str(sent_level_score/4)+"\n")
                     sent_level_score = 0
                 else:
                     continue

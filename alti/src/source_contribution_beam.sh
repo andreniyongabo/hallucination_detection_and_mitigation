@@ -13,7 +13,7 @@ mkdir $DATADIR/alti_data/${src}-${tgt}
 
 data_path=$DATADIR/alti_data/${src}-${tgt}
 file_spec="test"
-save_path=$DATADIR/output
+save_path=$DATADIR/${src}-${tgt}/output
 
 # prepare the input
 cat ${DATABINDIR}/retrieved_data/test.${src}-${tgt}.${src} | perl ${NORM_PUNCT} -l ${src:0:2} | ${SPM}/spm_encode --model=${DATABINDIR}/vocab_bin/sentencepiece.source.256000.model --output_format=piece > ${data_path}/${file_spec}.${src}-${tgt}.${src}
