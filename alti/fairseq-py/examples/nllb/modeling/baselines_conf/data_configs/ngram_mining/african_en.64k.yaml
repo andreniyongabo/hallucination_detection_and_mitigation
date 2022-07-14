@@ -1,0 +1,78 @@
+defaults:
+  - train_corpora:
+    - amh-eng/mini_mine.v1
+    - hau-eng/mini_mine.v1
+    - ibo-eng/mini_mine.v1
+    - lin-eng/mini_mine.v1
+    - lug-eng/mini_mine.v1
+    - luo-eng/mini_mine.v1
+    - nso-eng/mini_mine.v1
+    - nya-eng/mini_mine.v1
+    - orm-eng/mini_mine.v1
+    - sna-eng/mini_mine.v1
+    - som-eng/mini_mine.v1
+    - swh-eng/mini_mine.v1
+    - wol-eng/mini_mine.v1
+    - xho-eng/mini_mine.v1
+    - yor-eng/mini_mine.v1
+    - zul-eng/mini_mine.v1
+  - valid_corpora:
+    - amh-eng/flores_dev
+    - hau-eng/flores_dev
+    - ibo-eng/flores_dev
+    - lin-eng/flores_dev
+    - lug-eng/flores_dev
+    - luo-eng/flores_dev
+    - nso-eng/flores_dev
+    - nya-eng/flores_dev
+    - orm-eng/flores_dev
+    - sna-eng/flores_dev
+    - som-eng/flores_dev
+    - swh-eng/flores_dev
+    - wol-eng/flores_dev
+    - xho-eng/flores_dev
+    - yor-eng/flores_dev
+    - zul-eng/flores_dev
+  - test_corpora:
+    - amh-eng/flores_devtest
+    - hau-eng/flores_devtest
+    - ibo-eng/flores_devtest
+    - lin-eng/flores_devtest
+    - lug-eng/flores_devtest
+    - luo-eng/flores_devtest
+    - nso-eng/flores_devtest
+    - nya-eng/flores_devtest
+    - orm-eng/flores_devtest
+    - sna-eng/flores_devtest
+    - som-eng/flores_devtest
+    - swh-eng/flores_devtest
+    - wol-eng/flores_devtest
+    - xho-eng/flores_devtest
+    - yor-eng/flores_devtest
+    - zul-eng/flores_devtest
+
+source_vocab_config:
+  vocab_build_params:
+    vocab_size: 64_000
+    use_joined_data: true
+    sampled_data_size: 2_000_000
+    sampling_temperature: 2.0
+
+
+target_vocab_config:
+  vocab_build_params:
+    vocab_size: 64_000
+    use_joined_data: true
+    sampled_data_size: 2_000_000
+    sampling_temperature: 2.0
+
+binarization_config:
+  max_examples_per_shard: 80_000_000
+
+executor_config:
+  cluster: slurm
+  slurm_partition: devaccel
+
+hydra:
+  searchpath:
+    - file://examples/nllb/modeling/components_conf

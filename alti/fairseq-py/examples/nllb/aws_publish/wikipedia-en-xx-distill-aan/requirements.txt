@@ -1,0 +1,4 @@
+sentencepiece
+
+# Install the fairseq packaged with the model
+-e ./fairseq[dev]

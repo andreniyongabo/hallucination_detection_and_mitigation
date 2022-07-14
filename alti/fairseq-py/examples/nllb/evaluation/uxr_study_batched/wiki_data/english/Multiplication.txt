@@ -1,0 +1,1 @@
+The inverse operation of multiplication is division. For example, since 4 multiplied by 3 equals 12, 12 divided by 3 equals 4. Indeed, multiplication by 3, followed by division by 3, yields the original number. The division of a number other than 0 by itself equals 1.

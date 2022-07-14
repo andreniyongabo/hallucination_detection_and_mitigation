@@ -1,0 +1,40 @@
+{
+    "model_name_base": "1.3B_gpt3_setting_kitchen_sink_21",
+    "model_name_base_short": "1.3B_ks_21",
+    "model_checkpoints_directory": "/large_experiments/xlmg/models/intermediate_eval_checkpoints/gptz.exp21.fsdp.me_fp16.zero2.transformer_lm_gpt.nlay24.emb2048.bm_none.tps2048.gpt2.adam.b2_0.98.eps1e-08.cl0.0.lr0.0002.wu375.dr0.1.atdr0.1.wd0.01.ms2.uf1.mu286102.s1.ngpu256/",
+    "checkpoint_id_filter": "0-10k:1k,10k-20k:5k,20k-100k:20k,100k-1000k:50k",
+    "model_config_base": {
+        "model_path": "",
+        "model_overrides": {
+            "bpe": "hf_byte_bpe",
+            "bpe_merges": "/large_experiments/xlmg/data/gptz/tokenizers/gpt2-merges.txt",
+            "merges_filename": "/large_experiments/xlmg/data/gptz/tokenizers/gpt2-merges.txt",
+            "bpe_vocab": "/large_experiments/xlmg/data/gptz/tokenizers/gpt2-vocab.json",
+            "vocab_filename": "/large_experiments/xlmg/data/gptz/tokenizers/gpt2-vocab.json",
+            "bpe_add_prefix_space": true
+        }
+    },
+    "model_scheduling_setting_base": {
+        "model_name": "This will be overriden with `[model_name_base]__step000[checkpoint_id]` so you can even delete this field",
+        "eval_params": {},
+        "slurm_nodes": 1,
+        "slurm_gpus_per_node": 1,
+        "slurm_ntasks_per_node": 1,
+        "slurm_cpus_per_task": 8,
+        "slurm_array_parallelism": 3
+    },
+    "azure_copy_setting": {
+        "blob_model_path": "myleott/2021-10-30/gptz.exp21.fsdp.me_fp16.zero2.transformer_lm_gpt.nlay24.emb2048.bm_none.tps2048.gpt2.adam.b2_0.98.eps1e-08.cl0.0.lr0.0002.wu375.dr0.1.atdr0.1.wd0.01.ms2.uf1.mu286102.s1.ngpu256",
+        "azure_url": "https://fairacceleastus.blob.core.windows.net",
+        "azure_url_params": {
+            "sv": "2020-08-04",
+            "ss": "b",
+            "srt": "sco",
+            "sp": "{AZURE_AUTH_SP}",
+            "se": "{AZURE_AUTH_SE}",
+            "st": "{AZURE_AUTH_ST}",
+            "spr": "https",
+            "sig": "{AZURE_AUTH_SIG}"
+        }
+    }
+}

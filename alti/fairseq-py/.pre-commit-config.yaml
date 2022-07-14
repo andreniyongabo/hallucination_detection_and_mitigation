@@ -1,0 +1,38 @@
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+repos:
+- repo: https://github.com/pycqa/isort
+  rev: 5.10.1
+  hooks:
+    - id: isort
+      args: ["--profile", "black"]
+      name: isort (python)
+
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.1.0
+    hooks:
+    -   id: trailing-whitespace
+    -   id: check-ast
+    -   id: check-merge-conflict
+    -   id: no-commit-to-branch
+        args: ['--branch=master']
+    -   id: check-added-large-files
+        args: ['--maxkb=500']
+    -   id: end-of-file-fixer
+
+-   repo: https://github.com/ambv/black
+    rev: 22.1.0
+    hooks:
+    - id: black
+      language_version: python3
+
+- repo: https://github.com/PyCQA/flake8
+  # NOTE: The version here should match the version in setup.py
+  rev: "4.0.1"
+  hooks:
+    - id: flake8
+      args: [
+        # only error for syntax errors and undefined names
+        "--select=E9,F63,F7,F82",
+      ]
+      exclude: ^fairseq/model_parallel/megatron

@@ -1,0 +1,1 @@
+Hið gagnstæða við fjölgun er deilun. Til dæmis, þar sem 4 margfaldað með 3 jafngildir 12, 12 skipt með 3 jafngildir 4. Í raun, margfaldað með 3, fylgt af deilum með 3, skilar upprunalega fjölda. Hlutfall af öðrum tölum en 0 er í sjálfu sér 1.

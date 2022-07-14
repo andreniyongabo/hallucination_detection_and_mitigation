@@ -1,0 +1,8 @@
+values:
+  paracrawl_v8:
+    s3_paths:
+      source: N/A
+      target: N/A
+    local_paths:
+      source: /large_experiments/nllb/mmt/data/bitexts/wmt/en-ha/paracrawl_v8.en-ha.en
+      target: /large_experiments/nllb/mmt/data/bitexts/wmt/en-ha/paracrawl_v8.en-ha.ha

@@ -1,0 +1,9 @@
+# EXTRA=--dry-run
+
+python examples/few_shot/scripts/experiments/schedule_jobs_few_shot_multilingual.py -t multilingual_bigrun_eval_v1_extended -m moe_cc100_8l_baseline_top1_lr1.2e-4 moe_cc100_8l_baseline_top1_lr2.4e-4 moe_cc100_8l_baseline_top1_lr5.0e-4 --nshot 0 1 4 32 -o /checkpoint/${USER}/few_shot/moe_cc100_8l_baseline_top1_mutli_tasks_v1 --slurm-partition devaccel,learnaccel $EXTRA
+
+python examples/few_shot/scripts/experiments/schedule_jobs_few_shot_multilingual.py -t multilingual_bigrun_eval_v1_extended -m moe_cc100_8l_baseline_top2_lr1.2e-4 moe_cc100_8l_baseline_top2_lr2.4e-4 moe_cc100_8l_baseline_top2_lr5.0e-4 --nshot 0 1 4 32 -o /checkpoint/${USER}/few_shot/moe_cc100_8l_baseline_top2_mutli_tasks_v1 --slurm-partition devaccel,learnaccel $EXTRA
+
+python examples/few_shot/scripts/experiments/schedule_jobs_few_shot_multilingual.py -t multilingual_bigrun_eval_v1_extended -m moe_cc100_8l_baseline+oneBatchPerGpu_top1_lr1.2e-4 moe_cc100_8l_baseline+oneBatchPerGpu_top1_lr2.4e-4 moe_cc100_8l_baseline+oneBatchPerGpu_top1_lr5.0e-4 --nshot 0 1 4 32 -o /checkpoint/${USER}/few_shot/moe_cc100_8l_baseline+oneBatchPerGpu_top1_mutli_tasks_v1 --slurm-partition devaccel,learnaccel $EXTRA
+
+python examples/few_shot/scripts/experiments/schedule_jobs_few_shot_multilingual.py -t multilingual_bigrun_eval_v1_extended -m moe_cc100_8l_baseline+oneBatchPerGpu_top2_lr1.2e-4 moe_cc100_8l_baseline+oneBatchPerGpu_top2_lr2.4e-4 moe_cc100_8l_baseline+oneBatchPerGpu_top2_lr5.0e-4 --nshot 0 1 4 32 -o /checkpoint/${USER}/few_shot/moe_cc100_8l_baseline+oneBatchPerGpu_top2_mutli_tasks_v1 --slurm-partition devaccel,learnaccel $EXTRA

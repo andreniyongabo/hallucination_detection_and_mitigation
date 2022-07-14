@@ -1,0 +1,34 @@
+#!/bin/bash
+
+
+MODEL_LANGS="afr,amh,ara,asm,ast,aym,azj,bel,ben,bos,bul,cat,ceb,ces,ckb,cym,dan,deu,dyu,ell,eng,est,fas,fin,fra,ful,gla,gle,glg,guj,hat,hau,heb,hin,hrv,hun,hye,ibo,ilo,ind,isl,ita,jav,jpn,kac,kam,kan,kat,kaz,kea,khm,kir,kmb,kon,kor,kur,lao,lav,lin,lit,ltz,lug,luo,mal,mar,mkd,mlg,mlt,mon,mri,msa,mya,nld,nob,npi,nso,nya,oci,orm,ory,pan,pol,por,pus,que,ron,rus,sin,slk,slv,sna,snd,som,spa,sqi,srp,ssw,sun,swe,swh,tam,tel,tgk,tgl,tha,tir,tsn,tur,ukr,umb,urd,uzb,vie,wol,xho,yid,yor,yue,zho_Hans,zul"
+
+
+MOSES=/private/home/schwenk/tools/mosesdecoder/
+NORM_PUNCT=$MOSES/scripts/tokenizer/normalize-punctuation.perl
+DATADIR=/large_experiments/nllb/mmt/multilingual_bin/flores125.en_xx_en.v3.3/
+
+src_dict="/large_experiments/nllb/mmt/multilingual_bin/flores125.en_xx_en.v3.3/sentencepiece.source.256000.source.dict.txt"
+tgt_dict="/large_experiments/nllb/mmt/multilingual_bin/flores125.en_xx_en.v3.3/sentencepiece.source.256000.source.dict.txt"
+output_dir="./data/"
+test_pref="./data/"
+
+SPM=/private/home/costajussa/sentencepiece/build/src/
+source="eng"
+target="spa"
+
+
+cat ./data/gen.$target | perl ${NORM_PUNCT} -l en | ${SPM}/spm_encode --model=/large_experiments/nllb/mmt/multilingual_bin/flores125.en_xx_en.v3.3/vocab_bin/sentencepiece.source.256000.model --output_format=piece > ./data/gen.spm.$target
+    
+    cat ./data/gen.$source | perl ${NORM_PUNCT} -l en | ${SPM}/spm_encode --model=/large_experiments/nllb/mmt/multilingual_bin/flores125.en_xx_en.v3.3/vocab_bin/sentencepiece.source.256000.model --output_format=piece > ./data/gen.spm.$source
+
+    #
+    fairseq-preprocess --source-lang ${source} --target-lang ${target} --testpref ./data/gen.spm --srcdict ${src_dict} --tgtdict ${tgt_dict} --destdir ${output_dir} > ${output_dir}/preprocess.${source}-${target}.log
+
+
+    mv ./data/test.$source-$target.$source.bin ./data/gen.$source-$target.$source.bin
+    mv ./data/test.$source-$target.$source.idx ./data/gen.$source-$target.$source.idx
+    
+    cp ${src_dict} ./data/dict.$source.txt
+    cp ${tgt_dict} ./data/dict.eng.txt
+ 

@@ -1,0 +1,9 @@
+values:
+  Tatoeba.v20210310:
+    s3_paths:
+      source: N/A
+      target: N/A
+    local_paths:
+      source: /large_experiments/nllb/mmt/data/bitexts/mtdata/corpora/eng-kor/tatoeba.eng.gz
+      target: /large_experiments/nllb/mmt/data/bitexts/mtdata/corpora/eng-kor/tatoeba.kor.gz
+      is_gzip: true

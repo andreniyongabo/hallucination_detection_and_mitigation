@@ -1,0 +1,9 @@
+values:
+  lafand:
+    s3_paths:
+      source: N/A
+      target: N/A
+    local_paths:
+      source: /large_experiments/nllb/mmt/data/bitexts/mtdata/corpora/fra-wol/lafand.fra.gz
+      target: /large_experiments/nllb/mmt/data/bitexts/mtdata/corpora/fra-wol/lafand.wol.gz
+      is_gzip: true

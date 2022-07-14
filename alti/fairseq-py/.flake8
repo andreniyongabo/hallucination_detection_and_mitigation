@@ -1,0 +1,3 @@
+[flake8]
+extend_exclude = fairseq/model_parallel/megatron
+max_line_length = 127

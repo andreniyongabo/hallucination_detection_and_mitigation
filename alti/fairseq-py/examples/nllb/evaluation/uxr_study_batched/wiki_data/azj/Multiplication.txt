@@ -1,0 +1,1 @@
+Çoğalmanın qarşısı isə bölünmüdür. Məsələn, 4 sayının 3 ilə bərabər olduğu üçün, 12 sayının 3 ilə bərabər olduğu üçün, 12 sayının 4 sayına bərabərdir. Üçüncüsü, 3 sayının artırılması, sonra da 3 sayının bölünməsi başlanğıc sayıdır. 0-dan başqa bir sayın bölünməsi 1 ilə bərabərdir.

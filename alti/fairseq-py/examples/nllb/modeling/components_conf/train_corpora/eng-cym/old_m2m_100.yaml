@@ -1,0 +1,9 @@
+values:
+  old_m2m_100:
+    s3_paths:
+      source: N/A
+      target: N/A
+    local_paths:
+      source: /checkpoint/angelafan/data/cc100_multilingual/raw_pre_spm/train.cy-en.en
+      target: /checkpoint/angelafan/data/cc100_multilingual/raw_pre_spm/train.cy-en.cy
+

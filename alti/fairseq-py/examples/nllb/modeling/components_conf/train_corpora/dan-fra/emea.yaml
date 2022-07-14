@@ -1,0 +1,9 @@
+values:
+  emea:
+    s3_paths:
+      source: N/A
+      target: N/A
+    local_paths:
+      source: /large_experiments/nllb/mmt/data/bitexts/mtdata/corpora/dan-fra/emea.dan.gz
+      target: /large_experiments/nllb/mmt/data/bitexts/mtdata/corpora/dan-fra/emea.fra.gz
+      is_gzip: true

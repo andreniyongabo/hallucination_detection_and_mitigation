@@ -1,0 +1,3 @@
+Use translate.bash LANG
+Launch m2m_interpretability-generate.ipynb with the language and the sentence that ones to be analysed
+First version works with interactive/generate but only with teacher forcing

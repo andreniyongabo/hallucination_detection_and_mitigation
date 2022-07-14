@@ -1,0 +1,8 @@
+values:
+  tilde:
+    s3_paths:
+      source: N/A
+      target: N/A
+    local_paths:
+      source: /large_experiments/nllb/mmt/data/bitexts/wmt/en-is/tilde.en-is.is
+      target: /large_experiments/nllb/mmt/data/bitexts/wmt/en-is/tilde.en-is.en

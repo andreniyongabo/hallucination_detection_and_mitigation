@@ -1,0 +1,1 @@
+Numele și simbolurile unităților de bază SI sunt scrise cu majuscule, cu excepția simbolurilor celor numite după o persoană, care sunt scrise cu o majuscule inițială. De exemplu, metrul are simbolul m, dar kelvinul are simbolul K, deoarece este numit după Lord Kelvin, iar amperul cu simbolul A este numit după André-Marie Ampère.

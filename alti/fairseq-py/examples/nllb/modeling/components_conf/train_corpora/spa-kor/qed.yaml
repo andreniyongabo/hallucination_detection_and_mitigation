@@ -1,0 +1,9 @@
+values:
+  qed:
+    s3_paths:
+      source: N/A
+      target: N/A
+    local_paths:
+      source: /large_experiments/nllb/mmt/data/bitexts/mtdata/corpora/kor-spa/qed.spa.gz
+      target: /large_experiments/nllb/mmt/data/bitexts/mtdata/corpora/kor-spa/qed.kor.gz
+      is_gzip: true

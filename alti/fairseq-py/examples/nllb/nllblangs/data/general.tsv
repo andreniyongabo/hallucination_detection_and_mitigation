@@ -1,0 +1,257 @@
+Language Name	Current Data 	BCP47	Code	Script	# Speakers	# Articles	Regional Langs	Family	Genus	Nucleus	Target Dialect 	Agglu?	Word Order	FLORES	FLORES Beta ETA	FLORES 200 Final ETA	Seed Data	Data Version	Amt Mono Data	Amt Public Bitext	Bitext Download	Mono Download	Seed URLs	Toxicity	Dictionary	H2 2021	Launch Status	Future Candidate
+Afrikaans	afr	afr	afr	Latin 	17,600,000			Indo-European	Germanic	West Germanic		FALSE		Delivered	---	---	---	data freeze 2	---	4526302	Done	Done	---	TRUE	FALSE	62.3		
+Akan	aka	aka	aka	Latin				Atlantic-Congo	Kwa	Nyo-Akanic	Asante Twi	FALSE		Delivered	N/A	Delivered	---	---	---	473159	automated complete	to format	---	FALSE	FALSE	---		No translation
+Albanian	sqi	sqi	sqi	Latin				Indo-European	Albanian	Albanian		FALSE		Delivered	---	---	---	data freeze 2	51916796	5590809	Done	Done	---	FALSE	FALSE	47.8		
+Amharic	amh	amh_Ethi	amh	Ethi	57,345,000			Afro-Asiatic	Semitic	Amharic-Argobba		TRUE		Delivered	---	---	---	data freeze 2	15413708	383262	Done	Done	---	TRUE	FALSE	37.6		
+Arabic (Egypt)		arz	arz	Arabic				Afro-Asiatic	Semitic	Arabic		FALSE		Delivered	N/A	Delivered	Start Jan	---	---	0	Done	Done	manual complete	FALSE	FALSE	---		Often deleted
+Arabic (Iraqi/Mesopotamian)		acm	acm	Arabic				Afro-Asiatic	Semitic	Arabic		FALSE		Delivered	---	---	remove	---	---	0	Done	Done	---	FALSE	FALSE	---		
+Arabic (Lebanon)		apc	apc	Arabic				Afro-Asiatic	Semitic	Arabic		FALSE		Delivered	---	---	remove	---	---	0	Done	Done	---	FALSE	FALSE	---		
+Arabic (Modern Standard Arabic) Romanized		ara_Latn	ara_Latn	Latin				Afro-Asiatic	Semitic	Arabic		FALSE		Delivered	---	---	remove	---	---	0	Done	Done	---	FALSE	FALSE	---		
+Arabic (Morocco)		ary	ary	Arabic				Afro-Asiatic	Semitic	Arabic		FALSE		Delivered	---	---	Start Jan	---	---	0	Done	Done	---	FALSE	FALSE	---		No translation
+Arabic (MSA)	ara	arb_Arab	ara_Arab	Arabic	617,000,000			Afro-Asiatic	Semitic	Arabic		FALSE		Delivered	---	---	---	data freeze 2	---	31564863	Done	Done	---	TRUE	FALSE	49		
+Arabic (Saudi Arabia)		ars	ars	Arabic				Afro-Asiatic	Semitic	Arabic		FALSE		Delivered	---	---	remove	---	---	0	Done	Done	---	FALSE	FALSE	---		
+Arabic (Tunisia)		aeb	aeb	Arabic				Afro-Asiatic	Semitic	Arabic		FALSE		Delivered	---	---	remove	---	---	0	Done	Done	---	FALSE	FALSE	---		
+Arabic (Yemen)		acq	acq	Arabic				Afro-Asiatic	Semitic	Arabic		FALSE		Delivered	---	---	remove	---	---	0	Done	Done	---	FALSE	FALSE	---		
+Armenian	hye	hye	hye	Armenian				Indo-European	Armenian	Armenian		FALSE		Delivered	---	---	---	data freeze 2	44886552	2130031	Done	Done	---	TRUE	FALSE	45	CANDIDATE	Often deleted
+Assamese	asm	asm_Beng	asm	Bengali	22,816,000			Indo-European	Indo-Aryan	Eastern Indo-Aryan		FALSE		Delivered	---	---	---	data freeze 2	3982794	339099	Done	Done	---	TRUE	FALSE	31.4		
+Asturian	ast	ast	ast	Latin	560,000		Spanish	Indo-European	Romance	Western Romance		FALSE		Delivered	---	---	---	data freeze 2	---	1225	todo-P0	---	---	TRUE	FALSE	42		
+Awadhi	awa	awa_Deva	awa	Devanagari				Indo-European	Indo-Aryan	Eastern Indo-Aryan	Ayodhya	FALSE		Delivered	Delivered	Delivered	---	---	---	857694	Done	manual complete	---	FALSE	FALSE	---		
+Aymara	aym	ayr	ayr	Latin				Aymaran	Aymara	Aymara		TRUE		Delivered	---	---	---	data freeze 2	989367	155853	Done	Done	---	TRUE	FALSE	15.1		
+Bambara	bam	bam	bam	Latin				Mande	Manding-Vai	Manding	Standard Bambara	FALSE		Delivered	---	Delivered	Delivered	---	---	478324	Done	manual complete	---	FALSE	FALSE	---		
+Bashkir	bak	bak	bak	Cyrillic				Turkic	Western Turkic	Uralian	Literary, or standard, Bashkir is based on the mountain dialect.	FALSE		Delivered	Delivered		---	---	---	550599	todo-P1	todo-P1	---	FALSE	FALSE	---		
+Basque	eus	eus	eus	Latin			Spanish	Euskara	Euskara	Basque	Standard Basque, aka Euskara Batua	FALSE		Delivered	Delivered	TBC	---	---	---	2092400	todo-P1	todo-P1	---	FALSE	FALSE	---		
+Belarusian 	bel	bel_Cyrl	bel	Cyrillic	3,918,000			Indo-European	Balto-Slavic	Eastern Slavic		FALSE		Delivered	---	---	---	data freeze 2	---	702318	Done	Done	---	TRUE	FALSE	24.7		
+Bemba	bem	bem	bem	Latin				Atlantic-Congo	Benue-Congo	Central Narrow Bantu	Central Bemba	FALSE		Delivered	Delivered	1/21	---	---	---	747492	Done	manual complete	---	FALSE	FALSE	---		
+Bengali	ben	ben_Beng	ben	Latin	267,000,000			Indo-European	Indo-Aryan	Eastern Indo-Aryan		FALSE		Delivered	---	---	---	data freeze 2	163805723	6984179	Done	Done	---	TRUE	FALSE	43.2		
+Bhojpuri	bho	bho	bho	Devanagari				Indo-European	Indo-Aryan	Eastern Indo-Aryan	No Specific Dialect	FALSE		Delivered	Delivered	TBC	Start Jan	---	---	95	Done	manual complete	manual complete	FALSE	FALSE	---		
+Bokmål (Norwegian)	nob	nob	nob	Latin				Indo-European	Germanic	Northwest Germanic		FALSE		Delivered	---	---	---	data freeze 2	---	12774822	Done	Done	---	TRUE	FALSE	49.4		
+Bosnian	bos	bos_Latn	bos	Latin				Indo-European	Balto-Slavic	Southwestern Slavic		FALSE		Delivered	---	---	---	data freeze 2	---	14324723	Done	Done	---	TRUE	FALSE	49.8		
+Bulgarian	bul	bul_Cyrl	bul	Cyrillic				Indo-European	Balto-Slavic	Southeastern Slavic		FALSE		Delivered	---	---	---	data freeze 2	---	45496972	Done	Done	---	TRUE	FALSE	47.7		
+Burmese	mya	mya	mya	Burmese	42,955,000			Sino-Tibetan	Tibeto-Burman	Burmish		FALSE		Delivered	---	---	---	data freeze 2	9799169	3135932	Done	Done	---	TRUE	FALSE	32.8		
+Catalan	cat	cat	cat	Latin	9,177,300		Spanish	Indo-European	Romance	Western Romance		FALSE		Delivered	---	---	---	data freeze 2	---	1739924	Done	Done	---	TRUE	FALSE	52.9		
+Cebuano	ceb	ceb	ceb	Latin				Austronesian	Greater Central Philippine	Bisayan		FALSE		Delivered	---	---	---	data freeze 2	8993627	4593876	Done	Done	---	TRUE	FALSE	49.3		
+Central Atlas Tamazight (Atlasic)	tzm	tzm	tzm	Tifinagh				Atlas	Berber		Standard Amazigh	FALSE		Delivered	Delivered	Delivered	Delivered	---	---	0	Done	manual complete	manual complete	FALSE	FALSE	---		
+Central Kurdish	ckb	ckb	ckb	Arabic				Indo-European	Iranian	Northwestern Iranian		FALSE		Delivered	---	---	---	data freeze 2	10465235	1111998	Done	---	---	TRUE	FALSE	38	CANDIDATE	Often deleted
+Chewa (same as Nyanja)	nya	nya	nya	Latin				Atlantic-Congo	Benue-Congo	Central Narrow Bantu		FALSE		Delivered	---	---	---	data freeze 2	2860575	2003301	Done	Done	---	TRUE	FALSE	32.5	CANDIDATE	Often deleted
+Chinese (simplified script)	zho_Hans	cmn_Hans	zho_Hans	Chinese Simplified	1,120,192,660			Sino-Tibetan	Chinese	Chinese		FALSE		Delivered	---	---	---	data freeze 2	---	0	todo-P0	todo-P0	---	FALSE	FALSE	35.6	LAUNCHED	
+Chinese (traditional script)	zho_Hant	cmn_Hant	zho_Hant	Chinese Traditional				Sino-Tibetan	Chinese	Chinese		FALSE		Delivered	---	---	---	data freeze 2	---	0	todo-P0	todo-P0	---	TRUE	FALSE	---		
+Chokwe	cjk	cjk	cjk	Latin				Atlantic-Congo	Benue-Congo	Central Narrow Bantu		FALSE		Delivered	N/A	Delivered	---	---	---	40389	todo-P1	todo-P1	manual complete	FALSE	FALSE	---		
+Croatian	hrv	hrv_Latn	hrv	Latin				Indo-European	Balto-Slavic	Southwestern Slavic		FALSE		Delivered	---	---	---	data freeze 2	---	38206252	Done	Done	---	TRUE	FALSE	44.5		
+Czech	ces	ces	ces	Latin	13,398,000			Indo-European	Balto-Slavic	Western Slavic		FALSE		Delivered	---	---	---	data freeze 2	---	48443744	Done	Done	---	TRUE	FALSE	46.5		
+Danish	dan	dan	dan	Latin				Indo-European	Germanic	North Germanic		FALSE		Delivered	---	---	---	data freeze 2	---	18536207	Done	Done	---	TRUE	FALSE	54.5		
+Dari	prs	prs	prs	Perso-Arabic				Indo-European	Iranian	Southwestern Iranian	Kabuli dialect	FALSE		Delivered	Delivered	Delivered	Delivered	---	---	1012232	Done	manual complete	---	FALSE	FALSE	---		
+Dholuo	luo	luo_Latn	luo	Latin				Nilo-Saharan	Nilotic	Luo-Acholi		FALSE		Delivered	---	---	---	data freeze 2	399258	479120	Done	---	---	TRUE	FALSE	22.6		
+Dutch	nld	nld	nld	Latin				Indo-European	Germanic	West Germanic		FALSE		Delivered	---	---	---	data freeze 2	---	43539715	Done	Done	---	TRUE	FALSE	38.7		
+Dyula	dyu	dyu_Latn	dyu	Latin				Mande	Manding-Vai	Manding		FALSE		Delivered	---	---	---	data freeze 2	389735	1655724	Done	---	---	FALSE	FALSE	5.9		
+Dzongkha	dzo	dzo	dzo	Tibetan (Joyig)				Sino-Tibetan	Tibeto-Burman	Bodish	N/A	FALSE		Delivered	Delivered	1/28	Delivered	---	---	445523	todo-P1	todo-P1	---	FALSE	FALSE	---		
+English	eng	eng	eng	Latin	978,579,936			Indo-European	Germanic	West Germanic		FALSE		Delivered	---	---	---	data freeze 2	---		Done	Done	---	TRUE	FALSE	---		
+Esperanto	epo	epo	epo	Latin				Artificial	Esperantic	Esperanto	N/A	FALSE		Delivered	Delivered	ETA Feb 3	---	---	---	1371779	todo-P1	todo-P1	---	FALSE	FALSE	---		Often deleted
+Estonian	est	est	est	Latin				Uralic	Finnic	Estonian		FALSE		Delivered	---	---	---	data freeze 2	---	13535511	Done	Done	---	TRUE	FALSE	43.7		Often deleted
+Ewe	ewe	ewe	ewe	Latin				Atlantic-Congo	Kwa	Gbe	Aŋlo dialect	FALSE		Delivered	Delivered	Delivered	---	---	---	1253339	Done	manual complete	---	FALSE	FALSE	---		
+Fijian	fij	fij	fij	Latin				Austronesian	Central-Eastern Malayo-Polynesian	Tokelau-Fijian	Standard Fijian, based on the speech of Bau	FALSE		Delivered	Delivered	TBC	---	---	---	1705810	Done	manual complete	---	FALSE	FALSE	---		
+Finnish	fin	fin	fin	Latin	5,770,000			Uralic	Finnic	Finnish		FALSE		Delivered	---	---	---	data freeze 2	---	33027688	Done	Done	---	TRUE	FALSE	41		
+Fon	fon	fon	fon	Latin				Atlantic-Congo	Kwa	Gbe	Standard Fon	FALSE		Delivered	Delivered	TBC	---	---	---	565766	Done	manual complete	---	FALSE	FALSE	---		
+French	fra	fra	fra	Latin	266,959,000			Indo-European	Romance	Western Romance		FALSE		Delivered	---	---	---	data freeze 2	---	60643585	Done	Done	---	TRUE	FALSE	51.9		Good
+Fulfulde	ful	fuv	fuv	Latin				Atlantic-Congo	Senegambian	Fula-Wolof		FALSE		Delivered	---	---	Delivered	data freeze 2	5308	54	todo-P0	todo-P0	---	TRUE	FALSE	5.2		
+Galician	glg	glg	glg	Latin			Spanish	Indo-European	Romance	Western Romance		FALSE		Delivered	---	---	---	data freeze 2	---	304413	Done	Done	---	TRUE	FALSE	48.3		
+Ganda	lug	lug	lug	Latin	11,005,000			Atlantic-Congo	Benue-Congo	Central Narrow Bantu		FALSE		Delivered	---	---	---	data freeze 2	1487615	1497053	Done	Done	---	TRUE	FALSE	25.3	LAUNCHED	No translation
+Georgian	kat	kat	kat	Georgian				Kartvelian	Georgian-Zan	Georgic		FALSE		Delivered	---	---	---	data freeze 2	47937041	638113	Done	Done	---	TRUE	FALSE	32.8		
+German	deu	deu	deu	Latin	134,993,000			Indo-European	Germanic	West Germanic		FALSE		Delivered	---	---	---	data freeze 2	---	39101290	Done	Done	---	TRUE	FALSE	50.8		
+Greek	ell	ell_Grek	ell	Grek	13,264,500			Indo-European	Greek	Attic		FALSE		Delivered	---	---	---	data freeze 2	---	46692937	Done	Done	---	TRUE	FALSE	42.7		
+Guarani	grn	grn	grn	Latin				Tupian	Tupí-Guaraní	Guaraní	N/A	FALSE		Delivered	Delivered	1/12	Start Jan	---	---	428	Done	manual complete	manual complete	FALSE	FALSE	---		No translation
+Gujarati	guj	guj_Gujr	guj	Gujarati	60,933,000			Indo-European	Indo-Aryan	Western Indo-Aryan		FALSE		Delivered	---	---	---	data freeze 2	64333806	2049266	Done	Done	---	TRUE	FALSE	48		
+Haitian Creole	hat	hat	hat	Latin				Indo-European	Romance	French-based Creole		FALSE		Delivered	---	---	---	data freeze 2	4921524	1790454	Done	manual complete	---	TRUE	FALSE	43.3		
+Hausa	hau	hau_Latn	hau	Latin	74,930,000			Afro-Asiatic	Chadic	West Chadic		FALSE		Delivered	---	---	---	data freeze 2	13291862	1689285	Done	Done	---	TRUE	FALSE	38.7	LAUNCHED	
+Hebrew	heb	heb	heb	Hebr				Afro-Asiatic	Semitic	Canaanite		FALSE		Delivered	---	---	---	data freeze 2	---	32790861	Done	Done	---	TRUE	FALSE	50.5		
+Hindi	hin	hin_Deva	hin	Devanagari				Indo-European	Indo-Aryan	Western Hindi		FALSE		Delivered	---	---	---	data freeze 2	330170925	6240221	Done	Done	---	TRUE	FALSE	48.4		
+Hungarian	hun	hun	hun	Latin				Uralic	Hungarian	Hungarian		FALSE		Delivered	---	---	---	data freeze 2	---	48152612	Done	Done	---	TRUE	FALSE	42.5		
+Icelandic	isl	isl	isl	Latin				Indo-European	Germanic	North Germanic		FALSE		Delivered	---	---	---	data freeze 2	---	2895165	Done	Done	---	TRUE	FALSE	39.9	LAUNCHED 	Often deleted
+Igbo	ibo	ibo	ibo	Latin				Atlantic-Congo	Benue-Congo	Igboid		FALSE		Delivered	---	---	---	data freeze 2	4292379	1257986	Done	Done	---	TRUE	FALSE	33.2	LAUNCHED	Often deleted
+Ilocano	ilo	ilo	ilo	Latin				Austronesian	Northern Luzon	Iloko		FALSE		Delivered	---	---	---	data freeze 2	914638	2150003	Done	Done	---	FALSE	FALSE	45		
+Indonesian	ind	ind	ind	Latin	198,990,000			Austronesian	Malayo-Chamic	Malayic		TRUE		Delivered	---	---	---	data freeze 2	---	15846962	Done	Done	---	TRUE	FALSE	51.1		
+Iranian Persian	fas	pes	fas	Arabic	105,726,000			Indo-European	Iranian	Southwestern Iranian		FALSE		Delivered	---	---	---	data freeze 2	---	7827801	Done	Done	---	TRUE	FALSE	44.1		
+Irish	gle	gle	gle	Latin			English	Indo-European	Celtic	Goidelic		FALSE		Delivered	---	---	---	data freeze 2	9248333	1002923	Done	Done	---	TRUE	FALSE	48		
+Italian	ita	ita	ita	Latin	67,870,000			Indo-European	Romance	Western Romance		FALSE		Delivered	---	---	---	data freeze 2	---	44570519	Done	Done	---	TRUE	FALSE	40		
+Japanese	jpn	jpn_Jpan	jpn	Hrkt	126,379,500			Japonic	Hachijo	Japanese		FALSE		Delivered	---	---	---	data freeze 2	---	5156267	Done	Done	---	TRUE	FALSE	34.2		
+Javanese	jav	jav_Latn	jav	Latin				Austronesian	Malayo-Polynesian	Javanesic		TRUE		Delivered	---	---	---	data freeze 2	8610083	1455154	Done	Done	---	TRUE	FALSE	43.1		
+Kabuverdianu	kea	kea	kea	Latin	1,195,000			Indo-European	Romance	Western Romance		FALSE		Delivered	---	---	---	data freeze 2	177716	5769	todo-P0	Done	---	TRUE	FALSE	40.7		
+Kabyle	kab	kab_Latn	kab	Latin				Afro-Asiatic	Berber	Kabyle-Atlas	North Eastern Algeria dialect	FALSE		Delivered	Delivered	Delivered	---	---	---	918585	Done	manual complete	---	FALSE	FALSE	---		
+Kachin | Jinghpo	kac	kac_Latn	kac	Latin				Sino-Tibetan	Tibeto-Burman	Jingphaw		FALSE		Delivered	---	---	---	data freeze 2	80081	1367893	Done	Done	---	FALSE	FALSE	14.5		
+Kamba	kam	kam	kam	Latin	5,260,000			Atlantic-Congo	Benue-Congo	Central Narrow Bantu		FALSE		Delivered	---	---	---	data freeze 2	13363	57604	---	---	---	TRUE	FALSE	15.2		
+Kannada	kan	kan_Knda	kan	Kannada	58644000			Dravidian	Tamil-Kannada	Kannada		FALSE		Delivered	---	---	---	data freeze 2	82538687	2193965	Done	Done	---	TRUE	FALSE	40.8		
+Kanuri (Arabic script)	kau_Arab	knc_Arab	kau_Arab	Arabic				Nilo-Saharan	Saharan	Western	Yerwa (Central Kanuri)	FALSE		Delivered	Delivered	Delivered	Delivered	---	---	0	Done	manual complete	manual complete	FALSE	FALSE	---		
+Kanuri (Latin script)	kau_Latn	knc_Latn	kau_Latn	Latin				Nilo-Saharan	Saharan	Western	Yerwa (Central Kanuri)	FALSE		Delivered	Delivered	Delivered	Delivered	---	---	0	Done	manual complete	manual complete	FALSE	FALSE	---		
+Kashmiri (Arabic script)	kas_Arab	kas_Arab	kas_Arab	Perso-Arabic				Indo-European	Indo-Aryan	Northwestern Indo-Aryan	Kishtwari, Poguli	FALSE		Delivered	N/A	Delivered	Delivered	---	---	0	Done	manual complete	manual complete	FALSE	FALSE	---		
+Kashmiri (Devanagari script)	kas_Deva	kas_Deva	kas_Deva	Devanagari				Indo-European	Indo-Aryan	Northwestern Indo-Aryan	Kishtwari, Poguli	FALSE		Delivered	N/A	Delivered	Delivered	---	---	0	Done	manual complete	manual complete	FALSE	FALSE	---		
+Kazakh	kaz	kaz_Cyrl	kaz	Cyrillic				Turkic	Western Turkic	Aralo-Caspian		FALSE		Delivered	---	---	---	data freeze 2	108241120	0	todo-P0	Done	---	TRUE	FALSE	37.1		
+Khmer	khm	khm	khm	Khmer	17,891,000			Austro-Asiatic	Khmeric	Khmer		FALSE		Delivered	---	---	---	data freeze 2	13636879	3076819	Done	Done	---	TRUE	FALSE	36.6		
+Kikuyu	kik	kik	kik	Latin				Atlantic-Congo	Benue-Congo	Central Narrow Bantu	Sourthen Dialect	FALSE		Delivered	Delivered	Delivered	---	---	---	768597	Done	manual complete	---	FALSE	FALSE	---		
+Kimbundu	kmb	kmb	kmb	Latin				Atlantic-Congo	Benue-Congo	Central Narrow Bantu		FALSE		Delivered	---	---	---	data freeze 2	123538	101186	Done	Done	---	FALSE	FALSE	13.2		
+Kinyarwanda	kin	kin	kin	Latin				Atlantic-Congo	Benue-Congo	Central Narrow Bantu	Ikinyanduga (standard Kinyarwanda)	FALSE		Delivered	Delivered	1/21	---	---	---	1979920	Done	manual complete	---	FALSE	FALSE	---		
+Kongo	kon	kon	kon	Latin				Atlantic-Congo	Benue-Congo	Central Narrow Bantu		FALSE		Delivered	---	---	---	data freeze 2	223195	229193	Done	Done	---	FALSE	FALSE	23.7		
+Korean	kor	kor	kor	Hangul				Koreanic	Korean	Korean		FALSE		Delivered	---	---	---	data freeze 2	---	6265845	Done	Done	---	TRUE	FALSE	36.6		
+Kurdish (Kurmanji)	kur	kmr_Latn	kur	Latin				Indo-European	Iranian	Northwestern Iranian		FALSE		Delivered	---	---	---	data freeze 2	7530124	156506	Done	todo-P1	---	FALSE	FALSE	24		
+Kyrgyz	kir	kir_Cyrl	kir	Cyrillic				Turkic	Western Turkic	Aralo-Caspian		FALSE		Delivered	---	---	---	data freeze 2	14973639	306994	Done	Done	---	TRUE	FALSE	27.3		
+Lao	lao	lao_Laoo	lao	Lao	4,502,500			Kra-Dai	Tai	Lao		FALSE		Delivered	---	---	---	data freeze 2	4575235	1227560	Done	Done	---	TRUE	FALSE	38.5		
+Latvian (Standard)	lav	lvs	lav	Latin				Indo-European	Balto-Slavic	Eastern Slavic		FALSE		Delivered	---	---	---	data freeze 2	---	2411373	Done	Done	---	TRUE	FALSE	36.1		
+Lingala	lin	lin	lin	Latin				Atlantic-Congo	Benue-Congo	Northwest Narrow Bantu		FALSE		Delivered	---	---	---	data freeze 2	752293	946843	Done	Done	---	TRUE	FALSE	29.7		
+Lithuanian	lit	lit	lit	Latin				Indo-European	Balto-Slavic	Eastern Baltic		FALSE		Delivered	---	---	---	data freeze 2	---	3569978	Done	Done	---	TRUE	FALSE	39.9		Often deleted
+Luxembourgish	ltz	ltz	ltz	Latin				Indo-European	Germanic	West Germanic		FALSE		Delivered	---	---	---	data freeze 2	7522723	449945	Done	Done	---	TRUE	FALSE	48.8		
+Macedonian	mkd	mkd	mkd	Cyrillic				Indo-European	Balto-Slavic	Southeastern Slavic		FALSE		Delivered	---	---	---	data freeze 2	---	6065821	Done	Done	---	TRUE	FALSE	48.9		
+Magahi	mag	mag	mag	Devanagari				Indo-European	Indo-Aryan	Eastern Indo-Aryan	Gaya	FALSE		Delivered	Delivered		Delivered	---	---	788531	Done	manual complete	---	FALSE	FALSE	---		
+Maithili	mai	mai	mai	Devanagari				Indo-European	Indo-Aryan	Eastern Indo-Aryan	N/A	FALSE		Delivered	N/A	Delivered	---	---	---	1214242	todo-P1	todo-P1	---	FALSE	FALSE	---		
+Malagasy	mlg	mlg	mlg	Latin				Austronesian	Basap-Greater Barito	Malagasic		FALSE		Delivered	---	---	---	data freeze 2	7095814	2820255	Done	Done	---	FALSE	FALSE	36.9		
+Malay	msa	zlm	msa	Latin				Austronesian	Malayo-Chamic	Malayic		TRUE		Delivered	---	---	---	data freeze 2	303643465	3091200	Done	Done	---	TRUE	FALSE	50.7		
+Malayalam	mal	mal_Mlym	mal	Malayalam	37,932,000			Dravidian	Tamil-Kannada	Tamil-Malayalam		FALSE		Delivered	---	---	---	data freeze 2	110280158	3197231	Done	Done	---	TRUE	FALSE	41.7		
+Maltese	mlt	mlt	mlt	Latin				Afro-Asiatic	Semitic	Arabic		FALSE		Delivered	---	---	---	data freeze 2	7917732	863469	Done	Done	---	TRUE	FALSE	60.7		
+Maori	mri	mri	mri	Latin	159,700			Austronesian	Eastern Malayo-Polynesian	Tokelau-Fijian		FALSE		Delivered	---	---	Delivered	data freeze 2	964255	771052	Done	Done	---	TRUE	FALSE	21.3		Often deleted
+Marathi	mar	mar	mar	Devanagari	99,132,000			Indo-European	Indo-Aryan	Southern Indo-Aryan		FALSE		Delivered	---	---	---	data freeze 2	75524160	2249340	Done	Done	---	TRUE	FALSE	41.8		
+Meitei	mni	mni_Mtei	mni	Meitei				Sino-Tibetan	Tibeto-Burman	Meitei	N/A	FALSE		Delivered	Delivered	ETA 4 Feb	Start Jan	---	---	22	todo-P0	todo-P1	manual complete	FALSE	FALSE	---		
+Mongolian	mon	mon_Cyrl	mon	Cyrillic				Austro-Asiatic	Monic	Mon		FALSE		Delivered	---	---	---	data freeze 2	43934725	230771	Done	Done	---	TRUE	FALSE	34		
+Nepali	npi	npi	npi	Devanagari	24,720,000			Indo-European	Indo-Aryan	Eastern Indo-Aryan		FALSE		Delivered	---	---	---	data freeze 2	51095588	520757	Done	Done	---	TRUE	FALSE	46.4		
+North Azerbaijani	azj	azj	azj	Perso-Arabic				Turkic	Southern Turkic	Azerbaijani		FALSE		Delivered	---	---	---	data freeze 2	135388617	320323	Done	todo-P1	---	TRUE	FALSE	28.2		Often deleted
+Northern Sotho	nso	nso	nso	Latin	13,731,000			Atlantic-Congo	Benue-Congo	Central Narrow Bantu		FALSE		Delivered	---	---	---	data freeze 2	1084929	1584047	Done	Done	---	TRUE	FALSE	44.7		
+Nynorsk	nno	nno	nno	Latin				Indo-European	Germanic	North Germanic	Nynorsk	FALSE		Delivered	Delivered	1/21	---	---	---	970789	Done	manual complete	---	FALSE	FALSE	---		
+Occitan	oci	oci	oci	Latin			French	Indo-European	Romance	Western Romance		FALSE		Delivered	---	---	---	data freeze 2	---	8822	todo-P0	Done	---	TRUE	FALSE	58.1	LAUNCHED	No translation
+Odia	ory	ory	ory	Oriya	39,761,500			Indo-European	Indo-Aryan	Eastern Indo-Aryan		FALSE		Delivered	---	---	---	data freeze 2	16034578	2240524	automated complete	to format	---	TRUE	FALSE	42.6		
+Oromo	orm	orm	orm	Latin				Afro-Asiatic	Cushitic	Oromo		FALSE		Delivered	---	---	---	data freeze 2	3510185	173861	Done	Done	---	TRUE	FALSE	26.6		
+Pashto	pus	pus	pus	Arabic				Indo-European	Iranian	Southeastern Iranian		FALSE		Delivered	---	---	Delivered	data freeze 2	10230891	1994	todo-P0	Done	---	TRUE	FALSE	32.7		
+Polish	pol	pol	pol	Latin	40,646,000			Indo-European	Balto-Slavic	Western Slavic		FALSE		Delivered	---	---	---	data freeze 2	---	47111018	Done	Done	---	TRUE	FALSE	36.1		
+Portuguese	por	por	por	Latin	257,647,000			Indo-European	Romance	Western Romance		FALSE		Delivered	---	---	---	data freeze 2	---	44563671	Done	Done	---	TRUE	FALSE	56.4		
+Punjabi	pan	pan_Guru	pan	Guru				Indo-European	Indo-Aryan	Western Indo-Aryan		FALSE		Delivered	---	---	---	data freeze 2	12482408	1899654	Done	Done	---	TRUE	FALSE	47.1		
+Quechua (Ayacucho)	que	quy	que	Latin				Quechuan	Peripheral Quechua	Chinchay		TRUE		Delivered	---	---	---	data freeze 2	2753752	147695	Done	todo-P1	---	TRUE	FALSE	10.5		
+Romanian	ron	ron	ron	Latin				Indo-European	Romance	Eastern Romance		FALSE		Delivered	---	---	---	data freeze 2	---	57836477	Done	Done	---	TRUE	FALSE	50.3		
+Rundi	run	run	run	Latin				Atlantic-Congo	Benue-Congo	Central Narrow Bantu	N/A	FALSE		Delivered	N/A	Delivered	---	---	---	897235	todo-P1	todo-P1	---	FALSE	FALSE	---		
+Russian	rus	rus	rus	Cyrillic	257,979,000			Indo-European	Balto-Slavic	Eastern Slavic		FALSE		Delivered	---	---	---	data freeze 2	---	35239006	Done	Done	---	TRUE	FALSE	41.7		
+Samoan	smo	smo	smo	Latin				Austronesian	Central-Eastern Malayo-Polynesian	Tokelau-Fijian	Formal Samoan	FALSE		Delivered	Delivered	TBC	---	---	---	1658372	Done	manual complete	---	FALSE	FALSE	---		
+Sango	sag	sag	sag	Latin				Atlantic-Congo	Ubangi	Ngbandic	No dialects known; national language	FALSE		Delivered	Delivered	Delivered	---	---	---	911191	Done	manual complete	---	FALSE	FALSE	---		
+Sanskrit	san	san	san	Devanagari				Indo-European	Indo-Aryan	Sanskrit	N/A	FALSE		Delivered	Delivered	Delivered	---	---	---	7466094	Done	manual complete	---	FALSE	FALSE	---		
+Santali	sat	sat	sat	Ol Chiki				Austro-Asiatic	Mundaic	Kherwari	N/A	FALSE		Delivered	Delivered	1/24	---	---	---	322609	automated complete	to format	---	FALSE	FALSE	---		
+Sardinian	srd	srd	srd	Latin			Italian	Indo-European	Romance	Southern Romance	Logudorese and Campidanese dialects. Both dialects have written standards and around half a million speakers.	FALSE		Delivered	Delivered	Delivered	Start Jan	---	---	750	todo-P0	todo-P1	manual complete	FALSE	FALSE	---		No translation
+Scottish Gaelic	gla	gla	gla	Latin			English	Indo-European	Celtic	Goidelic		FALSE		Delivered	---	---	---	data freeze 2	3160865	1267662	Done	Done	---	FALSE	FALSE	31.6		
+Serbian	srp_Cyrl	srp_Cyrl	srp_Cyrl	Cyrillic				Indo-European	Balto-Slavic	Southwestern Slavic		FALSE		Delivered	---	---	---	data freeze 2	---	0	Done	Done	---	TRUE	FALSE	50.6		
+Shan	shn	shn	shn	Burmese				Kra-Dai	Tai	Shan		FALSE		Delivered	---	---	Delivered	data freeze 2	---	767721	Done	Done	---	FALSE	FALSE	---		
+Shona	sna	sna	sna	Latin	9,037,000			Atlantic-Congo	Benue-Congo	Central Narrow Bantu		FALSE		Delivered	---	---	---	data freeze 2	1427061	1964770	Done	Done	---	TRUE	FALSE	31.5	CANDIDATE	Often deleted
+Sicilian	scn	scn	scn	Latin			Italian	Indo-European	Romance	Western Romance	Standard literary Sicilian	FALSE		Delivered	Delivered	TBC	Start Jan	---	---	26	so hard to download	---	manual complete	FALSE	FALSE	---		
+Sindhi	snd	snd_Arab	snd	Arabic				Indo-European	Indo-Aryan	Northwestern Indo-Aryan		FALSE		Delivered	---	---	---	data freeze 2	5518012	420354	Done	Done	---	TRUE	FALSE	39.1		
+Sinhalese, Sinhala	sin	sin	sin	Sinhala				Indo-European	Indo-Aryan	Southern Indo-Aryan		FALSE		Delivered	---	---	---	data freeze 2	29848970	1393341	Done	Done	---	TRUE	FALSE	38.6		
+Slovak	slk	slk	slk	Latin	7,239,000			Indo-European	Balto-Slavic	Western Slavic		FALSE		Delivered	---	---	---	data freeze 2	---	11425112	Done	Done	---	TRUE	FALSE	46.5		
+Slovene	slv	slv	slv	Latin	2,230,000			Indo-European	Balto-Slavic	Southwestern Slavic		FALSE		Delivered	---	---	---	data freeze 2	---	22534343	Done	Done	---	TRUE	FALSE	41.7		
+Somali	som	som	som	Latin	21,903,330			Afro-Asiatic	Cushitic	Somali		FALSE		Delivered	---	---	---	data freeze 2	25980050	886519	Done	Done	---	TRUE	FALSE	29.2		
+Southern Sotho	sot	sot	sot	Latin				Atlantic-Congo	Benue-Congo	Central Narrow Bantu	No dialects known. National language.	FALSE		Delivered	Delivered	Delivered	---	---	---	1868321	Done	manual complete	---	FALSE	FALSE	---		
+Spanish	spa	spa	spa	Latin	542,894,000			Indo-European	Romance	Western Romance		FALSE		Delivered	---	---	---	data freeze 2	---	78131389	Done	Done	---	TRUE	FALSE	35.7		
+Sundanese	sun	sun_Latn	sun	Latin				Austronesian	Malayo-Polynesian	Malayo-Sumbawan		FALSE		Delivered	---	---	---	data freeze 2	2807415	710994	Done	Done	---	FALSE	FALSE	40.3		
+Swahili	swh	swh_Latn	swh	Latin	69,195,500			Atlantic-Congo	Benue-Congo	Central Narrow Bantu		FALSE		Delivered	---	---	---	data freeze 2	44548736	2966846	Done	Done	---	TRUE	FALSE	49.3		
+Swati	ssw	ssw	ssw	Latin				Atlantic-Congo	Benue-Congo	Central Narrow Bantu		FALSE		Delivered	---	---	---	data freeze 2	400703	436977	Done	Done	---	FALSE	FALSE	32.4		
+Swedish	swe	swe	swe	Latin	13,056,000			Indo-European	Germanic	North Germanic		FALSE		Delivered	---	---	---	data freeze 2	---	24745936	Done	Done	---	TRUE	FALSE	54		
+Tagalog	tgl	tgl	tgl	Latin	25,698,000			Austronesian	Greater Central Philippine	Tagalogic		TRUE		Delivered	---	---	---	data freeze 2	66510542	4665205	Done	Done	---	TRUE	FALSE	53		
+Tajik	tgk	tgk	tgk	Cyrillic				Indo-European	Iranian	Western Iranian		FALSE		Delivered	---	---	---	data freeze 2	22424753	1271027	Done	Done	---	TRUE	FALSE	33.8		
+Tamil	tam	tam_Taml	tam	Tamil	85,456,000			Dravidian	Tamil-Kannada	Tamil-Malayalam		FALSE		Delivered	---	---	---	data freeze 2	118166709	2471156	Done	Done	---	TRUE	FALSE	37.3		
+Tatar	tat_Cyrl	tat_Cyrl	tat_Cyrl	Cyrillic				Turkic	Western Turkic	Uralian	Central or Middle	FALSE		Delivered	Delivered	Delivered	---	---	---	1163254	Done	manual complete	---	FALSE	FALSE	---		
+Telugu	tel	tel_Telu	tel	Telugu	95,581,000			Dravidian	Telugu	Telugu		FALSE		Delivered	---	---	---	data freeze 2	97346251	2060950	Done	Done	---	TRUE	FALSE	45.4		
+Thai	tha	tha	tha	Thai	60,715,500			Kra-Dai	Tai	Thai		FALSE		Delivered	---	---	---	data freeze 2	---	6300132	Done	Done	---	TRUE	FALSE	37.2		
+Tibetan	bod	bod	bod	Uchen				Sino-Tibetan	Tibeto-Burman	Bodish	Sino-Tibetan on South Asia (Afganistán, Bangladésh, Bután, India, Maldivas, Nepal, Pakistán and Sri Lanka), North Asia (siberia), Southeast Asia (Brunei, Burma (Myanmar), Cambodia, Timor-Leste, Indonesia, Laos, Malaysia, the Philippines, Singapore, Thailand and Vietnam); Ladakhi on Ladakh; Lhasa Tibetan on Lhasa (TibetAutonomous Region)	FALSE		Delivered	N/A	Delivered	---	---	---	594203	todo-P1	todo-P1	---	FALSE	FALSE	---		
+Tigrinya	tir	tir	tir	Ethi				Afro-Asiatic	Semitic	Ethiopian		FALSE		Delivered	---	---	---	data freeze 2	1496201	550169	Done	Done	---	FALSE	FALSE	26.3		Often deleted
+Tok Pisin	tpi	tpi	tpi	Latin				Indo-European	Germanic	English-based Creole	no specific Dialect	FALSE		Delivered	N/A	Delivered	---	---	---	1204065	todo-P1	todo-P1	---	FALSE	FALSE	---		
+Tsonga	tso	tso	tso	Latin				Atlantic-Congo	Benue-Congo	Central Narrow Bantu	Standard Tsonga ( Dzonga)	FALSE		Delivered	Delivered	Delivered	---	---	---	1688528	Done	manual complete	---	FALSE	FALSE	---		No translation
+Tswana	tsn	tsn	tsn	Latin				Atlantic-Congo	Benue-Congo	Central Narrow Bantu		FALSE		Delivered	---	---	---	data freeze 2	1029544	2000069	Done	Done	---	FALSE	FALSE	32.5		
+Turkish	tur	tur	tur	Latin	88,102,000			Turkic	Southern Turkic	Turkish		TRUE		Delivered	---	---	---	data freeze 2	---	51900705	Done	Done	---	TRUE	FALSE	46.1		
+Turkmen	tuk	tuk_Latn	tuk	Latin				Turkic	Southern Turkic	Turkmenian	Turkmen - Teke	FALSE		Delivered	Delivered	Delivered	---	---	---	1139843	Done	manual complete	---	FALSE	FALSE	---		
+Twi	twi	twi	twi	Latin-Greek				Atlantic-Congo	Kwa	Nyo-Akanic	Akuapem Twi	FALSE		Delivered	Delivered	1/17	---	---	---	1289251	automated complete	to format	---	FALSE	FALSE	---		
+Ukrainian	ukr	ukr_Cyrl	ukr	Cyrillic	33,178,500			Indo-European	Balto-Slavic	Eastern Slavic		FALSE		Delivered	---	---	---	data freeze 2	---	5054890	Done	Done	---	TRUE	FALSE	45.5		
+Umbundu	umb	umb	umb	Latin				Atlantic-Congo	Benue-Congo	Central Narrow Bantu		FALSE		Delivered	---	---	---	data freeze 2	154693	233719	Done	Done	---	FALSE	FALSE	11.2		
+Urdu	urd	urd_Arab	urd	Arabic	230,052,500			Indo-European	Indo-Aryan	Western Hindi		FALSE		Delivered	---	---	---	data freeze 2	44340015	4607696	Done	Done	---	TRUE	FALSE	40.7		
+Uyghur	uig	uig	uig	Uyghur Perso-Arabic				Turkic	Eastern Turkic	Uyghur	Standard Uyghur	FALSE		Delivered	Delivered	1/21	---	---	---	1157939	Done	manual complete	---	FALSE	FALSE	---		Often deleted
+Uzbek	uzb	uzb_Latn	uzb	Latin				Turkic	Eastern Turkic	Uzbek		FALSE		Delivered	---	---	---	data freeze 2	35694547	0	todo-P0	Done	---	TRUE	FALSE	36.3		
+Vietnamese	vie	vie	vie	Latin	76,843,000			Austro-Asiatic	Vietic	Viet-Muong		FALSE		Delivered	---	---	---	data freeze 2	---	10324417	Done	Done	---	TRUE	FALSE	43.9		
+Welsh	cym	cym	cym	Latin	573,000			Indo-European	Celtic	Brythonic		FALSE		Delivered	---	---	---	data freeze 2	21209971	2675635	Done	Done	---	TRUE	FALSE	61		
+Wolof	wol	wol_Latn	wol	Latin	12,266,000			Atlantic-Congo	Senegambian	Fula-Wolof		FALSE		Delivered	---	---	---	data freeze 2	4125035		Done	Done	---	TRUE	FALSE	11.7		
+Xhosa	xho	xho	xho	Latin	19,183,500			Atlantic-Congo	Benue-Congo	Central Narrow Bantu		FALSE		Delivered	---	---	---	data freeze 2	7451655	2646652	Done	Done	---	TRUE	FALSE	43.9	CANDIDATE	Often deleted
+Yiddish	yid	yid	yid	Hebrew				Indo-European	Germanic	West Germanic		FALSE		Delivered	---	---	---	data freeze 2	4315084	6198	todo-P0	Done	---	TRUE	FALSE	49.2		
+Yoruba	yor	yor_Latn	yor	Latin	42472860			Atlantic-Congo	Benue-Congo	Yoruboid		FALSE		Delivered	---	---	---	data freeze 2	14945577	1559723	Done	Done	---	TRUE	FALSE	24.7		
+Yue Chinese	yue	yue	yue	Chinese Traditional				Sino-Tibetan	Chinese	Yue		FALSE		Delivered	---	---	---	data freeze 2	---	1485239	Done	Done	---	FALSE	FALSE	35.9	CANDIDATE	Often deleted
+Zulu	zul	zul	zul	Latin	27,770,000			Atlantic-Congo	Benue-Congo	Central Narrow Bantu		FALSE		Delivered	---	---	---	data freeze 2	5528916	1732006	Done	Done	---	TRUE	FALSE	44.9	LAUNCHED	Often deleted
+Acehnese (Arabic script)	ace_Arab	ace_Arab	ace_Arab	Arabic				Austronesian	Malayo-Chamic	Chamic	North Acehnese	FALSE		Planned for 200			Delivered	---	---	1073041	todo-P1	todo-P1	---	FALSE	FALSE	---		
+Acehnese (Latin script)	ace_Latn	ace_Latn	ace_Latn	Latin				Austronesian	Malayo-Chamic	Chamic	North Acehnese	FALSE		Planned for 200			Delivered	---	---	1073041	todo-P1	todo-P1	---	FALSE	FALSE	---		
+Arabic (Jordan)		ajp	ajp	Arabic				Afro-Asiatic	Semitic	Arabic		FALSE		Planned for 200			remove	---	---	0	todo-P1	todo-P1	manual complete	FALSE	FALSE	---		
+Balinese	ban	ban_Latn	ban	Latin 				Austronesian	Malayo-Sumbawan	Bali-Sasak-Sumbawa	N/A	FALSE		Planned for 200			Delivered	---	---	678000	todo-P0	todo-P1	---	FALSE	FALSE	---		
+Banjar	bjn_Latn	bjn_Latn	bjn_Latn	Latin				Austronesian	Malayo-Chamic	Malayic	Banjar Kuala dialect	FALSE		Planned for 200			Delivered	---	---	0	todo-P0	todo-P1	manual complete	FALSE	FALSE	---		No translation
+Banjar	bjn_Arab	bjn_Arab	bjn_Arab	Arabic				Austronesian	Malayo-Chamic	Malayic	Banjar Kuala dialect	FALSE		Planned for 200			Delivered	---	---	0	todo-P0	---	manual complete	FALSE	FALSE	---		
+Buginese	bug	bug_Latn	bug	Latin				Austronesian	South Sulawesi	Bugis	Bone	FALSE		Planned for 200	2/4	2/18	Delivered	---	---	445003	todo-P0	---	---	FALSE	FALSE	---		
+Chhattisgarhi	hne	hne_Deva	hne	Devanagari				Indo-European	Indo-Aryan	Eastern Indo-Aryan	N/A	FALSE		Planned for 200			Delivered	---	---	1037058	todo-P1	todo-P1	---	FALSE	FALSE	---		
+Crimean Tatar	crh_Latn	crh_Latn	crh_Latn	Latin				Turkic	Southern Turkic	Crimean Tatar	N/A	FALSE		Planned for 200			Delivered	---	---	22	todo-P0	---	manual complete	FALSE	FALSE	---		No translation
+Dinka (Rek)	dik	dik	dik	Latin				Nilo-Saharan	Nilotic	Dinka-Nuer	Bor	FALSE		Planned for 200			Delivered	---	---	6	todo-P0	---	manual complete	FALSE	FALSE	---		
+Faroese	fao	fao	fao	Latin				Indo-European	Germanic	North Germanic	N/A	FALSE		Delivered	Delivered	2/17	---	---	---	326394	manual complete	manual complete	---	FALSE	FALSE	---		
+Friulian	fur	fur	fur	Latin			Italian	Indo-European	Romance	Western Romance	Central Friulian, spoken around Udine	FALSE		Planned for 200			Delivered	---	---	82	todo-P0	---	manual complete	FALSE	FALSE	---		
+Kabiye	kbp	kbp	kbp	Latin				Atlantic-Congo	Gur	Grusi	Kɛ̀wɛ	FALSE		Planned for 200	2/16	3/2	---	---	---	1753676	todo-P1	todo-P1	---	FALSE	FALSE	---		
+Latgalian	ltg	ltg	ltg	Latin				Indo-European	Balto-Slavic	Eastern Baltic	Central	FALSE		Planned for 200	1/21	2/4	Delivered	---	---	199	todo-P0	todo-P1	manual complete	FALSE	FALSE	---		
+Ligurian	lij	lij	lij	Latin			Italian	Indo-European	Romance	Western Romance	Zeneize dialect	FALSE		Planned for 200			Start Jan	---	---	94	todo-P0	todo-P1	manual complete	FALSE	FALSE	---		
+Limburgish	lim	lim	lim	Latin			Dutch	Indo-European	Germanic	West Germanic	Maastrichtian dialect (Mestreechs)	FALSE		Planned for 200			Start Jan	---	---	741	todo-P0	todo-P1	manual complete	FALSE	FALSE	---		
+Lombard	lmo	lmo	lmo	Latin			Italian	Indo-European	Romance	Western Romance	Western Lombard	FALSE		Planned for 200			Start Jan	---	---	130	todo-P0	todo-P1	manual complete	FALSE	FALSE	---		
+Luba-Kasai	lua	lua	lua	Latin				Atlantic-Congo	Benue-Congo	Central Narrow Bantu	Tshiluba	FALSE		Planned for 200	1/31	2/14	---	---	---	321492	todo-P1	todo-P1	---	FALSE	FALSE	---		
+Minangkabau (Arabic script)	min_Arab	min_Arab	min_Arab	Arabic				Austronesian	Malayo-Chamic	Malayic	Agam-Tanah Datar dialect	FALSE		Planned for 200			---	---	---	892678	todo-P1	todo-P1	---	FALSE	FALSE	---		
+Minangkabau (Latin script)	min_Latn	min_Latn	min_Latn	Latin				Austronesian	Malayo-Chamic	Malayic	Agam-Tanah Datar dialect	FALSE		Planned for 200			---	---	---	892678	todo-P1	todo-P1	---	FALSE	FALSE	---		
+Mizo	lus	lus	lus	Latin				Sino-Tibetan	Tibeto-Burman	Kuki-Chin	Aizawl	FALSE		Planned for 200	2/11	2/25	---	---	---	1509562	todo-P1	todo-P1	---	FALSE	FALSE	---		
+Mossi	mos	mos	mos	Latin-Greek				Atlantic-Congo	Gur	Oti-Volta	Ouagadougou dialect	FALSE		Planned for 200			---	---	---	2096417	todo-P1	todo-P1	---	FALSE	FALSE	---		
+Nuer	nus	nus	nus	Latin				Nilo-Saharan	Nilotic	Dinka-Nuer	N/A	FALSE		Planned for 200	2/9	2/23	Delivered	---	---	647509	todo-P1	todo-P1	---	FALSE	FALSE	---		
+Pangasinan	pag	pag	pag	Latin				Austronesian	Northern Luzon	West Southern Cordilleran	Standard Pangasinan	FALSE		Planned for 200			---	---	---	1091754	todo-P1	todo-P1	---	FALSE	FALSE	---		
+Papiamento	pap	pap	pap	Latin				Indo-European	Romance	Portuguese-based Creole	Römer-Maduro-Jonis orthography	FALSE		Planned for 200			---	---	---	324337	todo-P1	todo-P1	---	FALSE	FALSE	---		Often deleted
+Silesian	szl	szl	szl	Latin			Polish	Indo-European	Balto-Slavic	Western Slavic	N/A	FALSE		Planned for 200	2/4	2/18	Delivered	---	---	166	todo-P0	todo-P1	manual complete	FALSE	FALSE	---		
+South Azerbaijani	azb	azb_Arab	azb	Arabic				Turkic	Southern Turkic	Azerbaijani	Tabrizi	FALSE		Planned for 200			---	---	---	1604559	todo-P1	todo-P1	---	FALSE	FALSE	---		No translation
+Southern Zaza (Dimli)	diq	diq	diq	Latin				Indo-European	Iranian	Northwestern Iranian	There is no recognized standard dialect, as Southern and Northern Zazaki form a dialectal continuum. In Turkey, Southern Zazaki has 1,280,000 speakers compared with 200K for Northern Zazaki.	FALSE		Planned for 200			---	---	---	530	todo-P0	---	manual complete	FALSE	FALSE	---		No translation
+Tamashek (Latin script)	tmh_Latn	tmh_Latn	tmh_Latn	Latin				Afro-Asiatic	Berber	Tuareg	Kal Ansar dialect around Timbuktu (denoted 'T-Ka')	FALSE		Planned for 200			Delivered	---	---	0	todo-P0	todo-P1	manual complete	FALSE	FALSE	---		
+Tamashek (Tifinagh script)	tmh_Tfng	tmh_Tfng	tmh_Tfng	Tifinagh				Afro-Asiatic	Berber	Tuareg	Kal Ansar dialect around Timbuktu (denoted 'T-Ka')	FALSE		Planned for 200			Delivered	---	---	0	todo-P0	todo-P1	manual complete	FALSE	FALSE	---		
+Tonga	ton	ton	ton	Latin				Atlantic-Congo	Benue-Congo	Central Narrow Bantu	Tongan (Lea Fakatonga)	FALSE		Planned for 200			---	---	---	75912	todo-P1	todo-P1	---	FALSE	FALSE	---		Often deleted
+Tumbuka	tum	tum	tum	Latin				Atlantic-Congo	Benue-Congo	Central Narrow Bantu	Rumphi variant	FALSE		Planned for 200			---	---	---	585097	todo-P1	todo-P1	---	FALSE	FALSE	---		
+Venetian	vec	vec	vec	Latin			Italian	Indo-European	Romance	Western Romance	Venetian Proper (Venessian) based on Venice dialect	FALSE		Planned for 200			Start Jan	---	---	58	todo-P0	todo-P0	manual complete	FALSE	FALSE	---		
+Waray	war	war	war	Latin				Austronesian	Greater Central Philippine	Bisayan	Standard Waray (Tacloban dialect)	FALSE		Planned for 200			---	---	---	1281067	todo-P1	todo-P1	---	FALSE	FALSE	---		No translation
+Abkhazian	abk													Planned for 300														
+Afar	aar													Planned for 300														
+Baoule	bci													Planned for 300														
+Bislama	bis													Planned for 300														
+Bukina Fula	fuh													Planned for 300														
+Cameroonian Fula / Adamawa Fulfulde	fub													Planned for 300														
+Cameroonian Pidgin	wes													Planned for 300														
+Central Bikol	bcl													Planned for 300														
+Chadian Arabic	shu													Planned for 300														
+Chamorro	cha													Planned for 300														
+Chiyao / Yao	yao													Planned for 300														
+Fang	fan													Planned for 300														
+Fiji Hindi	hif													Planned for 300														
+Gagauz	gag													Planned for 300														
+Gambian Fulah / Pulaar	fuc													Planned for 300														
+Gan Chinese	gan													Planned for 300														
+Gourmanchéma	gux													Planned for 300														
+Greenlandic	kal													Planned for 300														
+Gun	guw													Planned for 300														
+Hakka Chinese	hak													Planned for 300														
+Hawaiian	haw													Planned for 300														
+Herero	her													Planned for 300														
+Jamaican English Creole	jam													Planned for 300														
+Kabardian	kbd													Planned for 300														
+Kapampangan	pam													Planned for 300														
+Kituba	ktu													Planned for 300														
+Krio	kri													Planned for 300														
+Kwanyama	kua													Planned for 300														
+Madurese	mad													Planned for 300														
+Maldivian	div													Planned for 300														
+Maninka (Eastern Maninkakan)	emk													Planned for 300														
+Marshallese	mah													Planned for 300														
+Maurisyen	mfe													Planned for 300														
+Meadow-Eastern Mari	mhr													Planned for 300														
+Min Dong Chinese	cdo													Planned for 300														
+Min Nan Chinese	nan													Planned for 300														
+Ndebele	nde													Planned for 300														
+Northern Sami	sme													Planned for 300														
+Nuosu	iii													Planned for 300														
+Romansh	roh													Planned for 300														
+Seselwa	crs													Planned for 300														
+Sidaama	sid													Planned for 300														
+Sonike / Soninke / Serakhulle / Azer	snk													Planned for 300														
+Tahitian	tah													Planned for 300														
+Tetum	tet													Planned for 300														
+Tulu	tcy													Planned for 300														
+Venda	ven													Planned for 300														
+Western Frisian	fry													Planned for 300														
+Western Punjabi	pnb													Planned for 300														
+Zande	zne													Planned for 300														

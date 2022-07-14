@@ -1,0 +1,9 @@
+values:
+  JW300.v1c:
+    s3_paths:
+      source: N/A
+      target: N/A
+    local_paths:
+      source: /large_experiments/nllb/mmt/data/bitexts/mtdata/corpora/kam-tir/jw300.kam.gz
+      target: /large_experiments/nllb/mmt/data/bitexts/mtdata/corpora/kam-tir/jw300.tir.gz
+      is_gzip: true

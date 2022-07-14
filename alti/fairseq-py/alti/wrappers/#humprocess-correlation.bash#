@@ -1,0 +1,39 @@
+
+#!/bin/bash
+
+
+
+
+LANGS="amh ara asm ast azj bel ben bos bul cat ceb ces ckb cym dan deu ell est fas fin fra ful gle glg guj hau heb hib hrv hun hye ibo ind isl ita jav jpn kam kan kat kaz kea khm kir kor lao lav lin lit ltz lug luo mal mar mkd mlt mon mri msa mya nld nob npi nsp nya oci orm ory pan pol por pus ron rus slk slv sna snd som spa srp swe swh tam tel tgk tgl tha tur ukr umb urd uzb vie wol xho yor zul"
+
+LANGS="ces"
+#LANGS="amh"
+
+
+
+
+for lang in $LANGS
+do
+
+    bash pre-humanscore.bash eng $lang
+    ./humfilter-sent.bash eng $lang
+
+		
+    python humsource_contribution.py eng $lang > ./humcorrdata/flores_devtest${lang}_srcont
+
+
+    python get-bleu.py -r ./humcorrdata/ref-devtest-flores$lang.$lang -b ./humcorrdata/translation-devtest-flores$lang.eng-$lang.$lang > ./humcorrdata/flores_devtest${lang}_bleu
+
+
+    
+    paste -d' ' ./humcorrdata/flores_devtest${lang}_srcont ./humcorrdata/flores_devtest${lang}_bleu > ./humcorrdata/combinesfloresscores$lang
+    paste -d' ' ./humcorrdata/combinesfloresscores$lang ./humcorrdata/qual.devtest$lang.eng$lang.clean > ./humcorrdata/combinesfloresscores2$lang
+	
+    sed -i '1s/^/src bleu he\n/' ./humcorrdata/combinesfloresscores2$lang
+
+	
+    corr=`python hum-bleucorrelation.py ./humcorrdata/combinesfloresscores2$lang`
+
+    echo "$lang $corr"
+
+done

@@ -1,0 +1,1 @@
+Obrácenou operací násobení je dělení. Například, protože 4 násobí 3 rovná se 12, 12 děleno 3 rovná se 4. Násobení číslem 3, následované dělením číslem 3, je původní číslo. Dělení číslic jiných než 0 je samo o sobě rovno 1.

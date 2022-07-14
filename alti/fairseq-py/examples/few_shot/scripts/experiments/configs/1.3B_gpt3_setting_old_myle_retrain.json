@@ -1,0 +1,22 @@
+{
+    "model_name_base": "1.3B_gpt3_setting_old_v2",
+    "model_name_base_short": "1.3B_old_v2",
+    "model_checkpoints_directory": "/checkpoint/myleott/2021-08-02/xlmg.1_3b.v2.fsdp.me_fp16.transformer_lm_gpt.nlay24.emb2048.bm_none.tps2048.adam.fp16adam.b2_0.98.eps1e-08.cl0.0.lr0.0002.wu375.dr0.1.atdr0.1.wd0.01.ms8.uf2.mu286102.s1.ngpu32/",
+    "checkpoint_id_filter": "0-10k:1k,10k-20k:5k,20k-100k:20k,100k-1000k:50k",
+    "model_config_base": {
+        "model_path": "",
+        "dict_path": "/private/home/namangoyal/dataset/data-bin/bookwiki_CC-NEWS_openwebtext_stories_cc100-mmap2-bin/dict.txt",
+        "model_overrides": {
+            "bpe": "gpt2"
+        }
+    },
+    "model_scheduling_setting_base": {
+        "model_name": "This will be overriden with `[model_name_base]__step000[checkpoint_id]` so you can even delete this field",
+        "eval_params": {},
+        "slurm_nodes": 1,
+        "slurm_gpus_per_node": 1,
+        "slurm_ntasks_per_node": 1,
+        "slurm_cpus_per_task": 8,
+        "slurm_array_parallelism": 3
+    }
+}

@@ -1,0 +1,16 @@
+defaults:
+  - baseline
+
+hydra/launcher: submitit_slurm
+
+model:
+  _name: transformer_base
+
+optimization:
+  max_update: 2
+  lr: '[0.0001],[0.0003]'
+
+
+hydra:
+  searchpath:
+    - file://examples/nllb/baselines_conf/training_configs

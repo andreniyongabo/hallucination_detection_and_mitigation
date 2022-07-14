@@ -1,0 +1,1 @@
+Nasprotna operacija množenja je deljenje. Na primer, ker je 4 pomnoženo s 3 enako 12, je 12 deljeno s 3 enako 4. Množenje s 3, ki mu sledi deljenje s 3, daje izvirno število. Deljenje števila, ki ni 0 je samo po sebi enako 1.

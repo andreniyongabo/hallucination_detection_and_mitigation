@@ -1,0 +1,33 @@
+defaults:
+  - train_corpora:
+    - hau-eng/paracrawl.ngram_mining.ter.0.50
+  - valid_corpora:
+    - hau-eng/flores_dev
+  - test_corpora:
+    - hau-eng/flores_devtest
+
+source_vocab_config:
+  vocab_build_params:
+    vocab_size: 32000
+    use_joined_data: true
+    sampled_data_size: 1000000
+    sampling_temperature: 2.0
+
+
+target_vocab_config:
+  vocab_build_params:
+    vocab_size: 32000
+    use_joined_data: true
+    sampled_data_size: 1000000
+    sampling_temperature: 2.0
+
+binarization_config:
+  max_examples_per_shard: 80000000
+
+executor_config:
+  slurm_partition: learnlab
+  cluster: slurm
+
+hydra:
+  searchpath:
+    - file://examples/nllb/modeling/components_conf

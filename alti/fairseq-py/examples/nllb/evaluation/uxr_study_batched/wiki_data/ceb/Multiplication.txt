@@ -1,0 +1,1 @@
+Ang reverse operation sa multiplication mao ang division. Pananglitan, tungod kay ang 4 multiplied sa 3 equals 12, ang 12 divided sa 3 equals 4. Bisan pa niana, ang multiplication sa 3, human sa division sa 3, nagdala sa orihinal nga gidaghanon. Ang pagpak<unk> sa usa ka numero nga dili pa 0 sa iyang kaugalingon mao ang 1.

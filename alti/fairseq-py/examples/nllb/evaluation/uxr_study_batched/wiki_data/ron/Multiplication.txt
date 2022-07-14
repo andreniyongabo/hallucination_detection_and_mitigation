@@ -1,0 +1,1 @@
+Operaţia inversă a multiplicării este diviziunea. De exemplu, deoarece 4 înmulțit cu 3 este egal cu 12, 12 împărțit cu 3 este egal cu 4. Într-adevăr, înmulțirea cu 3, urmată de împărțirea cu 3, dă numărul original. Diviziunea unui număr diferit de 0 este în sine egală cu 1.

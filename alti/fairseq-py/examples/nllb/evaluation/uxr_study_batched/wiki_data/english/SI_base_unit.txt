@@ -1,0 +1,1 @@
+The names and symbols of SI base units are written in lowercase, except the symbols of those named after a person, which are written with an initial capital letter. For example, the metre (US English: meter) has the symbol m, but the kelvin has symbol K, because it is named after Lord Kelvin and the ampere with symbol A is named after André-Marie Ampère.

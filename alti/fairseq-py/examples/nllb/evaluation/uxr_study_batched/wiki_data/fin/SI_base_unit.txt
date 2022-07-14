@@ -1,0 +1,1 @@
+SI-perusyksiköiden nimet ja symbolit kirjoitetaan pienellä kirjaimella, lukuun ottamatta henkilön mukaan nimettyjen yksiköiden symboleja, jotka kirjoitetaan isolla alkukirjaimella. Esimerkiksi metrillä on symboli m, mutta kelvillä symboli K, koska se on nimetty Lord Kelvinin mukaan ja ampeeri, jolla on symboli A, on nimetty André-Marie Ampèrein mukaan.
