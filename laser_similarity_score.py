@@ -1,6 +1,7 @@
 import sys
 import numpy as np
 from numpy.linalg import norm
+from utils import writeTXT
 
 
 # src = "eng"
@@ -26,8 +27,4 @@ def cos_sim(A,B):
 
 cos_similarity = cos_sim(src_emb, tgt_emb)
 
-print(cos_similarity)
-
-with open(out_file, "w") as outfile:
-    for score in cos_similarity:
-        outfile.write(str(score)+"\n")
+writeTXT(cos_similarity, out_file)

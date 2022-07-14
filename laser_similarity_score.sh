@@ -35,7 +35,7 @@ else
     tgt_output_file=${OUTPUTDIR}/temp_embeddings/${src}-${tgt}/${tgt}_laser.embed
 fi
 
-bash ${LASERDIR}/tasks/embed/embed.sh ${src_input_file} ${src_output_file}
+bash ${LASERDIR}/tasks/embed/embed.sh ${src_input_file} ${src_output_file} # add the source lang token if it is not "eng"
 bash ${LASERDIR}/tasks/embed/embed.sh ${tgt_input_file} ${tgt_output_file} ${tgt}
 
 python laser_similarity_score.py ${src_output_file} ${tgt_output_file} ${out_file}
