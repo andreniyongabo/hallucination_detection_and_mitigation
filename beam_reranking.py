@@ -1,33 +1,34 @@
 import numpy as np
 import pandas as pd
 import json
+from utils import *
 """
-Scripts to rerank the beam based on the sentence score and laser score
+Scripts to rerank the beam based on the sentence score and similarity score
 """
-def readJSON(json_file):
-    with open(json_file, "r") as jfile:
-        data = json.load(jfile)
-    return data
+# def readJSON(json_file):
+#     with open(json_file, "r") as jfile:
+#         data = json.load(jfile)
+#     return data
 
-def writeJSON(data, save_path):
-    json_object = json.dumps(data, indent=4)
-    with open(save_path, "w") as jfile:
-        jfile.write(json_object)
+# def writeJSON(data, save_path):
+#     json_object = json.dumps(data, indent=4)
+#     with open(save_path, "w") as jfile:
+#         jfile.write(json_object)
 
-def writeTXT(data, save_path):
-    with open(save_path, "w") as tfile:
-        for line in data:
-            tfile.write(line+"\n")
+# def writeTXT(data, save_path):
+#     with open(save_path, "w") as tfile:
+#         for line in data:
+#             tfile.write(line+"\n")
 
-def saveCSV(df, save_path):
-    df.to_csv(save_path, index=False)
+# def saveCSV(df, save_path):
+#     df.to_csv(save_path, index=False)
 
-def txtToList(txt_file):
-    out_list = []
-    with open(txt_file, "r") as infile:
-        for line in infile:
-            out_list.append(float(line.strip()))
-    return out_list
+# def txtToList(txt_file):
+#     out_list = []
+#     with open(txt_file, "r") as infile:
+#         for line in infile:
+#             out_list.append(float(line.strip()))
+#     return out_list
 
 def addSimScores(json_file, sim_score_file, bms):
     data = readJSON(json_file)
@@ -93,12 +94,16 @@ if __name__=="__main__":
     src = "eng"
     tgt = "kin"
     beam_size = 4
-    order_by = "sent_sim"
+    rerank_methods = ["sent_sim", "sim_score"]
 
-    json_file = f"{DATADIR}/{src}-{tgt}/beam_rerank/output_bs1_bms_{beam_size}.json"
-    sim_scores_file = f"{DATADIR}/{src}-{tgt}/beam_rerank/output_bs1_bms_{beam_size}_sim_scores.txt"
-    save_json_path = f"{DATADIR}/{src}-{tgt}/beam_rerank/output_bs1_bms_{beam_size}_reranked.json"
-    save_txt_path = f"{DATADIR}/{src}-{tgt}/beam_rerank/output_bs1_bms_{beam_size}_target_reranked.txt"
-    save_csv_path = f"{DATADIR}/{src}-{tgt}/beam_rerank/output_bs1_bms_{beam_size}_reranked.csv"
-    
-    SelectTopCand(json_file, sim_scores_file, beam_size, save_json_path, save_txt_path, save_csv_path, order_by=order_by)
+    # input files
+    json_file = f"{DATADIR}/{src}-{tgt}/output_bms_{beam_size}.json"
+    sim_scores_file = f"{DATADIR}/{src}-{tgt}/output_bms_{beam_size}_sim_scores.txt"
+
+    for method in rerank_methods:
+        # output files
+        save_json_path = f"{DATADIR}/{src}-{tgt}/output_bms_{beam_size}_reranked_by_{method}.json"
+        save_txt_path = f"{DATADIR}/{src}-{tgt}/output_bms_{beam_size}_target_reranked_by_{method}.txt"
+        save_csv_path = f"{DATADIR}/{src}-{tgt}/output_bms_{beam_size}_reranked_by_{method}.csv"
+        
+        SelectTopCand(json_file, sim_scores_file, beam_size, save_json_path, save_txt_path, save_csv_path, order_by=method)

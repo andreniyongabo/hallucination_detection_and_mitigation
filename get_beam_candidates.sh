@@ -7,7 +7,7 @@ DATADIR=/large_experiments/nllb/mmt/multilingual_bin/flores200.en_xx_en.v4.4.256
 MOSES=/private/home/vedanuj/workspace/fairseq-py/examples/nllb/modeling/preprocessing/moses
 REPLACE_UNICODE_PUNCT=$MOSES/replace-unicode-punctuation.perl
 NORM_PUNCT=$MOSES/normalize-punctuation.perl
-CUSTOMDIR=/private/home/andreniyongabo/mytest/translations/flores_test/
+CUSTOMDIR=/private/home/andreniyongabo/hallucination_detection_and_mitigation/translations/flores_test/
 
 langs="ace_Arab,ace_Latn,acm,acq,aeb,afr,ajp,aka,amh,apc,ara_Arab,ars,ary,arz,asm,ast,awa,ayr,azb,azj,bak,bam,ban,bel,bem,ben,bho,bjn_Arab,bjn_Latn,bod,bos,bug,bul,cat,ceb,ces,cjk,ckb,crh_Latn,cym,dan,deu,dik,dyu,dzo,ell,eng,epo,est,eus,ewe,fao,fas,fij,fin,fon,fra,fur,fuv,gla,gle,glg,grn,guj,hat,hau,heb,hin,hne,hrv,hun,hye,ibo,ilo,ind,isl,ita,jav,jpn,kab,kac,kam,kan,kas_Arab,kas_Deva,kat,kau_Arab,kau_Latn,kaz,kbp,kea,khm,kik,kin,kir,kmb,kon,kor,kur,lao,lav,lij,lim,lin,lit,lmo,ltg,ltz,lua,lug,luo,lus,mag,mai,mal,mar,min_Latn,mkd,mlg,mlt,mni_Mtei,mon,mos,mri,msa,mya,nld,nno,nob,npi,nso,nus,nya,oci,orm,ory,pag,pan,pap,pol,por,prs,pus,que,ron,run,rus,sag,san,sat,scn,shn,sin,slk,slv,smo,sna,snd,som,sot,spa,sqi,srd,srp_Cyrl,ssw,sun,swe,swh,szl,tam,tat_Cyrl,tel,tgk,tgl,tha,tir,tmh_Latn,tmh_Tfng,tpi,tsn,tso,tuk,tum,tur,twi,tzm,uig,ukr,umb,urd,uzb,vec,vie,war,wol,xho,yid,yor,yue,zho_Hans,zho_Hant,zul"
 
@@ -17,12 +17,12 @@ input_file=${DATADIR}/retrieved_data/test.${src}-${tgt}.${src}
 ref_file=${DATADIR}/retrieved_data/test.${src}-${tgt}.${tgt}
 mkdir -p ${CUSTOMDIR}/beam_candidates/
 mkdir -p ${CUSTOMDIR}/beam_candidates/${src}-${tgt}/
-prefix=${CUSTOMDIR}/${src}-${tgt}/output
+prefix=${CUSTOMDIR}/beam_candidates/${src}-${tgt}/output
 beam=4
 batch_size=1
 
 # for tokenization, if src=="eng" use ${src:0:2}, otherwise use ${src}
-cat ${input_file} |  ${NORM_PUNCT} -l ${src:0:2} | python fairseq_cli/interactive_beam_candidates.py ${DATADIR}/data_bin/shard000 \
+cat ${input_file} |  ${NORM_PUNCT} -l ${src:0:2} | python fairseq-py/fairseq_cli/interactive_beam_candidates.py ${DATADIR}/data_bin/shard000 \
     --path ${CHECKPOINT_DIR}/checkpoint_4_100000-shard0.pt \
     --task translation_multi_simple_epoch \
     --langs ${langs} \

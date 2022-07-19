@@ -373,10 +373,10 @@ def main(cfg: FairseqConfig):
 
     ####################################
     # print(output_dict)
-    writeJSON(output_dict, SAVEDIR+f"{source}-{target}/output_bs1_bms_{cfg.generation.beam}.json")
-    writeTXT(source_sents, SAVEDIR+f"{source}-{target}/output_bs1_bms_{cfg.generation.beam}_source.txt")
-    writeTXT(target_sents, SAVEDIR+f"{source}-{target}/output_bs1_bms_{cfg.generation.beam}_target.txt")
-    writeTXT(scores, SAVEDIR+f"{source}-{target}/output_bs1_bms_{cfg.generation.beam}_sent_scores.txt")
+    writeJSON(output_dict, SAVEDIR+f"{source}-{target}/output_bms_{cfg.generation.beam}.json")
+    writeTXT(source_sents, SAVEDIR+f"{source}-{target}/output_bms_{cfg.generation.beam}_source.txt")
+    writeTXT(target_sents, SAVEDIR+f"{source}-{target}/output_bms_{cfg.generation.beam}_target.txt")
+    writeTXT(scores, SAVEDIR+f"{source}-{target}/output_bms_{cfg.generation.beam}_sent_scores.txt")
     
     #stop runnning after getting all the condidates information
     from fairseq import pdb; pdb.set_trace() 
