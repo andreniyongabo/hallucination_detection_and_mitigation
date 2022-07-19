@@ -1,0 +1,391 @@
+eng,ibo,sent_score,sim_score,alti_score,evaluation
+"And they made upon the breastplate chains at the ends, of wreathen work, of blue, and purple, and scarlet, and twined, and twined work.
+","Kpaharia kota nzu abuo ahu kporo-nku onu ma mgbe-ahu, na aka di mmiri ma dikwa ocha, pikoo ha ka ha ghoo boolu.
+","-2.714672565460205
+","0.39986694
+",0.25289208,catastrophic
+"And the stars shall fall from heaven, and the powers of the heavens shall be shaken: and the stars shall fall from heaven, and the powers that are in heaven shall be shaken.
+","Ufodu ndi mmadu chere na ihe o na-ekwu bu eziokwu mana ufodu ekweghi; na mbara igwe na-agba uwa okirikiri ma anyanwu(ma kwa kpakpando ndi ozo)
+","-1.4789313077926636
+","0.39000016
+",0.22529575,catastrophic
+"And as the showers [rain-drops] upon the grass [herb];
+","Dika ibinggasi ugbo-ala nke di elu.Nkewa dị na etiti na elụ wee wepụta ike ụfọdụ.
+","-5.36217737197876
+","0.47758615
+",0.34508386,catastrophic
+"Do not be afraid of them, for they cannot do evil, neither is it in them to do good"".
+","Guzosie ike n'ịsị ụmụ nwoke mba, ma atụla egwu ịkwechiri (na-agbanyeghi ọdịnala ọbụla nke ọ bụ, o kwesighi ekwesi!).
+","-3.48941707611084
+","0.355953
+",0.34214485,catastrophic
+"And the mountains and the hills were joined together: and the city of Sin-tra, which is glorious in every way, was built by the Lord of Hosts.
+","Na aka-ugwu ma gburu-gburu dikwa nso igaru di obodo ihunanya na itunanya Sintra bukwa nke emere amara-amara nye ndi mba-ozo ka akowaputara idi-ukwu ya n’uzo egbuke-egbuke site na-aka Onye-nwe Byro.
+","-2.9274637699127197
+","0.5523925
+",0.4388934,catastrophic
+"And they shall turn away their ears from the truth, and shall be turned unto fables.
+","Ha na akọwapụtakwa ụmụ ụzọ a ga-eso maka ụzọ haịkịnụ na ọghụgha igwe ama ama.
+","-1.0632374286651611
+","0.3194034
+",0.2512302,catastrophic
+"Dr. Ehud Ur, ọkammụta nke ọgwụ na Mahadum Dalhousie nọ na Halifax, Nova Scotia na onye isi oche nke ngalaba ụlọ ọgwụ na sayensi ahụ nke Òtù Ọrịa Shuga ndị Kanada dọrọ aka na ntị na nnyocha ahụ ka nọ n’oge ndị mbụ ya.
+","Dr. Ehud Ur, professor of medicine at Dalhousie University in Halifax, Nova Scotia and chair of the department of clinical and physical sciences of the Canadian Diabetes Association cautioned that the research is still in its early stages.
+","-0.6522359251976013
+","0.9306229
+","0.56917775
+",non_catastrophic
+"N’ime nghọpụta nke 1976, ọ dụrụ Carter ndụmọdụ gbasara iwu ndị mba ofesi, wee rụzie ọrụ dịka Onye ndụmọdụ Nchekwa Mba (NSA) site na 1977 ruo 1981, na nnọchi Henry Kissinger.
+","In the fall of 1976, he advised Carter on foreign policy, and then served as National Security Advisor (NSA) from 1977 to 1981, replacing Henry Kissinger.
+","-0.4670755863189697
+","0.93431765
+","0.44015813
+",non_catastrophic
+"Ụlọ ọrụ gọvanọ kwuru iri na itoolu na ndị merụrụ ahụ bụ ndị uwe ojii.
+","The governor's office said 19 of the injured were police officers.
+","-0.4509117901325226
+","0.8222112
+","0.5338191
+",non_catastrophic
+"Ọnụ ọgụgụ ndị mmadụ nọ ebe n'ahụ dị ukwuu nke na o kweghị mmadụ niile omume inwèta òhèrè n'olili ozu na St. Peter Square.
+","The number of people present was so large that it was not possible for everyone to attend the funeral in St. Peter's Square.
+","-0.6726612448692322
+","0.8852842
+","0.41097224
+",non_catastrophic
+"Robin Uthappa nwetara akara kachasị na innings, ọsọ 70 n’ime naanị ụmụ bọọlụ 41 site n’ịkụ anọ ugboro 11 na isii ugboro 2.
+","Robin Uthappa top-scored in the innings, 70 runs in just 41 balls by hitting 11 fours and 2 sixes.
+","-1.231020450592041
+","0.912879
+","0.6005786
+",non_catastrophic
+"U.S. Onye isi oche Jiọj W. Bush batata Singapọ n'ụtụtụ ụbọchị nke iri na isii nke ọnwa Nọvemba, iji malite njem njegharị mba Eshia nke ga-anọzu otu izuụka.
+","U.S. President George W. Bush arrived in Singapore on the morning of November 16 to begin a week-long tour of Asia.
+","-0.45750513672828674
+","0.9149116
+","0.45897695
+",non_catastrophic
+"Onyeisiala mba Amerịka bụ George W. Bush nabatara ọkwa ahụ.
+","U.S. President George W. Bush accepted the invitation.
+","-0.694904625415802
+","0.9091677
+","0.6201058
+",non_catastrophic
+"Ndị uwe ojii kwuru na ahụ ahụ dị ka ọ nọọla ebe ahụ ruo ihe dị ka otu ụbọchị.
+","Police said the body appeared to have been there for about a day.
+","-0.643887996673584
+","0.870492
+","0.49194092
+",non_catastrophic
+"O mepụtaara stampụ karịrị 1,000 maka Swidin na mba 28 ndị ọzọ.
+","He has designed more than 1,000 stamps for Sweden and 28 other countries.
+","-0.8967807292938232
+","0.91091543
+","0.49692866
+",non_catastrophic
+"Stampụ ya nke otu puku bụ “Nnukwu Omume nke Ndị Eze Sweden” ahụ dị ebube nke David Klöcker Ehrenstrahl dere na 2000, nke edepụtara na Akwụkwọ Guiness nke Ndekọ Ụwa.
+","His 1000th stamp was the magnificent ""Great Deeds of the Swedish Kings"" by David Klöcker Ehrenstrahl in 2000, which was listed in the Guinness Book of World Records.
+","-0.6259670853614807
+","0.9355027
+","0.5206524
+",non_catastrophic
+"N’ihi nke ahụ, ụdị azụ abụọ ekpochapụla, ma abụọ ndị ọzọ abụrụla ndị nọ n’ihe ize ndụ, gụnyere humpback chub.
+","As a result, two species of fish have become extinct, and two others have become endangered, including the humpback chub.
+","-0.5379119515419006
+","0.92614526
+","0.4214617
+",non_catastrophic
+"Ala ọma jijiji ahụ nwere etiti ya na ihe dị ka km 20 (maịlị 15) ugwu-ebe ugwu ọwụwa anyanwụnke Dillon, na ihe dị ka km 65 (maịlị 40) ndịda nke Butte.
+","The earthquake had its epicenter about 20 km (15 miles) north-northeast of Dillon, and about 65 km (40 miles) south of Butte.
+","-0.49655255675315857
+","0.9292858
+","0.5590314
+",non_catastrophic
+"Frans bụ mba nke asaa n'ọgbakọ Iroopu ịta ahụhụ n'ihi ọrịa a; osotere Ọstrịa, Jemani, Slovenia, Bọlgeria, Gris na Itali.
+","France is the seventh country in the European Union to suffer from the disease; following Austria, Germany, Slovenia, Bulgaria, Greece and Italy.
+","-0.6354120373725891
+","0.92558324
+","0.40511307
+",non_catastrophic
+"Hamilton kwetere na Ụlọ ọgwụ Mahadum Howard nabatara onye ọrịa ahụ n’ọnọdụ ahụ kwụsiri ike
+","Hamilton acknowledged that Howard University Hospital admitted the patient in stable condition
+","-0.6480558514595032
+","0.9086963
+","0.60361564
+",non_catastrophic
+"Ihe omume bidoro n’elekere 8:30 nke ụtụtụ. oge mpaghara (15.00 UTC).
+","The event began at 8:30 a.m. local time (15.00 UTC).
+","-0.320138543844223
+","0.9103361
+","0.59260327
+",non_catastrophic
+"NHK kwukwara na ulo oru nuklia power plant nke Kashiwazaki Kariwa di na mpaghara Niigata n’aru oru ofuma.
+","NHK also reported that the Kashiwazaki Kariwa nuclear power plant in Niigata prefecture is under construction.
+","-0.6241142153739929
+","0.8741357
+","0.61686707
+",non_catastrophic
+"Ahazirioge Huhne na Pryce ibia n’ihu oka ikpe n’ulo ikpe nke Westiminster Magistrates Court ubochi onwa Februari ga di na 16.
+","Huhne and Pryce are due to appear at Westminster Magistrates Court on February 16.
+","-0.5387067794799805
+","0.89782345
+","0.55962104
+",non_catastrophic
+"Ndị eboro ebubo bụ Baba Kanjar, Bhutha Kanjar, Rampro Kanjar, Gaza Kanjar na Vishnu Kanjar.
+","The accused are Baba Kanjar, Bhutha Kanjar, Rampro Kanjar, Gaza Kanjar and Vishnu Kanjar.
+","-0.2295503169298172
+","0.9300483
+","0.6042819
+",non_catastrophic
+"N’ime otu mmekọrịta nke NPWS na Sporting Shooters Association of Australia (NSW) Inc, e were n’ọrụ ndị ọrụ afọ ofufo tozuru oke, n’okpuru mmemme ịchụ nta nke Sporting Shooters Association ahụ.
+","In a partnership between the NPWS and the Sporting Shooters Association of Australia (NSW) Inc, qualified volunteers were recruited, under the Sporting Shooters Association's hunting program.
+","-0.45931243896484375
+","0.91348946
+","0.558824
+",non_catastrophic
+"Ọ bụ CEP nke ise nke Marteli n'afọ anọ.
+","It was Marteli's fifth CEP in four years.
+","-0.4323663115501404
+","0.8860306
+","0.59811926
+",non_catastrophic
+"Ministri Japan nke Akụnụba, Azụmaahịa na Ụlọ ọrụ mmepụta (METI) kwuru na ọ ma ama maka ihe mberede iri abụọ na asaa metụtara njìarụ ndị ahụ.
+","Japan's Ministry of Economy, Trade and Industry (METI) said it was aware of 27 accidents related to the devices.
+","-0.5488924980163574
+","0.9159652
+","0.5381229
+",non_catastrophic
+"Ala ọma jijiji ahụ mere Mariana na 07:19 elekere ụtụtụ mpaghara (09:19 p.m. GMT Friday).
+","The Mariana earthquake struck at 07:19 local time (09:19 p.m. GMT Friday).
+","-0.4636329710483551
+","0.9141414
+","0.5426616
+",non_catastrophic
+"Rolando Mendoza gbara egbe ya bụ M16 n’ebe ndị njem nọ.
+","Rolando Mendoza fired his M16 rifle at the passengers.
+","-0.4492027163505554
+","0.87182283
+","0.59592336
+",non_catastrophic
+"Curtis Cooper, onye ọka mmụta mgbakọ na mwepụ na onye ọka mmụta sayensị kọmputa na Mahadum nke Etiti Missouri, achọpụtala akara praịm kachasị buo ibu ruo ta na Jenụwarị 25.
+","Curtis Cooper, a mathematician and computer scientist at the University of Central Missouri, has discovered the largest prime number to date on January 25.
+","-0.5557834506034851
+","0.9275438
+","0.50308824
+",non_catastrophic
+"Anyi na-akpọ usoro a speciation, nke pụtara nguzobe nke ụdị okike ọhụụ. Speciation bụ nsonaazụ a na-apụghị ịgbagha agbagha na akụkụ dị oke mkpa nke evolushọn.
+","We call this process speciation, which means the establishment of a new species. Speciation is an undeniable result and a very important part of evolution.
+","-0.710015594959259
+","0.88682425
+","0.4951828
+",non_catastrophic
+"Agbanyeghị, nke ahụ abụghị eziokwu. N’agbanyeghị na enwere ihe edere n’azụ nke dọkumentị ahụ, ọ bụghị otu maapụ akụ.
+","However, that is not true. Although there is writing on the back of the document, it is not a document.
+","-1.2226307392120361
+","0.8112127
+","0.51983964
+",non_catastrophic
+"Egwuregwu ndị a ma ama gụnyere futbọl, basketbọl, volleybọl, polo-mmiri, fencing, rugby, ịgba ịnyịnya, hockey ice, hockey roller na ịgba ọsọ ụgbọ ala F1.
+","Popular sports include football, basketball, volleyball, water polo, fencing, rugby, horse riding, ice hockey, roller hockey and F1 car racing.
+","-0.2801712453365326
+","0.9416833
+","0.49352476
+",non_catastrophic
+"Na 1895, mgbe a dachara n’Agha Sino-Japanese Mbụ (1894-1895), ọchịchị Qing ahụ mere mbịanye aka na Nkwekọrịta nke Shimonoseki ahụ, site na nke o jiri nyefee Japan ọbụbụeze nke Taiwan, nke na-achị agwaetiti ahụ ruo 1945.
+","In 1895, after the First Sino-Japanese War (1894-1895), the Qing government signed the Treaty of Shimonoseki, by which it ceded sovereignty of Taiwan to Japan, which ruled the island until 1945.
+","-0.3017130494117737
+","0.9428223
+","0.52775455
+",non_catastrophic
+"Machu Picchu nwere ọdịdị atọ, ya bụ Intihuatana, Ụlọ Nsọ nke Anyanwu, yana Ime ụlọ nke Windo Atọ.
+","Machu Picchu consists of three structures, namely the Intihuatana, the Temple of the Sun, and the Chamber of the Three Windows.
+","-0.5310207009315491
+","0.8996109
+","0.6125827
+",non_catastrophic
+"N'afọ 1884, Tesla kwagara na mba Amerịka ịnara ọrụ na nke Ụlọ ọrụ Edison n'Obodo Niu Yọk.
+","In 1884, Tesla moved to the United States to take a job with the Edison Company in New York City.
+","-0.3668103516101837
+","0.95116526
+","0.47204018
+",non_catastrophic
+"Ọ bịarutere na US n’inwe centị anọ n’aha ya, otu akwụkwọ nke uri, ya na otu akwụkwọ ozi nke nkwanye sitere na Charles Batchelor (onye njikwa ya n’ọrụ ya gara aga) ruo Thomas Edison.
+","He arrived in the U.S. carrying four cents in his name, a book of poetry, and a letter of introduction from Charles Batchelor (his manager in his previous job) to Thomas Edison.
+","-0.603501558303833
+","0.914034
+","0.50749105
+",non_catastrophic
+"Oke Piramid na Giza bụ naanị nke ka kwụ taa n'ime ihe itụnanya asaa ahụ.
+","The Great Pyramid of Giza is the only one of the seven wonders still standing today.
+","-0.4961216449737549
+","0.8313055
+","0.49217722
+",non_catastrophic
+"Ojiji nke ndekọ vidio edugawo na ụmụ nchọpụta dị mkpa n’ime nkọwa nke nzipụta-n’ihu-kentakịrị, mmegharị ihu nke na-anọru milisekọnd ole na ole.
+","The use of video recording has led to important breakthroughs in the interpretation of print-front-to-print, facial movements that last a few milliseconds.
+","-1.4947293996810913
+","0.8452158
+","0.3794943
+",non_catastrophic
+"Na ntọala, Buddhism Tibet dị ezigbo mfe. Ọ mejupụtara Yoga Kundalini, ntụgharị uche na ụzọ nke ịhụnanya nnabata-ihe niile.
+","At its core, Tibetan Buddhism is very simple. It consists of Kundalini Yoga, meditation and the path of loving acceptance-of-all.
+","-0.7250831723213196
+","0.9221226
+","0.5069748
+",non_catastrophic
+"N'etiti afọ abụọ nke nlụcha nke agha ahụ, ndị mba bụbu ndị mmekọrịta bụzi ndị iro ugbu a ma Agha Oyi ahụ bidokwara.
+","Within two years of the end of the war, former allies were now enemies and the Cold War had begun.
+","-0.6873776316642761
+","0.89819896
+","0.48276585
+",non_catastrophic
+"Omenala ndị mgbe ochie na agbụrụ bidoro iji dobe ha maka inweta ohere dị mfe na mmiri ara, ntutu isi, anụ, na anụahụ gasị.
+","Ancient cultures and tribes began to use them for easy access to milk, hair, meat, and skin.
+","-0.8007866144180298
+","0.88880146
+","0.52981406
+",non_catastrophic
+"N'ime abali n'etiti mbipụta otu narị na iri ise ya na narị abụọ ka e mere, nke a mara ugbu a dị ka “Dunlap broadsides”.
+","Between 150 and 200 copies were made, which are now known as ""Dunlap broadsides"".
+","-0.974141001701355
+","0.900123
+","0.47658893
+",non_catastrophic
+"Na Julaị 6, e zigaara George Washington otu kọpị, onye mere ka a gụọrọ ya ndị agha ya na Niu Yọk na Julaị 9. Otu kọpị ruru Lọndọn n'Ọgọstụ 10.
+","On July 6, a copy was sent to George Washington, who had it read to his troops in New York on July 9. A copy reached London on August 10.
+","-0.34278473258018494
+","0.90416485
+","0.48908624
+",non_catastrophic
+"Agbanyeghị na ọrụrụ-piramidi n’okwute gara n’ihu ruo na njedebe nke Alaeze Ochie, ụmụ piramidi nke Giza bụ ndị agafeghị ma ọlị na nha ha na ima mma nka na ụzụ nke ọrụrụ ha.
+","Although pyramid-building continued until the end of the Old Kingdom, the pyramids of Giza were never surpassed in size and in the artistic excellence of their construction.
+","-0.8918859958648682
+","0.88504565
+","0.49381816
+",non_catastrophic
+"Ndị obodo niile nke Obodo Vatican bụ Roman Katọlik.
+","All citizens of Vatican City are Roman Catholic.
+","-0.6034001111984253
+","0.879172
+","0.5586042
+",non_catastrophic
+"Ya mere, pensụl ahụ wụbụ ezigbo enyị nye ọtụtụ ndị mmadụ mgbe ọ pụtara.
+","So, the pencil was a real gem for many people when it came out.
+","-1.3888014554977417
+","0.7902835
+","0.47386485
+",non_catastrophic
+"Taa, Timbuktu obodo agụọ na-egbu, agbanyeghị n'ugwu ya na-eme ya otu ndọta ndị nleta, na o nwere otu ọdụ ụgbọelu.
+","Today, Timbuktu is a sleepy city, although its hills make it a tourist attraction, and it has an airport.
+","-0.6362451314926147
+","0.87899184
+","0.52535063
+",non_catastrophic
+"Obianụọhịa Kemba Kruger (KNP) nọ n'ebe ugwu-ọwụwa anyanwu nke South Afrịka ma nọrọ ogologo ókè ahụ nke Mozambik n'ime ọwụwa anyanwụ, Zimbabwe n'ime ebe ugwu, na ókè ebe ndịda ahụ bụ Osimmiri Agụiyi.
+","The Kemba Kruger National Park (KNP) is located in the north-east of South Africa and stretches along the border of Mozambique in the east, Zimbabwe in the north, and the southern border is the Ugandan border.
+","-0.6798379421234131
+","0.92018497
+","0.49701154
+",non_catastrophic
+"Ọ bụ otu n’ime nke isi ihe ndọta nke Ndịda Afrịka ma a na-ewe ya dị ka nke kacha mma nke Ebennọkọta Nkeobodo (SANParks) Ndịda Afrịka.
+","It is one of the main attractions of South Africa and is considered the best of the South African National Parks (SANParks).
+","-0.4454973042011261
+","0.89236367
+","0.41974866
+",non_catastrophic
+"Tagzi ekere eke bụ ụzọ dị ọsịsọ ma maa mma iji gaa ebe dị nso, dịka Paro (Nu 150) na Punakha (Nu 200).
+","Trains are the fastest and most convenient way to get to nearby places, such as Paro (Nu 150) and Punakha (Nu 200).
+","-0.9525075554847717
+","0.8727172
+","0.48082983
+",non_catastrophic
+"Akwammiri Osimiri Oyapock bụ otu akwa mmiri ejiri kebùl runye ya. Ọ gbara gburugburu Osimiri Oyapock iji jikọọ ụmụ obodo nke Oiapoque n'ime Brazịl na Saint-Georges de l'Oyapock n'ime French Guiana.
+","The Oyapock River Bridge is a cable-stayed bridge that spans the Oyapock River to connect the towns of Oiapoque in Brazil and Saint-Georges de l'Oyapock in French Guiana.
+","-0.5598325133323669
+","0.9263601
+","0.5089139
+",non_catastrophic
+"Ọdụ ụgbọ mmiri ahụ bụ ebe nguzosike nke ndị agha mmiri wuru ewu na 1889 mgbe nnukwu ụgbọ mmiri asaa si Jamani, US, na Briten jụrụ ịhapụ ọdụ ụgbọ mmiri ahụ.
+","The harbor was the site of a naval blockade built in 1889 when seven large ships from Germany, the US, and Britain refused to leave the harbor.
+","-0.5699898600578308
+","0.9508196
+","0.51825327
+",non_catastrophic
+"Itinye akwụkwọ n’ọdịnihu na-enye onye njem ahụ obi udo na ha nwere ebe ha ga-arahụ ụra ozugbo ha rutere ebe ha na-aga.
+","Booking in advance gives the traveler the peace of mind that they have a place to sleep once they arrive at their destination.
+","-0.7203310132026672
+","0.8942128
+","0.43910104
+",non_catastrophic
+"Ụfọdụ ememme nwere ebe ndị a na-ama ụlọikwuu pụrụ iche maka ezinụlọ nke nwere ụmụ na-eto eto.
+","Some festivals have special camping areas for families with young children.
+","-0.741087794303894
+","0.8882272
+","0.6321115
+",non_catastrophic
+"Ụmụ mpaghara imeala nke Ebe Ugwu Indịa na Pakistan, a na-ejikarị yogọọt n'ime ụmụ kọrị; n'ime Ebe Ndịda Indịa na mpaghara ndị ọzọ dị n'akụkụ mmiri nke okpuru kọntinent ahụ, a na-ejikarị mmiri ara akị oyibo.
+","In the rural areas of Northern India and Pakistan, yogurt is often used in yogurt; in Southern India and other coastal regions of the subcontinent, coconut milk is often used.
+","-0.8847997188568115
+","0.8873801
+","0.42732793
+",non_catastrophic
+"Taa ọtụtụ Sámi na-arụ ọrụ n’ụmụ ahịa nke ugbu a. Njem nleta bụ mkpata egọ dị mkpa na Sápmi, mpaghara Sámi ahụ.
+","Today many Sámi work in modern businesses. Tourism is an important industry in Sápmi, the Sámi homeland.
+","-1.0454843044281006
+","0.8679527
+","0.53117985
+",non_catastrophic
+"Ị nwere ike ịhụ piramidi n'ime itiri ma ị nwere ike ịhụ ha n'ịgbachi nkịtị tupu ihe ngosi ahụ ebido.
+","You can see the pyramids in the background and you can see them in the silence before the show starts.
+","-0.5569051504135132
+","0.91451776
+","0.421424
+",non_catastrophic
+"Naanị ụzọ a ga-esi ewefe ya ọsịịsọ wụbụ iziga ya dị ka ibu e nyochagoro. Iwu ụlọọrụ ụgbọelu agaghị ekwe ha izipụ ibu na-enweghị otu onye njem, nke bụ ebe ị ga-esi bata n'ime.
+","The only way to move it quickly is to send it as checked luggage. Airline regulations don't allow them to send luggage without a single passenger, which is where you come in.
+","-0.8767758011817932
+","0.90423554
+","0.47380918
+",non_catastrophic
+"Izmir bụ obodo nke atọ kacha buo ibu na mba Tọkị nwere ọnụọgụgụ ndị mmadụ dị ihe dịka nde 3. 7, ọdụ ụgbọmmiri nke abụọ kacha buo ibu ma a gụpụ Istanbulu, na ọdụ ụgbọ njem dị ezigbo mma.
+","Izmir is the third largest city in Turkey with a population of about 3.7 million, the second largest port after Istanbul, and a very good transport hub.
+","-0.6560108661651611
+","0.9233042
+","0.52101
+",non_catastrophic
+"A na-ama ọkwa mgbedum na Metro naanị na asụsụ Catalan, mana mmesasị nke a na-emeghị atụmatụ ya bụ ndị a na-ekwuputa site na sistemụ akpaghị aka n'ọtụtụ asụsụ dịgasị iche iche gụnyere Spanish, English, French, Arabic na Japanese.
+","Emergency announcements in the Metro are only made in Catalan, but unplanned delays are automatically announced by the system in a wide variety of languages including Spanish, English, French, Arabic and Japanese.
+","-1.0215097665786743
+","0.916083
+","0.504099
+",non_catastrophic
+"Ọ baghị uru ikwu, ọ bụrụ na ị mara otu asụsụ Ịhụnanya, ọ ga-adịtụ mfe ịmụta asụsụ Pọtụgiiz.
+","Needless to say, if you know a single Romance language, it will be somewhat easier to learn Portuguese.
+","-0.7997554540634155
+","0.8654481
+","0.47979522
+",non_catastrophic
+"Nlere ifuru Cheri, nke a maara dị ka hanami, bụ omenala na Japan kemgbe nari afọ nke 8.
+","Cherry blossom viewing, known as hanami, has been a tradition in Japan since the 8th century.
+","-0.6273123025894165
+","0.9008326
+","0.5957882
+",non_catastrophic
+"Ụmụ akụmakụ na-adị n'ụdị ha kacha mma mgbe ha nọ na gburugburu ebe obibi ekere, ya mere gbochie ọnwụnwa iwepụ ọbụna ""naanị otu"" ihe nlere.
+","Babies are at their best when they are in a natural environment, so resist the temptation to remove even ""just one"" item.
+","-1.3309404850006104
+","0.8734193
+","0.40446544
+",non_catastrophic
+"Lelee na bọọsụ ị na-eche maka ịbanye na ya na-aga Hebron ma ọ bụghị naanị na ebe obibi ndị Juu nke Kiryat Arba dị nso.
+","Check that the bus you are waiting to board is going to Hebron and not just to the nearby Jewish settlement of Kiryat Arba.
+","-0.5160912275314331
+","0.909616
+","0.41355926
+",non_catastrophic
+"Ke,gbe mbịarute nke mmadụ na Galapagos, ewebatala ọtụtụ anụ na-an̄ụ ara gụnyere ewu, inyinya, ehi, oke, nwamba na nkịta.
+","Since the arrival of humans in the Galapagos, many mammals have been introduced including goats, monkeys, cows, pigs, cats and dogs.
+","-0.9410062432289124
+","0.8937238
+","0.55563945
+",non_catastrophic
