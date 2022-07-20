@@ -2,6 +2,7 @@ import json
 
 def is_float(s):
     result = False
+    s = str(s)
     if s.count(".") == 1 and s.replace(".", "").isdigit():
             result = True
     return result

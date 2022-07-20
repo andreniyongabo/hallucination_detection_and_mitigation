@@ -5,30 +5,6 @@ from utils import *
 """
 Scripts to rerank the beam based on the sentence score and similarity score
 """
-# def readJSON(json_file):
-#     with open(json_file, "r") as jfile:
-#         data = json.load(jfile)
-#     return data
-
-# def writeJSON(data, save_path):
-#     json_object = json.dumps(data, indent=4)
-#     with open(save_path, "w") as jfile:
-#         jfile.write(json_object)
-
-# def writeTXT(data, save_path):
-#     with open(save_path, "w") as tfile:
-#         for line in data:
-#             tfile.write(line+"\n")
-
-# def saveCSV(df, save_path):
-#     df.to_csv(save_path, index=False)
-
-# def txtToList(txt_file):
-#     out_list = []
-#     with open(txt_file, "r") as infile:
-#         for line in infile:
-#             out_list.append(float(line.strip()))
-#     return out_list
 
 def addSimScores(json_file, sim_score_file, bms):
     data = readJSON(json_file)
@@ -36,7 +12,7 @@ def addSimScores(json_file, sim_score_file, bms):
     dict_idx = 0
     sim_scores = []
     for j in range(len(sim_scores_list)):
-        sim_scores.append(sim_scores_list[j])
+        sim_scores.append(float(sim_scores_list[j]))
         if (j+1)%bms==0:
             data[str(dict_idx)]["sim_score"] = sim_scores
             dict_idx += 1
@@ -58,8 +34,10 @@ def RerankedBeam(json_file, sim_scores_file, bms, order_by="sent_sim"):
             sorted_idx = np.argsort(-1*np.array(data[str(i)]["sent_sim"])) # multiply with -1 for descending sorting
         elif order_by=="sim_score":
             sorted_idx = np.argsort(-1*np.array(data[str(i)]["sim_score"])) # multiply with -1 for descending sorting
+        elif order_by=="sent_score":
+            sorted_idx = np.argsort(-1*np.array(data[str(i)]["sent_score"])) # multiply with -1 for descending sorting
         else:
-            print("Invalid input. Choose between 'sent_sim' and 'sim_score'.")
+            print("Invalid input. Choose between 'sent_sim', 'sent_score', and 'sim_score'.")
         data[str(i)]["target"] = [data[str(i)]["target"][si] for si in sorted_idx]
         data[str(i)]["sent_sim"] = [data[str(i)]["sent_sim"][si] for si in sorted_idx]
         data[str(i)]["sent_score"] = [data[str(i)]["sent_score"][si] for si in sorted_idx]
@@ -91,10 +69,13 @@ def SelectTopCand(json_file, sim_scores_file, bms, save_json_path, save_txt_path
 
 if __name__=="__main__":
     DATADIR = "/private/home/andreniyongabo/hallucination_detection_and_mitigation/translations/flores_test/beam_candidates/"
+
     src = "eng"
     tgt = "kin"
-    beam_size = 4
-    rerank_methods = ["sent_sim", "sim_score"]
+    
+    beam_size = 4 # remember to use the same beam size that was used when running "get_beam_candidates.sh"
+
+    rerank_methods = ["sent_score", "sent_sim", "sim_score"]
 
     # input files
     json_file = f"{DATADIR}/{src}-{tgt}/output_bms_{beam_size}.json"

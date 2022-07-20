@@ -17,6 +17,19 @@ src_input_file=${DATADIR}/test.${src}-${tgt}.${src}
 tgt_input_file=${OUTPUTDIR}/${src}-${tgt}/output.hyp
 out_file=${OUTPUTDIR}/${src}-${tgt}/output.laser_score
 
+# # uncomment this part to get the similarity scores of all beam candidates
+# OUTPUTDIR=$HOME/hallucination_detection_and_mitigation/translations/flores_test/beam_candidates
+# LASERDIR=$HOME/LASER
+
+# src="eng"
+# tgt="kin"
+
+# beam=4 # remember to use the same beam size that were used when running "get_beam_candidates.sh"
+
+# src_input_file=${OUTPUTDIR}/${src}-${tgt}/output_bms_${beam}_source.txt
+# tgt_input_file=${OUTPUTDIR}/${src}-${tgt}/output_bms_${beam}_target.txt
+# out_file=${OUTPUTDIR}/${src}-${tgt}/output_bms_${beam}_sim_scores.txt
+
 mkdir ${OUTPUTDIR}/temp_embeddings
 mkdir ${OUTPUTDIR}/temp_embeddings/${src}-${tgt}
 
