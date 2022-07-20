@@ -10,10 +10,36 @@ This repository contains step-by-step guidelines on how to reproduce the codes f
   `cd fairseq-py`
 - and install it:
   
-  `pip install --editable .
-  pip install hydra-core --upgrade --pre
-  pip install fairscale`
+  `pip install --editable .`
+  
+  `pip install hydra-core --upgrade --pre`
+  
+  `pip install fairscale`
 
 ### halucination detection
+to desing a hallucination detection we need an [annotated dataset](https://docs.google.com/spreadsheets/d/1MoG7WJNnDlO-C4-HQ-SPxEjO7IKGRAcD3pjs5gpXQA4/edit?usp=sharing), `sentence score`, `similarity score`, and `alti score`.
+- Getting sentence score:
+  
+  `cd ..`
+  
+  `bash generate.sh`
+  
+- Getting similarity score:
+
+  `bash laser_similarity_score.sh`
+  
+- Getting alti score:
+
+  `cd alti/src`
+  
+  `bash source_contribution_beam.sh`
+  
+- Preparing the data for detection:
+
+  `cd ../..`
+  
+  `python create_csv_for_eval.py`
+
+- Then follow the steps in [this notebook]() on the `hallucination detection` section
 ### hallucination mitigation
 
