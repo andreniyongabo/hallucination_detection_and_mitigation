@@ -52,7 +52,7 @@ For mitigation we need `source sentences`, `reference sentences`, `hypotesis sen
   
 - Get the similarity score:
 
-  `bash laser_similarity_score.sh`: change the input file and the output file accordingly
+  `bash laser_similarity_score.sh`: uncomment the commented part in [laser_similarity_score.sh](https://github.com/andreniyongabo/hallucination_detection_and_mitigation/blob/main/laser_similarity_score.sh), comment the first variable initialization part, and then change the language pairs accoringly.
   
 - Get new hypothesis by reranking the beam based on the similarity score and then both on the sentence score and similarity score:
 
