@@ -48,11 +48,11 @@ To desing a hallucination detection we need [annnotations](https://github.com/an
 For mitigation we need `source sentences`, `reference sentences`, `hypotesis sentences`, `sentence score` and `similarity score`. Let still use the above [annotated dataset](https://docs.google.com/spreadsheets/d/1MoG7WJNnDlO-C4-HQ-SPxEjO7IKGRAcD3pjs5gpXQA4/edit?usp=sharing) for mitigation where `source sentences` and `reference sentences` are already given.
 - First translate source sentences to get all candidates (hypothesis) in the beam and their sentence scores (considering you are still at `halucination_detection_and_mitigation` directory) :
   
-  `bash get_beam_candidates.sh`
+  `bash get_beam_candidates.sh`: The default beam size is 4. To get candidates with different beam sizes and different pairs, change `beam`, `src`, and `tgt`, respectively in [get_beam_candidates.sh](https://github.com/andreniyongabo/hallucination_detection_and_mitigation/blob/main/get_beam_candidates.sh)
   
 - Get the similarity score:
 
-  `bash source_contribution_beam.sh`
+  `bash laser_similarity_score.sh`: change the input file and the output file accordingly
   
 - Get new hypothesis by reranking the beam based on the similarity score and then both on the sentence score and similarity score:
 
