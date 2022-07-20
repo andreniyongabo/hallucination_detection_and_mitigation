@@ -43,7 +43,7 @@ To desing a hallucination detection we need [annnotations](https://github.com/an
   
   `python create_csv_for_eval.py`: to run on a different flores pair just change the `src` and `tgt` in [create_csv_for_eval.py](https://github.com/andreniyongabo/hallucination_detection_and_mitigation/blob/main/create_csv_for_eval.py)
 
-- Then follow the steps in [this notebook]() on the `hallucination detection` section
+- Then follow the steps in [this notebook](https://github.com/andreniyongabo/hallucination_detection_and_mitigation/blob/main/detection_and_mitigation_evaluation.ipynb) on the `hallucination detection` section
 ### Hallucination mitigation
 For mitigation we need `source sentences`, `reference sentences`, `hypotesis sentences`, `sentence score` and `similarity score`. Let still use the above [annotated dataset](https://docs.google.com/spreadsheets/d/1MoG7WJNnDlO-C4-HQ-SPxEjO7IKGRAcD3pjs5gpXQA4/edit?usp=sharing) for mitigation where `source sentences` and `reference sentences` are already given.
 - First translate source sentences to get all candidates (hypothesis) in the beam and their sentence scores (considering you are still at `halucination_detection_and_mitigation` directory) :
