@@ -27,21 +27,21 @@ To desing a hallucination detection we need [annnotations](https://github.com/an
   
 - Getting similarity score:
   
-  To prepare the coding environment, first copy `/private/home/andreniyongabo/.conda/envs/laser3_env` to your conda environment. Then, copy `/private/home/andreniyongabo/LASER` to your home directory. Finally do `conda activate laser3_env`, `pip install transliterate`, and `pip install fastBPE`. Then do the following:
+  To prepare the coding environment, first copy `/private/home/andreniyongabo/.conda/envs/laser3_env` to your conda environment. Then, copy `/private/home/andreniyongabo/LASER` to your home directory. Finally do `source activate laser3_env`, `pip install transliterate`, and `pip install fastBPE`. Then do the following:
   
   `bash laser_similarity_score.sh`: to run on a different flores pair just change the `src` and `tgt` in [laser_similarity_score.sh](https://github.com/andreniyongabo/hallucination_detection_and_mitigation/blob/main/laser_similarity_score.sh)
   
 - Getting alti score:
 
-  `cd alti/src`
+  To prepare the alti environment, first copy `/private/home/costajussa/.conda/envs/fairseq-20210318_interpretability` to your conda environment and do `source activate fairseq-20210318_interpretability`. Next `cd alti/fairseq-py` and install fairseq. Then make sure you are in [src](https://github.com/andreniyongabo/hallucination_detection_and_mitigation/tree/main/alti/src) direcrory by doing `cd ../src` and run the following script:
   
-  `bash source_contribution_beam.sh`
+  `bash source_contribution_beam.sh`: to run on a different flores pair just change the `src` and `tgt` in [source_contribution_beam.sh](https://github.com/andreniyongabo/hallucination_detection_and_mitigation/blob/main/alti/src/source_contribution_beam.sh)
   
 - Preparing the data for detection:
 
   `cd ../..`
   
-  `python create_csv_for_eval.py`
+  `python create_csv_for_eval.py`: to run on a different flores pair just change the `src` and `tgt` in [create_csv_for_eval.py](https://github.com/andreniyongabo/hallucination_detection_and_mitigation/blob/main/create_csv_for_eval.py)
 
 - Then follow the steps in [this notebook]() on the `hallucination detection` section
 ### Hallucination mitigation
