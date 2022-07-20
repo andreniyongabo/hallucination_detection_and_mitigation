@@ -25,6 +25,8 @@ from fairseq.dataclass.utils import convert_namespace_to_omegaconf
 from fairseq.token_generation_constraints import pack_constraints, unpack_constraints
 from fairseq_cli.generate import get_symbols_to_strip_from_output
 
+from utils import writeJSON, writeTXT
+
 import json
 
 logging.basicConfig(
@@ -41,15 +43,15 @@ Translation = namedtuple("Translation", "src_str hypos pos_scores alignments")
 
 SAVEDIR = "/private/home/andreniyongabo/hallucination_detection_and_mitigation/translations/flores_test/beam_candidates/"
 
-def writeJSON(data, save_path):
-    json_object = json.dumps(data, indent=4)
-    with open(save_path, "w") as jfile:
-        jfile.write(json_object)
+# def writeJSON(data, save_path):
+#     json_object = json.dumps(data, indent=4)
+#     with open(save_path, "w") as jfile:
+#         jfile.write(json_object)
 
-def writeTXT(data, save_path):
-    with open(save_path, "w") as tfile:
-        for line in data:
-            tfile.write(line+"\n")
+# def writeTXT(data, save_path):
+#     with open(save_path, "w") as tfile:
+#         for line in data:
+#             tfile.write(line+"\n")
 
 def buffered_read(input, buffer_size):
     buffer = []
@@ -161,7 +163,7 @@ def main(cfg: FairseqConfig):
         strict=(cfg.checkpoint.checkpoint_shard_count == 1),
         num_shards=cfg.checkpoint.checkpoint_shard_count,
     )
-
+    
     # Set dictionaries
     src_dict = task.source_dictionary
     tgt_dict = task.target_dictionary
@@ -204,7 +206,7 @@ def main(cfg: FairseqConfig):
     max_positions = utils.resolve_max_positions(
         task.max_positions(), *[model.max_positions() for model in models]
     )
-
+    
     if cfg.generation.constraints:
         logger.warning(
             "NOTE: Constrained decoding currently assumes a shared subword vocabulary."
@@ -290,8 +292,9 @@ def main(cfg: FairseqConfig):
 
             ###########################################
             # lang = "kin"
-            source = cfg.task.source_langs[0]
-            target = cfg.task.target_langs[0]
+            cfg.sou
+            source = "eng" #cfg.task.source_langs[0] cfg
+            target = "kin" #cfg.task.target_langs[0]
             for hypo in hypos:
                 hypo_tokens, hypo_str, alignment = utils.post_process_prediction(
                     hypo_tokens=hypo["tokens"].int().cpu(),
@@ -307,10 +310,10 @@ def main(cfg: FairseqConfig):
                 detok_hypo_str = decode_fn(hypo_str)
                 score = hypo["score"] / math.log(2)  # convert to base 2
                 score = score.cpu().detach().numpy()
-                src_sents.append(detok_src_str.replace(f"__{lang}__",""))
+                src_sents.append(detok_src_str.replace(f"__{target}__",""))
                 tgt_sents.append(detok_hypo_str)
                 sent_scores.append(score.item())
-                source_sents.append(detok_src_str.replace(f"__{lang}__",""))
+                source_sents.append(detok_src_str.replace(f"__{target}__",""))
                 target_sents.append(detok_hypo_str)
                 scores.append(score.item())
             ############################################
