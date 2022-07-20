@@ -43,7 +43,7 @@ to desing a hallucination detection we need an [annotated dataset](https://docs.
 - Then follow the steps in [this notebook]() on the `hallucination detection` section
 ### hallucination mitigation
 For mitigation we need `source sentences`, `reference sentences`, `hypotesis sentences`, `sentence score` and `similarity score`. Let still use the above [annotated dataset](https://docs.google.com/spreadsheets/d/1MoG7WJNnDlO-C4-HQ-SPxEjO7IKGRAcD3pjs5gpXQA4/edit?usp=sharing) for mitigation where `source sentences` and `reference sentences` are already given.
-- First translate source sentences to get all candidates (hypothesis) in the beam and their sentence scores (considering you are still at `halucination_detection_and_mitigation` directory:
+- First translate source sentences to get all candidates (hypothesis) in the beam and their sentence scores (considering you are still at `halucination_detection_and_mitigation` directory) :
   
   `bash get_beam_candidates.sh`
   
