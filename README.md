@@ -1,5 +1,5 @@
 # Hallucination detection and mitigation
-This repository contains step-by-step guidelines on how to reproduce the codes for hallucination detection and mitigation techiniques that are based on this [internship plan](https://docs.google.com/document/d/1VGA763JBhVghCJYH2LNtkqBc3Wg9Msl4E_SLXV8ZtXA/edit) and the detailed summary of the internship progress can also be found [here](https://docs.google.com/document/d/1gg0HHv-YTs-MRpxZrei0oECJih0tg4129-9p721cONs/edit#). 
+This repository contains step-by-step guidelines on how to reproduce the codes for hallucination detection and mitigation techiniques that are based on this [internship plan](https://docs.google.com/document/d/1VGA763JBhVghCJYH2LNtkqBc3Wg9Msl4E_SLXV8ZtXA/edit) and the detailed summary of the internship progress can also be found [here](https://docs.google.com/document/d/1gg0HHv-YTs-MRpxZrei0oECJih0tg4129-9p721cONs/edit#). We use eng-kin pair from flores devetest but the codes can be easily adapted to any other pair from flores by just replacing the source and target language codes.
 
 ## How to use
 - Clone this repo to your home directory as follows:
@@ -8,7 +8,7 @@ This repository contains step-by-step guidelines on how to reproduce the codes f
 - Change your directory to `fairseq-py`:
   
   `cd fairseq-py`
-- and install it:
+- And install it:
   
   `pip install --editable .`
   
@@ -22,7 +22,7 @@ to desing a hallucination detection we need an [annotated dataset](https://docs.
   
   `cd ..`
   
-  `bash generate.sh`
+  `bash translate.sh`
   
 - Getting similarity score:
 
