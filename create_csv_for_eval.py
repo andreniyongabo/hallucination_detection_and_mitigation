@@ -22,8 +22,7 @@ sent_scores = txtToList(sent_score_file)
 laser_scores = txtToList(laser_score_file)
 alti_scores = txtToList(alti_score_file)
 annotations = txtToList(annotations_file)
-print(src_sents)
 
-df = pd.DataFrame({src:src_sents[0:100], tgt:tgt_sents[0:100], "sent_score":sent_scores[0:100], "laser_score":laser_scores[0:100], "alti_score":alti_scores[0:100], "annotation":annotations}) # add annotations column if they are available
+df = pd.DataFrame({src:src_sents[0:100], tgt:tgt_sents[0:100], "sent_score":sent_scores[0:100], "sim_score":laser_scores[0:100], "alti_score":alti_scores[0:100], "annotation":annotations}) # add annotations column if they are available
 
 saveCSV(df, out_file)
